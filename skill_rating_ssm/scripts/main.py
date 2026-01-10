@@ -1,4 +1,8 @@
 import numpy as np
+import os
+
+base_dir = os.path.dirname(os.path.abspath(__file__))  # script folder
+
 from smc_filtering_smoothing import (
     SkillRatingModel, 
     PairwiseSkillFilter, 
@@ -95,7 +99,7 @@ def main():
     
     # Load data for a specific season (or multiple seasons)
     matches, teams, team_to_id, id_to_team = DataProcessor.load_and_prepare_data(
-        filepath = '/Users/wissalhaouami/projects/skill_rating_ssm/code/notebooks/scripts/cleaned_football_data.csv',
+        filepath = os.path.join(base_dir, '../cleaned_data/cleaned_data_football.csv'),
         season_filter = None
     )
     
