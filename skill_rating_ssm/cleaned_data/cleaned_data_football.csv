@@ -16,7 +16,7 @@ date,home_team,away_team,result,season,result_code
 2018-08-18,Cardiff,Newcastle,D,PL_2018-2019,1
 2018-08-18,Everton,Southampton,H,PL_2018-2019,0
 2018-08-19,Brighton,Man United,H,PL_2018-2019,0
-2018-08-19,Burnley,Watford,A,PL_2018-2019,2
+2018-08-19,Burnley,Watford,A,PL_2018-2019,-1
 2018-08-19,Man City,Huddersfield,H,PL_2018-2019,0
 2018-08-20,Crystal Palace,Liverpool,A,PL_2018-2019,-1
 2018-08-25,Arsenal,West Ham,H,PL_2018-2019,0
@@ -52,7 +52,7 @@ date,home_team,away_team,result,season,result_code
 2018-09-22,Man United,Wolves,D,PL_2018-2019,1
 2018-09-22,Brighton,Tottenham,A,PL_2018-2019,-1
 2018-09-22,Burnley,Bournemouth,H,PL_2018-2019,0
-2018-09-22,Cardiff,Man City,A,PL_2018-2019,2
+2018-09-22,Cardiff,Man City,A,PL_2018-2019,-1
 2018-09-22,Crystal Palace,Newcastle,D,PL_2018-2019,1
 2018-09-22,Fulham,Watford,D,PL_2018-2019,1
 2018-09-22,Leicester,Huddersfield,H,PL_2018-2019,0
@@ -62,48 +62,48 @@ date,home_team,away_team,result,season,result_code
 2018-09-29,Arsenal,Watford,H,PL_2018-2019,0
 2018-09-29,Chelsea,Liverpool,D,PL_2018-2019,1
 2018-09-29,Everton,Fulham,H,PL_2018-2019,0
-2018-09-29,Huddersfield,Tottenham,A,PL_2018-2019,2
+2018-09-29,Huddersfield,Tottenham,A,PL_2018-2019,-1
 2018-09-29,Man City,Brighton,H,PL_2018-2019,0
-2018-09-29,Newcastle,Leicester,A,PL_2018-2019,2
+2018-09-29,Newcastle,Leicester,A,PL_2018-2019,-1
 2018-09-29,West Ham,Man United,H,PL_2018-2019,0
 2018-09-29,Wolves,Southampton,H,PL_2018-2019,0
-2018-09-30,Cardiff,Burnley,A,PL_2018-2019,2
+2018-09-30,Cardiff,Burnley,A,PL_2018-2019,-1
 2018-10-01,Bournemouth,Crystal Palace,H,PL_2018-2019,0
 2018-10-05,Brighton,West Ham,H,PL_2018-2019,0
-2018-10-06,Watford,Bournemouth,A,PL_2018-2019,2
+2018-10-06,Watford,Bournemouth,A,PL_2018-2019,-1
 2018-10-06,Tottenham,Cardiff,H,PL_2018-2019,0
 2018-10-06,Man United,Newcastle,H,PL_2018-2019,0
-2018-10-06,Leicester,Everton,A,PL_2018-2019,2
-2018-10-06,Crystal Palace,Wolves,A,PL_2018-2019,2
+2018-10-06,Leicester,Everton,A,PL_2018-2019,-1
+2018-10-06,Crystal Palace,Wolves,A,PL_2018-2019,-1
 2018-10-06,Burnley,Huddersfield,D,PL_2018-2019,1
-2018-10-07,Fulham,Arsenal,A,PL_2018-2019,2
+2018-10-07,Fulham,Arsenal,A,PL_2018-2019,-1
 2018-10-07,Liverpool,Man City,D,PL_2018-2019,1
-2018-10-07,Southampton,Chelsea,A,PL_2018-2019,2
+2018-10-07,Southampton,Chelsea,A,PL_2018-2019,-1
 2018-10-20,Bournemouth,Southampton,D,PL_2018-2019,1
 2018-10-20,Cardiff,Fulham,H,PL_2018-2019,0
 2018-10-20,Chelsea,Man United,D,PL_2018-2019,1
-2018-10-20,Huddersfield,Liverpool,A,PL_2018-2019,2
+2018-10-20,Huddersfield,Liverpool,A,PL_2018-2019,-1
 2018-10-20,Man City,Burnley,H,PL_2018-2019,0
-2018-10-20,Newcastle,Brighton,A,PL_2018-2019,2
-2018-10-20,West Ham,Tottenham,A,PL_2018-2019,2
-2018-10-20,Wolves,Watford,A,PL_2018-2019,2
+2018-10-20,Newcastle,Brighton,A,PL_2018-2019,-1
+2018-10-20,West Ham,Tottenham,A,PL_2018-2019,-1
+2018-10-20,Wolves,Watford,A,PL_2018-2019,-1
 2018-10-21,Everton,Crystal Palace,H,PL_2018-2019,0
 2018-10-22,Arsenal,Leicester,H,PL_2018-2019,0
 2018-10-27,Brighton,Wolves,H,PL_2018-2019,0
-2018-10-27,Fulham,Bournemouth,A,PL_2018-2019,2
+2018-10-27,Fulham,Bournemouth,A,PL_2018-2019,-1
 2018-10-27,Leicester,West Ham,D,PL_2018-2019,1
 2018-10-27,Liverpool,Cardiff,H,PL_2018-2019,0
 2018-10-27,Southampton,Newcastle,D,PL_2018-2019,1
 2018-10-27,Watford,Huddersfield,H,PL_2018-2019,0
-2018-10-28,Burnley,Chelsea,A,PL_2018-2019,2
+2018-10-28,Burnley,Chelsea,A,PL_2018-2019,-1
 2018-10-28,Crystal Palace,Arsenal,D,PL_2018-2019,1
 2018-10-28,Man United,Everton,H,PL_2018-2019,0
-2018-10-29,Tottenham,Man City,A,PL_2018-2019,2
-2018-11-03,Wolves,Tottenham,A,PL_2018-2019,2
+2018-10-29,Tottenham,Man City,A,PL_2018-2019,-1
+2018-11-03,Wolves,Tottenham,A,PL_2018-2019,-1
 2018-11-03,West Ham,Burnley,H,PL_2018-2019,0
 2018-11-03,Newcastle,Watford,H,PL_2018-2019,0
-2018-11-03,Cardiff,Leicester,A,PL_2018-2019,2
-2018-11-03,Bournemouth,Man United,A,PL_2018-2019,2
+2018-11-03,Cardiff,Leicester,A,PL_2018-2019,-1
+2018-11-03,Bournemouth,Man United,A,PL_2018-2019,-1
 2018-11-03,Arsenal,Liverpool,D,PL_2018-2019,1
 2018-11-03,Everton,Brighton,H,PL_2018-2019,0
 2018-11-04,Chelsea,Crystal Palace,H,PL_2018-2019,0
@@ -111,7 +111,7 @@ date,home_team,away_team,result,season,result_code
 2018-11-05,Huddersfield,Fulham,H,PL_2018-2019,0
 2018-11-10,Southampton,Watford,D,PL_2018-2019,1
 2018-11-10,Cardiff,Brighton,H,PL_2018-2019,0
-2018-11-10,Crystal Palace,Tottenham,A,PL_2018-2019,2
+2018-11-10,Crystal Palace,Tottenham,A,PL_2018-2019,-1
 2018-11-10,Huddersfield,West Ham,D,PL_2018-2019,1
 2018-11-10,Leicester,Burnley,D,PL_2018-2019,1
 2018-11-10,Newcastle,Bournemouth,H,PL_2018-2019,0
@@ -124,100 +124,100 @@ date,home_team,away_team,result,season,result_code
 2018-11-24,Fulham,Southampton,H,PL_2018-2019,0
 2018-11-24,Man United,Crystal Palace,D,PL_2018-2019,1
 2018-11-24,Tottenham,Chelsea,H,PL_2018-2019,0
-2018-11-24,Watford,Liverpool,A,PL_2018-2019,2
-2018-11-24,West Ham,Man City,A,PL_2018-2019,2
-2018-11-25,Bournemouth,Arsenal,A,PL_2018-2019,2
-2018-11-25,Wolves,Huddersfield,A,PL_2018-2019,2
-2018-11-26,Burnley,Newcastle,A,PL_2018-2019,2
+2018-11-24,Watford,Liverpool,A,PL_2018-2019,-1
+2018-11-24,West Ham,Man City,A,PL_2018-2019,-1
+2018-11-25,Bournemouth,Arsenal,A,PL_2018-2019,-1
+2018-11-25,Wolves,Huddersfield,A,PL_2018-2019,-1
+2018-11-26,Burnley,Newcastle,A,PL_2018-2019,-1
 2018-11-30,Cardiff,Wolves,H,PL_2018-2019,0
 2018-12-01,Southampton,Man United,D,PL_2018-2019,1
-2018-12-01,Newcastle,West Ham,A,PL_2018-2019,2
+2018-12-01,Newcastle,West Ham,A,PL_2018-2019,-1
 2018-12-01,Man City,Bournemouth,H,PL_2018-2019,0
-2018-12-01,Huddersfield,Brighton,A,PL_2018-2019,2
+2018-12-01,Huddersfield,Brighton,A,PL_2018-2019,-1
 2018-12-01,Crystal Palace,Burnley,H,PL_2018-2019,0
 2018-12-01,Leicester,Watford,H,PL_2018-2019,0
 2018-12-02,Arsenal,Tottenham,H,PL_2018-2019,0
 2018-12-02,Chelsea,Fulham,H,PL_2018-2019,0
 2018-12-02,Liverpool,Everton,H,PL_2018-2019,0
-2018-12-04,Watford,Man City,A,PL_2018-2019,2
+2018-12-04,Watford,Man City,A,PL_2018-2019,-1
 2018-12-04,Bournemouth,Huddersfield,H,PL_2018-2019,0
 2018-12-04,Brighton,Crystal Palace,H,PL_2018-2019,0
 2018-12-04,West Ham,Cardiff,H,PL_2018-2019,0
 2018-12-05,Everton,Newcastle,D,PL_2018-2019,1
 2018-12-05,Wolves,Chelsea,H,PL_2018-2019,0
 2018-12-05,Tottenham,Southampton,H,PL_2018-2019,0
-2018-12-05,Burnley,Liverpool,A,PL_2018-2019,2
+2018-12-05,Burnley,Liverpool,A,PL_2018-2019,-1
 2018-12-05,Fulham,Leicester,D,PL_2018-2019,1
 2018-12-05,Man United,Arsenal,D,PL_2018-2019,1
 2018-12-08,Arsenal,Huddersfield,H,PL_2018-2019,0
-2018-12-08,Bournemouth,Liverpool,A,PL_2018-2019,2
+2018-12-08,Bournemouth,Liverpool,A,PL_2018-2019,-1
 2018-12-08,Burnley,Brighton,H,PL_2018-2019,0
 2018-12-08,Cardiff,Southampton,H,PL_2018-2019,0
 2018-12-08,Chelsea,Man City,H,PL_2018-2019,0
-2018-12-08,Leicester,Tottenham,A,PL_2018-2019,2
+2018-12-08,Leicester,Tottenham,A,PL_2018-2019,-1
 2018-12-08,Man United,Fulham,H,PL_2018-2019,0
 2018-12-08,West Ham,Crystal Palace,H,PL_2018-2019,0
-2018-12-09,Newcastle,Wolves,A,PL_2018-2019,2
+2018-12-09,Newcastle,Wolves,A,PL_2018-2019,-1
 2018-12-10,Everton,Watford,D,PL_2018-2019,1
 2018-12-15,Crystal Palace,Leicester,H,PL_2018-2019,0
-2018-12-15,Fulham,West Ham,A,PL_2018-2019,2
-2018-12-15,Huddersfield,Newcastle,A,PL_2018-2019,2
+2018-12-15,Fulham,West Ham,A,PL_2018-2019,-1
+2018-12-15,Huddersfield,Newcastle,A,PL_2018-2019,-1
 2018-12-15,Man City,Everton,H,PL_2018-2019,0
 2018-12-15,Tottenham,Burnley,H,PL_2018-2019,0
 2018-12-15,Watford,Cardiff,H,PL_2018-2019,0
 2018-12-15,Wolves,Bournemouth,H,PL_2018-2019,0
-2018-12-16,Brighton,Chelsea,A,PL_2018-2019,2
+2018-12-16,Brighton,Chelsea,A,PL_2018-2019,-1
 2018-12-16,Liverpool,Man United,H,PL_2018-2019,0
 2018-12-16,Southampton,Arsenal,H,PL_2018-2019,0
-2018-12-21,Wolves,Liverpool,A,PL_2018-2019,2
+2018-12-21,Wolves,Liverpool,A,PL_2018-2019,-1
 2018-12-22,Newcastle,Fulham,D,PL_2018-2019,1
-2018-12-22,West Ham,Watford,A,PL_2018-2019,2
-2018-12-22,Huddersfield,Southampton,A,PL_2018-2019,2
-2018-12-22,Man City,Crystal Palace,A,PL_2018-2019,2
-2018-12-22,Cardiff,Man United,A,PL_2018-2019,2
+2018-12-22,West Ham,Watford,A,PL_2018-2019,-1
+2018-12-22,Huddersfield,Southampton,A,PL_2018-2019,-1
+2018-12-22,Man City,Crystal Palace,A,PL_2018-2019,-1
+2018-12-22,Cardiff,Man United,A,PL_2018-2019,-1
 2018-12-22,Arsenal,Burnley,H,PL_2018-2019,0
-2018-12-22,Chelsea,Leicester,A,PL_2018-2019,2
+2018-12-22,Chelsea,Leicester,A,PL_2018-2019,-1
 2018-12-22,Bournemouth,Brighton,H,PL_2018-2019,0
-2018-12-23,Everton,Tottenham,A,PL_2018-2019,2
+2018-12-23,Everton,Tottenham,A,PL_2018-2019,-1
 2018-12-26,Brighton,Arsenal,D,PL_2018-2019,1
-2018-12-26,Burnley,Everton,A,PL_2018-2019,2
+2018-12-26,Burnley,Everton,A,PL_2018-2019,-1
 2018-12-26,Crystal Palace,Cardiff,D,PL_2018-2019,1
 2018-12-26,Fulham,Wolves,D,PL_2018-2019,1
 2018-12-26,Leicester,Man City,H,PL_2018-2019,0
 2018-12-26,Liverpool,Newcastle,H,PL_2018-2019,0
 2018-12-26,Man United,Huddersfield,H,PL_2018-2019,0
 2018-12-26,Tottenham,Bournemouth,H,PL_2018-2019,0
-2018-12-26,Watford,Chelsea,A,PL_2018-2019,2
-2018-12-27,Southampton,West Ham,A,PL_2018-2019,2
+2018-12-26,Watford,Chelsea,A,PL_2018-2019,-1
+2018-12-27,Southampton,West Ham,A,PL_2018-2019,-1
 2018-12-29,Fulham,Huddersfield,H,PL_2018-2019,0
 2018-12-29,Watford,Newcastle,D,PL_2018-2019,1
-2018-12-29,Tottenham,Wolves,A,PL_2018-2019,2
+2018-12-29,Tottenham,Wolves,A,PL_2018-2019,-1
 2018-12-29,Brighton,Everton,H,PL_2018-2019,0
-2018-12-29,Leicester,Cardiff,A,PL_2018-2019,2
+2018-12-29,Leicester,Cardiff,A,PL_2018-2019,-1
 2018-12-29,Liverpool,Arsenal,H,PL_2018-2019,0
 2018-12-30,Burnley,West Ham,H,PL_2018-2019,0
-2018-12-30,Crystal Palace,Chelsea,A,PL_2018-2019,2
+2018-12-30,Crystal Palace,Chelsea,A,PL_2018-2019,-1
 2018-12-30,Man United,Bournemouth,H,PL_2018-2019,0
-2018-12-30,Southampton,Man City,A,PL_2018-2019,2
+2018-12-30,Southampton,Man City,A,PL_2018-2019,-1
 2019-01-01,Arsenal,Fulham,H,PL_2018-2019,0
-2019-01-01,Cardiff,Tottenham,A,PL_2018-2019,2
-2019-01-01,Everton,Leicester,A,PL_2018-2019,2
-2019-01-02,Newcastle,Man United,A,PL_2018-2019,2
+2019-01-01,Cardiff,Tottenham,A,PL_2018-2019,-1
+2019-01-01,Everton,Leicester,A,PL_2018-2019,-1
+2019-01-02,Newcastle,Man United,A,PL_2018-2019,-1
 2019-01-02,West Ham,Brighton,D,PL_2018-2019,1
-2019-01-02,Wolves,Crystal Palace,A,PL_2018-2019,2
-2019-01-02,Huddersfield,Burnley,A,PL_2018-2019,2
+2019-01-02,Wolves,Crystal Palace,A,PL_2018-2019,-1
+2019-01-02,Huddersfield,Burnley,A,PL_2018-2019,-1
 2019-01-02,Bournemouth,Watford,D,PL_2018-2019,1
 2019-01-02,Chelsea,Southampton,D,PL_2018-2019,1
 2019-01-03,Man City,Liverpool,H,PL_2018-2019,0
 2019-01-12,West Ham,Arsenal,H,PL_2018-2019,0
-2019-01-12,Crystal Palace,Watford,A,PL_2018-2019,2
+2019-01-12,Crystal Palace,Watford,A,PL_2018-2019,-1
 2019-01-12,Chelsea,Newcastle,H,PL_2018-2019,0
-2019-01-12,Leicester,Southampton,A,PL_2018-2019,2
+2019-01-12,Leicester,Southampton,A,PL_2018-2019,-1
 2019-01-12,Burnley,Fulham,H,PL_2018-2019,0
-2019-01-12,Brighton,Liverpool,A,PL_2018-2019,2
+2019-01-12,Brighton,Liverpool,A,PL_2018-2019,-1
 2019-01-12,Cardiff,Huddersfield,D,PL_2018-2019,1
 2019-01-13,Everton,Bournemouth,H,PL_2018-2019,0
-2019-01-13,Tottenham,Man United,A,PL_2018-2019,2
+2019-01-13,Tottenham,Man United,A,PL_2018-2019,-1
 2019-01-14,Man City,Wolves,H,PL_2018-2019,0
 2019-01-19,Southampton,Everton,H,PL_2018-2019,0
 2019-01-19,Watford,Burnley,D,PL_2018-2019,1
@@ -227,12 +227,12 @@ date,home_team,away_team,result,season,result_code
 2019-01-19,Liverpool,Crystal Palace,H,PL_2018-2019,0
 2019-01-19,Arsenal,Chelsea,H,PL_2018-2019,0
 2019-01-19,Man United,Brighton,H,PL_2018-2019,0
-2019-01-20,Fulham,Tottenham,A,PL_2018-2019,2
-2019-01-20,Huddersfield,Man City,A,PL_2018-2019,2
+2019-01-20,Fulham,Tottenham,A,PL_2018-2019,-1
+2019-01-20,Huddersfield,Man City,A,PL_2018-2019,-1
 2019-01-29,Newcastle,Man City,H,PL_2018-2019,0
 2019-01-29,Arsenal,Cardiff,H,PL_2018-2019,0
 2019-01-29,Fulham,Brighton,H,PL_2018-2019,0
-2019-01-29,Huddersfield,Everton,A,PL_2018-2019,2
+2019-01-29,Huddersfield,Everton,A,PL_2018-2019,-1
 2019-01-29,Man United,Burnley,D,PL_2018-2019,1
 2019-01-29,Wolves,West Ham,H,PL_2018-2019,0
 2019-01-30,Tottenham,Watford,H,PL_2018-2019,0
@@ -244,31 +244,31 @@ date,home_team,away_team,result,season,result_code
 2019-02-02,Cardiff,Bournemouth,H,PL_2018-2019,0
 2019-02-02,Chelsea,Huddersfield,H,PL_2018-2019,0
 2019-02-02,Crystal Palace,Fulham,H,PL_2018-2019,0
-2019-02-02,Everton,Wolves,A,PL_2018-2019,2
+2019-02-02,Everton,Wolves,A,PL_2018-2019,-1
 2019-02-02,Tottenham,Newcastle,H,PL_2018-2019,0
-2019-02-03,Leicester,Man United,A,PL_2018-2019,2
+2019-02-03,Leicester,Man United,A,PL_2018-2019,-1
 2019-02-03,Man City,Arsenal,H,PL_2018-2019,0
 2019-02-04,West Ham,Liverpool,D,PL_2018-2019,1
-2019-02-06,Everton,Man City,A,PL_2018-2019,2
+2019-02-06,Everton,Man City,A,PL_2018-2019,-1
 2019-02-09,Watford,Everton,H,PL_2018-2019,0
-2019-02-09,Southampton,Cardiff,A,PL_2018-2019,2
+2019-02-09,Southampton,Cardiff,A,PL_2018-2019,-1
 2019-02-09,Liverpool,Bournemouth,H,PL_2018-2019,0
-2019-02-09,Brighton,Burnley,A,PL_2018-2019,2
-2019-02-09,Fulham,Man United,A,PL_2018-2019,2
+2019-02-09,Brighton,Burnley,A,PL_2018-2019,-1
+2019-02-09,Fulham,Man United,A,PL_2018-2019,-1
 2019-02-09,Crystal Palace,West Ham,D,PL_2018-2019,1
-2019-02-09,Huddersfield,Arsenal,A,PL_2018-2019,2
+2019-02-09,Huddersfield,Arsenal,A,PL_2018-2019,-1
 2019-02-10,Man City,Chelsea,H,PL_2018-2019,0
 2019-02-10,Tottenham,Leicester,H,PL_2018-2019,0
 2019-02-11,Wolves,Newcastle,D,PL_2018-2019,1
 2019-02-22,West Ham,Fulham,H,PL_2018-2019,0
-2019-02-22,Cardiff,Watford,A,PL_2018-2019,2
+2019-02-22,Cardiff,Watford,A,PL_2018-2019,-1
 2019-02-23,Newcastle,Huddersfield,H,PL_2018-2019,0
-2019-02-23,Leicester,Crystal Palace,A,PL_2018-2019,2
+2019-02-23,Leicester,Crystal Palace,A,PL_2018-2019,-1
 2019-02-23,Bournemouth,Wolves,D,PL_2018-2019,1
 2019-02-23,Burnley,Tottenham,H,PL_2018-2019,0
 2019-02-24,Arsenal,Southampton,H,PL_2018-2019,0
 2019-02-24,Man United,Liverpool,D,PL_2018-2019,1
-2019-02-26,Cardiff,Everton,A,PL_2018-2019,2
+2019-02-26,Cardiff,Everton,A,PL_2018-2019,-1
 2019-02-26,Huddersfield,Wolves,H,PL_2018-2019,0
 2019-02-26,Leicester,Brighton,H,PL_2018-2019,0
 2019-02-26,Newcastle,Burnley,H,PL_2018-2019,0
@@ -277,40 +277,40 @@ date,home_team,away_team,result,season,result_code
 2019-02-27,Liverpool,Watford,H,PL_2018-2019,0
 2019-02-27,Chelsea,Tottenham,H,PL_2018-2019,0
 2019-02-27,Arsenal,Bournemouth,H,PL_2018-2019,0
-2019-02-27,Crystal Palace,Man United,A,PL_2018-2019,2
-2019-03-02,Bournemouth,Man City,A,PL_2018-2019,2
+2019-02-27,Crystal Palace,Man United,A,PL_2018-2019,-1
+2019-03-02,Bournemouth,Man City,A,PL_2018-2019,-1
 2019-03-02,Brighton,Huddersfield,H,PL_2018-2019,0
-2019-03-02,Burnley,Crystal Palace,A,PL_2018-2019,2
+2019-03-02,Burnley,Crystal Palace,A,PL_2018-2019,-1
 2019-03-02,Man United,Southampton,H,PL_2018-2019,0
 2019-03-02,Tottenham,Arsenal,D,PL_2018-2019,1
 2019-03-02,West Ham,Newcastle,H,PL_2018-2019,0
 2019-03-02,Wolves,Cardiff,H,PL_2018-2019,0
-2019-03-03,Fulham,Chelsea,A,PL_2018-2019,2
+2019-03-03,Fulham,Chelsea,A,PL_2018-2019,-1
 2019-03-03,Everton,Liverpool,D,PL_2018-2019,1
 2019-03-03,Watford,Leicester,H,PL_2018-2019,0
 2019-03-09,Man City,Watford,H,PL_2018-2019,0
 2019-03-09,Newcastle,Everton,H,PL_2018-2019,0
 2019-03-09,Leicester,Fulham,H,PL_2018-2019,0
 2019-03-09,Southampton,Tottenham,H,PL_2018-2019,0
-2019-03-09,Crystal Palace,Brighton,A,PL_2018-2019,2
+2019-03-09,Crystal Palace,Brighton,A,PL_2018-2019,-1
 2019-03-09,Cardiff,West Ham,H,PL_2018-2019,0
-2019-03-09,Huddersfield,Bournemouth,A,PL_2018-2019,2
+2019-03-09,Huddersfield,Bournemouth,A,PL_2018-2019,-1
 2019-03-10,Arsenal,Man United,H,PL_2018-2019,0
 2019-03-10,Chelsea,Wolves,D,PL_2018-2019,1
 2019-03-10,Liverpool,Burnley,H,PL_2018-2019,0
 2019-03-16,Bournemouth,Newcastle,D,PL_2018-2019,1
-2019-03-16,Burnley,Leicester,A,PL_2018-2019,2
+2019-03-16,Burnley,Leicester,A,PL_2018-2019,-1
 2019-03-16,West Ham,Huddersfield,H,PL_2018-2019,0
 2019-03-17,Everton,Chelsea,H,PL_2018-2019,0
-2019-03-17,Fulham,Liverpool,A,PL_2018-2019,2
-2019-03-30,West Ham,Everton,A,PL_2018-2019,2
+2019-03-17,Fulham,Liverpool,A,PL_2018-2019,-1
+2019-03-30,West Ham,Everton,A,PL_2018-2019,-1
 2019-03-30,Man United,Watford,H,PL_2018-2019,0
 2019-03-30,Leicester,Bournemouth,H,PL_2018-2019,0
 2019-03-30,Crystal Palace,Huddersfield,H,PL_2018-2019,0
 2019-03-30,Burnley,Wolves,H,PL_2018-2019,0
-2019-03-30,Brighton,Southampton,A,PL_2018-2019,2
-2019-03-30,Fulham,Man City,A,PL_2018-2019,2
-2019-03-31,Cardiff,Chelsea,A,PL_2018-2019,2
+2019-03-30,Brighton,Southampton,A,PL_2018-2019,-1
+2019-03-30,Fulham,Man City,A,PL_2018-2019,-1
+2019-03-31,Cardiff,Chelsea,A,PL_2018-2019,-1
 2019-03-31,Liverpool,Tottenham,H,PL_2018-2019,0
 2019-04-01,Arsenal,Newcastle,H,PL_2018-2019,0
 2019-04-02,Watford,Fulham,H,PL_2018-2019,0
@@ -318,100 +318,100 @@ date,home_team,away_team,result,season,result_code
 2019-04-03,Chelsea,Brighton,H,PL_2018-2019,0
 2019-04-03,Man City,Cardiff,H,PL_2018-2019,0
 2019-04-03,Tottenham,Crystal Palace,H,PL_2018-2019,0
-2019-04-05,Southampton,Liverpool,A,PL_2018-2019,2
-2019-04-06,Huddersfield,Leicester,A,PL_2018-2019,2
-2019-04-06,Newcastle,Crystal Palace,A,PL_2018-2019,2
-2019-04-06,Bournemouth,Burnley,A,PL_2018-2019,2
+2019-04-05,Southampton,Liverpool,A,PL_2018-2019,-1
+2019-04-06,Huddersfield,Leicester,A,PL_2018-2019,-1
+2019-04-06,Newcastle,Crystal Palace,A,PL_2018-2019,-1
+2019-04-06,Bournemouth,Burnley,A,PL_2018-2019,-1
 2019-04-07,Everton,Arsenal,H,PL_2018-2019,0
 2019-04-08,Chelsea,West Ham,H,PL_2018-2019,0
-2019-04-12,Leicester,Newcastle,A,PL_2018-2019,2
+2019-04-12,Leicester,Newcastle,A,PL_2018-2019,-1
 2019-04-13,Southampton,Wolves,H,PL_2018-2019,0
-2019-04-13,Brighton,Bournemouth,A,PL_2018-2019,2
+2019-04-13,Brighton,Bournemouth,A,PL_2018-2019,-1
 2019-04-13,Burnley,Cardiff,H,PL_2018-2019,0
 2019-04-13,Fulham,Everton,H,PL_2018-2019,0
 2019-04-13,Man United,West Ham,H,PL_2018-2019,0
 2019-04-13,Tottenham,Huddersfield,H,PL_2018-2019,0
-2019-04-14,Crystal Palace,Man City,A,PL_2018-2019,2
+2019-04-14,Crystal Palace,Man City,A,PL_2018-2019,-1
 2019-04-14,Liverpool,Chelsea,H,PL_2018-2019,0
-2019-04-15,Watford,Arsenal,A,PL_2018-2019,2
-2019-04-16,Brighton,Cardiff,A,PL_2018-2019,2
-2019-04-20,Huddersfield,Watford,A,PL_2018-2019,2
+2019-04-15,Watford,Arsenal,A,PL_2018-2019,-1
+2019-04-16,Brighton,Cardiff,A,PL_2018-2019,-1
+2019-04-20,Huddersfield,Watford,A,PL_2018-2019,-1
 2019-04-20,Wolves,Brighton,D,PL_2018-2019,1
 2019-04-20,West Ham,Leicester,D,PL_2018-2019,1
-2019-04-20,Bournemouth,Fulham,A,PL_2018-2019,2
+2019-04-20,Bournemouth,Fulham,A,PL_2018-2019,-1
 2019-04-20,Man City,Tottenham,H,PL_2018-2019,0
 2019-04-20,Newcastle,Southampton,H,PL_2018-2019,0
-2019-04-21,Arsenal,Crystal Palace,A,PL_2018-2019,2
-2019-04-21,Cardiff,Liverpool,A,PL_2018-2019,2
+2019-04-21,Arsenal,Crystal Palace,A,PL_2018-2019,-1
+2019-04-21,Cardiff,Liverpool,A,PL_2018-2019,-1
 2019-04-21,Everton,Man United,H,PL_2018-2019,0
 2019-04-22,Chelsea,Burnley,D,PL_2018-2019,1
 2019-04-23,Tottenham,Brighton,H,PL_2018-2019,0
 2019-04-23,Watford,Southampton,D,PL_2018-2019,1
 2019-04-24,Wolves,Arsenal,H,PL_2018-2019,0
-2019-04-24,Man United,Man City,A,PL_2018-2019,2
+2019-04-24,Man United,Man City,A,PL_2018-2019,-1
 2019-04-26,Liverpool,Huddersfield,H,PL_2018-2019,0
-2019-04-27,Watford,Wolves,A,PL_2018-2019,2
-2019-04-27,Tottenham,West Ham,A,PL_2018-2019,2
+2019-04-27,Watford,Wolves,A,PL_2018-2019,-1
+2019-04-27,Tottenham,West Ham,A,PL_2018-2019,-1
 2019-04-27,Southampton,Bournemouth,D,PL_2018-2019,1
 2019-04-27,Fulham,Cardiff,H,PL_2018-2019,0
 2019-04-27,Crystal Palace,Everton,D,PL_2018-2019,1
 2019-04-27,Brighton,Newcastle,D,PL_2018-2019,1
-2019-04-28,Burnley,Man City,A,PL_2018-2019,2
+2019-04-28,Burnley,Man City,A,PL_2018-2019,-1
 2019-04-28,Leicester,Arsenal,H,PL_2018-2019,0
 2019-04-28,Man United,Chelsea,D,PL_2018-2019,1
 2019-05-03,Everton,Burnley,H,PL_2018-2019,0
 2019-05-04,Bournemouth,Tottenham,H,PL_2018-2019,0
-2019-05-04,Cardiff,Crystal Palace,A,PL_2018-2019,2
-2019-05-04,Newcastle,Liverpool,A,PL_2018-2019,2
+2019-05-04,Cardiff,Crystal Palace,A,PL_2018-2019,-1
+2019-05-04,Newcastle,Liverpool,A,PL_2018-2019,-1
 2019-05-04,West Ham,Southampton,H,PL_2018-2019,0
 2019-05-04,Wolves,Fulham,H,PL_2018-2019,0
 2019-05-05,Chelsea,Watford,H,PL_2018-2019,0
 2019-05-05,Huddersfield,Man United,D,PL_2018-2019,1
 2019-05-05,Arsenal,Brighton,D,PL_2018-2019,1
 2019-05-06,Man City,Leicester,H,PL_2018-2019,0
-2019-05-12,Brighton,Man City,A,PL_2018-2019,2
-2019-05-12,Burnley,Arsenal,A,PL_2018-2019,2
+2019-05-12,Brighton,Man City,A,PL_2018-2019,-1
+2019-05-12,Burnley,Arsenal,A,PL_2018-2019,-1
 2019-05-12,Crystal Palace,Bournemouth,H,PL_2018-2019,0
-2019-05-12,Fulham,Newcastle,A,PL_2018-2019,2
+2019-05-12,Fulham,Newcastle,A,PL_2018-2019,-1
 2019-05-12,Leicester,Chelsea,D,PL_2018-2019,1
 2019-05-12,Liverpool,Wolves,H,PL_2018-2019,0
-2019-05-12,Man United,Cardiff,A,PL_2018-2019,2
+2019-05-12,Man United,Cardiff,A,PL_2018-2019,-1
 2019-05-12,Southampton,Huddersfield,D,PL_2018-2019,1
 2019-05-12,Tottenham,Everton,D,PL_2018-2019,1
-2019-05-12,Watford,West Ham,A,PL_2018-2019,2
+2019-05-12,Watford,West Ham,A,PL_2018-2019,-1
 2019-08-09,Liverpool,Norwich,H,PL_2019-2020,0
-2019-08-10,Watford,Brighton,A,PL_2019-2020,2
+2019-08-10,Watford,Brighton,A,PL_2019-2020,-1
 2019-08-10,Tottenham,Aston Villa,H,PL_2019-2020,0
 2019-08-10,Burnley,Southampton,H,PL_2019-2020,0
 2019-08-10,Bournemouth,Sheffield United,D,PL_2019-2020,1
-2019-08-10,West Ham,Man City,A,PL_2019-2020,2
+2019-08-10,West Ham,Man City,A,PL_2019-2020,-1
 2019-08-10,Crystal Palace,Everton,D,PL_2019-2020,1
 2019-08-11,Leicester,Wolves,D,PL_2019-2020,1
-2019-08-11,Newcastle,Arsenal,A,PL_2019-2020,2
+2019-08-11,Newcastle,Arsenal,A,PL_2019-2020,-1
 2019-08-11,Man United,Chelsea,H,PL_2019-2020,0
 2019-08-17,Man City,Tottenham,D,PL_2019-2020,1
 2019-08-17,Arsenal,Burnley,H,PL_2019-2020,0
-2019-08-17,Aston Villa,Bournemouth,A,PL_2019-2020,2
+2019-08-17,Aston Villa,Bournemouth,A,PL_2019-2020,-1
 2019-08-17,Brighton,West Ham,D,PL_2019-2020,1
 2019-08-17,Everton,Watford,H,PL_2019-2020,0
 2019-08-17,Norwich,Newcastle,H,PL_2019-2020,0
-2019-08-17,Southampton,Liverpool,A,PL_2019-2020,2
+2019-08-17,Southampton,Liverpool,A,PL_2019-2020,-1
 2019-08-18,Chelsea,Leicester,D,PL_2019-2020,1
 2019-08-18,Sheffield United,Crystal Palace,H,PL_2019-2020,0
 2019-08-19,Wolves,Man United,D,PL_2019-2020,1
 2019-08-23,Aston Villa,Everton,H,PL_2019-2020,0
-2019-08-24,Norwich,Chelsea,A,PL_2019-2020,2
-2019-08-24,Brighton,Southampton,A,PL_2019-2020,2
-2019-08-24,Man United,Crystal Palace,A,PL_2019-2020,2
-2019-08-24,Sheffield United,Leicester,A,PL_2019-2020,2
-2019-08-24,Watford,West Ham,A,PL_2019-2020,2
+2019-08-24,Norwich,Chelsea,A,PL_2019-2020,-1
+2019-08-24,Brighton,Southampton,A,PL_2019-2020,-1
+2019-08-24,Man United,Crystal Palace,A,PL_2019-2020,-1
+2019-08-24,Sheffield United,Leicester,A,PL_2019-2020,-1
+2019-08-24,Watford,West Ham,A,PL_2019-2020,-1
 2019-08-24,Liverpool,Arsenal,H,PL_2019-2020,0
-2019-08-25,Tottenham,Newcastle,A,PL_2019-2020,2
+2019-08-25,Tottenham,Newcastle,A,PL_2019-2020,-1
 2019-08-25,Wolves,Burnley,D,PL_2019-2020,1
-2019-08-25,Bournemouth,Man City,A,PL_2019-2020,2
+2019-08-25,Bournemouth,Man City,A,PL_2019-2020,-1
 2019-08-31,West Ham,Norwich,H,PL_2019-2020,0
 2019-08-31,Crystal Palace,Aston Villa,H,PL_2019-2020,0
-2019-08-31,Burnley,Liverpool,A,PL_2019-2020,2
+2019-08-31,Burnley,Liverpool,A,PL_2019-2020,-1
 2019-08-31,Newcastle,Watford,D,PL_2019-2020,1
 2019-08-31,Chelsea,Sheffield United,D,PL_2019-2020,1
 2019-08-31,Leicester,Bournemouth,H,PL_2019-2020,0
@@ -422,44 +422,44 @@ date,home_team,away_team,result,season,result_code
 2019-09-14,Liverpool,Newcastle,H,PL_2019-2020,0
 2019-09-14,Brighton,Burnley,D,PL_2019-2020,1
 2019-09-14,Man United,Leicester,H,PL_2019-2020,0
-2019-09-14,Sheffield United,Southampton,A,PL_2019-2020,2
+2019-09-14,Sheffield United,Southampton,A,PL_2019-2020,-1
 2019-09-14,Tottenham,Crystal Palace,H,PL_2019-2020,0
-2019-09-14,Wolves,Chelsea,A,PL_2019-2020,2
+2019-09-14,Wolves,Chelsea,A,PL_2019-2020,-1
 2019-09-14,Norwich,Man City,H,PL_2019-2020,0
 2019-09-15,Bournemouth,Everton,H,PL_2019-2020,0
 2019-09-15,Watford,Arsenal,D,PL_2019-2020,1
 2019-09-16,Aston Villa,West Ham,D,PL_2019-2020,1
-2019-09-20,Southampton,Bournemouth,A,PL_2019-2020,2
+2019-09-20,Southampton,Bournemouth,A,PL_2019-2020,-1
 2019-09-21,Leicester,Tottenham,H,PL_2019-2020,0
 2019-09-21,Burnley,Norwich,H,PL_2019-2020,0
-2019-09-21,Everton,Sheffield United,A,PL_2019-2020,2
+2019-09-21,Everton,Sheffield United,A,PL_2019-2020,-1
 2019-09-21,Man City,Watford,H,PL_2019-2020,0
 2019-09-21,Newcastle,Brighton,D,PL_2019-2020,1
 2019-09-22,Crystal Palace,Wolves,D,PL_2019-2020,1
 2019-09-22,West Ham,Man United,H,PL_2019-2020,0
 2019-09-22,Arsenal,Aston Villa,H,PL_2019-2020,0
-2019-09-22,Chelsea,Liverpool,A,PL_2019-2020,2
+2019-09-22,Chelsea,Liverpool,A,PL_2019-2020,-1
 2019-09-28,Wolves,Watford,H,PL_2019-2020,0
-2019-09-28,Everton,Man City,A,PL_2019-2020,2
+2019-09-28,Everton,Man City,A,PL_2019-2020,-1
 2019-09-28,Tottenham,Southampton,H,PL_2019-2020,0
 2019-09-28,Crystal Palace,Norwich,H,PL_2019-2020,0
 2019-09-28,Aston Villa,Burnley,D,PL_2019-2020,1
 2019-09-28,Bournemouth,West Ham,D,PL_2019-2020,1
-2019-09-28,Sheffield United,Liverpool,A,PL_2019-2020,2
+2019-09-28,Sheffield United,Liverpool,A,PL_2019-2020,-1
 2019-09-28,Chelsea,Brighton,H,PL_2019-2020,0
 2019-09-29,Leicester,Newcastle,H,PL_2019-2020,0
 2019-09-30,Man United,Arsenal,D,PL_2019-2020,1
 2019-10-05,Brighton,Tottenham,H,PL_2019-2020,0
 2019-10-05,Burnley,Everton,H,PL_2019-2020,0
 2019-10-05,Liverpool,Leicester,H,PL_2019-2020,0
-2019-10-05,Norwich,Aston Villa,A,PL_2019-2020,2
+2019-10-05,Norwich,Aston Villa,A,PL_2019-2020,-1
 2019-10-05,Watford,Sheffield United,D,PL_2019-2020,1
-2019-10-05,West Ham,Crystal Palace,A,PL_2019-2020,2
+2019-10-05,West Ham,Crystal Palace,A,PL_2019-2020,-1
 2019-10-06,Newcastle,Man United,H,PL_2019-2020,0
-2019-10-06,Southampton,Chelsea,A,PL_2019-2020,2
+2019-10-06,Southampton,Chelsea,A,PL_2019-2020,-1
 2019-10-06,Arsenal,Bournemouth,H,PL_2019-2020,0
-2019-10-06,Man City,Wolves,A,PL_2019-2020,2
-2019-10-19,Crystal Palace,Man City,A,PL_2019-2020,2
+2019-10-06,Man City,Wolves,A,PL_2019-2020,-1
+2019-10-19,Crystal Palace,Man City,A,PL_2019-2020,-1
 2019-10-19,Everton,West Ham,H,PL_2019-2020,0
 2019-10-19,Aston Villa,Brighton,H,PL_2019-2020,0
 2019-10-19,Bournemouth,Norwich,D,PL_2019-2020,1
@@ -469,49 +469,49 @@ date,home_team,away_team,result,season,result_code
 2019-10-19,Wolves,Southampton,D,PL_2019-2020,1
 2019-10-20,Man United,Liverpool,D,PL_2019-2020,1
 2019-10-21,Sheffield United,Arsenal,H,PL_2019-2020,0
-2019-10-25,Southampton,Leicester,A,PL_2019-2020,2
+2019-10-25,Southampton,Leicester,A,PL_2019-2020,-1
 2019-10-26,West Ham,Sheffield United,D,PL_2019-2020,1
 2019-10-26,Watford,Bournemouth,D,PL_2019-2020,1
-2019-10-26,Burnley,Chelsea,A,PL_2019-2020,2
+2019-10-26,Burnley,Chelsea,A,PL_2019-2020,-1
 2019-10-26,Man City,Aston Villa,H,PL_2019-2020,0
 2019-10-26,Brighton,Everton,H,PL_2019-2020,0
 2019-10-27,Newcastle,Wolves,D,PL_2019-2020,1
 2019-10-27,Arsenal,Crystal Palace,D,PL_2019-2020,1
 2019-10-27,Liverpool,Tottenham,H,PL_2019-2020,0
-2019-10-27,Norwich,Man United,A,PL_2019-2020,2
+2019-10-27,Norwich,Man United,A,PL_2019-2020,-1
 2019-11-02,Bournemouth,Man United,H,PL_2019-2020,0
 2019-11-02,Arsenal,Wolves,D,PL_2019-2020,1
-2019-11-02,Aston Villa,Liverpool,A,PL_2019-2020,2
+2019-11-02,Aston Villa,Liverpool,A,PL_2019-2020,-1
 2019-11-02,Brighton,Norwich,H,PL_2019-2020,0
 2019-11-02,Man City,Southampton,H,PL_2019-2020,0
 2019-11-02,Sheffield United,Burnley,H,PL_2019-2020,0
-2019-11-02,West Ham,Newcastle,A,PL_2019-2020,2
-2019-11-02,Watford,Chelsea,A,PL_2019-2020,2
+2019-11-02,West Ham,Newcastle,A,PL_2019-2020,-1
+2019-11-02,Watford,Chelsea,A,PL_2019-2020,-1
 2019-11-03,Everton,Tottenham,D,PL_2019-2020,1
-2019-11-03,Crystal Palace,Leicester,A,PL_2019-2020,2
-2019-11-08,Norwich,Watford,A,PL_2019-2020,2
+2019-11-03,Crystal Palace,Leicester,A,PL_2019-2020,-1
+2019-11-08,Norwich,Watford,A,PL_2019-2020,-1
 2019-11-09,Chelsea,Crystal Palace,H,PL_2019-2020,0
 2019-11-09,Burnley,West Ham,H,PL_2019-2020,0
 2019-11-09,Newcastle,Bournemouth,H,PL_2019-2020,0
-2019-11-09,Southampton,Everton,A,PL_2019-2020,2
+2019-11-09,Southampton,Everton,A,PL_2019-2020,-1
 2019-11-09,Tottenham,Sheffield United,D,PL_2019-2020,1
 2019-11-09,Leicester,Arsenal,H,PL_2019-2020,0
 2019-11-10,Man United,Brighton,H,PL_2019-2020,0
 2019-11-10,Wolves,Aston Villa,H,PL_2019-2020,0
 2019-11-10,Liverpool,Man City,H,PL_2019-2020,0
 2019-11-23,Man City,Chelsea,H,PL_2019-2020,0
-2019-11-23,Watford,Burnley,A,PL_2019-2020,2
-2019-11-23,Everton,Norwich,A,PL_2019-2020,2
-2019-11-23,Crystal Palace,Liverpool,A,PL_2019-2020,2
-2019-11-23,Bournemouth,Wolves,A,PL_2019-2020,2
+2019-11-23,Watford,Burnley,A,PL_2019-2020,-1
+2019-11-23,Everton,Norwich,A,PL_2019-2020,-1
+2019-11-23,Crystal Palace,Liverpool,A,PL_2019-2020,-1
+2019-11-23,Bournemouth,Wolves,A,PL_2019-2020,-1
 2019-11-23,Arsenal,Southampton,D,PL_2019-2020,1
-2019-11-23,West Ham,Tottenham,A,PL_2019-2020,2
-2019-11-23,Brighton,Leicester,A,PL_2019-2020,2
+2019-11-23,West Ham,Tottenham,A,PL_2019-2020,-1
+2019-11-23,Brighton,Leicester,A,PL_2019-2020,-1
 2019-11-24,Sheffield United,Man United,D,PL_2019-2020,1
 2019-11-25,Aston Villa,Newcastle,H,PL_2019-2020,0
 2019-11-30,Newcastle,Man City,D,PL_2019-2020,1
-2019-11-30,Burnley,Crystal Palace,A,PL_2019-2020,2
-2019-11-30,Chelsea,West Ham,A,PL_2019-2020,2
+2019-11-30,Burnley,Crystal Palace,A,PL_2019-2020,-1
+2019-11-30,Chelsea,West Ham,A,PL_2019-2020,-1
 2019-11-30,Liverpool,Brighton,H,PL_2019-2020,0
 2019-11-30,Tottenham,Bournemouth,H,PL_2019-2020,0
 2019-11-30,Southampton,Watford,H,PL_2019-2020,0
@@ -520,47 +520,47 @@ date,home_team,away_team,result,season,result_code
 2019-12-01,Wolves,Sheffield United,D,PL_2019-2020,1
 2019-12-01,Norwich,Arsenal,D,PL_2019-2020,1
 2019-12-03,Crystal Palace,Bournemouth,H,PL_2019-2020,0
-2019-12-03,Burnley,Man City,A,PL_2019-2020,2
+2019-12-03,Burnley,Man City,A,PL_2019-2020,-1
 2019-12-04,Chelsea,Aston Villa,H,PL_2019-2020,0
 2019-12-04,Leicester,Watford,H,PL_2019-2020,0
 2019-12-04,Man United,Tottenham,H,PL_2019-2020,0
 2019-12-04,Southampton,Norwich,H,PL_2019-2020,0
 2019-12-04,Wolves,West Ham,H,PL_2019-2020,0
 2019-12-04,Liverpool,Everton,H,PL_2019-2020,0
-2019-12-05,Sheffield United,Newcastle,A,PL_2019-2020,2
-2019-12-05,Arsenal,Brighton,A,PL_2019-2020,2
-2019-12-07,Man City,Man United,A,PL_2019-2020,2
+2019-12-05,Sheffield United,Newcastle,A,PL_2019-2020,-1
+2019-12-05,Arsenal,Brighton,A,PL_2019-2020,-1
+2019-12-07,Man City,Man United,A,PL_2019-2020,-1
 2019-12-07,Tottenham,Burnley,H,PL_2019-2020,0
 2019-12-07,Watford,Crystal Palace,D,PL_2019-2020,1
 2019-12-07,Everton,Chelsea,H,PL_2019-2020,0
-2019-12-07,Bournemouth,Liverpool,A,PL_2019-2020,2
-2019-12-08,Aston Villa,Leicester,A,PL_2019-2020,2
+2019-12-07,Bournemouth,Liverpool,A,PL_2019-2020,-1
+2019-12-08,Aston Villa,Leicester,A,PL_2019-2020,-1
 2019-12-08,Newcastle,Southampton,H,PL_2019-2020,0
-2019-12-08,Norwich,Sheffield United,A,PL_2019-2020,2
+2019-12-08,Norwich,Sheffield United,A,PL_2019-2020,-1
 2019-12-08,Brighton,Wolves,D,PL_2019-2020,1
-2019-12-09,West Ham,Arsenal,A,PL_2019-2020,2
+2019-12-09,West Ham,Arsenal,A,PL_2019-2020,-1
 2019-12-14,Liverpool,Watford,H,PL_2019-2020,0
 2019-12-14,Burnley,Newcastle,H,PL_2019-2020,0
-2019-12-14,Chelsea,Bournemouth,A,PL_2019-2020,2
+2019-12-14,Chelsea,Bournemouth,A,PL_2019-2020,-1
 2019-12-14,Leicester,Norwich,D,PL_2019-2020,1
 2019-12-14,Sheffield United,Aston Villa,H,PL_2019-2020,0
-2019-12-14,Southampton,West Ham,A,PL_2019-2020,2
-2019-12-15,Arsenal,Man City,A,PL_2019-2020,2
+2019-12-14,Southampton,West Ham,A,PL_2019-2020,-1
+2019-12-15,Arsenal,Man City,A,PL_2019-2020,-1
 2019-12-15,Man United,Everton,D,PL_2019-2020,1
-2019-12-15,Wolves,Tottenham,A,PL_2019-2020,2
+2019-12-15,Wolves,Tottenham,A,PL_2019-2020,-1
 2019-12-16,Crystal Palace,Brighton,D,PL_2019-2020,1
 2019-12-21,Everton,Arsenal,D,PL_2019-2020,1
-2019-12-21,Aston Villa,Southampton,A,PL_2019-2020,2
-2019-12-21,Bournemouth,Burnley,A,PL_2019-2020,2
-2019-12-21,Brighton,Sheffield United,A,PL_2019-2020,2
+2019-12-21,Aston Villa,Southampton,A,PL_2019-2020,-1
+2019-12-21,Bournemouth,Burnley,A,PL_2019-2020,-1
+2019-12-21,Brighton,Sheffield United,A,PL_2019-2020,-1
 2019-12-21,Newcastle,Crystal Palace,H,PL_2019-2020,0
-2019-12-21,Norwich,Wolves,A,PL_2019-2020,2
+2019-12-21,Norwich,Wolves,A,PL_2019-2020,-1
 2019-12-21,Man City,Leicester,H,PL_2019-2020,0
-2019-12-22,Tottenham,Chelsea,A,PL_2019-2020,2
+2019-12-22,Tottenham,Chelsea,A,PL_2019-2020,-1
 2019-12-22,Watford,Man United,H,PL_2019-2020,0
 2019-12-26,Sheffield United,Watford,D,PL_2019-2020,1
-2019-12-26,Chelsea,Southampton,A,PL_2019-2020,2
-2019-12-26,Leicester,Liverpool,A,PL_2019-2020,2
+2019-12-26,Chelsea,Southampton,A,PL_2019-2020,-1
+2019-12-26,Leicester,Liverpool,A,PL_2019-2020,-1
 2019-12-26,Man United,Newcastle,H,PL_2019-2020,0
 2019-12-26,Everton,Burnley,H,PL_2019-2020,0
 2019-12-26,Bournemouth,Arsenal,D,PL_2019-2020,1
@@ -569,18 +569,18 @@ date,home_team,away_team,result,season,result_code
 2019-12-26,Crystal Palace,West Ham,H,PL_2019-2020,0
 2019-12-27,Wolves,Man City,H,PL_2019-2020,0
 2019-12-28,Brighton,Bournemouth,H,PL_2019-2020,0
-2019-12-28,Newcastle,Everton,A,PL_2019-2020,2
+2019-12-28,Newcastle,Everton,A,PL_2019-2020,-1
 2019-12-28,Southampton,Crystal Palace,D,PL_2019-2020,1
 2019-12-28,Watford,Aston Villa,H,PL_2019-2020,0
 2019-12-28,Norwich,Tottenham,D,PL_2019-2020,1
-2019-12-28,West Ham,Leicester,A,PL_2019-2020,2
-2019-12-28,Burnley,Man United,A,PL_2019-2020,2
+2019-12-28,West Ham,Leicester,A,PL_2019-2020,-1
+2019-12-28,Burnley,Man United,A,PL_2019-2020,-1
 2019-12-29,Liverpool,Wolves,H,PL_2019-2020,0
 2019-12-29,Man City,Sheffield United,H,PL_2019-2020,0
-2019-12-29,Arsenal,Chelsea,A,PL_2019-2020,2
+2019-12-29,Arsenal,Chelsea,A,PL_2019-2020,-1
 2020-01-01,Brighton,Chelsea,D,PL_2019-2020,1
-2020-01-01,Burnley,Aston Villa,A,PL_2019-2020,2
-2020-01-01,Newcastle,Leicester,A,PL_2019-2020,2
+2020-01-01,Burnley,Aston Villa,A,PL_2019-2020,-1
+2020-01-01,Newcastle,Leicester,A,PL_2019-2020,-1
 2020-01-01,Southampton,Tottenham,H,PL_2019-2020,0
 2020-01-01,Watford,Wolves,H,PL_2019-2020,0
 2020-01-01,Man City,Everton,H,PL_2019-2020,0
@@ -590,40 +590,40 @@ date,home_team,away_team,result,season,result_code
 2020-01-02,Liverpool,Sheffield United,H,PL_2019-2020,0
 2020-01-10,Sheffield United,West Ham,H,PL_2019-2020,0
 2020-01-11,Wolves,Newcastle,D,PL_2019-2020,1
-2020-01-11,Tottenham,Liverpool,A,PL_2019-2020,2
+2020-01-11,Tottenham,Liverpool,A,PL_2019-2020,-1
 2020-01-11,Man United,Norwich,H,PL_2019-2020,0
 2020-01-11,Everton,Brighton,H,PL_2019-2020,0
-2020-01-11,Leicester,Southampton,A,PL_2019-2020,2
+2020-01-11,Leicester,Southampton,A,PL_2019-2020,-1
 2020-01-11,Chelsea,Burnley,H,PL_2019-2020,0
 2020-01-11,Crystal Palace,Arsenal,D,PL_2019-2020,1
-2020-01-12,Bournemouth,Watford,A,PL_2019-2020,2
-2020-01-12,Aston Villa,Man City,A,PL_2019-2020,2
+2020-01-12,Bournemouth,Watford,A,PL_2019-2020,-1
+2020-01-12,Aston Villa,Man City,A,PL_2019-2020,-1
 2020-01-18,Watford,Tottenham,D,PL_2019-2020,1
 2020-01-18,Arsenal,Sheffield United,D,PL_2019-2020,1
 2020-01-18,Brighton,Aston Villa,D,PL_2019-2020,1
 2020-01-18,Man City,Crystal Palace,D,PL_2019-2020,1
 2020-01-18,Norwich,Bournemouth,H,PL_2019-2020,0
-2020-01-18,Southampton,Wolves,A,PL_2019-2020,2
+2020-01-18,Southampton,Wolves,A,PL_2019-2020,-1
 2020-01-18,West Ham,Everton,D,PL_2019-2020,1
 2020-01-18,Newcastle,Chelsea,H,PL_2019-2020,0
 2020-01-19,Liverpool,Man United,H,PL_2019-2020,0
 2020-01-19,Burnley,Leicester,H,PL_2019-2020,0
 2020-01-21,Aston Villa,Watford,H,PL_2019-2020,0
 2020-01-21,Bournemouth,Brighton,H,PL_2019-2020,0
-2020-01-21,Crystal Palace,Southampton,A,PL_2019-2020,2
+2020-01-21,Crystal Palace,Southampton,A,PL_2019-2020,-1
 2020-01-21,Everton,Newcastle,D,PL_2019-2020,1
-2020-01-21,Sheffield United,Man City,A,PL_2019-2020,2
+2020-01-21,Sheffield United,Man City,A,PL_2019-2020,-1
 2020-01-21,Chelsea,Arsenal,D,PL_2019-2020,1
 2020-01-22,Leicester,West Ham,H,PL_2019-2020,0
 2020-01-22,Tottenham,Norwich,H,PL_2019-2020,0
-2020-01-22,Man United,Burnley,A,PL_2019-2020,2
-2020-01-23,Wolves,Liverpool,A,PL_2019-2020,2
-2020-01-29,West Ham,Liverpool,A,PL_2019-2020,2
-2020-02-01,Watford,Everton,A,PL_2019-2020,2
+2020-01-22,Man United,Burnley,A,PL_2019-2020,-1
+2020-01-23,Wolves,Liverpool,A,PL_2019-2020,-1
+2020-01-29,West Ham,Liverpool,A,PL_2019-2020,-1
+2020-02-01,Watford,Everton,A,PL_2019-2020,-1
 2020-02-01,Man United,Wolves,D,PL_2019-2020,1
 2020-02-01,West Ham,Brighton,D,PL_2019-2020,1
 2020-02-01,Liverpool,Southampton,H,PL_2019-2020,0
-2020-02-01,Crystal Palace,Sheffield United,A,PL_2019-2020,2
+2020-02-01,Crystal Palace,Sheffield United,A,PL_2019-2020,-1
 2020-02-01,Bournemouth,Aston Villa,H,PL_2019-2020,0
 2020-02-01,Leicester,Chelsea,D,PL_2019-2020,1
 2020-02-01,Newcastle,Norwich,D,PL_2019-2020,1
@@ -633,18 +633,18 @@ date,home_team,away_team,result,season,result_code
 2020-02-08,Brighton,Watford,D,PL_2019-2020,1
 2020-02-09,Sheffield United,Bournemouth,H,PL_2019-2020,0
 2020-02-14,Wolves,Leicester,D,PL_2019-2020,1
-2020-02-15,Southampton,Burnley,A,PL_2019-2020,2
-2020-02-15,Norwich,Liverpool,A,PL_2019-2020,2
+2020-02-15,Southampton,Burnley,A,PL_2019-2020,-1
+2020-02-15,Norwich,Liverpool,A,PL_2019-2020,-1
 2020-02-16,Arsenal,Newcastle,H,PL_2019-2020,0
-2020-02-16,Aston Villa,Tottenham,A,PL_2019-2020,2
-2020-02-17,Chelsea,Man United,A,PL_2019-2020,2
+2020-02-16,Aston Villa,Tottenham,A,PL_2019-2020,-1
+2020-02-17,Chelsea,Man United,A,PL_2019-2020,-1
 2020-02-19,Man City,West Ham,H,PL_2019-2020,0
 2020-02-22,Chelsea,Tottenham,H,PL_2019-2020,0
 2020-02-22,Burnley,Bournemouth,H,PL_2019-2020,0
 2020-02-22,Crystal Palace,Newcastle,H,PL_2019-2020,0
 2020-02-22,Sheffield United,Brighton,D,PL_2019-2020,1
 2020-02-22,Southampton,Aston Villa,H,PL_2019-2020,0
-2020-02-22,Leicester,Man City,A,PL_2019-2020,2
+2020-02-22,Leicester,Man City,A,PL_2019-2020,-1
 2020-02-23,Man United,Watford,H,PL_2019-2020,0
 2020-02-23,Wolves,Norwich,H,PL_2019-2020,0
 2020-02-23,Arsenal,Everton,H,PL_2019-2020,0
@@ -653,15 +653,15 @@ date,home_team,away_team,result,season,result_code
 2020-02-29,Bournemouth,Chelsea,D,PL_2019-2020,1
 2020-02-29,Watford,Liverpool,H,PL_2019-2020,0
 2020-02-29,West Ham,Southampton,H,PL_2019-2020,0
-2020-02-29,Brighton,Crystal Palace,A,PL_2019-2020,2
+2020-02-29,Brighton,Crystal Palace,A,PL_2019-2020,-1
 2020-02-29,Newcastle,Burnley,D,PL_2019-2020,1
 2020-03-01,Everton,Man United,D,PL_2019-2020,1
-2020-03-01,Tottenham,Wolves,A,PL_2019-2020,2
+2020-03-01,Tottenham,Wolves,A,PL_2019-2020,-1
 2020-03-07,Liverpool,Bournemouth,H,PL_2019-2020,0
 2020-03-07,Arsenal,West Ham,H,PL_2019-2020,0
 2020-03-07,Crystal Palace,Watford,H,PL_2019-2020,0
 2020-03-07,Sheffield United,Norwich,H,PL_2019-2020,0
-2020-03-07,Southampton,Newcastle,A,PL_2019-2020,2
+2020-03-07,Southampton,Newcastle,A,PL_2019-2020,-1
 2020-03-07,Wolves,Brighton,D,PL_2019-2020,1
 2020-03-07,Burnley,Tottenham,D,PL_2019-2020,1
 2020-03-08,Chelsea,Everton,H,PL_2019-2020,0
@@ -669,40 +669,40 @@ date,home_team,away_team,result,season,result_code
 2020-03-09,Leicester,Aston Villa,H,PL_2019-2020,0
 2020-06-17,Aston Villa,Sheffield United,D,PL_2019-2020,1
 2020-06-17,Man City,Arsenal,H,PL_2019-2020,0
-2020-06-19,Norwich,Southampton,A,PL_2019-2020,2
+2020-06-19,Norwich,Southampton,A,PL_2019-2020,-1
 2020-06-19,Tottenham,Man United,D,PL_2019-2020,1
 2020-06-20,Watford,Leicester,D,PL_2019-2020,1
 2020-06-20,Brighton,Arsenal,H,PL_2019-2020,0
-2020-06-20,West Ham,Wolves,A,PL_2019-2020,2
-2020-06-20,Bournemouth,Crystal Palace,A,PL_2019-2020,2
+2020-06-20,West Ham,Wolves,A,PL_2019-2020,-1
+2020-06-20,Bournemouth,Crystal Palace,A,PL_2019-2020,-1
 2020-06-21,Newcastle,Sheffield United,H,PL_2019-2020,0
-2020-06-21,Aston Villa,Chelsea,A,PL_2019-2020,2
+2020-06-21,Aston Villa,Chelsea,A,PL_2019-2020,-1
 2020-06-21,Everton,Liverpool,D,PL_2019-2020,1
 2020-06-22,Man City,Burnley,H,PL_2019-2020,0
 2020-06-23,Tottenham,West Ham,H,PL_2019-2020,0
 2020-06-23,Leicester,Brighton,D,PL_2019-2020,1
 2020-06-24,Man United,Sheffield United,H,PL_2019-2020,0
 2020-06-24,Newcastle,Aston Villa,D,PL_2019-2020,1
-2020-06-24,Norwich,Everton,A,PL_2019-2020,2
+2020-06-24,Norwich,Everton,A,PL_2019-2020,-1
 2020-06-24,Wolves,Bournemouth,H,PL_2019-2020,0
 2020-06-24,Liverpool,Crystal Palace,H,PL_2019-2020,0
 2020-06-25,Burnley,Watford,H,PL_2019-2020,0
-2020-06-25,Southampton,Arsenal,A,PL_2019-2020,2
+2020-06-25,Southampton,Arsenal,A,PL_2019-2020,-1
 2020-06-25,Chelsea,Man City,H,PL_2019-2020,0
-2020-06-27,Aston Villa,Wolves,A,PL_2019-2020,2
-2020-06-28,Watford,Southampton,A,PL_2019-2020,2
-2020-06-29,Crystal Palace,Burnley,A,PL_2019-2020,2
-2020-06-30,Brighton,Man United,A,PL_2019-2020,2
+2020-06-27,Aston Villa,Wolves,A,PL_2019-2020,-1
+2020-06-28,Watford,Southampton,A,PL_2019-2020,-1
+2020-06-29,Crystal Palace,Burnley,A,PL_2019-2020,-1
+2020-06-30,Brighton,Man United,A,PL_2019-2020,-1
 2020-07-01,Arsenal,Norwich,H,PL_2019-2020,0
-2020-07-01,Bournemouth,Newcastle,A,PL_2019-2020,2
+2020-07-01,Bournemouth,Newcastle,A,PL_2019-2020,-1
 2020-07-01,Everton,Leicester,H,PL_2019-2020,0
 2020-07-01,West Ham,Chelsea,H,PL_2019-2020,0
 2020-07-02,Sheffield United,Tottenham,H,PL_2019-2020,0
 2020-07-02,Man City,Liverpool,H,PL_2019-2020,0
-2020-07-04,Norwich,Brighton,A,PL_2019-2020,2
+2020-07-04,Norwich,Brighton,A,PL_2019-2020,-1
 2020-07-04,Leicester,Crystal Palace,H,PL_2019-2020,0
 2020-07-04,Man United,Bournemouth,H,PL_2019-2020,0
-2020-07-04,Wolves,Arsenal,A,PL_2019-2020,2
+2020-07-04,Wolves,Arsenal,A,PL_2019-2020,-1
 2020-07-04,Chelsea,Watford,H,PL_2019-2020,0
 2020-07-05,Newcastle,West Ham,D,PL_2019-2020,1
 2020-07-05,Liverpool,Aston Villa,H,PL_2019-2020,0
@@ -711,19 +711,19 @@ date,home_team,away_team,result,season,result_code
 2020-07-06,Tottenham,Everton,H,PL_2019-2020,0
 2020-07-07,Watford,Norwich,H,PL_2019-2020,0
 2020-07-07,Arsenal,Leicester,D,PL_2019-2020,1
-2020-07-07,Crystal Palace,Chelsea,A,PL_2019-2020,2
+2020-07-07,Crystal Palace,Chelsea,A,PL_2019-2020,-1
 2020-07-08,Man City,Newcastle,H,PL_2019-2020,0
 2020-07-08,Sheffield United,Wolves,H,PL_2019-2020,0
-2020-07-08,West Ham,Burnley,A,PL_2019-2020,2
-2020-07-08,Brighton,Liverpool,A,PL_2019-2020,2
+2020-07-08,West Ham,Burnley,A,PL_2019-2020,-1
+2020-07-08,Brighton,Liverpool,A,PL_2019-2020,-1
 2020-07-09,Bournemouth,Tottenham,D,PL_2019-2020,1
 2020-07-09,Everton,Southampton,D,PL_2019-2020,1
-2020-07-09,Aston Villa,Man United,A,PL_2019-2020,2
-2020-07-11,Norwich,West Ham,A,PL_2019-2020,2
+2020-07-09,Aston Villa,Man United,A,PL_2019-2020,-1
+2020-07-11,Norwich,West Ham,A,PL_2019-2020,-1
 2020-07-11,Watford,Newcastle,H,PL_2019-2020,0
 2020-07-11,Liverpool,Burnley,D,PL_2019-2020,1
 2020-07-11,Sheffield United,Chelsea,H,PL_2019-2020,0
-2020-07-11,Brighton,Man City,A,PL_2019-2020,2
+2020-07-11,Brighton,Man City,A,PL_2019-2020,-1
 2020-07-12,Bournemouth,Leicester,H,PL_2019-2020,0
 2020-07-12,Tottenham,Arsenal,H,PL_2019-2020,0
 2020-07-12,Wolves,Everton,H,PL_2019-2020,0
@@ -732,148 +732,148 @@ date,home_team,away_team,result,season,result_code
 2020-07-14,Chelsea,Norwich,H,PL_2019-2020,0
 2020-07-15,Burnley,Wolves,D,PL_2019-2020,1
 2020-07-15,Man City,Bournemouth,H,PL_2019-2020,0
-2020-07-15,Newcastle,Tottenham,A,PL_2019-2020,2
+2020-07-15,Newcastle,Tottenham,A,PL_2019-2020,-1
 2020-07-15,Arsenal,Liverpool,H,PL_2019-2020,0
 2020-07-16,Southampton,Brighton,D,PL_2019-2020,1
 2020-07-16,Everton,Aston Villa,D,PL_2019-2020,1
 2020-07-16,Leicester,Sheffield United,H,PL_2019-2020,0
-2020-07-16,Crystal Palace,Man United,A,PL_2019-2020,2
+2020-07-16,Crystal Palace,Man United,A,PL_2019-2020,-1
 2020-07-17,West Ham,Watford,H,PL_2019-2020,0
-2020-07-18,Norwich,Burnley,A,PL_2019-2020,2
-2020-07-19,Bournemouth,Southampton,A,PL_2019-2020,2
+2020-07-18,Norwich,Burnley,A,PL_2019-2020,-1
+2020-07-19,Bournemouth,Southampton,A,PL_2019-2020,-1
 2020-07-19,Tottenham,Leicester,H,PL_2019-2020,0
 2020-07-20,Brighton,Newcastle,D,PL_2019-2020,1
-2020-07-20,Sheffield United,Everton,A,PL_2019-2020,2
+2020-07-20,Sheffield United,Everton,A,PL_2019-2020,-1
 2020-07-20,Wolves,Crystal Palace,H,PL_2019-2020,0
-2020-07-21,Watford,Man City,A,PL_2019-2020,2
+2020-07-21,Watford,Man City,A,PL_2019-2020,-1
 2020-07-21,Aston Villa,Arsenal,H,PL_2019-2020,0
 2020-07-22,Man United,West Ham,D,PL_2019-2020,1
 2020-07-22,Liverpool,Chelsea,H,PL_2019-2020,0
 2020-07-26,West Ham,Aston Villa,D,PL_2019-2020,1
 2020-07-26,Southampton,Sheffield United,H,PL_2019-2020,0
-2020-07-26,Newcastle,Liverpool,A,PL_2019-2020,2
+2020-07-26,Newcastle,Liverpool,A,PL_2019-2020,-1
 2020-07-26,Man City,Norwich,H,PL_2019-2020,0
-2020-07-26,Leicester,Man United,A,PL_2019-2020,2
-2020-07-26,Everton,Bournemouth,A,PL_2019-2020,2
+2020-07-26,Leicester,Man United,A,PL_2019-2020,-1
+2020-07-26,Everton,Bournemouth,A,PL_2019-2020,-1
 2020-07-26,Crystal Palace,Tottenham,D,PL_2019-2020,1
 2020-07-26,Chelsea,Wolves,H,PL_2019-2020,0
-2020-07-26,Burnley,Brighton,A,PL_2019-2020,2
+2020-07-26,Burnley,Brighton,A,PL_2019-2020,-1
 2020-07-26,Arsenal,Watford,H,PL_2019-2020,0
-2020-09-12,Fulham,Arsenal,A,PL_2020-2021,2
+2020-09-12,Fulham,Arsenal,A,PL_2020-2021,-1
 2020-09-12,Crystal Palace,Southampton,H,PL_2020-2021,0
 2020-09-12,Liverpool,Leeds,H,PL_2020-2021,0
-2020-09-12,West Ham,Newcastle,A,PL_2020-2021,2
-2020-09-13,West Brom,Leicester,A,PL_2020-2021,2
-2020-09-13,Tottenham,Everton,A,PL_2020-2021,2
-2020-09-14,Brighton,Chelsea,A,PL_2020-2021,2
-2020-09-14,Sheffield United,Wolves,A,PL_2020-2021,2
-2020-09-19,Man United,Crystal Palace,A,PL_2020-2021,2
+2020-09-12,West Ham,Newcastle,A,PL_2020-2021,-1
+2020-09-13,West Brom,Leicester,A,PL_2020-2021,-1
+2020-09-13,Tottenham,Everton,A,PL_2020-2021,-1
+2020-09-14,Brighton,Chelsea,A,PL_2020-2021,-1
+2020-09-14,Sheffield United,Wolves,A,PL_2020-2021,-1
+2020-09-19,Man United,Crystal Palace,A,PL_2020-2021,-1
 2020-09-19,Arsenal,West Ham,H,PL_2020-2021,0
 2020-09-19,Everton,West Brom,H,PL_2020-2021,0
 2020-09-19,Leeds,Fulham,H,PL_2020-2021,0
-2020-09-20,Southampton,Tottenham,A,PL_2020-2021,2
-2020-09-20,Newcastle,Brighton,A,PL_2020-2021,2
-2020-09-20,Chelsea,Liverpool,A,PL_2020-2021,2
+2020-09-20,Southampton,Tottenham,A,PL_2020-2021,-1
+2020-09-20,Newcastle,Brighton,A,PL_2020-2021,-1
+2020-09-20,Chelsea,Liverpool,A,PL_2020-2021,-1
 2020-09-20,Leicester,Burnley,H,PL_2020-2021,0
 2020-09-21,Aston Villa,Sheffield United,H,PL_2020-2021,0
-2020-09-21,Wolves,Man City,A,PL_2020-2021,2
-2020-09-26,Brighton,Man United,A,PL_2020-2021,2
-2020-09-26,Crystal Palace,Everton,A,PL_2020-2021,2
+2020-09-21,Wolves,Man City,A,PL_2020-2021,-1
+2020-09-26,Brighton,Man United,A,PL_2020-2021,-1
+2020-09-26,Crystal Palace,Everton,A,PL_2020-2021,-1
 2020-09-26,West Brom,Chelsea,D,PL_2020-2021,1
-2020-09-26,Burnley,Southampton,A,PL_2020-2021,2
+2020-09-26,Burnley,Southampton,A,PL_2020-2021,-1
 2020-09-27,Tottenham,Newcastle,D,PL_2020-2021,1
 2020-09-27,West Ham,Wolves,H,PL_2020-2021,0
-2020-09-27,Sheffield United,Leeds,A,PL_2020-2021,2
-2020-09-27,Man City,Leicester,A,PL_2020-2021,2
-2020-09-28,Fulham,Aston Villa,A,PL_2020-2021,2
+2020-09-27,Sheffield United,Leeds,A,PL_2020-2021,-1
+2020-09-27,Man City,Leicester,A,PL_2020-2021,-1
+2020-09-28,Fulham,Aston Villa,A,PL_2020-2021,-1
 2020-09-28,Liverpool,Arsenal,H,PL_2020-2021,0
 2020-10-03,Chelsea,Crystal Palace,H,PL_2020-2021,0
 2020-10-03,Everton,Brighton,H,PL_2020-2021,0
 2020-10-03,Leeds,Man City,D,PL_2020-2021,1
 2020-10-03,Newcastle,Burnley,H,PL_2020-2021,0
 2020-10-04,Aston Villa,Liverpool,H,PL_2020-2021,0
-2020-10-04,Leicester,West Ham,A,PL_2020-2021,2
+2020-10-04,Leicester,West Ham,A,PL_2020-2021,-1
 2020-10-04,Southampton,West Brom,H,PL_2020-2021,0
 2020-10-04,Arsenal,Sheffield United,H,PL_2020-2021,0
 2020-10-04,Wolves,Fulham,H,PL_2020-2021,0
-2020-10-04,Man United,Tottenham,A,PL_2020-2021,2
-2020-10-17,Newcastle,Man United,A,PL_2020-2021,2
+2020-10-04,Man United,Tottenham,A,PL_2020-2021,-1
+2020-10-17,Newcastle,Man United,A,PL_2020-2021,-1
 2020-10-17,Man City,Arsenal,H,PL_2020-2021,0
 2020-10-17,Everton,Liverpool,D,PL_2020-2021,1
 2020-10-17,Chelsea,Southampton,D,PL_2020-2021,1
 2020-10-18,Sheffield United,Fulham,D,PL_2020-2021,1
 2020-10-18,Crystal Palace,Brighton,D,PL_2020-2021,1
 2020-10-18,Tottenham,West Ham,D,PL_2020-2021,1
-2020-10-18,Leicester,Aston Villa,A,PL_2020-2021,2
+2020-10-18,Leicester,Aston Villa,A,PL_2020-2021,-1
 2020-10-19,West Brom,Burnley,D,PL_2020-2021,1
-2020-10-19,Leeds,Wolves,A,PL_2020-2021,2
-2020-10-23,Aston Villa,Leeds,A,PL_2020-2021,2
+2020-10-19,Leeds,Wolves,A,PL_2020-2021,-1
+2020-10-23,Aston Villa,Leeds,A,PL_2020-2021,-1
 2020-10-24,West Ham,Man City,D,PL_2020-2021,1
-2020-10-24,Fulham,Crystal Palace,A,PL_2020-2021,2
+2020-10-24,Fulham,Crystal Palace,A,PL_2020-2021,-1
 2020-10-24,Man United,Chelsea,D,PL_2020-2021,1
 2020-10-24,Liverpool,Sheffield United,H,PL_2020-2021,0
 2020-10-25,Wolves,Newcastle,D,PL_2020-2021,1
-2020-10-25,Arsenal,Leicester,A,PL_2020-2021,2
+2020-10-25,Arsenal,Leicester,A,PL_2020-2021,-1
 2020-10-25,Southampton,Everton,H,PL_2020-2021,0
 2020-10-26,Brighton,West Brom,D,PL_2020-2021,1
-2020-10-26,Burnley,Tottenham,A,PL_2020-2021,2
+2020-10-26,Burnley,Tottenham,A,PL_2020-2021,-1
 2020-10-30,Wolves,Crystal Palace,H,PL_2020-2021,0
-2020-10-31,Sheffield United,Man City,A,PL_2020-2021,2
-2020-10-31,Burnley,Chelsea,A,PL_2020-2021,2
+2020-10-31,Sheffield United,Man City,A,PL_2020-2021,-1
+2020-10-31,Burnley,Chelsea,A,PL_2020-2021,-1
 2020-10-31,Liverpool,West Ham,H,PL_2020-2021,0
 2020-11-01,Newcastle,Everton,H,PL_2020-2021,0
-2020-11-01,Aston Villa,Southampton,A,PL_2020-2021,2
-2020-11-01,Man United,Arsenal,A,PL_2020-2021,2
+2020-11-01,Aston Villa,Southampton,A,PL_2020-2021,-1
+2020-11-01,Man United,Arsenal,A,PL_2020-2021,-1
 2020-11-01,Tottenham,Brighton,H,PL_2020-2021,0
 2020-11-02,Fulham,West Brom,H,PL_2020-2021,0
-2020-11-02,Leeds,Leicester,A,PL_2020-2021,2
+2020-11-02,Leeds,Leicester,A,PL_2020-2021,-1
 2020-11-06,Brighton,Burnley,D,PL_2020-2021,1
 2020-11-06,Southampton,Newcastle,H,PL_2020-2021,0
 2020-11-07,West Ham,Fulham,H,PL_2020-2021,0
 2020-11-07,Crystal Palace,Leeds,H,PL_2020-2021,0
-2020-11-07,Everton,Man United,A,PL_2020-2021,2
+2020-11-07,Everton,Man United,A,PL_2020-2021,-1
 2020-11-07,Chelsea,Sheffield United,H,PL_2020-2021,0
-2020-11-08,West Brom,Tottenham,A,PL_2020-2021,2
+2020-11-08,West Brom,Tottenham,A,PL_2020-2021,-1
 2020-11-08,Leicester,Wolves,H,PL_2020-2021,0
 2020-11-08,Man City,Liverpool,D,PL_2020-2021,1
-2020-11-08,Arsenal,Aston Villa,A,PL_2020-2021,2
-2020-11-21,Newcastle,Chelsea,A,PL_2020-2021,2
-2020-11-21,Aston Villa,Brighton,A,PL_2020-2021,2
+2020-11-08,Arsenal,Aston Villa,A,PL_2020-2021,-1
+2020-11-21,Newcastle,Chelsea,A,PL_2020-2021,-1
+2020-11-21,Aston Villa,Brighton,A,PL_2020-2021,-1
 2020-11-21,Tottenham,Man City,H,PL_2020-2021,0
 2020-11-21,Man United,West Brom,H,PL_2020-2021,0
 2020-11-22,Leeds,Arsenal,D,PL_2020-2021,1
 2020-11-22,Liverpool,Leicester,H,PL_2020-2021,0
-2020-11-22,Fulham,Everton,A,PL_2020-2021,2
-2020-11-22,Sheffield United,West Ham,A,PL_2020-2021,2
+2020-11-22,Fulham,Everton,A,PL_2020-2021,-1
+2020-11-22,Sheffield United,West Ham,A,PL_2020-2021,-1
 2020-11-23,Burnley,Crystal Palace,H,PL_2020-2021,0
 2020-11-23,Wolves,Southampton,D,PL_2020-2021,1
-2020-11-27,Crystal Palace,Newcastle,A,PL_2020-2021,2
+2020-11-27,Crystal Palace,Newcastle,A,PL_2020-2021,-1
 2020-11-28,Brighton,Liverpool,D,PL_2020-2021,1
 2020-11-28,Man City,Burnley,H,PL_2020-2021,0
-2020-11-28,Everton,Leeds,A,PL_2020-2021,2
+2020-11-28,Everton,Leeds,A,PL_2020-2021,-1
 2020-11-28,West Brom,Sheffield United,H,PL_2020-2021,0
-2020-11-29,Southampton,Man United,A,PL_2020-2021,2
+2020-11-29,Southampton,Man United,A,PL_2020-2021,-1
 2020-11-29,Chelsea,Tottenham,D,PL_2020-2021,1
-2020-11-29,Arsenal,Wolves,A,PL_2020-2021,2
+2020-11-29,Arsenal,Wolves,A,PL_2020-2021,-1
 2020-11-30,West Ham,Aston Villa,H,PL_2020-2021,0
-2020-11-30,Leicester,Fulham,A,PL_2020-2021,2
+2020-11-30,Leicester,Fulham,A,PL_2020-2021,-1
 2020-12-05,Chelsea,Leeds,H,PL_2020-2021,0
-2020-12-05,West Ham,Man United,A,PL_2020-2021,2
+2020-12-05,West Ham,Man United,A,PL_2020-2021,-1
 2020-12-05,Burnley,Everton,D,PL_2020-2021,1
 2020-12-05,Man City,Fulham,H,PL_2020-2021,0
-2020-12-06,West Brom,Crystal Palace,A,PL_2020-2021,2
-2020-12-06,Sheffield United,Leicester,A,PL_2020-2021,2
+2020-12-06,West Brom,Crystal Palace,A,PL_2020-2021,-1
+2020-12-06,Sheffield United,Leicester,A,PL_2020-2021,-1
 2020-12-06,Tottenham,Arsenal,H,PL_2020-2021,0
 2020-12-06,Liverpool,Wolves,H,PL_2020-2021,0
-2020-12-07,Brighton,Southampton,A,PL_2020-2021,2
-2020-12-11,Leeds,West Ham,A,PL_2020-2021,2
-2020-12-12,Wolves,Aston Villa,A,PL_2020-2021,2
+2020-12-07,Brighton,Southampton,A,PL_2020-2021,-1
+2020-12-11,Leeds,West Ham,A,PL_2020-2021,-1
+2020-12-12,Wolves,Aston Villa,A,PL_2020-2021,-1
 2020-12-12,Newcastle,West Brom,H,PL_2020-2021,0
 2020-12-12,Man United,Man City,D,PL_2020-2021,1
 2020-12-12,Everton,Chelsea,H,PL_2020-2021,0
 2020-12-13,Crystal Palace,Tottenham,D,PL_2020-2021,1
 2020-12-13,Leicester,Brighton,H,PL_2020-2021,0
-2020-12-13,Arsenal,Burnley,A,PL_2020-2021,2
+2020-12-13,Arsenal,Burnley,A,PL_2020-2021,-1
 2020-12-13,Southampton,Sheffield United,H,PL_2020-2021,0
 2020-12-13,Fulham,Liverpool,D,PL_2020-2021,1
 2020-12-15,Wolves,Chelsea,H,PL_2020-2021,0
@@ -881,19 +881,19 @@ date,home_team,away_team,result,season,result_code
 2020-12-16,Liverpool,Tottenham,H,PL_2020-2021,0
 2020-12-16,Arsenal,Southampton,D,PL_2020-2021,1
 2020-12-16,Leeds,Newcastle,H,PL_2020-2021,0
-2020-12-16,Leicester,Everton,A,PL_2020-2021,2
+2020-12-16,Leicester,Everton,A,PL_2020-2021,-1
 2020-12-16,Fulham,Brighton,D,PL_2020-2021,1
 2020-12-16,West Ham,Crystal Palace,D,PL_2020-2021,1
-2020-12-17,Sheffield United,Man United,A,PL_2020-2021,2
+2020-12-17,Sheffield United,Man United,A,PL_2020-2021,-1
 2020-12-17,Aston Villa,Burnley,D,PL_2020-2021,1
 2020-12-19,Newcastle,Fulham,D,PL_2020-2021,1
 2020-12-19,Everton,Arsenal,H,PL_2020-2021,0
-2020-12-19,Crystal Palace,Liverpool,A,PL_2020-2021,2
-2020-12-19,Southampton,Man City,A,PL_2020-2021,2
+2020-12-19,Crystal Palace,Liverpool,A,PL_2020-2021,-1
+2020-12-19,Southampton,Man City,A,PL_2020-2021,-1
 2020-12-20,Brighton,Sheffield United,D,PL_2020-2021,1
-2020-12-20,Tottenham,Leicester,A,PL_2020-2021,2
+2020-12-20,Tottenham,Leicester,A,PL_2020-2021,-1
 2020-12-20,Man United,Leeds,H,PL_2020-2021,0
-2020-12-20,West Brom,Aston Villa,A,PL_2020-2021,2
+2020-12-20,West Brom,Aston Villa,A,PL_2020-2021,-1
 2020-12-21,Burnley,Wolves,H,PL_2020-2021,0
 2020-12-21,Chelsea,West Ham,H,PL_2020-2021,0
 2020-12-26,Man City,Newcastle,H,PL_2020-2021,0
@@ -901,7 +901,7 @@ date,home_team,away_team,result,season,result_code
 2020-12-26,Aston Villa,Crystal Palace,H,PL_2020-2021,0
 2020-12-26,Fulham,Southampton,D,PL_2020-2021,1
 2020-12-26,Arsenal,Chelsea,H,PL_2020-2021,0
-2020-12-26,Sheffield United,Everton,A,PL_2020-2021,2
+2020-12-26,Sheffield United,Everton,A,PL_2020-2021,-1
 2020-12-27,Wolves,Tottenham,D,PL_2020-2021,1
 2020-12-27,Liverpool,West Brom,D,PL_2020-2021,1
 2020-12-27,Leeds,Burnley,H,PL_2020-2021,0
@@ -909,164 +909,164 @@ date,home_team,away_team,result,season,result_code
 2020-12-28,Crystal Palace,Leicester,D,PL_2020-2021,1
 2020-12-28,Chelsea,Aston Villa,D,PL_2020-2021,1
 2020-12-29,Man United,Wolves,H,PL_2020-2021,0
-2020-12-29,Brighton,Arsenal,A,PL_2020-2021,2
+2020-12-29,Brighton,Arsenal,A,PL_2020-2021,-1
 2020-12-29,Burnley,Sheffield United,H,PL_2020-2021,0
 2020-12-29,Southampton,West Ham,D,PL_2020-2021,1
-2020-12-29,West Brom,Leeds,A,PL_2020-2021,2
+2020-12-29,West Brom,Leeds,A,PL_2020-2021,-1
 2020-12-30,Newcastle,Liverpool,D,PL_2020-2021,1
 2021-01-01,Man United,Aston Villa,H,PL_2020-2021,0
-2021-01-01,Everton,West Ham,A,PL_2020-2021,2
-2021-01-02,West Brom,Arsenal,A,PL_2020-2021,2
+2021-01-01,Everton,West Ham,A,PL_2020-2021,-1
+2021-01-02,West Brom,Arsenal,A,PL_2020-2021,-1
 2021-01-02,Brighton,Wolves,D,PL_2020-2021,1
 2021-01-02,Tottenham,Leeds,H,PL_2020-2021,0
 2021-01-02,Crystal Palace,Sheffield United,H,PL_2020-2021,0
-2021-01-03,Newcastle,Leicester,A,PL_2020-2021,2
-2021-01-03,Chelsea,Man City,A,PL_2020-2021,2
+2021-01-03,Newcastle,Leicester,A,PL_2020-2021,-1
+2021-01-03,Chelsea,Man City,A,PL_2020-2021,-1
 2021-01-04,Southampton,Liverpool,H,PL_2020-2021,0
 2021-01-12,Sheffield United,Newcastle,H,PL_2020-2021,0
-2021-01-12,Burnley,Man United,A,PL_2020-2021,2
-2021-01-12,Wolves,Everton,A,PL_2020-2021,2
+2021-01-12,Burnley,Man United,A,PL_2020-2021,-1
+2021-01-12,Wolves,Everton,A,PL_2020-2021,-1
 2021-01-13,Man City,Brighton,H,PL_2020-2021,0
 2021-01-13,Tottenham,Fulham,D,PL_2020-2021,1
 2021-01-14,Arsenal,Crystal Palace,D,PL_2020-2021,1
-2021-01-16,Leeds,Brighton,A,PL_2020-2021,2
+2021-01-16,Leeds,Brighton,A,PL_2020-2021,-1
 2021-01-16,Leicester,Southampton,H,PL_2020-2021,0
-2021-01-16,Fulham,Chelsea,A,PL_2020-2021,2
-2021-01-16,Wolves,West Brom,A,PL_2020-2021,2
+2021-01-16,Fulham,Chelsea,A,PL_2020-2021,-1
+2021-01-16,Wolves,West Brom,A,PL_2020-2021,-1
 2021-01-16,West Ham,Burnley,H,PL_2020-2021,0
-2021-01-17,Sheffield United,Tottenham,A,PL_2020-2021,2
+2021-01-17,Sheffield United,Tottenham,A,PL_2020-2021,-1
 2021-01-17,Liverpool,Man United,D,PL_2020-2021,1
 2021-01-17,Man City,Crystal Palace,H,PL_2020-2021,0
 2021-01-18,Arsenal,Newcastle,H,PL_2020-2021,0
 2021-01-19,West Ham,West Brom,H,PL_2020-2021,0
 2021-01-19,Leicester,Chelsea,H,PL_2020-2021,0
-2021-01-20,Fulham,Man United,A,PL_2020-2021,2
+2021-01-20,Fulham,Man United,A,PL_2020-2021,-1
 2021-01-20,Man City,Aston Villa,H,PL_2020-2021,0
-2021-01-21,Liverpool,Burnley,A,PL_2020-2021,2
+2021-01-21,Liverpool,Burnley,A,PL_2020-2021,-1
 2021-01-23,Aston Villa,Newcastle,H,PL_2020-2021,0
-2021-01-26,Newcastle,Leeds,A,PL_2020-2021,2
-2021-01-26,Southampton,Arsenal,A,PL_2020-2021,2
-2021-01-26,Crystal Palace,West Ham,A,PL_2020-2021,2
-2021-01-26,West Brom,Man City,A,PL_2020-2021,2
-2021-01-27,Man United,Sheffield United,A,PL_2020-2021,2
+2021-01-26,Newcastle,Leeds,A,PL_2020-2021,-1
+2021-01-26,Southampton,Arsenal,A,PL_2020-2021,-1
+2021-01-26,Crystal Palace,West Ham,A,PL_2020-2021,-1
+2021-01-26,West Brom,Man City,A,PL_2020-2021,-1
+2021-01-27,Man United,Sheffield United,A,PL_2020-2021,-1
 2021-01-27,Everton,Leicester,D,PL_2020-2021,1
 2021-01-27,Burnley,Aston Villa,H,PL_2020-2021,0
 2021-01-27,Chelsea,Wolves,D,PL_2020-2021,1
 2021-01-27,Brighton,Fulham,D,PL_2020-2021,1
-2021-01-28,Tottenham,Liverpool,A,PL_2020-2021,2
-2021-01-30,Everton,Newcastle,A,PL_2020-2021,2
+2021-01-28,Tottenham,Liverpool,A,PL_2020-2021,-1
+2021-01-30,Everton,Newcastle,A,PL_2020-2021,-1
 2021-01-30,Crystal Palace,Wolves,H,PL_2020-2021,0
 2021-01-30,Man City,Sheffield United,H,PL_2020-2021,0
 2021-01-30,West Brom,Fulham,D,PL_2020-2021,1
 2021-01-30,Arsenal,Man United,D,PL_2020-2021,1
-2021-01-30,Southampton,Aston Villa,A,PL_2020-2021,2
+2021-01-30,Southampton,Aston Villa,A,PL_2020-2021,-1
 2021-01-31,Chelsea,Burnley,H,PL_2020-2021,0
-2021-01-31,Leicester,Leeds,A,PL_2020-2021,2
-2021-01-31,West Ham,Liverpool,A,PL_2020-2021,2
+2021-01-31,Leicester,Leeds,A,PL_2020-2021,-1
+2021-01-31,West Ham,Liverpool,A,PL_2020-2021,-1
 2021-01-31,Brighton,Tottenham,H,PL_2020-2021,0
-2021-02-02,Newcastle,Crystal Palace,A,PL_2020-2021,2
+2021-02-02,Newcastle,Crystal Palace,A,PL_2020-2021,-1
 2021-02-02,Man United,Southampton,H,PL_2020-2021,0
 2021-02-02,Wolves,Arsenal,H,PL_2020-2021,0
 2021-02-02,Sheffield United,West Brom,H,PL_2020-2021,0
-2021-02-03,Burnley,Man City,A,PL_2020-2021,2
-2021-02-03,Fulham,Leicester,A,PL_2020-2021,2
-2021-02-03,Leeds,Everton,A,PL_2020-2021,2
-2021-02-03,Aston Villa,West Ham,A,PL_2020-2021,2
-2021-02-03,Liverpool,Brighton,A,PL_2020-2021,2
-2021-02-04,Tottenham,Chelsea,A,PL_2020-2021,2
+2021-02-03,Burnley,Man City,A,PL_2020-2021,-1
+2021-02-03,Fulham,Leicester,A,PL_2020-2021,-1
+2021-02-03,Leeds,Everton,A,PL_2020-2021,-1
+2021-02-03,Aston Villa,West Ham,A,PL_2020-2021,-1
+2021-02-03,Liverpool,Brighton,A,PL_2020-2021,-1
+2021-02-04,Tottenham,Chelsea,A,PL_2020-2021,-1
 2021-02-06,Aston Villa,Arsenal,H,PL_2020-2021,0
 2021-02-06,Burnley,Brighton,D,PL_2020-2021,1
 2021-02-06,Newcastle,Southampton,H,PL_2020-2021,0
 2021-02-06,Fulham,West Ham,D,PL_2020-2021,1
 2021-02-06,Man United,Everton,D,PL_2020-2021,1
-2021-02-07,Sheffield United,Chelsea,A,PL_2020-2021,2
-2021-02-07,Liverpool,Man City,A,PL_2020-2021,2
+2021-02-07,Sheffield United,Chelsea,A,PL_2020-2021,-1
+2021-02-07,Liverpool,Man City,A,PL_2020-2021,-1
 2021-02-07,Tottenham,West Brom,H,PL_2020-2021,0
 2021-02-07,Wolves,Leicester,D,PL_2020-2021,1
 2021-02-08,Leeds,Crystal Palace,H,PL_2020-2021,0
 2021-02-13,Leicester,Liverpool,H,PL_2020-2021,0
-2021-02-13,Crystal Palace,Burnley,A,PL_2020-2021,2
+2021-02-13,Crystal Palace,Burnley,A,PL_2020-2021,-1
 2021-02-13,Man City,Tottenham,H,PL_2020-2021,0
 2021-02-13,Brighton,Aston Villa,D,PL_2020-2021,1
-2021-02-14,Southampton,Wolves,A,PL_2020-2021,2
+2021-02-14,Southampton,Wolves,A,PL_2020-2021,-1
 2021-02-14,West Brom,Man United,D,PL_2020-2021,1
 2021-02-14,Arsenal,Leeds,H,PL_2020-2021,0
-2021-02-14,Everton,Fulham,A,PL_2020-2021,2
+2021-02-14,Everton,Fulham,A,PL_2020-2021,-1
 2021-02-15,West Ham,Sheffield United,H,PL_2020-2021,0
 2021-02-15,Chelsea,Newcastle,H,PL_2020-2021,0
-2021-02-17,Everton,Man City,A,PL_2020-2021,2
+2021-02-17,Everton,Man City,A,PL_2020-2021,-1
 2021-02-17,Burnley,Fulham,D,PL_2020-2021,1
 2021-02-19,Wolves,Leeds,H,PL_2020-2021,0
 2021-02-20,Southampton,Chelsea,D,PL_2020-2021,1
 2021-02-20,Burnley,West Brom,D,PL_2020-2021,1
-2021-02-20,Liverpool,Everton,A,PL_2020-2021,2
+2021-02-20,Liverpool,Everton,A,PL_2020-2021,-1
 2021-02-20,Fulham,Sheffield United,H,PL_2020-2021,0
 2021-02-21,West Ham,Tottenham,H,PL_2020-2021,0
-2021-02-21,Aston Villa,Leicester,A,PL_2020-2021,2
-2021-02-21,Arsenal,Man City,A,PL_2020-2021,2
+2021-02-21,Aston Villa,Leicester,A,PL_2020-2021,-1
+2021-02-21,Arsenal,Man City,A,PL_2020-2021,-1
 2021-02-21,Man United,Newcastle,H,PL_2020-2021,0
-2021-02-22,Brighton,Crystal Palace,A,PL_2020-2021,2
+2021-02-22,Brighton,Crystal Palace,A,PL_2020-2021,-1
 2021-02-23,Leeds,Southampton,H,PL_2020-2021,0
 2021-02-27,Newcastle,Wolves,D,PL_2020-2021,1
-2021-02-27,Leeds,Aston Villa,A,PL_2020-2021,2
+2021-02-27,Leeds,Aston Villa,A,PL_2020-2021,-1
 2021-02-27,West Brom,Brighton,H,PL_2020-2021,0
 2021-02-27,Man City,West Ham,H,PL_2020-2021,0
 2021-02-28,Crystal Palace,Fulham,D,PL_2020-2021,1
-2021-02-28,Leicester,Arsenal,A,PL_2020-2021,2
+2021-02-28,Leicester,Arsenal,A,PL_2020-2021,-1
 2021-02-28,Tottenham,Burnley,H,PL_2020-2021,0
 2021-02-28,Chelsea,Man United,D,PL_2020-2021,1
-2021-02-28,Sheffield United,Liverpool,A,PL_2020-2021,2
+2021-02-28,Sheffield United,Liverpool,A,PL_2020-2021,-1
 2021-03-01,Everton,Southampton,H,PL_2020-2021,0
 2021-03-02,Man City,Wolves,H,PL_2020-2021,0
 2021-03-03,Burnley,Leicester,D,PL_2020-2021,1
 2021-03-03,Sheffield United,Aston Villa,H,PL_2020-2021,0
 2021-03-03,Crystal Palace,Man United,D,PL_2020-2021,1
-2021-03-04,West Brom,Everton,A,PL_2020-2021,2
-2021-03-04,Liverpool,Chelsea,A,PL_2020-2021,2
-2021-03-04,Fulham,Tottenham,A,PL_2020-2021,2
+2021-03-04,West Brom,Everton,A,PL_2020-2021,-1
+2021-03-04,Liverpool,Chelsea,A,PL_2020-2021,-1
+2021-03-04,Fulham,Tottenham,A,PL_2020-2021,-1
 2021-03-06,Burnley,Arsenal,D,PL_2020-2021,1
-2021-03-06,Sheffield United,Southampton,A,PL_2020-2021,2
+2021-03-06,Sheffield United,Southampton,A,PL_2020-2021,-1
 2021-03-06,Aston Villa,Wolves,D,PL_2020-2021,1
-2021-03-06,Brighton,Leicester,A,PL_2020-2021,2
+2021-03-06,Brighton,Leicester,A,PL_2020-2021,-1
 2021-03-07,West Brom,Newcastle,D,PL_2020-2021,1
-2021-03-07,Liverpool,Fulham,A,PL_2020-2021,2
-2021-03-07,Man City,Man United,A,PL_2020-2021,2
+2021-03-07,Liverpool,Fulham,A,PL_2020-2021,-1
+2021-03-07,Man City,Man United,A,PL_2020-2021,-1
 2021-03-07,Tottenham,Crystal Palace,H,PL_2020-2021,0
 2021-03-08,Chelsea,Everton,H,PL_2020-2021,0
 2021-03-08,West Ham,Leeds,H,PL_2020-2021,0
 2021-03-10,Man City,Southampton,H,PL_2020-2021,0
 2021-03-12,Newcastle,Aston Villa,D,PL_2020-2021,1
-2021-03-13,Fulham,Man City,A,PL_2020-2021,2
-2021-03-13,Everton,Burnley,A,PL_2020-2021,2
+2021-03-13,Fulham,Man City,A,PL_2020-2021,-1
+2021-03-13,Everton,Burnley,A,PL_2020-2021,-1
 2021-03-13,Leeds,Chelsea,D,PL_2020-2021,1
 2021-03-13,Crystal Palace,West Brom,H,PL_2020-2021,0
-2021-03-14,Southampton,Brighton,A,PL_2020-2021,2
+2021-03-14,Southampton,Brighton,A,PL_2020-2021,-1
 2021-03-14,Leicester,Sheffield United,H,PL_2020-2021,0
 2021-03-14,Arsenal,Tottenham,H,PL_2020-2021,0
 2021-03-14,Man United,West Ham,H,PL_2020-2021,0
-2021-03-15,Wolves,Liverpool,A,PL_2020-2021,2
-2021-03-19,Fulham,Leeds,A,PL_2020-2021,2
+2021-03-15,Wolves,Liverpool,A,PL_2020-2021,-1
+2021-03-19,Fulham,Leeds,A,PL_2020-2021,-1
 2021-03-20,Brighton,Newcastle,H,PL_2020-2021,0
 2021-03-21,West Ham,Arsenal,D,PL_2020-2021,1
-2021-03-21,Aston Villa,Tottenham,A,PL_2020-2021,2
-2021-04-03,Arsenal,Liverpool,A,PL_2020-2021,2
-2021-04-03,Leicester,Man City,A,PL_2020-2021,2
+2021-03-21,Aston Villa,Tottenham,A,PL_2020-2021,-1
+2021-04-03,Arsenal,Liverpool,A,PL_2020-2021,-1
+2021-04-03,Leicester,Man City,A,PL_2020-2021,-1
 2021-04-03,Leeds,Sheffield United,H,PL_2020-2021,0
-2021-04-03,Chelsea,West Brom,A,PL_2020-2021,2
+2021-04-03,Chelsea,West Brom,A,PL_2020-2021,-1
 2021-04-04,Southampton,Burnley,H,PL_2020-2021,0
 2021-04-04,Newcastle,Tottenham,D,PL_2020-2021,1
 2021-04-04,Aston Villa,Fulham,H,PL_2020-2021,0
 2021-04-04,Man United,Brighton,H,PL_2020-2021,0
 2021-04-05,Everton,Crystal Palace,D,PL_2020-2021,1
-2021-04-05,Wolves,West Ham,A,PL_2020-2021,2
-2021-04-09,Fulham,Wolves,A,PL_2020-2021,2
-2021-04-10,Man City,Leeds,A,PL_2020-2021,2
+2021-04-05,Wolves,West Ham,A,PL_2020-2021,-1
+2021-04-09,Fulham,Wolves,A,PL_2020-2021,-1
+2021-04-10,Man City,Leeds,A,PL_2020-2021,-1
 2021-04-10,Liverpool,Aston Villa,H,PL_2020-2021,0
-2021-04-10,Crystal Palace,Chelsea,A,PL_2020-2021,2
+2021-04-10,Crystal Palace,Chelsea,A,PL_2020-2021,-1
 2021-04-11,West Ham,Leicester,H,PL_2020-2021,0
-2021-04-11,Tottenham,Man United,A,PL_2020-2021,2
-2021-04-11,Burnley,Newcastle,A,PL_2020-2021,2
-2021-04-11,Sheffield United,Arsenal,A,PL_2020-2021,2
+2021-04-11,Tottenham,Man United,A,PL_2020-2021,-1
+2021-04-11,Burnley,Newcastle,A,PL_2020-2021,-1
+2021-04-11,Sheffield United,Arsenal,A,PL_2020-2021,-1
 2021-04-12,Brighton,Everton,D,PL_2020-2021,1
 2021-04-12,West Brom,Southampton,H,PL_2020-2021,0
 2021-04-16,Everton,Tottenham,D,PL_2020-2021,1
@@ -1077,77 +1077,77 @@ date,home_team,away_team,result,season,result_code
 2021-04-19,Leeds,Liverpool,D,PL_2020-2021,1
 2021-04-20,Chelsea,Brighton,D,PL_2020-2021,1
 2021-04-21,Tottenham,Southampton,H,PL_2020-2021,0
-2021-04-21,Aston Villa,Man City,A,PL_2020-2021,2
+2021-04-21,Aston Villa,Man City,A,PL_2020-2021,-1
 2021-04-22,Leicester,West Brom,H,PL_2020-2021,0
-2021-04-23,Arsenal,Everton,A,PL_2020-2021,2
+2021-04-23,Arsenal,Everton,A,PL_2020-2021,-1
 2021-04-24,Sheffield United,Brighton,H,PL_2020-2021,0
-2021-04-24,West Ham,Chelsea,A,PL_2020-2021,2
+2021-04-24,West Ham,Chelsea,A,PL_2020-2021,-1
 2021-04-24,Liverpool,Newcastle,D,PL_2020-2021,1
-2021-04-25,Wolves,Burnley,A,PL_2020-2021,2
+2021-04-25,Wolves,Burnley,A,PL_2020-2021,-1
 2021-04-25,Leeds,Man United,D,PL_2020-2021,1
 2021-04-25,Aston Villa,West Brom,D,PL_2020-2021,1
 2021-04-26,Leicester,Crystal Palace,H,PL_2020-2021,0
 2021-04-30,Southampton,Leicester,D,PL_2020-2021,1
-2021-05-01,Crystal Palace,Man City,A,PL_2020-2021,2
+2021-05-01,Crystal Palace,Man City,A,PL_2020-2021,-1
 2021-05-01,Brighton,Leeds,H,PL_2020-2021,0
 2021-05-01,Chelsea,Fulham,H,PL_2020-2021,0
-2021-05-01,Everton,Aston Villa,A,PL_2020-2021,2
-2021-05-02,Newcastle,Arsenal,A,PL_2020-2021,2
+2021-05-01,Everton,Aston Villa,A,PL_2020-2021,-1
+2021-05-02,Newcastle,Arsenal,A,PL_2020-2021,-1
 2021-05-02,Tottenham,Sheffield United,H,PL_2020-2021,0
 2021-05-03,West Brom,Wolves,D,PL_2020-2021,1
-2021-05-03,Burnley,West Ham,A,PL_2020-2021,2
-2021-05-07,Leicester,Newcastle,A,PL_2020-2021,2
+2021-05-03,Burnley,West Ham,A,PL_2020-2021,-1
+2021-05-07,Leicester,Newcastle,A,PL_2020-2021,-1
 2021-05-08,Leeds,Tottenham,H,PL_2020-2021,0
-2021-05-08,Sheffield United,Crystal Palace,A,PL_2020-2021,2
-2021-05-08,Man City,Chelsea,A,PL_2020-2021,2
+2021-05-08,Sheffield United,Crystal Palace,A,PL_2020-2021,-1
+2021-05-08,Man City,Chelsea,A,PL_2020-2021,-1
 2021-05-08,Liverpool,Southampton,H,PL_2020-2021,0
 2021-05-09,Wolves,Brighton,H,PL_2020-2021,0
-2021-05-09,Aston Villa,Man United,A,PL_2020-2021,2
-2021-05-09,West Ham,Everton,A,PL_2020-2021,2
+2021-05-09,Aston Villa,Man United,A,PL_2020-2021,-1
+2021-05-09,West Ham,Everton,A,PL_2020-2021,-1
 2021-05-09,Arsenal,West Brom,H,PL_2020-2021,0
-2021-05-10,Fulham,Burnley,A,PL_2020-2021,2
-2021-05-11,Man United,Leicester,A,PL_2020-2021,2
+2021-05-10,Fulham,Burnley,A,PL_2020-2021,-1
+2021-05-11,Man United,Leicester,A,PL_2020-2021,-1
 2021-05-11,Southampton,Crystal Palace,H,PL_2020-2021,0
-2021-05-12,Chelsea,Arsenal,A,PL_2020-2021,2
-2021-05-13,Man United,Liverpool,A,PL_2020-2021,2
+2021-05-12,Chelsea,Arsenal,A,PL_2020-2021,-1
+2021-05-13,Man United,Liverpool,A,PL_2020-2021,-1
 2021-05-13,Aston Villa,Everton,D,PL_2020-2021,1
-2021-05-14,Newcastle,Man City,A,PL_2020-2021,2
-2021-05-15,Burnley,Leeds,A,PL_2020-2021,2
+2021-05-14,Newcastle,Man City,A,PL_2020-2021,-1
+2021-05-15,Burnley,Leeds,A,PL_2020-2021,-1
 2021-05-15,Southampton,Fulham,H,PL_2020-2021,0
 2021-05-15,Brighton,West Ham,D,PL_2020-2021,1
 2021-05-16,Crystal Palace,Aston Villa,H,PL_2020-2021,0
 2021-05-16,Tottenham,Wolves,H,PL_2020-2021,0
-2021-05-16,West Brom,Liverpool,A,PL_2020-2021,2
-2021-05-16,Everton,Sheffield United,A,PL_2020-2021,2
+2021-05-16,West Brom,Liverpool,A,PL_2020-2021,-1
+2021-05-16,Everton,Sheffield United,A,PL_2020-2021,-1
 2021-05-18,Man United,Fulham,D,PL_2020-2021,1
-2021-05-18,Southampton,Leeds,A,PL_2020-2021,2
+2021-05-18,Southampton,Leeds,A,PL_2020-2021,-1
 2021-05-18,Brighton,Man City,H,PL_2020-2021,0
 2021-05-18,Chelsea,Leicester,H,PL_2020-2021,0
-2021-05-19,Burnley,Liverpool,A,PL_2020-2021,2
-2021-05-19,West Brom,West Ham,A,PL_2020-2021,2
-2021-05-19,Crystal Palace,Arsenal,A,PL_2020-2021,2
+2021-05-19,Burnley,Liverpool,A,PL_2020-2021,-1
+2021-05-19,West Brom,West Ham,A,PL_2020-2021,-1
+2021-05-19,Crystal Palace,Arsenal,A,PL_2020-2021,-1
 2021-05-19,Newcastle,Sheffield United,H,PL_2020-2021,0
 2021-05-19,Everton,Wolves,H,PL_2020-2021,0
-2021-05-19,Tottenham,Aston Villa,A,PL_2020-2021,2
-2021-05-23,Wolves,Man United,A,PL_2020-2021,2
+2021-05-19,Tottenham,Aston Villa,A,PL_2020-2021,-1
+2021-05-23,Wolves,Man United,A,PL_2020-2021,-1
 2021-05-23,Sheffield United,Burnley,H,PL_2020-2021,0
 2021-05-23,Man City,Everton,H,PL_2020-2021,0
 2021-05-23,Liverpool,Crystal Palace,H,PL_2020-2021,0
 2021-05-23,West Ham,Southampton,H,PL_2020-2021,0
 2021-05-23,Leeds,West Brom,H,PL_2020-2021,0
-2021-05-23,Fulham,Newcastle,A,PL_2020-2021,2
+2021-05-23,Fulham,Newcastle,A,PL_2020-2021,-1
 2021-05-23,Aston Villa,Chelsea,H,PL_2020-2021,0
 2021-05-23,Arsenal,Brighton,H,PL_2020-2021,0
-2021-05-23,Leicester,Tottenham,A,PL_2020-2021,2
+2021-05-23,Leicester,Tottenham,A,PL_2020-2021,-1
 2021-08-13,Brentford,Arsenal,H,PL_2021-2022,0
 2021-08-14,Man United,Leeds,H,PL_2021-2022,0
-2021-08-14,Burnley,Brighton,A,PL_2021-2022,2
+2021-08-14,Burnley,Brighton,A,PL_2021-2022,-1
 2021-08-14,Chelsea,Crystal Palace,H,PL_2021-2022,0
 2021-08-14,Everton,Southampton,H,PL_2021-2022,0
 2021-08-14,Leicester,Wolves,H,PL_2021-2022,0
 2021-08-14,Watford,Aston Villa,H,PL_2021-2022,0
-2021-08-14,Norwich,Liverpool,A,PL_2021-2022,2
-2021-08-15,Newcastle,West Ham,A,PL_2021-2022,2
+2021-08-14,Norwich,Liverpool,A,PL_2021-2022,-1
+2021-08-15,Newcastle,West Ham,A,PL_2021-2022,-1
 2021-08-15,Tottenham,Man City,H,PL_2021-2022,0
 2021-08-21,Brighton,Watford,H,PL_2021-2022,0
 2021-08-21,Leeds,Everton,D,PL_2021-2022,1
@@ -1156,47 +1156,47 @@ date,home_team,away_team,result,season,result_code
 2021-08-21,Crystal Palace,Brentford,D,PL_2021-2022,1
 2021-08-21,Liverpool,Burnley,H,PL_2021-2022,0
 2021-08-22,Southampton,Man United,D,PL_2021-2022,1
-2021-08-22,Wolves,Tottenham,A,PL_2021-2022,2
-2021-08-22,Arsenal,Chelsea,A,PL_2021-2022,2
+2021-08-22,Wolves,Tottenham,A,PL_2021-2022,-1
+2021-08-22,Arsenal,Chelsea,A,PL_2021-2022,-1
 2021-08-23,West Ham,Leicester,H,PL_2021-2022,0
 2021-08-28,West Ham,Crystal Palace,D,PL_2021-2022,1
-2021-08-28,Norwich,Leicester,A,PL_2021-2022,2
+2021-08-28,Norwich,Leicester,A,PL_2021-2022,-1
 2021-08-28,Newcastle,Southampton,D,PL_2021-2022,1
 2021-08-28,Liverpool,Chelsea,D,PL_2021-2022,1
 2021-08-28,Aston Villa,Brentford,D,PL_2021-2022,1
 2021-08-28,Man City,Arsenal,H,PL_2021-2022,0
-2021-08-28,Brighton,Everton,A,PL_2021-2022,2
+2021-08-28,Brighton,Everton,A,PL_2021-2022,-1
 2021-08-29,Burnley,Leeds,D,PL_2021-2022,1
 2021-08-29,Tottenham,Watford,H,PL_2021-2022,0
-2021-08-29,Wolves,Man United,A,PL_2021-2022,2
+2021-08-29,Wolves,Man United,A,PL_2021-2022,-1
 2021-09-11,Chelsea,Aston Villa,H,PL_2021-2022,0
-2021-09-11,Watford,Wolves,A,PL_2021-2022,2
+2021-09-11,Watford,Wolves,A,PL_2021-2022,-1
 2021-09-11,Southampton,West Ham,D,PL_2021-2022,1
 2021-09-11,Man United,Newcastle,H,PL_2021-2022,0
-2021-09-11,Brentford,Brighton,A,PL_2021-2022,2
+2021-09-11,Brentford,Brighton,A,PL_2021-2022,-1
 2021-09-11,Arsenal,Norwich,H,PL_2021-2022,0
 2021-09-11,Crystal Palace,Tottenham,H,PL_2021-2022,0
-2021-09-11,Leicester,Man City,A,PL_2021-2022,2
-2021-09-12,Leeds,Liverpool,A,PL_2021-2022,2
+2021-09-11,Leicester,Man City,A,PL_2021-2022,-1
+2021-09-12,Leeds,Liverpool,A,PL_2021-2022,-1
 2021-09-13,Everton,Burnley,H,PL_2021-2022,0
 2021-09-17,Newcastle,Leeds,D,PL_2021-2022,1
-2021-09-18,Norwich,Watford,A,PL_2021-2022,2
+2021-09-18,Norwich,Watford,A,PL_2021-2022,-1
 2021-09-18,Man City,Southampton,D,PL_2021-2022,1
 2021-09-18,Aston Villa,Everton,H,PL_2021-2022,0
-2021-09-18,Burnley,Arsenal,A,PL_2021-2022,2
-2021-09-18,Wolves,Brentford,A,PL_2021-2022,2
+2021-09-18,Burnley,Arsenal,A,PL_2021-2022,-1
+2021-09-18,Wolves,Brentford,A,PL_2021-2022,-1
 2021-09-18,Liverpool,Crystal Palace,H,PL_2021-2022,0
-2021-09-19,Tottenham,Chelsea,A,PL_2021-2022,2
-2021-09-19,West Ham,Man United,A,PL_2021-2022,2
+2021-09-19,Tottenham,Chelsea,A,PL_2021-2022,-1
+2021-09-19,West Ham,Man United,A,PL_2021-2022,-1
 2021-09-19,Brighton,Leicester,H,PL_2021-2022,0
-2021-09-25,Chelsea,Man City,A,PL_2021-2022,2
-2021-09-25,Man United,Aston Villa,A,PL_2021-2022,2
+2021-09-25,Chelsea,Man City,A,PL_2021-2022,-1
+2021-09-25,Man United,Aston Villa,A,PL_2021-2022,-1
 2021-09-25,Everton,Norwich,H,PL_2021-2022,0
-2021-09-25,Leeds,West Ham,A,PL_2021-2022,2
+2021-09-25,Leeds,West Ham,A,PL_2021-2022,-1
 2021-09-25,Leicester,Burnley,D,PL_2021-2022,1
 2021-09-25,Watford,Newcastle,D,PL_2021-2022,1
 2021-09-25,Brentford,Liverpool,D,PL_2021-2022,1
-2021-09-26,Southampton,Wolves,A,PL_2021-2022,2
+2021-09-26,Southampton,Wolves,A,PL_2021-2022,-1
 2021-09-26,Arsenal,Tottenham,H,PL_2021-2022,0
 2021-09-27,Crystal Palace,Brighton,D,PL_2021-2022,1
 2021-10-02,Brighton,Arsenal,D,PL_2021-2022,1
@@ -1207,49 +1207,49 @@ date,home_team,away_team,result,season,result_code
 2021-10-02,Man United,Everton,D,PL_2021-2022,1
 2021-10-03,Crystal Palace,Leicester,D,PL_2021-2022,1
 2021-10-03,Tottenham,Aston Villa,H,PL_2021-2022,0
-2021-10-03,West Ham,Brentford,A,PL_2021-2022,2
+2021-10-03,West Ham,Brentford,A,PL_2021-2022,-1
 2021-10-03,Liverpool,Man City,D,PL_2021-2022,1
-2021-10-16,Watford,Liverpool,A,PL_2021-2022,2
-2021-10-16,Aston Villa,Wolves,A,PL_2021-2022,2
+2021-10-16,Watford,Liverpool,A,PL_2021-2022,-1
+2021-10-16,Aston Villa,Wolves,A,PL_2021-2022,-1
 2021-10-16,Leicester,Man United,H,PL_2021-2022,0
 2021-10-16,Man City,Burnley,H,PL_2021-2022,0
 2021-10-16,Norwich,Brighton,D,PL_2021-2022,1
 2021-10-16,Southampton,Leeds,H,PL_2021-2022,0
-2021-10-16,Brentford,Chelsea,A,PL_2021-2022,2
-2021-10-17,Newcastle,Tottenham,A,PL_2021-2022,2
-2021-10-17,Everton,West Ham,A,PL_2021-2022,2
+2021-10-16,Brentford,Chelsea,A,PL_2021-2022,-1
+2021-10-17,Newcastle,Tottenham,A,PL_2021-2022,-1
+2021-10-17,Everton,West Ham,A,PL_2021-2022,-1
 2021-10-18,Arsenal,Crystal Palace,D,PL_2021-2022,1
 2021-10-22,Arsenal,Aston Villa,H,PL_2021-2022,0
 2021-10-23,Chelsea,Norwich,H,PL_2021-2022,0
 2021-10-23,Crystal Palace,Newcastle,D,PL_2021-2022,1
-2021-10-23,Everton,Watford,A,PL_2021-2022,2
+2021-10-23,Everton,Watford,A,PL_2021-2022,-1
 2021-10-23,Leeds,Wolves,D,PL_2021-2022,1
 2021-10-23,Southampton,Burnley,D,PL_2021-2022,1
-2021-10-23,Brighton,Man City,A,PL_2021-2022,2
-2021-10-24,Brentford,Leicester,A,PL_2021-2022,2
+2021-10-23,Brighton,Man City,A,PL_2021-2022,-1
+2021-10-24,Brentford,Leicester,A,PL_2021-2022,-1
 2021-10-24,West Ham,Tottenham,H,PL_2021-2022,0
-2021-10-24,Man United,Liverpool,A,PL_2021-2022,2
+2021-10-24,Man United,Liverpool,A,PL_2021-2022,-1
 2021-10-30,Liverpool,Brighton,D,PL_2021-2022,1
-2021-10-30,Tottenham,Man United,A,PL_2021-2022,2
-2021-10-30,Watford,Southampton,A,PL_2021-2022,2
-2021-10-30,Newcastle,Chelsea,A,PL_2021-2022,2
+2021-10-30,Tottenham,Man United,A,PL_2021-2022,-1
+2021-10-30,Watford,Southampton,A,PL_2021-2022,-1
+2021-10-30,Newcastle,Chelsea,A,PL_2021-2022,-1
 2021-10-30,Burnley,Brentford,H,PL_2021-2022,0
-2021-10-30,Leicester,Arsenal,A,PL_2021-2022,2
-2021-10-30,Man City,Crystal Palace,A,PL_2021-2022,2
-2021-10-31,Norwich,Leeds,A,PL_2021-2022,2
-2021-10-31,Aston Villa,West Ham,A,PL_2021-2022,2
+2021-10-30,Leicester,Arsenal,A,PL_2021-2022,-1
+2021-10-30,Man City,Crystal Palace,A,PL_2021-2022,-1
+2021-10-31,Norwich,Leeds,A,PL_2021-2022,-1
+2021-10-31,Aston Villa,West Ham,A,PL_2021-2022,-1
 2021-11-01,Wolves,Everton,H,PL_2021-2022,0
 2021-11-05,Southampton,Aston Villa,H,PL_2021-2022,0
 2021-11-06,Crystal Palace,Wolves,H,PL_2021-2022,0
-2021-11-06,Man United,Man City,A,PL_2021-2022,2
-2021-11-06,Brentford,Norwich,A,PL_2021-2022,2
+2021-11-06,Man United,Man City,A,PL_2021-2022,-1
+2021-11-06,Brentford,Norwich,A,PL_2021-2022,-1
 2021-11-06,Chelsea,Burnley,D,PL_2021-2022,1
 2021-11-06,Brighton,Newcastle,D,PL_2021-2022,1
 2021-11-07,West Ham,Liverpool,H,PL_2021-2022,0
 2021-11-07,Leeds,Leicester,D,PL_2021-2022,1
 2021-11-07,Everton,Tottenham,D,PL_2021-2022,1
 2021-11-07,Arsenal,Watford,H,PL_2021-2022,0
-2021-11-20,Leicester,Chelsea,A,PL_2021-2022,2
+2021-11-20,Leicester,Chelsea,A,PL_2021-2022,-1
 2021-11-20,Aston Villa,Brighton,H,PL_2021-2022,0
 2021-11-20,Burnley,Crystal Palace,D,PL_2021-2022,1
 2021-11-20,Newcastle,Brentford,D,PL_2021-2022,1
@@ -1263,33 +1263,33 @@ date,home_team,away_team,result,season,result_code
 2021-11-27,Liverpool,Southampton,H,PL_2021-2022,0
 2021-11-27,Norwich,Wolves,D,PL_2021-2022,1
 2021-11-27,Arsenal,Newcastle,H,PL_2021-2022,0
-2021-11-27,Crystal Palace,Aston Villa,A,PL_2021-2022,2
+2021-11-27,Crystal Palace,Aston Villa,A,PL_2021-2022,-1
 2021-11-28,Brentford,Everton,H,PL_2021-2022,0
 2021-11-28,Leicester,Watford,H,PL_2021-2022,0
 2021-11-28,Man City,West Ham,H,PL_2021-2022,0
 2021-11-28,Chelsea,Man United,D,PL_2021-2022,1
 2021-11-30,Newcastle,Norwich,D,PL_2021-2022,1
 2021-11-30,Leeds,Crystal Palace,H,PL_2021-2022,0
-2021-12-01,Everton,Liverpool,A,PL_2021-2022,2
+2021-12-01,Everton,Liverpool,A,PL_2021-2022,-1
 2021-12-01,Southampton,Leicester,D,PL_2021-2022,1
-2021-12-01,Watford,Chelsea,A,PL_2021-2022,2
+2021-12-01,Watford,Chelsea,A,PL_2021-2022,-1
 2021-12-01,West Ham,Brighton,D,PL_2021-2022,1
 2021-12-01,Wolves,Burnley,D,PL_2021-2022,1
-2021-12-01,Aston Villa,Man City,A,PL_2021-2022,2
+2021-12-01,Aston Villa,Man City,A,PL_2021-2022,-1
 2021-12-02,Man United,Arsenal,H,PL_2021-2022,0
 2021-12-02,Tottenham,Brentford,H,PL_2021-2022,0
 2021-12-04,West Ham,Chelsea,H,PL_2021-2022,0
 2021-12-04,Newcastle,Burnley,H,PL_2021-2022,0
 2021-12-04,Southampton,Brighton,D,PL_2021-2022,1
-2021-12-04,Wolves,Liverpool,A,PL_2021-2022,2
-2021-12-04,Watford,Man City,A,PL_2021-2022,2
+2021-12-04,Wolves,Liverpool,A,PL_2021-2022,-1
+2021-12-04,Watford,Man City,A,PL_2021-2022,-1
 2021-12-05,Leeds,Brentford,D,PL_2021-2022,1
 2021-12-05,Man United,Crystal Palace,H,PL_2021-2022,0
 2021-12-05,Tottenham,Norwich,H,PL_2021-2022,0
 2021-12-05,Aston Villa,Leicester,H,PL_2021-2022,0
 2021-12-06,Everton,Arsenal,H,PL_2021-2022,0
 2021-12-10,Brentford,Watford,H,PL_2021-2022,0
-2021-12-11,Norwich,Man United,A,PL_2021-2022,2
+2021-12-11,Norwich,Man United,A,PL_2021-2022,-1
 2021-12-11,Liverpool,Aston Villa,H,PL_2021-2022,0
 2021-12-11,Chelsea,Leeds,H,PL_2021-2022,0
 2021-12-11,Arsenal,Southampton,H,PL_2021-2022,0
@@ -1297,39 +1297,39 @@ date,home_team,away_team,result,season,result_code
 2021-12-12,Burnley,West Ham,D,PL_2021-2022,1
 2021-12-12,Leicester,Newcastle,H,PL_2021-2022,0
 2021-12-12,Crystal Palace,Everton,H,PL_2021-2022,0
-2021-12-14,Norwich,Aston Villa,A,PL_2021-2022,2
+2021-12-14,Norwich,Aston Villa,A,PL_2021-2022,-1
 2021-12-14,Man City,Leeds,H,PL_2021-2022,0
-2021-12-15,Brighton,Wolves,A,PL_2021-2022,2
+2021-12-15,Brighton,Wolves,A,PL_2021-2022,-1
 2021-12-15,Crystal Palace,Southampton,D,PL_2021-2022,1
 2021-12-15,Arsenal,West Ham,H,PL_2021-2022,0
 2021-12-16,Chelsea,Everton,D,PL_2021-2022,1
 2021-12-16,Liverpool,Newcastle,H,PL_2021-2022,0
-2021-12-18,Leeds,Arsenal,A,PL_2021-2022,2
+2021-12-18,Leeds,Arsenal,A,PL_2021-2022,-1
 2021-12-19,Tottenham,Liverpool,D,PL_2021-2022,1
-2021-12-19,Newcastle,Man City,A,PL_2021-2022,2
+2021-12-19,Newcastle,Man City,A,PL_2021-2022,-1
 2021-12-19,Wolves,Chelsea,D,PL_2021-2022,1
 2021-12-26,Man City,Leicester,H,PL_2021-2022,0
-2021-12-26,Norwich,Arsenal,A,PL_2021-2022,2
+2021-12-26,Norwich,Arsenal,A,PL_2021-2022,-1
 2021-12-26,Tottenham,Crystal Palace,H,PL_2021-2022,0
-2021-12-26,West Ham,Southampton,A,PL_2021-2022,2
-2021-12-26,Aston Villa,Chelsea,A,PL_2021-2022,2
+2021-12-26,West Ham,Southampton,A,PL_2021-2022,-1
+2021-12-26,Aston Villa,Chelsea,A,PL_2021-2022,-1
 2021-12-26,Brighton,Brentford,H,PL_2021-2022,0
 2021-12-27,Newcastle,Man United,D,PL_2021-2022,1
 2021-12-28,Crystal Palace,Norwich,H,PL_2021-2022,0
 2021-12-28,Southampton,Tottenham,D,PL_2021-2022,1
-2021-12-28,Watford,West Ham,A,PL_2021-2022,2
+2021-12-28,Watford,West Ham,A,PL_2021-2022,-1
 2021-12-28,Leicester,Liverpool,H,PL_2021-2022,0
-2021-12-29,Brentford,Man City,A,PL_2021-2022,2
+2021-12-29,Brentford,Man City,A,PL_2021-2022,-1
 2021-12-29,Chelsea,Brighton,D,PL_2021-2022,1
 2021-12-30,Man United,Burnley,H,PL_2021-2022,0
-2022-01-01,Arsenal,Man City,A,PL_2021-2022,2
-2022-01-01,Watford,Tottenham,A,PL_2021-2022,2
-2022-01-01,Crystal Palace,West Ham,A,PL_2021-2022,2
+2022-01-01,Arsenal,Man City,A,PL_2021-2022,-1
+2022-01-01,Watford,Tottenham,A,PL_2021-2022,-1
+2022-01-01,Crystal Palace,West Ham,A,PL_2021-2022,-1
 2022-01-02,Brentford,Aston Villa,H,PL_2021-2022,0
-2022-01-02,Everton,Brighton,A,PL_2021-2022,2
+2022-01-02,Everton,Brighton,A,PL_2021-2022,-1
 2022-01-02,Leeds,Burnley,H,PL_2021-2022,0
 2022-01-02,Chelsea,Liverpool,D,PL_2021-2022,1
-2022-01-03,Man United,Wolves,A,PL_2021-2022,2
+2022-01-03,Man United,Wolves,A,PL_2021-2022,-1
 2022-01-11,Southampton,Brentford,H,PL_2021-2022,0
 2022-01-12,West Ham,Norwich,H,PL_2021-2022,0
 2022-01-14,Brighton,Crystal Palace,D,PL_2021-2022,1
@@ -1339,17 +1339,17 @@ date,home_team,away_team,result,season,result_code
 2022-01-15,Man City,Chelsea,H,PL_2021-2022,0
 2022-01-15,Newcastle,Watford,D,PL_2021-2022,1
 2022-01-16,Liverpool,Brentford,H,PL_2021-2022,0
-2022-01-16,West Ham,Leeds,A,PL_2021-2022,2
+2022-01-16,West Ham,Leeds,A,PL_2021-2022,-1
 2022-01-18,Brighton,Chelsea,D,PL_2021-2022,1
-2022-01-19,Leicester,Tottenham,A,PL_2021-2022,2
-2022-01-19,Brentford,Man United,A,PL_2021-2022,2
-2022-01-21,Watford,Norwich,A,PL_2021-2022,2
-2022-01-22,Everton,Aston Villa,A,PL_2021-2022,2
-2022-01-22,Brentford,Wolves,A,PL_2021-2022,2
-2022-01-22,Leeds,Newcastle,A,PL_2021-2022,2
+2022-01-19,Leicester,Tottenham,A,PL_2021-2022,-1
+2022-01-19,Brentford,Man United,A,PL_2021-2022,-1
+2022-01-21,Watford,Norwich,A,PL_2021-2022,-1
+2022-01-22,Everton,Aston Villa,A,PL_2021-2022,-1
+2022-01-22,Brentford,Wolves,A,PL_2021-2022,-1
+2022-01-22,Leeds,Newcastle,A,PL_2021-2022,-1
 2022-01-22,Man United,West Ham,H,PL_2021-2022,0
 2022-01-22,Southampton,Man City,D,PL_2021-2022,1
-2022-01-23,Crystal Palace,Liverpool,A,PL_2021-2022,2
+2022-01-23,Crystal Palace,Liverpool,A,PL_2021-2022,-1
 2022-01-23,Chelsea,Tottenham,H,PL_2021-2022,0
 2022-01-23,Arsenal,Burnley,D,PL_2021-2022,1
 2022-01-23,Leicester,Brighton,D,PL_2021-2022,1
@@ -1359,78 +1359,78 @@ date,home_team,away_team,result,season,result_code
 2022-02-08,Burnley,Man United,D,PL_2021-2022,1
 2022-02-09,Man City,Brentford,H,PL_2021-2022,0
 2022-02-09,Norwich,Crystal Palace,D,PL_2021-2022,1
-2022-02-09,Tottenham,Southampton,A,PL_2021-2022,2
+2022-02-09,Tottenham,Southampton,A,PL_2021-2022,-1
 2022-02-09,Aston Villa,Leeds,D,PL_2021-2022,1
 2022-02-10,Liverpool,Leicester,H,PL_2021-2022,0
-2022-02-10,Wolves,Arsenal,A,PL_2021-2022,2
-2022-02-12,Watford,Brighton,A,PL_2021-2022,2
-2022-02-12,Norwich,Man City,A,PL_2021-2022,2
+2022-02-10,Wolves,Arsenal,A,PL_2021-2022,-1
+2022-02-12,Watford,Brighton,A,PL_2021-2022,-1
+2022-02-12,Norwich,Man City,A,PL_2021-2022,-1
 2022-02-12,Everton,Leeds,H,PL_2021-2022,0
 2022-02-12,Brentford,Crystal Palace,D,PL_2021-2022,1
 2022-02-12,Man United,Southampton,D,PL_2021-2022,1
-2022-02-13,Burnley,Liverpool,A,PL_2021-2022,2
+2022-02-13,Burnley,Liverpool,A,PL_2021-2022,-1
 2022-02-13,Newcastle,Aston Villa,H,PL_2021-2022,0
-2022-02-13,Tottenham,Wolves,A,PL_2021-2022,2
+2022-02-13,Tottenham,Wolves,A,PL_2021-2022,-1
 2022-02-13,Leicester,West Ham,D,PL_2021-2022,1
 2022-02-15,Man United,Brighton,H,PL_2021-2022,0
 2022-02-19,Southampton,Everton,H,PL_2021-2022,0
 2022-02-19,Liverpool,Norwich,H,PL_2021-2022,0
-2022-02-19,Crystal Palace,Chelsea,A,PL_2021-2022,2
-2022-02-19,Man City,Tottenham,A,PL_2021-2022,2
-2022-02-19,Aston Villa,Watford,A,PL_2021-2022,2
+2022-02-19,Crystal Palace,Chelsea,A,PL_2021-2022,-1
+2022-02-19,Man City,Tottenham,A,PL_2021-2022,-1
+2022-02-19,Aston Villa,Watford,A,PL_2021-2022,-1
 2022-02-19,Arsenal,Brentford,H,PL_2021-2022,0
 2022-02-19,West Ham,Newcastle,D,PL_2021-2022,1
-2022-02-19,Brighton,Burnley,A,PL_2021-2022,2
-2022-02-20,Leeds,Man United,A,PL_2021-2022,2
+2022-02-19,Brighton,Burnley,A,PL_2021-2022,-1
+2022-02-20,Leeds,Man United,A,PL_2021-2022,-1
 2022-02-20,Wolves,Leicester,H,PL_2021-2022,0
-2022-02-23,Watford,Crystal Palace,A,PL_2021-2022,2
+2022-02-23,Watford,Crystal Palace,A,PL_2021-2022,-1
 2022-02-23,Liverpool,Leeds,H,PL_2021-2022,0
 2022-02-23,Burnley,Tottenham,H,PL_2021-2022,0
 2022-02-24,Arsenal,Wolves,H,PL_2021-2022,0
 2022-02-25,Southampton,Norwich,H,PL_2021-2022,0
-2022-02-26,Brighton,Aston Villa,A,PL_2021-2022,2
-2022-02-26,Leeds,Tottenham,A,PL_2021-2022,2
-2022-02-26,Brentford,Newcastle,A,PL_2021-2022,2
+2022-02-26,Brighton,Aston Villa,A,PL_2021-2022,-1
+2022-02-26,Leeds,Tottenham,A,PL_2021-2022,-1
+2022-02-26,Brentford,Newcastle,A,PL_2021-2022,-1
 2022-02-26,Crystal Palace,Burnley,D,PL_2021-2022,1
 2022-02-26,Man United,Watford,D,PL_2021-2022,1
-2022-02-26,Everton,Man City,A,PL_2021-2022,2
+2022-02-26,Everton,Man City,A,PL_2021-2022,-1
 2022-02-27,West Ham,Wolves,H,PL_2021-2022,0
-2022-03-01,Burnley,Leicester,A,PL_2021-2022,2
+2022-03-01,Burnley,Leicester,A,PL_2021-2022,-1
 2022-03-05,Leicester,Leeds,H,PL_2021-2022,0
 2022-03-05,Aston Villa,Southampton,H,PL_2021-2022,0
-2022-03-05,Burnley,Chelsea,A,PL_2021-2022,2
+2022-03-05,Burnley,Chelsea,A,PL_2021-2022,-1
 2022-03-05,Newcastle,Brighton,H,PL_2021-2022,0
-2022-03-05,Norwich,Brentford,A,PL_2021-2022,2
-2022-03-05,Wolves,Crystal Palace,A,PL_2021-2022,2
+2022-03-05,Norwich,Brentford,A,PL_2021-2022,-1
+2022-03-05,Wolves,Crystal Palace,A,PL_2021-2022,-1
 2022-03-05,Liverpool,West Ham,H,PL_2021-2022,0
-2022-03-06,Watford,Arsenal,A,PL_2021-2022,2
+2022-03-06,Watford,Arsenal,A,PL_2021-2022,-1
 2022-03-06,Man City,Man United,H,PL_2021-2022,0
 2022-03-07,Tottenham,Everton,H,PL_2021-2022,0
-2022-03-10,Leeds,Aston Villa,A,PL_2021-2022,2
+2022-03-10,Leeds,Aston Villa,A,PL_2021-2022,-1
 2022-03-10,Wolves,Watford,H,PL_2021-2022,0
-2022-03-10,Norwich,Chelsea,A,PL_2021-2022,2
-2022-03-10,Southampton,Newcastle,A,PL_2021-2022,2
-2022-03-12,Brighton,Liverpool,A,PL_2021-2022,2
+2022-03-10,Norwich,Chelsea,A,PL_2021-2022,-1
+2022-03-10,Southampton,Newcastle,A,PL_2021-2022,-1
+2022-03-12,Brighton,Liverpool,A,PL_2021-2022,-1
 2022-03-12,Brentford,Burnley,H,PL_2021-2022,0
 2022-03-12,Man United,Tottenham,H,PL_2021-2022,0
 2022-03-13,Chelsea,Newcastle,H,PL_2021-2022,0
-2022-03-13,Everton,Wolves,A,PL_2021-2022,2
+2022-03-13,Everton,Wolves,A,PL_2021-2022,-1
 2022-03-13,Leeds,Norwich,H,PL_2021-2022,0
-2022-03-13,Southampton,Watford,A,PL_2021-2022,2
+2022-03-13,Southampton,Watford,A,PL_2021-2022,-1
 2022-03-13,West Ham,Aston Villa,H,PL_2021-2022,0
 2022-03-13,Arsenal,Leicester,H,PL_2021-2022,0
 2022-03-14,Crystal Palace,Man City,D,PL_2021-2022,1
-2022-03-16,Brighton,Tottenham,A,PL_2021-2022,2
-2022-03-16,Arsenal,Liverpool,A,PL_2021-2022,2
+2022-03-16,Brighton,Tottenham,A,PL_2021-2022,-1
+2022-03-16,Arsenal,Liverpool,A,PL_2021-2022,-1
 2022-03-17,Everton,Newcastle,H,PL_2021-2022,0
-2022-03-18,Wolves,Leeds,A,PL_2021-2022,2
-2022-03-19,Aston Villa,Arsenal,A,PL_2021-2022,2
+2022-03-18,Wolves,Leeds,A,PL_2021-2022,-1
+2022-03-19,Aston Villa,Arsenal,A,PL_2021-2022,-1
 2022-03-20,Leicester,Brentford,H,PL_2021-2022,0
 2022-03-20,Tottenham,West Ham,H,PL_2021-2022,0
 2022-04-02,Liverpool,Watford,H,PL_2021-2022,0
 2022-04-02,Brighton,Norwich,D,PL_2021-2022,1
-2022-04-02,Burnley,Man City,A,PL_2021-2022,2
-2022-04-02,Chelsea,Brentford,A,PL_2021-2022,2
+2022-04-02,Burnley,Man City,A,PL_2021-2022,-1
+2022-04-02,Chelsea,Brentford,A,PL_2021-2022,-1
 2022-04-02,Leeds,Southampton,D,PL_2021-2022,1
 2022-04-02,Wolves,Aston Villa,H,PL_2021-2022,0
 2022-04-02,Man United,Leicester,D,PL_2021-2022,1
@@ -1439,23 +1439,23 @@ date,home_team,away_team,result,season,result_code
 2022-04-04,Crystal Palace,Arsenal,H,PL_2021-2022,0
 2022-04-06,Burnley,Everton,H,PL_2021-2022,0
 2022-04-08,Newcastle,Wolves,H,PL_2021-2022,0
-2022-04-09,Aston Villa,Tottenham,A,PL_2021-2022,2
-2022-04-09,Watford,Leeds,A,PL_2021-2022,2
+2022-04-09,Aston Villa,Tottenham,A,PL_2021-2022,-1
+2022-04-09,Watford,Leeds,A,PL_2021-2022,-1
 2022-04-09,Everton,Man United,H,PL_2021-2022,0
-2022-04-09,Arsenal,Brighton,A,PL_2021-2022,2
-2022-04-09,Southampton,Chelsea,A,PL_2021-2022,2
+2022-04-09,Arsenal,Brighton,A,PL_2021-2022,-1
+2022-04-09,Southampton,Chelsea,A,PL_2021-2022,-1
 2022-04-10,Brentford,West Ham,H,PL_2021-2022,0
 2022-04-10,Leicester,Crystal Palace,H,PL_2021-2022,0
 2022-04-10,Norwich,Burnley,H,PL_2021-2022,0
 2022-04-10,Man City,Liverpool,D,PL_2021-2022,1
-2022-04-16,Tottenham,Brighton,A,PL_2021-2022,2
+2022-04-16,Tottenham,Brighton,A,PL_2021-2022,-1
 2022-04-16,Man United,Norwich,H,PL_2021-2022,0
 2022-04-16,Southampton,Arsenal,H,PL_2021-2022,0
-2022-04-16,Watford,Brentford,A,PL_2021-2022,2
+2022-04-16,Watford,Brentford,A,PL_2021-2022,-1
 2022-04-17,Newcastle,Leicester,H,PL_2021-2022,0
 2022-04-17,West Ham,Burnley,D,PL_2021-2022,1
 2022-04-19,Liverpool,Man United,H,PL_2021-2022,0
-2022-04-20,Chelsea,Arsenal,A,PL_2021-2022,2
+2022-04-20,Chelsea,Arsenal,A,PL_2021-2022,-1
 2022-04-20,Everton,Leicester,D,PL_2021-2022,1
 2022-04-20,Newcastle,Crystal Palace,H,PL_2021-2022,0
 2022-04-20,Man City,Brighton,H,PL_2021-2022,0
@@ -1463,7 +1463,7 @@ date,home_team,away_team,result,season,result_code
 2022-04-23,Arsenal,Man United,H,PL_2021-2022,0
 2022-04-23,Leicester,Aston Villa,D,PL_2021-2022,1
 2022-04-23,Man City,Watford,H,PL_2021-2022,0
-2022-04-23,Norwich,Newcastle,A,PL_2021-2022,2
+2022-04-23,Norwich,Newcastle,A,PL_2021-2022,-1
 2022-04-23,Brentford,Tottenham,D,PL_2021-2022,1
 2022-04-24,Brighton,Southampton,D,PL_2021-2022,1
 2022-04-24,Burnley,Wolves,H,PL_2021-2022,0
@@ -1471,63 +1471,63 @@ date,home_team,away_team,result,season,result_code
 2022-04-24,Liverpool,Everton,H,PL_2021-2022,0
 2022-04-25,Crystal Palace,Leeds,D,PL_2021-2022,1
 2022-04-28,Man United,Chelsea,D,PL_2021-2022,1
-2022-04-30,Newcastle,Liverpool,A,PL_2021-2022,2
+2022-04-30,Newcastle,Liverpool,A,PL_2021-2022,-1
 2022-04-30,Aston Villa,Norwich,H,PL_2021-2022,0
-2022-04-30,Southampton,Crystal Palace,A,PL_2021-2022,2
-2022-04-30,Watford,Burnley,A,PL_2021-2022,2
-2022-04-30,Wolves,Brighton,A,PL_2021-2022,2
-2022-04-30,Leeds,Man City,A,PL_2021-2022,2
+2022-04-30,Southampton,Crystal Palace,A,PL_2021-2022,-1
+2022-04-30,Watford,Burnley,A,PL_2021-2022,-1
+2022-04-30,Wolves,Brighton,A,PL_2021-2022,-1
+2022-04-30,Leeds,Man City,A,PL_2021-2022,-1
 2022-05-01,Everton,Chelsea,H,PL_2021-2022,0
 2022-05-01,Tottenham,Leicester,H,PL_2021-2022,0
-2022-05-01,West Ham,Arsenal,A,PL_2021-2022,2
+2022-05-01,West Ham,Arsenal,A,PL_2021-2022,-1
 2022-05-02,Man United,Brentford,H,PL_2021-2022,0
 2022-05-07,Liverpool,Tottenham,D,PL_2021-2022,1
 2022-05-07,Brighton,Man United,H,PL_2021-2022,0
 2022-05-07,Crystal Palace,Watford,H,PL_2021-2022,0
 2022-05-07,Chelsea,Wolves,D,PL_2021-2022,1
-2022-05-07,Burnley,Aston Villa,A,PL_2021-2022,2
+2022-05-07,Burnley,Aston Villa,A,PL_2021-2022,-1
 2022-05-07,Brentford,Southampton,H,PL_2021-2022,0
 2022-05-08,Arsenal,Leeds,H,PL_2021-2022,0
-2022-05-08,Leicester,Everton,A,PL_2021-2022,2
-2022-05-08,Norwich,West Ham,A,PL_2021-2022,2
+2022-05-08,Leicester,Everton,A,PL_2021-2022,-1
+2022-05-08,Norwich,West Ham,A,PL_2021-2022,-1
 2022-05-08,Man City,Newcastle,H,PL_2021-2022,0
-2022-05-10,Aston Villa,Liverpool,A,PL_2021-2022,2
-2022-05-11,Leeds,Chelsea,A,PL_2021-2022,2
+2022-05-10,Aston Villa,Liverpool,A,PL_2021-2022,-1
+2022-05-11,Leeds,Chelsea,A,PL_2021-2022,-1
 2022-05-11,Leicester,Norwich,H,PL_2021-2022,0
 2022-05-11,Watford,Everton,D,PL_2021-2022,1
-2022-05-11,Wolves,Man City,A,PL_2021-2022,2
+2022-05-11,Wolves,Man City,A,PL_2021-2022,-1
 2022-05-12,Tottenham,Arsenal,H,PL_2021-2022,0
-2022-05-15,Everton,Brentford,A,PL_2021-2022,2
+2022-05-15,Everton,Brentford,A,PL_2021-2022,-1
 2022-05-15,Wolves,Norwich,D,PL_2021-2022,1
 2022-05-15,West Ham,Man City,D,PL_2021-2022,1
 2022-05-15,Leeds,Brighton,D,PL_2021-2022,1
 2022-05-15,Aston Villa,Crystal Palace,D,PL_2021-2022,1
 2022-05-15,Tottenham,Burnley,H,PL_2021-2022,0
-2022-05-15,Watford,Leicester,A,PL_2021-2022,2
+2022-05-15,Watford,Leicester,A,PL_2021-2022,-1
 2022-05-16,Newcastle,Arsenal,H,PL_2021-2022,0
-2022-05-17,Southampton,Liverpool,A,PL_2021-2022,2
+2022-05-17,Southampton,Liverpool,A,PL_2021-2022,-1
 2022-05-19,Everton,Crystal Palace,H,PL_2021-2022,0
 2022-05-19,Aston Villa,Burnley,D,PL_2021-2022,1
 2022-05-19,Chelsea,Leicester,D,PL_2021-2022,1
 2022-05-22,Leicester,Southampton,H,PL_2021-2022,0
-2022-05-22,Norwich,Tottenham,A,PL_2021-2022,2
+2022-05-22,Norwich,Tottenham,A,PL_2021-2022,-1
 2022-05-22,Man City,Aston Villa,H,PL_2021-2022,0
 2022-05-22,Liverpool,Wolves,H,PL_2021-2022,0
 2022-05-22,Crystal Palace,Man United,H,PL_2021-2022,0
 2022-05-22,Chelsea,Watford,H,PL_2021-2022,0
-2022-05-22,Burnley,Newcastle,A,PL_2021-2022,2
+2022-05-22,Burnley,Newcastle,A,PL_2021-2022,-1
 2022-05-22,Brighton,West Ham,H,PL_2021-2022,0
-2022-05-22,Brentford,Leeds,A,PL_2021-2022,2
+2022-05-22,Brentford,Leeds,A,PL_2021-2022,-1
 2022-05-22,Arsenal,Everton,H,PL_2021-2022,0
-2022-08-05,Crystal Palace,Arsenal,A,PL_2022-2023,2
+2022-08-05,Crystal Palace,Arsenal,A,PL_2022-2023,-1
 2022-08-06,Fulham,Liverpool,D,PL_2022-2023,1
 2022-08-06,Bournemouth,Aston Villa,H,PL_2022-2023,0
 2022-08-06,Leeds,Wolves,H,PL_2022-2023,0
 2022-08-06,Newcastle,Nott'm Forest,H,PL_2022-2023,0
 2022-08-06,Tottenham,Southampton,H,PL_2022-2023,0
-2022-08-06,Everton,Chelsea,A,PL_2022-2023,2
-2022-08-07,Man United,Brighton,A,PL_2022-2023,2
-2022-08-07,West Ham,Man City,A,PL_2022-2023,2
+2022-08-06,Everton,Chelsea,A,PL_2022-2023,-1
+2022-08-07,Man United,Brighton,A,PL_2022-2023,-1
+2022-08-07,West Ham,Man City,A,PL_2022-2023,-1
 2022-08-07,Leicester,Brentford,D,PL_2022-2023,1
 2022-08-13,Aston Villa,Everton,H,PL_2022-2023,0
 2022-08-13,Arsenal,Leicester,H,PL_2022-2023,0
@@ -1539,26 +1539,26 @@ date,home_team,away_team,result,season,result_code
 2022-08-14,Nott'm Forest,West Ham,H,PL_2022-2023,0
 2022-08-14,Chelsea,Tottenham,D,PL_2022-2023,1
 2022-08-15,Liverpool,Crystal Palace,D,PL_2022-2023,1
-2022-08-20,Leicester,Southampton,A,PL_2022-2023,2
-2022-08-20,Bournemouth,Arsenal,A,PL_2022-2023,2
+2022-08-20,Leicester,Southampton,A,PL_2022-2023,-1
+2022-08-20,Bournemouth,Arsenal,A,PL_2022-2023,-1
 2022-08-20,Fulham,Brentford,H,PL_2022-2023,0
 2022-08-20,Everton,Nott'm Forest,D,PL_2022-2023,1
 2022-08-20,Crystal Palace,Aston Villa,H,PL_2022-2023,0
 2022-08-20,Tottenham,Wolves,H,PL_2022-2023,0
 2022-08-21,Leeds,Chelsea,H,PL_2022-2023,0
-2022-08-21,West Ham,Brighton,A,PL_2022-2023,2
+2022-08-21,West Ham,Brighton,A,PL_2022-2023,-1
 2022-08-21,Newcastle,Man City,D,PL_2022-2023,1
 2022-08-22,Man United,Liverpool,H,PL_2022-2023,0
-2022-08-27,Southampton,Man United,A,PL_2022-2023,2
+2022-08-27,Southampton,Man United,A,PL_2022-2023,-1
 2022-08-27,Brentford,Everton,D,PL_2022-2023,1
 2022-08-27,Brighton,Leeds,H,PL_2022-2023,0
 2022-08-27,Chelsea,Leicester,H,PL_2022-2023,0
 2022-08-27,Liverpool,Bournemouth,H,PL_2022-2023,0
 2022-08-27,Man City,Crystal Palace,H,PL_2022-2023,0
 2022-08-27,Arsenal,Fulham,H,PL_2022-2023,0
-2022-08-28,Nott'm Forest,Tottenham,A,PL_2022-2023,2
+2022-08-28,Nott'm Forest,Tottenham,A,PL_2022-2023,-1
 2022-08-28,Wolves,Newcastle,D,PL_2022-2023,1
-2022-08-28,Aston Villa,West Ham,A,PL_2022-2023,2
+2022-08-28,Aston Villa,West Ham,A,PL_2022-2023,-1
 2022-08-30,Crystal Palace,Brentford,D,PL_2022-2023,1
 2022-08-30,Fulham,Brighton,H,PL_2022-2023,0
 2022-08-30,Southampton,Chelsea,H,PL_2022-2023,0
@@ -1568,11 +1568,11 @@ date,home_team,away_team,result,season,result_code
 2022-08-31,Man City,Nott'm Forest,H,PL_2022-2023,0
 2022-08-31,West Ham,Tottenham,D,PL_2022-2023,1
 2022-08-31,Liverpool,Newcastle,H,PL_2022-2023,0
-2022-09-01,Leicester,Man United,A,PL_2022-2023,2
+2022-09-01,Leicester,Man United,A,PL_2022-2023,-1
 2022-09-03,Aston Villa,Man City,D,PL_2022-2023,1
 2022-09-03,Wolves,Southampton,H,PL_2022-2023,0
 2022-09-03,Tottenham,Fulham,H,PL_2022-2023,0
-2022-09-03,Nott'm Forest,Bournemouth,A,PL_2022-2023,2
+2022-09-03,Nott'm Forest,Bournemouth,A,PL_2022-2023,-1
 2022-09-03,Brentford,Leeds,H,PL_2022-2023,0
 2022-09-03,Chelsea,West Ham,H,PL_2022-2023,0
 2022-09-03,Newcastle,Crystal Palace,D,PL_2022-2023,1
@@ -1580,31 +1580,31 @@ date,home_team,away_team,result,season,result_code
 2022-09-04,Brighton,Leicester,H,PL_2022-2023,0
 2022-09-04,Man United,Arsenal,H,PL_2022-2023,0
 2022-09-16,Aston Villa,Southampton,H,PL_2022-2023,0
-2022-09-16,Nott'm Forest,Fulham,A,PL_2022-2023,2
-2022-09-17,Wolves,Man City,A,PL_2022-2023,2
+2022-09-16,Nott'm Forest,Fulham,A,PL_2022-2023,-1
+2022-09-17,Wolves,Man City,A,PL_2022-2023,-1
 2022-09-17,Newcastle,Bournemouth,D,PL_2022-2023,1
 2022-09-17,Tottenham,Leicester,H,PL_2022-2023,0
 2022-09-18,Everton,West Ham,H,PL_2022-2023,0
-2022-09-18,Brentford,Arsenal,A,PL_2022-2023,2
+2022-09-18,Brentford,Arsenal,A,PL_2022-2023,-1
 2022-10-01,Arsenal,Tottenham,H,PL_2022-2023,0
 2022-10-01,Bournemouth,Brentford,D,PL_2022-2023,1
-2022-10-01,Crystal Palace,Chelsea,A,PL_2022-2023,2
-2022-10-01,Fulham,Newcastle,A,PL_2022-2023,2
+2022-10-01,Crystal Palace,Chelsea,A,PL_2022-2023,-1
+2022-10-01,Fulham,Newcastle,A,PL_2022-2023,-1
 2022-10-01,Liverpool,Brighton,D,PL_2022-2023,1
-2022-10-01,Southampton,Everton,A,PL_2022-2023,2
+2022-10-01,Southampton,Everton,A,PL_2022-2023,-1
 2022-10-01,West Ham,Wolves,H,PL_2022-2023,0
 2022-10-02,Man City,Man United,H,PL_2022-2023,0
 2022-10-02,Leeds,Aston Villa,D,PL_2022-2023,1
 2022-10-03,Leicester,Nott'm Forest,H,PL_2022-2023,0
 2022-10-08,Newcastle,Brentford,H,PL_2022-2023,0
 2022-10-08,Man City,Southampton,H,PL_2022-2023,0
-2022-10-08,Brighton,Tottenham,A,PL_2022-2023,2
+2022-10-08,Brighton,Tottenham,A,PL_2022-2023,-1
 2022-10-08,Bournemouth,Leicester,H,PL_2022-2023,0
 2022-10-08,Chelsea,Wolves,H,PL_2022-2023,0
 2022-10-09,Crystal Palace,Leeds,H,PL_2022-2023,0
 2022-10-09,West Ham,Fulham,H,PL_2022-2023,0
 2022-10-09,Arsenal,Liverpool,H,PL_2022-2023,0
-2022-10-09,Everton,Man United,A,PL_2022-2023,2
+2022-10-09,Everton,Man United,A,PL_2022-2023,-1
 2022-10-10,Nott'm Forest,Aston Villa,D,PL_2022-2023,1
 2022-10-14,Brentford,Brighton,H,PL_2022-2023,0
 2022-10-15,Leicester,Crystal Palace,D,PL_2022-2023,1
@@ -1613,12 +1613,12 @@ date,home_team,away_team,result,season,result_code
 2022-10-15,Tottenham,Everton,H,PL_2022-2023,0
 2022-10-16,Liverpool,Man City,H,PL_2022-2023,0
 2022-10-16,Southampton,West Ham,D,PL_2022-2023,1
-2022-10-16,Leeds,Arsenal,A,PL_2022-2023,2
-2022-10-16,Aston Villa,Chelsea,A,PL_2022-2023,2
+2022-10-16,Leeds,Arsenal,A,PL_2022-2023,-1
+2022-10-16,Aston Villa,Chelsea,A,PL_2022-2023,-1
 2022-10-16,Man United,Newcastle,D,PL_2022-2023,1
 2022-10-18,Brighton,Nott'm Forest,D,PL_2022-2023,1
 2022-10-18,Crystal Palace,Wolves,H,PL_2022-2023,0
-2022-10-19,Bournemouth,Southampton,A,PL_2022-2023,2
+2022-10-19,Bournemouth,Southampton,A,PL_2022-2023,-1
 2022-10-19,Brentford,Chelsea,D,PL_2022-2023,1
 2022-10-19,Liverpool,West Ham,H,PL_2022-2023,0
 2022-10-19,Newcastle,Everton,H,PL_2022-2023,0
@@ -1630,71 +1630,71 @@ date,home_team,away_team,result,season,result_code
 2022-10-22,Nott'm Forest,Liverpool,H,PL_2022-2023,0
 2022-10-22,Everton,Crystal Palace,H,PL_2022-2023,0
 2022-10-23,Aston Villa,Brentford,H,PL_2022-2023,0
-2022-10-23,Leeds,Fulham,A,PL_2022-2023,2
+2022-10-23,Leeds,Fulham,A,PL_2022-2023,-1
 2022-10-23,Southampton,Arsenal,D,PL_2022-2023,1
-2022-10-23,Wolves,Leicester,A,PL_2022-2023,2
-2022-10-23,Tottenham,Newcastle,A,PL_2022-2023,2
+2022-10-23,Wolves,Leicester,A,PL_2022-2023,-1
+2022-10-23,Tottenham,Newcastle,A,PL_2022-2023,-1
 2022-10-24,West Ham,Bournemouth,H,PL_2022-2023,0
 2022-10-29,Fulham,Everton,D,PL_2022-2023,1
 2022-10-29,Newcastle,Aston Villa,H,PL_2022-2023,0
 2022-10-29,Crystal Palace,Southampton,H,PL_2022-2023,0
-2022-10-29,Liverpool,Leeds,A,PL_2022-2023,2
+2022-10-29,Liverpool,Leeds,A,PL_2022-2023,-1
 2022-10-29,Brentford,Wolves,D,PL_2022-2023,1
-2022-10-29,Bournemouth,Tottenham,A,PL_2022-2023,2
-2022-10-29,Leicester,Man City,A,PL_2022-2023,2
+2022-10-29,Bournemouth,Tottenham,A,PL_2022-2023,-1
+2022-10-29,Leicester,Man City,A,PL_2022-2023,-1
 2022-10-29,Brighton,Chelsea,H,PL_2022-2023,0
 2022-10-30,Arsenal,Nott'm Forest,H,PL_2022-2023,0
 2022-10-30,Man United,West Ham,H,PL_2022-2023,0
-2022-11-05,Everton,Leicester,A,PL_2022-2023,2
+2022-11-05,Everton,Leicester,A,PL_2022-2023,-1
 2022-11-05,Nott'm Forest,Brentford,D,PL_2022-2023,1
-2022-11-05,Wolves,Brighton,A,PL_2022-2023,2
+2022-11-05,Wolves,Brighton,A,PL_2022-2023,-1
 2022-11-05,Leeds,Bournemouth,H,PL_2022-2023,0
 2022-11-05,Man City,Fulham,H,PL_2022-2023,0
-2022-11-06,Chelsea,Arsenal,A,PL_2022-2023,2
+2022-11-06,Chelsea,Arsenal,A,PL_2022-2023,-1
 2022-11-06,Aston Villa,Man United,H,PL_2022-2023,0
-2022-11-06,Southampton,Newcastle,A,PL_2022-2023,2
-2022-11-06,West Ham,Crystal Palace,A,PL_2022-2023,2
-2022-11-06,Tottenham,Liverpool,A,PL_2022-2023,2
-2022-11-12,West Ham,Leicester,A,PL_2022-2023,2
-2022-11-12,Wolves,Arsenal,A,PL_2022-2023,2
+2022-11-06,Southampton,Newcastle,A,PL_2022-2023,-1
+2022-11-06,West Ham,Crystal Palace,A,PL_2022-2023,-1
+2022-11-06,Tottenham,Liverpool,A,PL_2022-2023,-1
+2022-11-12,West Ham,Leicester,A,PL_2022-2023,-1
+2022-11-12,Wolves,Arsenal,A,PL_2022-2023,-1
 2022-11-12,Tottenham,Leeds,H,PL_2022-2023,0
 2022-11-12,Newcastle,Chelsea,H,PL_2022-2023,0
 2022-11-12,Liverpool,Southampton,H,PL_2022-2023,0
-2022-11-12,Man City,Brentford,A,PL_2022-2023,2
+2022-11-12,Man City,Brentford,A,PL_2022-2023,-1
 2022-11-12,Nott'm Forest,Crystal Palace,H,PL_2022-2023,0
 2022-11-12,Bournemouth,Everton,H,PL_2022-2023,0
-2022-11-13,Brighton,Aston Villa,A,PL_2022-2023,2
-2022-11-13,Fulham,Man United,A,PL_2022-2023,2
+2022-11-13,Brighton,Aston Villa,A,PL_2022-2023,-1
+2022-11-13,Fulham,Man United,A,PL_2022-2023,-1
 2022-12-26,Brentford,Tottenham,D,PL_2022-2023,1
-2022-12-26,Crystal Palace,Fulham,A,PL_2022-2023,2
-2022-12-26,Everton,Wolves,A,PL_2022-2023,2
-2022-12-26,Leicester,Newcastle,A,PL_2022-2023,2
-2022-12-26,Southampton,Brighton,A,PL_2022-2023,2
-2022-12-26,Aston Villa,Liverpool,A,PL_2022-2023,2
+2022-12-26,Crystal Palace,Fulham,A,PL_2022-2023,-1
+2022-12-26,Everton,Wolves,A,PL_2022-2023,-1
+2022-12-26,Leicester,Newcastle,A,PL_2022-2023,-1
+2022-12-26,Southampton,Brighton,A,PL_2022-2023,-1
+2022-12-26,Aston Villa,Liverpool,A,PL_2022-2023,-1
 2022-12-26,Arsenal,West Ham,H,PL_2022-2023,0
 2022-12-27,Chelsea,Bournemouth,H,PL_2022-2023,0
 2022-12-27,Man United,Nott'm Forest,H,PL_2022-2023,0
-2022-12-28,Leeds,Man City,A,PL_2022-2023,2
-2022-12-30,West Ham,Brentford,A,PL_2022-2023,2
+2022-12-28,Leeds,Man City,A,PL_2022-2023,-1
+2022-12-30,West Ham,Brentford,A,PL_2022-2023,-1
 2022-12-30,Liverpool,Leicester,H,PL_2022-2023,0
-2022-12-31,Wolves,Man United,A,PL_2022-2023,2
-2022-12-31,Bournemouth,Crystal Palace,A,PL_2022-2023,2
+2022-12-31,Wolves,Man United,A,PL_2022-2023,-1
+2022-12-31,Bournemouth,Crystal Palace,A,PL_2022-2023,-1
 2022-12-31,Fulham,Southampton,H,PL_2022-2023,0
 2022-12-31,Man City,Everton,D,PL_2022-2023,1
 2022-12-31,Newcastle,Leeds,D,PL_2022-2023,1
-2022-12-31,Brighton,Arsenal,A,PL_2022-2023,2
-2023-01-01,Tottenham,Aston Villa,A,PL_2022-2023,2
+2022-12-31,Brighton,Arsenal,A,PL_2022-2023,-1
+2023-01-01,Tottenham,Aston Villa,A,PL_2022-2023,-1
 2023-01-01,Nott'm Forest,Chelsea,D,PL_2022-2023,1
 2023-01-02,Brentford,Liverpool,H,PL_2022-2023,0
-2023-01-03,Leicester,Fulham,A,PL_2022-2023,2
+2023-01-03,Leicester,Fulham,A,PL_2022-2023,-1
 2023-01-03,Man United,Bournemouth,H,PL_2022-2023,0
 2023-01-03,Arsenal,Newcastle,D,PL_2022-2023,1
-2023-01-03,Everton,Brighton,A,PL_2022-2023,2
-2023-01-04,Southampton,Nott'm Forest,A,PL_2022-2023,2
+2023-01-03,Everton,Brighton,A,PL_2022-2023,-1
+2023-01-04,Southampton,Nott'm Forest,A,PL_2022-2023,-1
 2023-01-04,Leeds,West Ham,D,PL_2022-2023,1
 2023-01-04,Aston Villa,Wolves,D,PL_2022-2023,1
-2023-01-04,Crystal Palace,Tottenham,A,PL_2022-2023,2
-2023-01-05,Chelsea,Man City,A,PL_2022-2023,2
+2023-01-04,Crystal Palace,Tottenham,A,PL_2022-2023,-1
+2023-01-05,Chelsea,Man City,A,PL_2022-2023,-1
 2023-01-12,Fulham,Chelsea,H,PL_2022-2023,0
 2023-01-13,Aston Villa,Leeds,H,PL_2022-2023,0
 2023-01-14,Wolves,West Ham,H,PL_2022-2023,0
@@ -1702,60 +1702,60 @@ date,home_team,away_team,result,season,result_code
 2023-01-14,Brentford,Bournemouth,H,PL_2022-2023,0
 2023-01-14,Brighton,Liverpool,H,PL_2022-2023,0
 2023-01-14,Man United,Man City,H,PL_2022-2023,0
-2023-01-14,Everton,Southampton,A,PL_2022-2023,2
+2023-01-14,Everton,Southampton,A,PL_2022-2023,-1
 2023-01-15,Chelsea,Crystal Palace,H,PL_2022-2023,0
 2023-01-15,Newcastle,Fulham,H,PL_2022-2023,0
-2023-01-15,Tottenham,Arsenal,A,PL_2022-2023,2
+2023-01-15,Tottenham,Arsenal,A,PL_2022-2023,-1
 2023-01-18,Crystal Palace,Man United,D,PL_2022-2023,1
 2023-01-19,Man City,Tottenham,H,PL_2022-2023,0
 2023-01-21,Crystal Palace,Newcastle,D,PL_2022-2023,1
 2023-01-21,West Ham,Everton,H,PL_2022-2023,0
-2023-01-21,Southampton,Aston Villa,A,PL_2022-2023,2
+2023-01-21,Southampton,Aston Villa,A,PL_2022-2023,-1
 2023-01-21,Liverpool,Chelsea,D,PL_2022-2023,1
 2023-01-21,Bournemouth,Nott'm Forest,D,PL_2022-2023,1
 2023-01-21,Leicester,Brighton,D,PL_2022-2023,1
 2023-01-22,Man City,Wolves,H,PL_2022-2023,0
 2023-01-22,Leeds,Brentford,D,PL_2022-2023,1
 2023-01-22,Arsenal,Man United,H,PL_2022-2023,0
-2023-01-23,Fulham,Tottenham,A,PL_2022-2023,2
+2023-01-23,Fulham,Tottenham,A,PL_2022-2023,-1
 2023-02-03,Chelsea,Fulham,D,PL_2022-2023,1
 2023-02-04,Newcastle,West Ham,D,PL_2022-2023,1
 2023-02-04,Wolves,Liverpool,H,PL_2022-2023,0
 2023-02-04,Man United,Crystal Palace,H,PL_2022-2023,0
 2023-02-04,Everton,Arsenal,H,PL_2022-2023,0
 2023-02-04,Brentford,Southampton,H,PL_2022-2023,0
-2023-02-04,Aston Villa,Leicester,A,PL_2022-2023,2
+2023-02-04,Aston Villa,Leicester,A,PL_2022-2023,-1
 2023-02-04,Brighton,Bournemouth,H,PL_2022-2023,0
 2023-02-05,Nott'm Forest,Leeds,H,PL_2022-2023,0
 2023-02-05,Tottenham,Man City,H,PL_2022-2023,0
 2023-02-08,Man United,Leeds,D,PL_2022-2023,1
 2023-02-11,Bournemouth,Newcastle,D,PL_2022-2023,1
-2023-02-11,Southampton,Wolves,A,PL_2022-2023,2
+2023-02-11,Southampton,Wolves,A,PL_2022-2023,-1
 2023-02-11,Leicester,Tottenham,H,PL_2022-2023,0
 2023-02-11,Fulham,Nott'm Forest,H,PL_2022-2023,0
 2023-02-11,Crystal Palace,Brighton,D,PL_2022-2023,1
 2023-02-11,Arsenal,Brentford,D,PL_2022-2023,1
 2023-02-11,West Ham,Chelsea,D,PL_2022-2023,1
-2023-02-12,Leeds,Man United,A,PL_2022-2023,2
+2023-02-12,Leeds,Man United,A,PL_2022-2023,-1
 2023-02-12,Man City,Aston Villa,H,PL_2022-2023,0
 2023-02-13,Liverpool,Everton,H,PL_2022-2023,0
-2023-02-15,Arsenal,Man City,A,PL_2022-2023,2
-2023-02-18,Wolves,Bournemouth,A,PL_2022-2023,2
+2023-02-15,Arsenal,Man City,A,PL_2022-2023,-1
+2023-02-18,Wolves,Bournemouth,A,PL_2022-2023,-1
 2023-02-18,Nott'm Forest,Man City,D,PL_2022-2023,1
 2023-02-18,Everton,Leeds,H,PL_2022-2023,0
-2023-02-18,Newcastle,Liverpool,A,PL_2022-2023,2
-2023-02-18,Brighton,Fulham,A,PL_2022-2023,2
+2023-02-18,Newcastle,Liverpool,A,PL_2022-2023,-1
+2023-02-18,Brighton,Fulham,A,PL_2022-2023,-1
 2023-02-18,Brentford,Crystal Palace,D,PL_2022-2023,1
-2023-02-18,Aston Villa,Arsenal,A,PL_2022-2023,2
-2023-02-18,Chelsea,Southampton,A,PL_2022-2023,2
+2023-02-18,Aston Villa,Arsenal,A,PL_2022-2023,-1
+2023-02-18,Chelsea,Southampton,A,PL_2022-2023,-1
 2023-02-19,Tottenham,West Ham,H,PL_2022-2023,0
 2023-02-19,Man United,Leicester,H,PL_2022-2023,0
 2023-02-24,Fulham,Wolves,D,PL_2022-2023,1
-2023-02-25,Everton,Aston Villa,A,PL_2022-2023,2
+2023-02-25,Everton,Aston Villa,A,PL_2022-2023,-1
 2023-02-25,Leeds,Southampton,H,PL_2022-2023,0
-2023-02-25,Leicester,Arsenal,A,PL_2022-2023,2
+2023-02-25,Leicester,Arsenal,A,PL_2022-2023,-1
 2023-02-25,West Ham,Nott'm Forest,H,PL_2022-2023,0
-2023-02-25,Bournemouth,Man City,A,PL_2022-2023,2
+2023-02-25,Bournemouth,Man City,A,PL_2022-2023,-1
 2023-02-25,Crystal Palace,Liverpool,D,PL_2022-2023,1
 2023-02-26,Tottenham,Chelsea,H,PL_2022-2023,0
 2023-03-01,Arsenal,Everton,H,PL_2022-2023,0
@@ -1770,26 +1770,26 @@ date,home_team,away_team,result,season,result_code
 2023-03-05,Nott'm Forest,Everton,D,PL_2022-2023,1
 2023-03-05,Liverpool,Man United,H,PL_2022-2023,0
 2023-03-06,Brentford,Fulham,H,PL_2022-2023,0
-2023-03-11,Crystal Palace,Man City,A,PL_2022-2023,2
+2023-03-11,Crystal Palace,Man City,A,PL_2022-2023,-1
 2023-03-11,Bournemouth,Liverpool,H,PL_2022-2023,0
 2023-03-11,Everton,Brentford,H,PL_2022-2023,0
 2023-03-11,Leeds,Brighton,D,PL_2022-2023,1
-2023-03-11,Leicester,Chelsea,A,PL_2022-2023,2
+2023-03-11,Leicester,Chelsea,A,PL_2022-2023,-1
 2023-03-11,Tottenham,Nott'm Forest,H,PL_2022-2023,0
 2023-03-12,Newcastle,Wolves,H,PL_2022-2023,0
 2023-03-12,West Ham,Aston Villa,D,PL_2022-2023,1
-2023-03-12,Fulham,Arsenal,A,PL_2022-2023,2
+2023-03-12,Fulham,Arsenal,A,PL_2022-2023,-1
 2023-03-12,Man United,Southampton,D,PL_2022-2023,1
 2023-03-15,Brighton,Crystal Palace,H,PL_2022-2023,0
-2023-03-15,Southampton,Brentford,A,PL_2022-2023,2
-2023-03-17,Nott'm Forest,Newcastle,A,PL_2022-2023,2
+2023-03-15,Southampton,Brentford,A,PL_2022-2023,-1
+2023-03-17,Nott'm Forest,Newcastle,A,PL_2022-2023,-1
 2023-03-18,Aston Villa,Bournemouth,H,PL_2022-2023,0
 2023-03-18,Brentford,Leicester,D,PL_2022-2023,1
 2023-03-18,Southampton,Tottenham,D,PL_2022-2023,1
-2023-03-18,Wolves,Leeds,A,PL_2022-2023,2
+2023-03-18,Wolves,Leeds,A,PL_2022-2023,-1
 2023-03-18,Chelsea,Everton,D,PL_2022-2023,1
 2023-03-19,Arsenal,Crystal Palace,H,PL_2022-2023,0
-2023-04-01,Chelsea,Aston Villa,A,PL_2022-2023,2
+2023-04-01,Chelsea,Aston Villa,A,PL_2022-2023,-1
 2023-04-01,Crystal Palace,Leicester,H,PL_2022-2023,0
 2023-04-01,Brighton,Brentford,D,PL_2022-2023,1
 2023-04-01,Nott'm Forest,Wolves,D,PL_2022-2023,1
@@ -1799,55 +1799,55 @@ date,home_team,away_team,result,season,result_code
 2023-04-02,West Ham,Southampton,H,PL_2022-2023,0
 2023-04-02,Newcastle,Man United,H,PL_2022-2023,0
 2023-04-03,Everton,Tottenham,D,PL_2022-2023,1
-2023-04-04,Bournemouth,Brighton,A,PL_2022-2023,2
+2023-04-04,Bournemouth,Brighton,A,PL_2022-2023,-1
 2023-04-04,Leeds,Nott'm Forest,H,PL_2022-2023,0
-2023-04-04,Leicester,Aston Villa,A,PL_2022-2023,2
+2023-04-04,Leicester,Aston Villa,A,PL_2022-2023,-1
 2023-04-04,Chelsea,Liverpool,D,PL_2022-2023,1
 2023-04-05,Man United,Brentford,H,PL_2022-2023,0
-2023-04-05,West Ham,Newcastle,A,PL_2022-2023,2
+2023-04-05,West Ham,Newcastle,A,PL_2022-2023,-1
 2023-04-08,Tottenham,Brighton,H,PL_2022-2023,0
-2023-04-08,Southampton,Man City,A,PL_2022-2023,2
+2023-04-08,Southampton,Man City,A,PL_2022-2023,-1
 2023-04-08,Wolves,Chelsea,H,PL_2022-2023,0
-2023-04-08,Leicester,Bournemouth,A,PL_2022-2023,2
-2023-04-08,Fulham,West Ham,A,PL_2022-2023,2
-2023-04-08,Brentford,Newcastle,A,PL_2022-2023,2
+2023-04-08,Leicester,Bournemouth,A,PL_2022-2023,-1
+2023-04-08,Fulham,West Ham,A,PL_2022-2023,-1
+2023-04-08,Brentford,Newcastle,A,PL_2022-2023,-1
 2023-04-08,Aston Villa,Nott'm Forest,H,PL_2022-2023,0
 2023-04-08,Man United,Everton,H,PL_2022-2023,0
-2023-04-09,Leeds,Crystal Palace,A,PL_2022-2023,2
+2023-04-09,Leeds,Crystal Palace,A,PL_2022-2023,-1
 2023-04-09,Liverpool,Arsenal,D,PL_2022-2023,1
 2023-04-15,Aston Villa,Newcastle,H,PL_2022-2023,0
-2023-04-15,Chelsea,Brighton,A,PL_2022-2023,2
-2023-04-15,Everton,Fulham,A,PL_2022-2023,2
-2023-04-15,Southampton,Crystal Palace,A,PL_2022-2023,2
-2023-04-15,Tottenham,Bournemouth,A,PL_2022-2023,2
+2023-04-15,Chelsea,Brighton,A,PL_2022-2023,-1
+2023-04-15,Everton,Fulham,A,PL_2022-2023,-1
+2023-04-15,Southampton,Crystal Palace,A,PL_2022-2023,-1
+2023-04-15,Tottenham,Bournemouth,A,PL_2022-2023,-1
 2023-04-15,Wolves,Brentford,H,PL_2022-2023,0
 2023-04-15,Man City,Leicester,H,PL_2022-2023,0
-2023-04-16,Nott'm Forest,Man United,A,PL_2022-2023,2
+2023-04-16,Nott'm Forest,Man United,A,PL_2022-2023,-1
 2023-04-16,West Ham,Arsenal,D,PL_2022-2023,1
-2023-04-17,Leeds,Liverpool,A,PL_2022-2023,2
+2023-04-17,Leeds,Liverpool,A,PL_2022-2023,-1
 2023-04-21,Arsenal,Southampton,D,PL_2022-2023,1
 2023-04-22,Fulham,Leeds,H,PL_2022-2023,0
 2023-04-22,Brentford,Aston Villa,D,PL_2022-2023,1
 2023-04-22,Crystal Palace,Everton,D,PL_2022-2023,1
 2023-04-22,Leicester,Wolves,H,PL_2022-2023,0
 2023-04-22,Liverpool,Nott'm Forest,H,PL_2022-2023,0
-2023-04-23,Bournemouth,West Ham,A,PL_2022-2023,2
+2023-04-23,Bournemouth,West Ham,A,PL_2022-2023,-1
 2023-04-23,Newcastle,Tottenham,H,PL_2022-2023,0
 2023-04-25,Wolves,Crystal Palace,H,PL_2022-2023,0
 2023-04-25,Aston Villa,Fulham,H,PL_2022-2023,0
 2023-04-25,Leeds,Leicester,D,PL_2022-2023,1
 2023-04-26,Man City,Arsenal,H,PL_2022-2023,0
-2023-04-26,West Ham,Liverpool,A,PL_2022-2023,2
+2023-04-26,West Ham,Liverpool,A,PL_2022-2023,-1
 2023-04-26,Nott'm Forest,Brighton,H,PL_2022-2023,0
-2023-04-26,Chelsea,Brentford,A,PL_2022-2023,2
-2023-04-27,Everton,Newcastle,A,PL_2022-2023,2
-2023-04-27,Southampton,Bournemouth,A,PL_2022-2023,2
+2023-04-26,Chelsea,Brentford,A,PL_2022-2023,-1
+2023-04-27,Everton,Newcastle,A,PL_2022-2023,-1
+2023-04-27,Southampton,Bournemouth,A,PL_2022-2023,-1
 2023-04-27,Tottenham,Man United,D,PL_2022-2023,1
 2023-04-29,Crystal Palace,West Ham,H,PL_2022-2023,0
 2023-04-29,Brentford,Nott'm Forest,H,PL_2022-2023,0
 2023-04-29,Brighton,Wolves,H,PL_2022-2023,0
 2023-04-30,Bournemouth,Leeds,H,PL_2022-2023,0
-2023-04-30,Fulham,Man City,A,PL_2022-2023,2
+2023-04-30,Fulham,Man City,A,PL_2022-2023,-1
 2023-04-30,Man United,Aston Villa,H,PL_2022-2023,0
 2023-04-30,Newcastle,Southampton,H,PL_2022-2023,0
 2023-04-30,Liverpool,Tottenham,H,PL_2022-2023,0
@@ -1856,29 +1856,29 @@ date,home_team,away_team,result,season,result_code
 2023-05-03,Man City,West Ham,H,PL_2022-2023,0
 2023-05-03,Liverpool,Fulham,H,PL_2022-2023,0
 2023-05-04,Brighton,Man United,H,PL_2022-2023,0
-2023-05-06,Bournemouth,Chelsea,A,PL_2022-2023,2
+2023-05-06,Bournemouth,Chelsea,A,PL_2022-2023,-1
 2023-05-06,Man City,Leeds,H,PL_2022-2023,0
 2023-05-06,Tottenham,Crystal Palace,H,PL_2022-2023,0
 2023-05-06,Wolves,Aston Villa,H,PL_2022-2023,0
 2023-05-06,Liverpool,Brentford,H,PL_2022-2023,0
-2023-05-07,Newcastle,Arsenal,A,PL_2022-2023,2
+2023-05-07,Newcastle,Arsenal,A,PL_2022-2023,-1
 2023-05-07,West Ham,Man United,H,PL_2022-2023,0
 2023-05-08,Fulham,Leicester,H,PL_2022-2023,0
-2023-05-08,Brighton,Everton,A,PL_2022-2023,2
+2023-05-08,Brighton,Everton,A,PL_2022-2023,-1
 2023-05-08,Nott'm Forest,Southampton,H,PL_2022-2023,0
-2023-05-13,Southampton,Fulham,A,PL_2022-2023,2
+2023-05-13,Southampton,Fulham,A,PL_2022-2023,-1
 2023-05-13,Man United,Wolves,H,PL_2022-2023,0
 2023-05-13,Crystal Palace,Bournemouth,H,PL_2022-2023,0
 2023-05-13,Chelsea,Nott'm Forest,D,PL_2022-2023,1
 2023-05-13,Leeds,Newcastle,D,PL_2022-2023,1
 2023-05-13,Aston Villa,Tottenham,H,PL_2022-2023,0
 2023-05-14,Brentford,West Ham,H,PL_2022-2023,0
-2023-05-14,Everton,Man City,A,PL_2022-2023,2
-2023-05-14,Arsenal,Brighton,A,PL_2022-2023,2
-2023-05-15,Leicester,Liverpool,A,PL_2022-2023,2
+2023-05-14,Everton,Man City,A,PL_2022-2023,-1
+2023-05-14,Arsenal,Brighton,A,PL_2022-2023,-1
+2023-05-15,Leicester,Liverpool,A,PL_2022-2023,-1
 2023-05-18,Newcastle,Brighton,H,PL_2022-2023,0
-2023-05-20,Tottenham,Brentford,A,PL_2022-2023,2
-2023-05-20,Bournemouth,Man United,A,PL_2022-2023,2
+2023-05-20,Tottenham,Brentford,A,PL_2022-2023,-1
+2023-05-20,Bournemouth,Man United,A,PL_2022-2023,-1
 2023-05-20,Fulham,Crystal Palace,D,PL_2022-2023,1
 2023-05-20,Liverpool,Aston Villa,D,PL_2022-2023,1
 2023-05-20,Wolves,Everton,D,PL_2022-2023,1
@@ -1896,6 +1896,6 @@ date,home_team,away_team,result,season,result_code
 2023-05-28,Chelsea,Newcastle,D,PL_2022-2023,1
 2023-05-28,Crystal Palace,Nott'm Forest,D,PL_2022-2023,1
 2023-05-28,Everton,Bournemouth,H,PL_2022-2023,0
-2023-05-28,Leeds,Tottenham,A,PL_2022-2023,2
+2023-05-28,Leeds,Tottenham,A,PL_2022-2023,-1
 2023-05-28,Leicester,West Ham,H,PL_2022-2023,0
 2023-05-28,Southampton,Liverpool,D,PL_2022-2023,1

@@ -95,7 +95,7 @@ def main():
     
     # Load data for a specific season (or multiple seasons)
     matches, teams, team_to_id, id_to_team = DataProcessor.load_and_prepare_data(
-        filepath = '/.../skill_rating_ssm/skill_rating_ssm/cleaned_data/cleaned_football_data.csv',
+        filepath = '/.../skill_rating_ssm/skill_rating_ssm/cleaned_data/cleaned_data_football.csv',
         season_filter = None
     )
     
