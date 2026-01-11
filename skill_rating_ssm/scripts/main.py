@@ -122,7 +122,7 @@ def main():
     em_estimator = EM_Estimator(
         matches=matches,
         num_teams = num_teams,
-        num_particles = 1000,  # Increase for better accuracy, decrease for speed
+        num_particles = 10,  # Increase for better accuracy, decrease for speed
         max_iterations=50,
         tolerance=1e-4
     )
