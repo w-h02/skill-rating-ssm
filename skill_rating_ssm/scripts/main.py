@@ -58,32 +58,38 @@ def compute_log_likelihood_grid(matches, num_teams, num_particles,
     total_evaluations = grid_size * grid_size
     completed = 0
     
-    for i, sigma_sq in enumerate(sigma_sq_values):
-        for j, sigma_obs_sq in enumerate(sigma_obs_sq_values):
-            completed += 1
-            if completed % 10 == 0 or completed == total_evaluations:
-                print(f"Progress: {completed}/{total_evaluations} ({100*completed/total_evaluations:.1f}%)")
-            
-            # Run particle filter
-            try:
-                pf = PairwiseSkillFilter(
-                    num_teams=num_teams,
-                    num_particles=num_particles,
-                    sigma_sq=sigma_sq,
-                    sigma_obs_sq=sigma_obs_sq,
-                    draw_threshold=draw_threshold
-                )
-                _, _, _, log_lik = pf.run_filter(matches)
-                log_lik_grid[i, j] = log_lik
-            except Exception as e:
-                print(f"  Error at grid point ({i},{j}): {e}")
-                log_lik_grid[i, j] = -np.inf
+    # Use tqdm for progress bar
+    with tqdm(total=total_evaluations, desc="Grid computation") as pbar:
+        for i, sigma_sq in enumerate(sigma_sq_values):
+            for j, sigma_obs_sq in enumerate(sigma_obs_sq_values):
+                completed += 1
+                
+                # Run particle filter
+                try:
+                    pf = PairwiseSkillFilter(
+                        num_teams=num_teams,
+                        num_particles=num_particles,
+                        sigma_sq=sigma_sq,
+                        sigma_obs_sq=sigma_obs_sq,
+                        draw_threshold=draw_threshold
+                    )
+                    _, _, _, log_lik = pf.run_filter(matches)
+                    log_lik_grid[i, j] = log_lik
+                except Exception as e:
+                    print(f"\n  Error at grid point ({i},{j}): {e}")
+                    log_lik_grid[i, j] = -np.inf
+                
+                pbar.update(1)
     
-    print("Grid computation completed!")
+    # Print grid statistics
+    print("\nGrid computation completed!")
+    print(f"Grid statistics:")
+    print(f"  Min log-likelihood: {np.nanmin(log_lik_grid[log_lik_grid != -np.inf]):.2f}")
+    print(f"  Max log-likelihood: {np.nanmax(log_lik_grid[log_lik_grid != -np.inf]):.2f}")
+    print(f"  -inf values: {np.isinf(log_lik_grid).sum()}/{log_lik_grid.size}")
     print("="*60 + "\n")
     
     return log_lik_grid, sigma_sq_values, sigma_obs_sq_values
-
 
 def main():
     """
@@ -99,8 +105,8 @@ def main():
     
     # Load data for a specific season (or multiple seasons)
     matches, teams, team_to_id, id_to_team = DataProcessor.load_and_prepare_data(
-        filepath = os.path.join(base_dir, '../cleaned_data/cleaned_data_football.csv'),
-        season_filter = None
+        filepath = os.path.join(base_dir, '../cleaned_data/cleaned_data_chess.csv'),
+        season_filter = '2019'
     )
     
     # Print data summary
@@ -122,9 +128,9 @@ def main():
     em_estimator = EM_Estimator(
         matches=matches,
         num_teams = num_teams,
-        num_particles = 10,  # Increase for better accuracy, decrease for speed
-        max_iterations=50,
-        tolerance=1e-4
+        num_particles = 20,  # Increase for better accuracy, decrease for speed
+        max_iterations=20,
+        tolerance=1e-3
     )
     
     em_sigma_sq, em_sigma_obs_sq, param_history, log_lik_history = em_estimator.run_EM()
@@ -163,10 +169,10 @@ def main():
     log_lik_grid, sigma_sq_vals, sigma_obs_sq_vals = compute_log_likelihood_grid(
         matches=matches,
         num_teams=num_teams,
-        num_particles=500,  # Use fewer particles for speed
+        num_particles= 20,  # Use fewer particles for speed
         sigma_sq_range=(sigma_sq_min, sigma_sq_max),
         sigma_obs_sq_range=(sigma_obs_sq_min, sigma_obs_sq_max),
-        grid_size=20,  # Start with 20x20, increase to 30x30 for final version
+        grid_size=10,  
         draw_threshold=0.5
     )
     
@@ -189,7 +195,7 @@ def main():
     
     final_filter = PairwiseSkillFilter(
         num_teams=num_teams,
-        num_particles=1000,
+        num_particles=20,
         sigma_sq=em_sigma_sq,
         sigma_obs_sq=em_sigma_obs_sq,
         draw_threshold=0.5

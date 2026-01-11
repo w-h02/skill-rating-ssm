@@ -57,25 +57,23 @@ class PairwiseSkillFilter():
         log_likelihood: Running total of log p(y_{1:T} | θ)
     """
     def __init__(self, num_teams, num_particles, sigma_sq, sigma_obs_sq, draw_threshold=0.5):
-        
         self.num_teams = num_teams
         self.num_particles = num_particles
         self.sigma_sq = sigma_sq
         self.sigma_obs_sq = sigma_obs_sq
         self.draw_threshold = draw_threshold
-        
-        self.models = {}     # SkillRatingModel per team
+    
+        # Remove self.models and self.filters - we don't need them for manual approach
         self.particles = {}  # particles per team
         self.weights = {}    # weights per team
 
         for team_id in range(num_teams):
-            model = SkillRatingModel(sigma_sq = self.sigma_sq)
-            self.models[team_id] = model
+            model = SkillRatingModel(sigma_sq=self.sigma_sq)
             # Initial distribution and weights
             initial_dist = model.PX0()
-            self.particles[team_id] = initial_dist.rvs(size = self.num_particles)
+            self.particles[team_id] = initial_dist.rvs(size=self.num_particles)
             self.weights[team_id] = np.ones(self.num_particles) / self.num_particles
-        
+    
         self.skill_history = []
         self.log_likelihood = 0.0
 

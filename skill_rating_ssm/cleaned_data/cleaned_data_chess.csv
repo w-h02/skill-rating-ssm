@@ -1,0 +1,4625 @@
+date,home_team,away_team,result,season,result_code
+2015-01-10,So,Wojtaszek,D,2015,0
+2015-01-10,Ding Liren,Caruana,A,2015,-1
+2015-01-10,Ivanchuk,Jobava,H,2015,1
+2015-01-10,Giri,Carlsen,D,2015,0
+2015-01-11,Vitiugov,Ponomariov,D,2015,0
+2015-01-11,Aronian,Giri,D,2015,0
+2015-01-11,Radjabov,Ivanchuk,D,2015,0
+2015-01-11,Jobava,MVL,D,2015,0
+2015-01-11,Carlsen,So,D,2015,0
+2015-01-12,MVL,Radjabov,D,2015,0
+2015-01-12,Ding Liren,Jobava,H,2015,1
+2015-01-12,Wojtaszek,Carlsen,H,2015,1
+2015-01-12,So,Aronian,H,2015,1
+2015-01-12,Giri,Caruana,D,2015,0
+2015-01-13,Radjabov,Ding Liren,A,2015,-1
+2015-01-13,Ivanchuk,MVL,H,2015,1
+2015-01-13,Caruana,So,D,2015,0
+2015-01-13,Aronian,Wojtaszek,D,2015,0
+2015-01-15,Wojtaszek,Caruana,H,2015,1
+2015-01-15,Giri,Jobava,H,2015,1
+2015-01-15,Ding Liren,Ivanchuk,D,2015,0
+2015-01-15,Carlsen,Aronian,H,2015,1
+2015-01-16,MVL,Ding Liren,H,2015,1
+2015-01-16,Radjabov,Giri,D,2015,0
+2015-01-16,Jobava,So,A,2015,-1
+2015-01-16,Caruana,Carlsen,A,2015,-1
+2015-01-17,Giri,Ivanchuk,D,2015,0
+2015-01-17,Aronian,Caruana,D,2015,0
+2015-01-17,Wojtaszek,Jobava,A,2015,-1
+2015-01-17,So,Radjabov,D,2015,0
+2015-01-18,MVL,Giri,H,2015,1
+2015-01-18,Radjabov,Wojtaszek,H,2015,1
+2015-01-18,Jobava,Carlsen,A,2015,-1
+2015-01-18,Ivanchuk,So,A,2015,-1
+2015-01-20,Aronian,Jobava,H,2015,1
+2015-01-20,Carlsen,Radjabov,H,2015,1
+2015-01-20,So,MVL,D,2015,0
+2015-01-20,Wojtaszek,Ivanchuk,D,2015,0
+2015-01-20,Giri,Ding Liren,H,2015,1
+2015-01-21,MVL,Wojtaszek,D,2015,0
+2015-01-21,Radjabov,Aronian,D,2015,0
+2015-01-21,Jobava,Caruana,A,2015,-1
+2015-01-21,Ivanchuk,Carlsen,D,2015,0
+2015-01-21,Ding Liren,So,D,2015,0
+2015-01-23,Carlsen,MVL,D,2015,0
+2015-01-23,Aronian,Ivanchuk,D,2015,0
+2015-01-23,Wojtaszek,Ding Liren,A,2015,-1
+2015-01-23,Caruana,Radjabov,D,2015,0
+2015-01-24,MVL,Aronian,D,2015,0
+2015-01-24,Ivanchuk,Caruana,D,2015,0
+2015-01-24,Giri,So,H,2015,1
+2015-01-24,Ding Liren,Carlsen,D,2015,0
+2015-01-25,Wojtaszek,Giri,D,2015,0
+2015-01-25,Jobava,Radjabov,H,2015,1
+2015-01-25,Caruana,MVL,A,2015,-1
+2015-01-25,Aronian,Ding Liren,A,2015,-1
+2015-01-30,Fressinet,Giri,D,2015,0
+2015-01-31,Adams,Giri,D,2015,0
+2015-02-01,Nakamura,Topalov,H,2015,1
+2015-02-01,Fressinet,Adams,D,2015,0
+2015-02-02,Caruana,Anand,D,2015,0
+2015-02-02,Aronian,Carlsen,D,2015,0
+2015-02-02,Adams,Naiditsch,D,2015,0
+2015-02-03,Nakamura,Yu Yangyi,H,2015,1
+2015-02-03,Rapport,Jakovenko,D,2015,0
+2015-02-03,Carlsen,Adams,H,2015,1
+2015-02-03,Caruana,Bacrot,D,2015,0
+2015-02-03,Anand,Naiditsch,D,2015,0
+2015-02-04,Naiditsch,Carlsen,H,2015,1
+2015-02-04,Bacrot,Anand,D,2015,0
+2015-02-04,Aronian,Caruana,A,2015,-1
+2015-02-05,Nakamura,Harikrishna,D,2015,0
+2015-02-06,Caruana,Adams,D,2015,0
+2015-02-06,Bacrot,Aronian,D,2015,0
+2015-02-06,Anand,Carlsen,A,2015,-1
+2015-02-07,Naiditsch,Caruana,D,2015,0
+2015-02-07,Aronian,Anand,H,2015,1
+2015-02-07,Adams,Bacrot,D,2015,0
+2015-02-08,Caruana,Carlsen,D,2015,0
+2015-02-08,Bacrot,Naiditsch,D,2015,0
+2015-02-08,Aronian,Adams,D,2015,0
+2015-02-09,Adams,Anand,H,2015,1
+2015-02-09,Naiditsch,Aronian,D,2015,0
+2015-02-09,Carlsen,Bacrot,D,2015,0
+2015-02-14,Caruana,Nakamura,A,2015,-1
+2015-02-14,Aronian,Karjakin,D,2015,0
+2015-02-14,Anand,Kramnik,D,2015,0
+2015-02-15,MVL,Mamedyarov,A,2015,-1
+2015-02-15,Svidler,Giri,A,2015,-1
+2015-02-15,Kasimdzhanov,Grischuk,A,2015,-1
+2015-02-15,Dominguez Perez,Radjabov,D,2015,0
+2015-02-15,Andreikin,Jakovenko,D,2015,0
+2015-02-15,Kramnik,Nakamura,D,2015,0
+2015-02-15,Karjakin,Caruana,D,2015,0
+2015-02-15,Anand,Aronian,H,2015,1
+2015-02-16,Aronian,Kramnik,D,2015,0
+2015-02-16,Caruana,Anand,D,2015,0
+2015-02-16,Nakamura,Karjakin,H,2015,1
+2015-02-16,Dominguez Perez,Svidler,D,2015,0
+2015-02-16,Giri,MVL,D,2015,0
+2015-02-16,Grischuk,Andreikin,D,2015,0
+2015-02-16,Jakovenko,Tomashevsky,D,2015,0
+2015-02-16,Mamedyarov,Kasimdzhanov,A,2015,-1
+2015-02-17,MVL,Dominguez Perez,D,2015,0
+2015-02-17,Tomashevsky,Grischuk,H,2015,1
+2015-02-17,Svidler,Radjabov,D,2015,0
+2015-02-17,Kasimdzhanov,Giri,D,2015,0
+2015-02-17,Andreikin,Mamedyarov,A,2015,-1
+2015-02-17,Kramnik,Karjakin,D,2015,0
+2015-02-17,Aronian,Caruana,D,2015,0
+2015-02-17,Anand,Nakamura,H,2015,1
+2015-02-18,Caruana,Kramnik,D,2015,0
+2015-02-18,Nakamura,Aronian,D,2015,0
+2015-02-18,Dominguez Perez,Kasimdzhanov,D,2015,0
+2015-02-18,Karjakin,Anand,D,2015,0
+2015-02-18,Mamedyarov,Tomashevsky,A,2015,-1
+2015-02-18,Radjabov,Jakovenko,D,2015,0
+2015-02-18,Svidler,MVL,D,2015,0
+2015-02-18,Giri,Andreikin,D,2015,0
+2015-02-20,MVL,Radjabov,D,2015,0
+2015-02-20,Tomashevsky,Giri,D,2015,0
+2015-02-20,Kasimdzhanov,Svidler,H,2015,1
+2015-02-20,Jakovenko,Grischuk,D,2015,0
+2015-02-20,Andreikin,Dominguez Perez,A,2015,-1
+2015-02-21,MVL,Kasimdzhanov,D,2015,0
+2015-02-21,Svidler,Andreikin,H,2015,1
+2015-02-21,Radjabov,Grischuk,H,2015,1
+2015-02-21,Mamedyarov,Jakovenko,D,2015,0
+2015-02-21,Dominguez Perez,Tomashevsky,D,2015,0
+2015-02-22,Grischuk,Mamedyarov,A,2015,-1
+2015-02-22,Andreikin,MVL,D,2015,0
+2015-02-22,Kasimdzhanov,Radjabov,D,2015,0
+2015-02-22,Tomashevsky,Svidler,D,2015,0
+2015-02-22,Jakovenko,Giri,H,2015,1
+2015-02-23,MVL,Tomashevsky,A,2015,-1
+2015-02-23,Radjabov,Mamedyarov,D,2015,0
+2015-02-23,Kasimdzhanov,Andreikin,D,2015,0
+2015-02-23,Giri,Grischuk,D,2015,0
+2015-02-23,Dominguez Perez,Jakovenko,D,2015,0
+2015-02-25,Andreikin,Radjabov,D,2015,0
+2015-02-25,Grischuk,Dominguez Perez,D,2015,0
+2015-02-25,Jakovenko,Svidler,D,2015,0
+2015-02-25,Tomashevsky,Kasimdzhanov,H,2015,1
+2015-02-25,Mamedyarov,Giri,D,2015,0
+2015-02-26,MVL,Jakovenko,D,2015,0
+2015-02-26,Svidler,Grischuk,D,2015,0
+2015-02-26,Radjabov,Giri,D,2015,0
+2015-02-26,Dominguez Perez,Mamedyarov,D,2015,0
+2015-02-26,Andreikin,Tomashevsky,D,2015,0
+2015-02-27,Grischuk,MVL,D,2015,0
+2015-02-27,Giri,Dominguez Perez,D,2015,0
+2015-02-27,Mamedyarov,Svidler,D,2015,0
+2015-02-27,Jakovenko,Kasimdzhanov,D,2015,0
+2015-02-27,Tomashevsky,Radjabov,D,2015,0
+2015-03-05,Navara,Nepomniachtchi,H,2015,1
+2015-03-07,Malakhov,Morozevich,H,2015,1
+2015-03-07,Mamedyarov,Karjakin,D,2015,0
+2015-03-07,Ivanchuk,Malakhov,D,2015,0
+2015-03-07,Rapport,Ivanchuk,A,2015,-1
+2015-03-08,Malakhov,Mamedyarov,A,2015,-1
+2015-03-08,Mamedyarov,Ivanchuk,A,2015,-1
+2015-03-08,Gelfand,Ivanchuk,D,2015,0
+2015-03-08,Mamedyarov,Gelfand,D,2015,0
+2015-03-08,Malakhov,Tomashevsky,A,2015,-1
+2015-03-08,Ivanchuk,Karjakin,H,2015,1
+2015-03-08,Tomashevsky,Mamedyarov,D,2015,0
+2015-03-08,Rapport,Naiditsch,H,2015,1
+2015-03-08,Gelfand,Karjakin,D,2015,0
+2015-03-14,Mamedyarov,Navara,D,2015,0
+2015-03-14,MVL,Svidler,D,2015,0
+2015-04-04,Nakamura,So,D,2015,0
+2015-04-05,Li Chao,Bacrot,H,2015,1
+2015-04-05,Naiditsch,Li Chao,D,2015,0
+2015-04-10,Ni Hua,Wang Yue,D,2015,0
+2015-04-11,Wang Yue,Wang Hao,D,2015,0
+2015-04-11,Li Chao,Kryvoruchko,D,2015,0
+2015-04-16,Vallejo Pons,Wang Hao,D,2015,0
+2015-04-17,So,Giri,H,2015,1
+2015-04-17,Mamedyarov,Caruana,D,2015,0
+2015-04-17,Kramnik,Adams,H,2015,1
+2015-04-17,Anand,Carlsen,D,2015,0
+2015-04-18,MVL,Anand,D,2015,0
+2015-04-18,Kramnik,So,D,2015,0
+2015-04-18,Carlsen,Mamedyarov,H,2015,1
+2015-04-18,Adams,Caruana,D,2015,0
+2015-04-19,Eljanov,Tomashevsky,H,2015,1
+2015-04-19,Karjakin,Ivanchuk,D,2015,0
+2015-04-19,Gelfand,Aronian,D,2015,0
+2015-04-19,Ponomariov,Grischuk,D,2015,0
+2015-04-19,Anand,Giri,D,2015,0
+2015-04-19,Caruana,Carlsen,A,2015,-1
+2015-04-19,Mamedyarov,MVL,D,2015,0
+2015-04-19,So,Adams,H,2015,1
+2015-04-19,Dominguez Perez,Leko,D,2015,0
+2015-04-20,MVL,Caruana,D,2015,0
+2015-04-20,Kramnik,Anand,D,2015,0
+2015-04-20,Giri,Mamedyarov,D,2015,0
+2015-04-20,Adams,Carlsen,D,2015,0
+2015-04-20,Grischuk,Dominguez Perez,A,2015,-1
+2015-04-20,Leko,Ding Liren,D,2015,0
+2015-04-20,Aronian,Ponomariov,H,2015,1
+2015-04-21,Vitiugov,Wei Yi,D,2015,0
+2015-04-21,Dominguez Perez,Aronian,D,2015,0
+2015-04-21,Ding Liren,Grischuk,D,2015,0
+2015-04-21,Karjakin,Yu Yangyi,D,2015,0
+2015-04-21,Anand,So,H,2015,1
+2015-04-21,Carlsen,MVL,H,2015,1
+2015-04-21,Caruana,Giri,D,2015,0
+2015-04-21,Mamedyarov,Kramnik,H,2015,1
+2015-04-21,Gelfand,Harikrishna,D,2015,0
+2015-04-22,Gelfand,Ponomariov,D,2015,0
+2015-04-22,Harikrishna,Leko,D,2015,0
+2015-04-22,Aronian,Ding Liren,D,2015,0
+2015-04-23,Dominguez Perez,Gelfand,D,2015,0
+2015-04-23,Leko,Grischuk,D,2015,0
+2015-04-23,Ponomariov,Harikrishna,D,2015,0
+2015-04-23,Adams,MVL,D,2015,0
+2015-04-23,Kramnik,Caruana,A,2015,-1
+2015-04-23,So,Mamedyarov,D,2015,0
+2015-04-23,Giri,Carlsen,D,2015,0
+2015-04-24,MVL,Giri,D,2015,0
+2015-04-24,Caruana,So,H,2015,1
+2015-04-24,Carlsen,Kramnik,H,2015,1
+2015-04-24,Anand,Adams,H,2015,1
+2015-04-25,Gelfand,Ding Liren,D,2015,0
+2015-04-25,Ponomariov,Dominguez Perez,D,2015,0
+2015-04-25,Harikrishna,Grischuk,D,2015,0
+2015-04-25,Anand,Mamedyarov,H,2015,1
+2015-04-25,Kramnik,MVL,H,2015,1
+2015-04-25,Adams,Giri,H,2015,1
+2015-04-25,So,Carlsen,D,2015,0
+2015-04-26,Mamedyarov,Adams,D,2015,0
+2015-04-26,Ivanchuk,Yu Yangyi,H,2015,1
+2015-04-26,Grischuk,Aronian,D,2015,0
+2015-04-26,Ding Liren,Ponomariov,D,2015,0
+2015-04-26,MVL,So,D,2015,0
+2015-04-26,Caruana,Anand,D,2015,0
+2015-04-26,Giri,Kramnik,D,2015,0
+2015-04-26,Dominguez Perez,Harikrishna,D,2015,0
+2015-04-27,Gelfand,Leko,D,2015,0
+2015-04-27,Dominguez Perez,Ding Liren,D,2015,0
+2015-04-27,Harikrishna,Aronian,D,2015,0
+2015-04-28,Grischuk,Gelfand,D,2015,0
+2015-04-28,Leko,Ponomariov,D,2015,0
+2015-04-28,Ding Liren,Harikrishna,D,2015,0
+2015-05-01,Malakhov,Jakovenko,D,2015,0
+2015-05-01,Wojtaszek,Nepomniachtchi,H,2015,1
+2015-05-01,Inarkiev,Andreikin,D,2015,0
+2015-05-02,Jakovenko,Dominguez Perez,D,2015,0
+2015-05-02,Kramnik,Svidler,H,2015,1
+2015-05-02,Vitiugov,Aronian,D,2015,0
+2015-05-03,Wojtaszek,Grischuk,D,2015,0
+2015-05-03,Svidler,Nepomniachtchi,D,2015,0
+2015-05-03,Inarkiev,Vitiugov,D,2015,0
+2015-05-04,Kramnik,Nepomniachtchi,H,2015,1
+2015-05-04,Inarkiev,Aronian,D,2015,0
+2015-05-05,Svidler,Grischuk,D,2015,0
+2015-05-05,Wojtaszek,Kramnik,D,2015,0
+2015-05-05,Aronian,Andreikin,H,2015,1
+2015-05-06,Grischuk,Nepomniachtchi,H,2015,1
+2015-05-07,Svidler,Wojtaszek,D,2015,0
+2015-05-07,Andreikin,Vitiugov,D,2015,0
+2015-05-14,Grischuk,Svidler,D,2015,0
+2015-05-14,Caruana,Dominguez Perez,D,2015,0
+2015-05-14,Jakovenko,Giri,H,2015,1
+2015-05-14,MVL,Gelfand,D,2015,0
+2015-05-14,Karjakin,Nakamura,D,2015,0
+2015-05-15,Tomashevsky,Grischuk,D,2015,0
+2015-05-15,Svidler,Caruana,D,2015,0
+2015-05-15,Giri,Karjakin,D,2015,0
+2015-05-15,Gelfand,Nakamura,D,2015,0
+2015-05-15,Dominguez Perez,Jakovenko,H,2015,1
+2015-05-16,Nakamura,Giri,D,2015,0
+2015-05-16,Karjakin,Dominguez Perez,D,2015,0
+2015-05-16,Jakovenko,Svidler,A,2015,-1
+2015-05-16,Grischuk,MVL,D,2015,0
+2015-05-16,Caruana,Tomashevsky,H,2015,1
+2015-05-17,Gelfand,Giri,D,2015,0
+2015-05-17,Dominguez Perez,Nakamura,D,2015,0
+2015-05-17,Tomashevsky,Jakovenko,D,2015,0
+2015-05-17,MVL,Caruana,A,2015,-1
+2015-05-17,Svidler,Karjakin,D,2015,0
+2015-05-19,Wei Yi,Yu Yangyi,D,2015,0
+2015-05-19,Nakamura,Svidler,D,2015,0
+2015-05-19,Karjakin,Tomashevsky,H,2015,1
+2015-05-19,Jakovenko,MVL,H,2015,1
+2015-05-19,Grischuk,Gelfand,D,2015,0
+2015-05-19,Giri,Dominguez Perez,D,2015,0
+2015-05-20,Gelfand,Dominguez Perez,D,2015,0
+2015-05-20,Grischuk,Caruana,A,2015,-1
+2015-05-20,Yu Yangyi,Ding Liren,A,2015,-1
+2015-05-20,Tomashevsky,Nakamura,D,2015,0
+2015-05-20,MVL,Karjakin,A,2015,-1
+2015-05-20,Svidler,Giri,H,2015,1
+2015-05-21,Caruana,Gelfand,D,2015,0
+2015-05-21,Dominguez Perez,Svidler,H,2015,1
+2015-05-21,Jakovenko,Grischuk,D,2015,0
+2015-05-21,Nakamura,MVL,H,2015,1
+2015-05-21,Giri,Tomashevsky,H,2015,1
+2015-05-21,Wei Yi,Ding Liren,H,2015,1
+2015-05-22,Caruana,Jakovenko,A,2015,-1
+2015-05-22,Gelfand,Svidler,H,2015,1
+2015-05-22,MVL,Giri,D,2015,0
+2015-05-22,Tomashevsky,Dominguez Perez,D,2015,0
+2015-05-22,Grischuk,Karjakin,H,2015,1
+2015-05-24,Wang Hao,Yu Yangyi,D,2015,0
+2015-05-24,Svidler,Tomashevsky,A,2015,-1
+2015-05-24,Nakamura,Grischuk,D,2015,0
+2015-05-24,Karjakin,Caruana,D,2015,0
+2015-05-24,Jakovenko,Gelfand,D,2015,0
+2015-05-24,Dominguez Perez,MVL,D,2015,0
+2015-05-25,Gelfand,Tomashevsky,D,2015,0
+2015-05-25,Grischuk,Giri,D,2015,0
+2015-05-25,Caruana,Nakamura,D,2015,0
+2015-05-25,MVL,Svidler,D,2015,0
+2015-05-25,Jakovenko,Karjakin,H,2015,1
+2015-05-25,Ding Liren,Wang Hao,H,2015,1
+2015-05-26,Dominguez Perez,Grischuk,D,2015,0
+2015-05-26,Giri,Caruana,D,2015,0
+2015-05-26,Nakamura,Jakovenko,D,2015,0
+2015-05-26,Tomashevsky,MVL,D,2015,0
+2015-05-26,Karjakin,Gelfand,D,2015,0
+2015-05-28,Wei Yi,Wang Hao,D,2015,0
+2015-06-04,Yu Yangyi,Ding Liren,D,2015,0
+2015-06-05,Jakovenko,Bacrot,A,2015,-1
+2015-06-05,Giri,Fressinet,H,2015,1
+2015-06-06,Ni Hua,Ivanchuk,D,2015,0
+2015-06-06,Giri,Navara,D,2015,0
+2015-06-09,Navara,So,D,2015,0
+2015-06-12,MVL,Ponomariov,D,2015,0
+2015-06-12,Ponomariov,MVL,D,2015,0
+2015-06-12,MVL,Ponomariov,D,2015,0
+2015-06-12,Ponomariov,MVL,A,2015,-1
+2015-06-13,Navara,So,D,2015,0
+2015-06-14,Wei Yi,MVL,D,2015,0
+2015-06-14,MVL,Wei Yi,D,2015,0
+2015-06-14,So,Navara,H,2015,1
+2015-06-14,MVL,Wei Yi,D,2015,0
+2015-06-14,Wei Yi,MVL,H,2015,1
+2015-06-15,Yu Yangyi,Andreikin,H,2015,1
+2015-06-15,Eljanov,Nepomniachtchi,H,2015,1
+2015-06-15,Navara,So,D,2015,0
+2015-06-16,MVL,Aronian,H,2015,1
+2015-06-16,Giri,Grischuk,H,2015,1
+2015-06-16,Carlsen,Topalov,A,2015,-1
+2015-06-16,Anand,Caruana,D,2015,0
+2015-06-16,Yu Yangyi,Eljanov,D,2015,0
+2015-06-16,Nepomniachtchi,Dominguez Perez,A,2015,-1
+2015-06-16,So,Navara,H,2015,1
+2015-06-17,Dominguez Perez,Yu Yangyi,A,2015,-1
+2015-06-17,Eljanov,Andreikin,D,2015,0
+2015-06-17,Caruana,Carlsen,H,2015,1
+2015-06-17,Grischuk,Aronian,D,2015,0
+2015-06-17,Topalov,Nakamura,D,2015,0
+2015-06-17,Giri,Anand,D,2015,0
+2015-06-18,Eljanov,Dominguez Perez,D,2015,0
+2015-06-18,Anand,Grischuk,D,2015,0
+2015-06-18,Andreikin,Nepomniachtchi,D,2015,0
+2015-06-18,Nakamura,Caruana,H,2015,1
+2015-06-18,MVL,Topalov,A,2015,-1
+2015-06-18,Carlsen,Giri,D,2015,0
+2015-06-19,Topalov,Aronian,H,2015,1
+2015-06-19,Giri,Nakamura,D,2015,0
+2015-06-19,Caruana,MVL,D,2015,0
+2015-06-19,Anand,Carlsen,H,2015,1
+2015-06-19,Nepomniachtchi,Yu Yangyi,A,2015,-1
+2015-06-19,Dominguez Perez,Andreikin,D,2015,0
+2015-06-21,Andreikin,Yu Yangyi,H,2015,1
+2015-06-21,Nepomniachtchi,Eljanov,A,2015,-1
+2015-06-21,Carlsen,Grischuk,H,2015,1
+2015-06-21,Nakamura,Anand,D,2015,0
+2015-06-21,Aronian,Caruana,H,2015,1
+2015-06-21,MVL,Giri,D,2015,0
+2015-06-22,Ivanchuk,Wang Hao,D,2015,0
+2015-06-22,Grischuk,Topalov,A,2015,-1
+2015-06-22,Giri,Aronian,D,2015,0
+2015-06-22,Carlsen,Nakamura,D,2015,0
+2015-06-22,Anand,MVL,H,2015,1
+2015-06-22,Eljanov,Yu Yangyi,D,2015,0
+2015-06-22,Dominguez Perez,Nepomniachtchi,A,2015,-1
+2015-06-23,MVL,Carlsen,D,2015,0
+2015-06-23,Topalov,Caruana,D,2015,0
+2015-06-23,Nakamura,Grischuk,D,2015,0
+2015-06-23,Aronian,Anand,D,2015,0
+2015-06-23,Yu Yangyi,Dominguez Perez,H,2015,1
+2015-06-23,Andreikin,Eljanov,D,2015,0
+2015-06-24,Dominguez Perez,Eljanov,H,2015,1
+2015-06-24,Nepomniachtchi,Andreikin,D,2015,0
+2015-06-24,Carlsen,Aronian,H,2015,1
+2015-06-24,Grischuk,Caruana,D,2015,0
+2015-06-24,Giri,Topalov,H,2015,1
+2015-06-24,Nakamura,MVL,D,2015,0
+2015-06-25,Harikrishna,Ivanchuk,D,2015,0
+2015-06-25,MVL,Grischuk,D,2015,0
+2015-06-25,Topalov,Anand,D,2015,0
+2015-06-25,Caruana,Giri,D,2015,0
+2015-06-25,Aronian,Nakamura,A,2015,-1
+2015-06-25,Yu Yangyi,Nepomniachtchi,D,2015,0
+2015-06-25,Andreikin,Dominguez Perez,D,2015,0
+2015-06-27,Nepomniachtchi,Caruana,D,2015,0
+2015-06-27,Kramnik,Naiditsch,A,2015,-1
+2015-06-28,Caruana,So,A,2015,-1
+2015-06-28,Wang Hao,Harikrishna,D,2015,0
+2015-06-30,So,Naiditsch,A,2015,-1
+2015-06-30,Kramnik,Nepomniachtchi,H,2015,1
+2015-07-01,Caruana,Naiditsch,H,2015,1
+2015-07-02,Ding Liren,Wei Yi,D,2015,0
+2015-07-03,So,Nepomniachtchi,H,2015,1
+2015-07-03,Ni Hua,Wang Yue,D,2015,0
+2015-07-03,Kramnik,Caruana,A,2015,-1
+2015-07-04,Yu Yangyi,Ni Hua,D,2015,0
+2015-07-04,Wang Yue,Wei Yi,H,2015,1
+2015-07-04,Nepomniachtchi,Naiditsch,H,2015,1
+2015-07-05,Wei Yi,Yu Yangyi,D,2015,0
+2015-07-05,So,Kramnik,H,2015,1
+2015-07-06,Wang Yue,Ding Liren,H,2015,1
+2015-07-07,Ding Liren,Yu Yangyi,H,2015,1
+2015-07-09,Ni Hua,Wei Yi,D,2015,0
+2015-07-10,Wang Yue,Yu Yangyi,D,2015,0
+2015-07-11,Ni Hua,Ding Liren,D,2015,0
+2015-07-15,Yu Yangyi,Svidler,D,2015,0
+2015-07-16,Vitiugov,Yu Yangyi,D,2015,0
+2015-07-16,Gelfand,Ding Liren,D,2015,0
+2015-07-16,Wei Yi,Svidler,A,2015,-1
+2015-07-17,Ding Liren,Gelfand,D,2015,0
+2015-07-17,Vitiugov,Wei Yi,A,2015,-1
+2015-07-18,Gelfand,Ding Liren,A,2015,-1
+2015-07-19,Ding Liren,Gelfand,H,2015,1
+2015-07-20,MVL,Eljanov,D,2015,0
+2015-07-20,Adams,Navara,H,2015,1
+2015-07-21,MVL,Wojtaszek,D,2015,0
+2015-07-21,Eljanov,Navara,A,2015,-1
+2015-07-22,Wojtaszek,Eljanov,H,2015,1
+2015-07-22,Adams,MVL,A,2015,-1
+2015-07-23,Navara,Wojtaszek,H,2015,1
+2015-07-23,Adams,Eljanov,A,2015,-1
+2015-07-24,MVL,Navara,D,2015,0
+2015-07-24,Wojtaszek,Adams,D,2015,0
+2015-07-24,Wei Yi,Wang Yue,H,2015,1
+2015-07-24,Ni Hua,Wang Hao,D,2015,0
+2015-07-25,Malakhov,Ding Liren,A,2015,-1
+2015-07-25,Navara,Adams,A,2015,-1
+2015-07-25,Eljanov,MVL,D,2015,0
+2015-07-25,Wang Hao,Inarkiev,H,2015,1
+2015-07-27,Navara,Eljanov,D,2015,0
+2015-07-27,Wojtaszek,MVL,H,2015,1
+2015-07-28,Eljanov,Wojtaszek,D,2015,0
+2015-07-28,MVL,Adams,H,2015,1
+2015-07-29,Navara,MVL,A,2015,-1
+2015-07-29,Adams,Wojtaszek,D,2015,0
+2015-07-29,Karjakin,Wei Yi,D,2015,0
+2015-07-29,Wei Yi,Karjakin,A,2015,-1
+2015-07-29,Karjakin,Wei Yi,H,2015,1
+2015-07-30,Eljanov,Adams,A,2015,-1
+2015-07-30,Ding Liren,Karjakin,D,2015,0
+2015-07-30,Ding Liren,Karjakin,A,2015,-1
+2015-07-30,Karjakin,Ding Liren,A,2015,-1
+2015-07-30,Ding Liren,Karjakin,D,2015,0
+2015-07-30,Wojtaszek,Navara,D,2015,0
+2015-07-31,Karjakin,Ni Hua,H,2015,1
+2015-08-01,Karjakin,Yu Yangyi,H,2015,1
+2015-08-01,Yu Yangyi,Karjakin,A,2015,-1
+2015-08-01,Yu Yangyi,Karjakin,D,2015,0
+2015-08-05,Mamedyarov,Harikrishna,D,2015,0
+2015-08-07,Moiseenko,So,D,2015,0
+2015-08-08,Harikrishna,Moiseenko,D,2015,0
+2015-08-09,Tomashevsky,Jakovenko,D,2015,0
+2015-08-10,Svidler,Jakovenko,D,2015,0
+2015-08-11,Karjakin,Vitiugov,D,2015,0
+2015-08-11,Mamedyarov,So,D,2015,0
+2015-08-12,Vitiugov,Tomashevsky,D,2015,0
+2015-08-13,Jakovenko,Vitiugov,D,2015,0
+2015-08-13,So,Harikrishna,D,2015,0
+2015-08-14,Li Chao,Leko,D,2015,0
+2015-08-14,Moiseenko,Mamedyarov,D,2015,0
+2015-08-15,Leko,Li Chao,D,2015,0
+2015-08-15,Shirov,Kovalenko,D,2015,0
+2015-08-16,Li Chao,Leko,H,2015,1
+2015-08-17,Svidler,Vitiugov,D,2015,0
+2015-08-17,Dominguez Perez,Harikrishna,D,2015,0
+2015-08-18,Leko,Li Chao,A,2015,-1
+2015-08-18,Karjakin,Svidler,H,2015,1
+2015-08-19,Li Chao,Leko,D,2015,0
+2015-08-19,Karjakin,Tomashevsky,D,2015,0
+2015-08-20,Leko,Li Chao,D,2015,0
+2015-08-20,Tomashevsky,Svidler,D,2015,0
+2015-08-20,Jakovenko,Karjakin,D,2015,0
+2015-08-20,Wang Yue,Ni Hua,D,2015,0
+2015-08-21,Yu Yangyi,Malakhov,A,2015,-1
+2015-08-23,Ni Hua,Ding Liren,A,2015,-1
+2015-08-23,Wang Hao,Wei Yi,D,2015,0
+2015-08-23,Aronian,Caruana,H,2015,1
+2015-08-23,So,MVL,A,2015,-1
+2015-08-23,Giri,Grischuk,H,2015,1
+2015-08-23,Nakamura,Anand,H,2015,1
+2015-08-23,Carlsen,Topalov,A,2015,-1
+2015-08-24,Caruana,Carlsen,A,2015,-1
+2015-08-24,Giri,So,D,2015,0
+2015-08-24,MVL,Aronian,D,2015,0
+2015-08-24,Topalov,Nakamura,H,2015,1
+2015-08-24,Grischuk,Anand,H,2015,1
+2015-08-25,So,Grischuk,H,2015,1
+2015-08-25,Nakamura,Caruana,D,2015,0
+2015-08-25,Carlsen,MVL,H,2015,1
+2015-08-25,Aronian,Giri,D,2015,0
+2015-08-25,Anand,Topalov,D,2015,0
+2015-08-26,MVL,Nakamura,D,2015,0
+2015-08-26,So,Aronian,A,2015,-1
+2015-08-26,Grischuk,Topalov,D,2015,0
+2015-08-26,Giri,Carlsen,D,2015,0
+2015-08-26,Caruana,Anand,D,2015,0
+2015-08-27,Anand,MVL,D,2015,0
+2015-08-27,Aronian,Grischuk,D,2015,0
+2015-08-27,Nakamura,Giri,D,2015,0
+2015-08-27,Topalov,Caruana,A,2015,-1
+2015-08-27,Carlsen,So,H,2015,1
+2015-08-28,So,Nakamura,A,2015,-1
+2015-08-28,Grischuk,Caruana,H,2015,1
+2015-08-28,Giri,Anand,D,2015,0
+2015-08-28,Aronian,Carlsen,D,2015,0
+2015-08-28,MVL,Topalov,H,2015,1
+2015-08-29,Wang Yue,Ding Liren,D,2015,0
+2015-08-30,Bu Xiangzhi,Li Chao,D,2015,0
+2015-08-30,Wang Hao,Ni Hua,D,2015,0
+2015-08-30,Wang Yue,Wei Yi,D,2015,0
+2015-08-30,Carlsen,Grischuk,A,2015,-1
+2015-08-30,Caruana,MVL,D,2015,0
+2015-08-30,Nakamura,Aronian,A,2015,-1
+2015-08-30,Topalov,Giri,D,2015,0
+2015-08-30,Anand,So,D,2015,0
+2015-08-31,Bu Xiangzhi,Ding Liren,D,2015,0
+2015-08-31,Ni Hua,Wei Yi,D,2015,0
+2015-08-31,Li Chao,Ding Liren,D,2015,0
+2015-08-31,Li Chao,Wang Hao,D,2015,0
+2015-08-31,Giri,Caruana,D,2015,0
+2015-08-31,Carlsen,Nakamura,D,2015,0
+2015-08-31,So,Topalov,D,2015,0
+2015-08-31,Aronian,Anand,D,2015,0
+2015-08-31,Grischuk,MVL,D,2015,0
+2015-09-01,MVL,Giri,D,2015,0
+2015-09-01,Topalov,Aronian,D,2015,0
+2015-09-01,Nakamura,Grischuk,H,2015,1
+2015-09-01,Caruana,So,D,2015,0
+2015-09-01,Anand,Carlsen,D,2015,0
+2015-09-01,Ni Hua,Wei Yi,D,2015,0
+2015-09-01,Wang Yue,Bu Xiangzhi,A,2015,-1
+2015-09-02,Wei Yi,Bu Xiangzhi,A,2015,-1
+2015-09-03,Bu Xiangzhi,Wei Yi,H,2015,1
+2015-09-14,Nepomniachtchi,Fressinet,D,2015,0
+2015-09-14,Korobov,Andreikin,A,2015,-1
+2015-09-15,Fressinet,Nepomniachtchi,D,2015,0
+2015-09-15,Andreikin,Korobov,D,2015,0
+2015-09-16,Nepomniachtchi,Fressinet,D,2015,0
+2015-09-16,Fressinet,Nepomniachtchi,D,2015,0
+2015-09-17,Radjabov,Svidler,D,2015,0
+2015-09-17,Adams,Dominguez Perez,D,2015,0
+2015-09-17,MVL,Tomashevsky,D,2015,0
+2015-09-17,Karjakin,Yu Yangyi,H,2015,1
+2015-09-17,Ivanchuk,Jakovenko,D,2015,0
+2015-09-17,Andreikin,Kramnik,D,2015,0
+2015-09-17,Leko,Giri,D,2015,0
+2015-09-17,Nepomniachtchi,Nakamura,D,2015,0
+2015-09-17,Grischuk,Eljanov,A,2015,-1
+2015-09-18,Svidler,Radjabov,D,2015,0
+2015-09-18,Dominguez Perez,Adams,D,2015,0
+2015-09-18,Tomashevsky,MVL,D,2015,0
+2015-09-18,Yu Yangyi,Karjakin,D,2015,0
+2015-09-18,Eljanov,Grischuk,H,2015,1
+2015-09-18,Kramnik,Andreikin,D,2015,0
+2015-09-18,Giri,Leko,H,2015,1
+2015-09-18,Nakamura,Nepomniachtchi,D,2015,0
+2015-09-18,Jakovenko,Ivanchuk,H,2015,1
+2015-09-19,Nepomniachtchi,Nakamura,A,2015,-1
+2015-09-19,Dominguez Perez,Adams,A,2015,-1
+2015-09-19,Nakamura,Nepomniachtchi,H,2015,1
+2015-09-19,Adams,Dominguez Perez,H,2015,1
+2015-09-19,Nepomniachtchi,Nakamura,H,2015,1
+2015-09-19,Dominguez Perez,Adams,D,2015,0
+2015-09-19,Nepomniachtchi,Nakamura,H,2015,1
+2015-09-19,Tomashevsky,MVL,A,2015,-1
+2015-09-19,Adams,Dominguez Perez,D,2015,0
+2015-09-19,Nakamura,Nepomniachtchi,H,2015,1
+2015-09-19,MVL,Tomashevsky,H,2015,1
+2015-09-19,Andreikin,Kramnik,H,2015,1
+2015-09-19,Tomashevsky,MVL,D,2015,0
+2015-09-19,Radjabov,Svidler,D,2015,0
+2015-09-19,Nakamura,Nepomniachtchi,D,2015,0
+2015-09-19,Kramnik,Andreikin,D,2015,0
+2015-09-19,Adams,Dominguez Perez,D,2015,0
+2015-09-19,MVL,Tomashevsky,D,2015,0
+2015-09-19,Nepomniachtchi,Nakamura,D,2015,0
+2015-09-19,Dominguez Perez,Adams,D,2015,0
+2015-09-19,Svidler,Radjabov,H,2015,1
+2015-09-20,Andreikin,Karjakin,D,2015,0
+2015-09-20,Ding Liren,Wei Yi,H,2015,1
+2015-09-20,Giri,Wojtaszek,D,2015,0
+2015-09-20,MVL,So,D,2015,0
+2015-09-20,Mamedyarov,Caruana,H,2015,1
+2015-09-20,Nakamura,Adams,H,2015,1
+2015-09-20,Svidler,Topalov,H,2015,1
+2015-09-20,Jakovenko,Eljanov,D,2015,0
+2015-09-21,Wojtaszek,Giri,D,2015,0
+2015-09-21,Wei Yi,Ding Liren,H,2015,1
+2015-09-21,Topalov,Svidler,D,2015,0
+2015-09-21,So,MVL,A,2015,-1
+2015-09-21,Karjakin,Andreikin,D,2015,0
+2015-09-21,Eljanov,Jakovenko,D,2015,0
+2015-09-21,Caruana,Mamedyarov,D,2015,0
+2015-09-21,Adams,Nakamura,D,2015,0
+2015-09-22,Ding Liren,Wei Yi,A,2015,-1
+2015-09-22,Wei Yi,Ding Liren,D,2015,0
+2015-09-22,Andreikin,Karjakin,D,2015,0
+2015-09-22,Ding Liren,Wei Yi,D,2015,0
+2015-09-22,Giri,Wojtaszek,H,2015,1
+2015-09-22,Wojtaszek,Giri,A,2015,-1
+2015-09-22,Jakovenko,Eljanov,D,2015,0
+2015-09-22,Karjakin,Andreikin,H,2015,1
+2015-09-22,Eljanov,Jakovenko,H,2015,1
+2015-09-22,Wei Yi,Ding Liren,D,2015,0
+2015-09-25,Karjakin,Mamedyarov,D,2015,0
+2015-09-25,Mamedyarov,Karjakin,A,2015,-1
+2015-09-25,Wei Yi,Svidler,A,2015,-1
+2015-09-25,Karjakin,Mamedyarov,H,2015,1
+2015-09-25,Svidler,Wei Yi,D,2015,0
+2015-09-25,Mamedyarov,Karjakin,D,2015,0
+2015-09-25,Wei Yi,Svidler,D,2015,0
+2015-09-25,Svidler,Wei Yi,D,2015,0
+2015-09-25,Karjakin,Mamedyarov,D,2015,0
+2015-09-25,MVL,Giri,D,2015,0
+2015-09-25,Svidler,Wei Yi,D,2015,0
+2015-09-25,Mamedyarov,Karjakin,D,2015,0
+2015-09-25,Giri,MVL,H,2015,1
+2015-09-25,Wei Yi,Svidler,D,2015,0
+2015-09-25,Nakamura,Eljanov,D,2015,0
+2015-09-25,Eljanov,Nakamura,H,2015,1
+2015-09-29,Korobov,Morozevich,H,2015,1
+2015-09-29,Eljanov,Karjakin,D,2015,0
+2015-09-29,Svidler,Giri,D,2015,0
+2015-09-29,Karjakin,Eljanov,D,2015,0
+2015-09-29,Eljanov,Karjakin,H,2015,1
+2015-09-29,Karjakin,Eljanov,H,2015,1
+2015-09-29,Eljanov,Karjakin,A,2015,-1
+2015-09-29,Karjakin,Eljanov,D,2015,0
+2015-09-29,Giri,Svidler,A,2015,-1
+2015-10-01,Svidler,Karjakin,H,2015,1
+2015-10-02,Karjakin,Svidler,A,2015,-1
+2015-10-03,Svidler,Karjakin,A,2015,-1
+2015-10-04,Shirov,Morozevich,D,2015,0
+2015-10-04,Karjakin,Svidler,H,2015,1
+2015-10-06,Shirov,Korobov,A,2015,-1
+2015-10-12,Yu Yangyi,Nakamura,D,2015,0
+2015-10-12,Nakamura,Yu Yangyi,D,2015,0
+2015-10-12,Yu Yangyi,Nakamura,D,2015,0
+2015-10-12,Nakamura,Yu Yangyi,H,2015,1
+2015-10-19,Shirov,Leko,D,2015,0
+2015-10-20,Kramnik,Nepomniachtchi,H,2015,1
+2015-10-20,Topalov,Gelfand,D,2015,0
+2015-10-20,Rublevsky,Adams,A,2015,-1
+2015-10-21,MVL,Radjabov,D,2015,0
+2015-10-21,Vitiugov,Grischuk,D,2015,0
+2015-10-21,Adams,Nakamura,D,2015,0
+2015-10-21,Jakovenko,Navara,D,2015,0
+2015-10-21,Harikrishna,Tomashevsky,D,2015,0
+2015-10-21,Karjakin,Caruana,D,2015,0
+2015-10-21,Aronian,Dominguez Perez,D,2015,0
+2015-10-21,Ivanchuk,Wojtaszek,D,2015,0
+2015-10-21,Topalov,Leko,H,2015,1
+2015-10-21,Svidler,Kramnik,A,2015,-1
+2015-10-22,Kramnik,Topalov,H,2015,1
+2015-10-22,Shirov,Svidler,D,2015,0
+2015-10-22,Leko,Ivanchuk,H,2015,1
+2015-10-22,Giri,Aronian,D,2015,0
+2015-10-22,Tomashevsky,Karjakin,D,2015,0
+2015-10-22,Grischuk,Caruana,H,2015,1
+2015-10-22,Nakamura,Jakovenko,D,2015,0
+2015-10-22,Adams,Li Chao,H,2015,1
+2015-10-22,Andreikin,MVL,D,2015,0
+2015-10-22,Wang Yue,Radjabov,D,2015,0
+2015-10-22,Mamedyarov,Korobov,D,2015,0
+2015-10-23,Korobov,Yu Yangyi,D,2015,0
+2015-10-23,Kryvoruchko,Wang Yue,H,2015,1
+2015-10-23,Li Chao,Andreikin,H,2015,1
+2015-10-23,Caruana,Navara,D,2015,0
+2015-10-23,Nepomniachtchi,Leko,D,2015,0
+2015-10-23,Harikrishna,Giri,D,2015,0
+2015-10-23,Aronian,Tomashevsky,D,2015,0
+2015-10-23,Topalov,Wojtaszek,H,2015,1
+2015-10-23,Ivanchuk,Kramnik,A,2015,-1
+2015-10-23,Jakovenko,Grischuk,D,2015,0
+2015-10-24,Grischuk,Nakamura,D,2015,0
+2015-10-24,Vitiugov,Caruana,D,2015,0
+2015-10-24,Giri,Dominguez Perez,D,2015,0
+2015-10-24,MVL,Li Chao,H,2015,1
+2015-10-24,Svidler,Topalov,D,2015,0
+2015-10-24,Wojtaszek,Shirov,H,2015,1
+2015-10-24,Kramnik,Leko,D,2015,0
+2015-10-24,Karjakin,Aronian,D,2015,0
+2015-10-26,Anand,Giri,D,2015,0
+2015-10-26,So,Ding Liren,H,2015,1
+2015-10-27,Giri,So,D,2015,0
+2015-10-27,Anand,Ding Liren,D,2015,0
+2015-10-28,So,Anand,D,2015,0
+2015-10-28,Ding Liren,Giri,D,2015,0
+2015-10-30,Giri,Anand,H,2015,1
+2015-10-30,Ding Liren,So,D,2015,0
+2015-10-31,Giri,Ding Liren,D,2015,0
+2015-10-31,Anand,So,D,2015,0
+2015-11-01,So,Giri,D,2015,0
+2015-11-01,Ding Liren,Anand,D,2015,0
+2015-11-14,Aronian,MVL,A,2015,-1
+2015-11-15,Radjabov,Kryvoruchko,D,2015,0
+2015-11-15,Eljanov,Mamedyarov,H,2015,1
+2015-11-15,MVL,Leko,D,2015,0
+2015-11-15,Carlsen,Aronian,A,2015,-1
+2015-11-16,Kryvoruchko,Tomashevsky,D,2015,0
+2015-11-16,Grischuk,Eljanov,D,2015,0
+2015-11-16,Ivanchuk,Svidler,A,2015,-1
+2015-11-16,Wojtaszek,Leko,D,2015,0
+2015-11-16,Adams,Aronian,H,2015,1
+2015-11-17,Leko,Ivanchuk,D,2015,0
+2015-11-17,Svidler,Mamedyarov,D,2015,0
+2015-11-17,Radjabov,Grischuk,D,2015,0
+2015-11-19,Leko,Carlsen,A,2015,-1
+2015-11-19,Ivanchuk,MVL,D,2015,0
+2015-11-19,Mamedyarov,Giri,D,2015,0
+2015-11-19,Fressinet,Eljanov,H,2015,1
+2015-11-20,Giri,Adams,D,2015,0
+2015-11-20,Grischuk,Fressinet,H,2015,1
+2015-11-20,Wojtaszek,Aronian,A,2015,-1
+2015-11-20,MVL,Svidler,D,2015,0
+2015-11-20,Ding Liren,Wang Yue,A,2015,-1
+2015-11-20,Bu Xiangzhi,Yu Yangyi,A,2015,-1
+2015-11-20,Ding Liren,Bu Xiangzhi,H,2015,1
+2015-11-20,Wang Hao,Yu Yangyi,H,2015,1
+2015-11-21,Wei Yi,Yu Yangyi,D,2015,0
+2015-11-21,Wang Yue,Bu Xiangzhi,H,2015,1
+2015-11-21,Yu Yangyi,Wang Yue,A,2015,-1
+2015-11-21,Wang Hao,Wei Yi,D,2015,0
+2015-11-21,Wei Yi,Wang Yue,D,2015,0
+2015-11-21,Wang Hao,Ding Liren,D,2015,0
+2015-11-21,Mamedyarov,Leko,D,2015,0
+2015-11-21,Svidler,Aronian,D,2015,0
+2015-11-22,Ding Liren,Wei Yi,H,2015,1
+2015-11-22,Bu Xiangzhi,Wang Hao,D,2015,0
+2015-11-22,Carlsen,Wojtaszek,H,2015,1
+2015-11-22,Leko,Svidler,D,2015,0
+2015-11-22,Giri,MVL,D,2015,0
+2015-11-24,Bu Xiangzhi,Wang Yue,D,2015,0
+2015-11-25,Wang Yue,Bu Xiangzhi,A,2015,-1
+2015-11-26,Yu Yangyi,Wei Yi,D,2015,0
+2015-11-27,Wei Yi,Yu Yangyi,D,2015,0
+2015-11-27,Yu Yangyi,Wei Yi,D,2015,0
+2015-11-27,Wei Yi,Yu Yangyi,D,2015,0
+2015-11-27,Yu Yangyi,Wei Yi,A,2015,-1
+2015-11-27,Wei Yi,Yu Yangyi,D,2015,0
+2015-11-29,Bu Xiangzhi,Wei Yi,D,2015,0
+2015-11-30,Wei Yi,Bu Xiangzhi,H,2015,1
+2015-12-04,Grischuk,Nakamura,D,2015,0
+2015-12-04,MVL,Carlsen,D,2015,0
+2015-12-04,Caruana,Aronian,D,2015,0
+2015-12-04,Anand,Adams,D,2015,0
+2015-12-04,Topalov,Giri,A,2015,-1
+2015-12-05,Giri,Adams,D,2015,0
+2015-12-05,Aronian,Anand,D,2015,0
+2015-12-05,Carlsen,Caruana,D,2015,0
+2015-12-05,Topalov,Grischuk,D,2015,0
+2015-12-05,Nakamura,MVL,D,2015,0
+2015-12-06,MVL,Topalov,H,2015,1
+2015-12-06,Anand,Carlsen,D,2015,0
+2015-12-06,Adams,Aronian,D,2015,0
+2015-12-06,Grischuk,Giri,D,2015,0
+2015-12-06,Caruana,Nakamura,D,2015,0
+2015-12-07,Topalov,Caruana,D,2015,0
+2015-12-07,Carlsen,Adams,D,2015,0
+2015-12-07,Grischuk,MVL,D,2015,0
+2015-12-07,Giri,Aronian,D,2015,0
+2015-12-07,Nakamura,Anand,H,2015,1
+2015-12-08,Yu Yangyi,Ni Hua,D,2015,0
+2015-12-08,Wang Yue,Wei Yi,H,2015,1
+2015-12-08,Caruana,Grischuk,D,2015,0
+2015-12-08,Adams,Nakamura,D,2015,0
+2015-12-08,Aronian,Carlsen,D,2015,0
+2015-12-08,Anand,Topalov,H,2015,1
+2015-12-08,MVL,Giri,D,2015,0
+2015-12-09,Inarkiev,Yu Yangyi,D,2015,0
+2015-12-10,Nakamura,Aronian,D,2015,0
+2015-12-10,Grischuk,Anand,H,2015,1
+2015-12-10,Giri,Carlsen,D,2015,0
+2015-12-10,Topalov,Adams,D,2015,0
+2015-12-10,MVL,Caruana,D,2015,0
+2015-12-11,Aronian,Topalov,H,2015,1
+2015-12-11,Anand,MVL,A,2015,-1
+2015-12-11,Adams,Grischuk,D,2015,0
+2015-12-11,Caruana,Giri,D,2015,0
+2015-12-11,Carlsen,Nakamura,H,2015,1
+2015-12-11,Ding Liren,Wei Yi,D,2015,0
+2015-12-12,Eljanov,Jakovenko,D,2015,0
+2015-12-12,Fressinet,Harikrishna,A,2015,-1
+2015-12-12,Navara,Tomashevsky,H,2015,1
+2015-12-12,Giri,Nakamura,H,2015,1
+2015-12-12,Caruana,Anand,D,2015,0
+2015-12-12,MVL,Adams,D,2015,0
+2015-12-12,Grischuk,Aronian,D,2015,0
+2015-12-12,Topalov,Carlsen,D,2015,0
+2015-12-13,Nakamura,Topalov,D,2015,0
+2015-12-13,Carlsen,Grischuk,H,2015,1
+2015-12-13,Anand,Giri,D,2015,0
+2015-12-13,Aronian,MVL,D,2015,0
+2015-12-13,Adams,Caruana,D,2015,0
+2015-12-16,Karjakin,Wang Yue,D,2015,0
+2015-12-16,Wang Yue,Karjakin,A,2015,-1
+2015-12-16,Karjakin,Wang Yue,H,2015,1
+2015-12-22,Giri,Wojtaszek,H,2015,1
+2015-12-23,Li Chao,Giri,D,2015,0
+2015-12-24,Giri,So,D,2015,0
+2015-12-24,Carlsen,Li Chao,H,2015,1
+2015-12-26,Kramnik,Mamedyarov,D,2015,0
+2015-12-26,Li Chao,Yu Yangyi,D,2015,0
+2015-12-26,So,Carlsen,D,2015,0
+2015-12-27,Yu Yangyi,Kramnik,D,2015,0
+2015-12-27,Ponomariov,So,D,2015,0
+2015-12-27,Carlsen,Giri,D,2015,0
+2015-12-28,Mamedyarov,Carlsen,A,2015,-1
+2015-12-28,Giri,Ponomariov,D,2015,0
+2015-12-29,Yu Yangyi,So,H,2015,1
+2015-12-29,Carlsen,Kramnik,D,2015,0
+2015-12-30,Kryvoruchko,Wang Hao,D,2015,0
+2016-01-16,Wei Yi,Tomashevsky,D,2016,0
+2016-01-16,So,Giri,H,2016,1
+2016-01-16,Navara,Carlsen,D,2016,0
+2016-01-16,Ding Liren,Adams,H,2016,1
+2016-01-16,Caruana,Eljanov,H,2016,1
+2016-01-17,Adams,Navara,D,2016,0
+2016-01-17,Carlsen,Caruana,D,2016,0
+2016-01-17,Giri,Ding Liren,D,2016,0
+2016-01-17,Tomashevsky,Mamedyarov,D,2016,0
+2016-01-17,Eljanov,Wei Yi,D,2016,0
+2016-01-18,Wei Yi,Carlsen,D,2016,0
+2016-01-18,So,Karjakin,D,2016,0
+2016-01-18,Navara,Giri,D,2016,0
+2016-01-18,Mamedyarov,Eljanov,A,2016,-1
+2016-01-18,Caruana,Adams,H,2016,1
+2016-01-19,Adams,Wei Yi,D,2016,0
+2016-01-19,Carlsen,Mamedyarov,D,2016,0
+2016-01-19,Giri,Caruana,D,2016,0
+2016-01-19,Karjakin,Tomashevsky,H,2016,1
+2016-01-19,So,Ding Liren,D,2016,0
+2016-01-21,Wei Yi,Giri,D,2016,0
+2016-01-21,Tomashevsky,Eljanov,D,2016,0
+2016-01-21,Navara,So,D,2016,0
+2016-01-21,Mamedyarov,Adams,H,2016,1
+2016-01-21,Ding Liren,Karjakin,H,2016,1
+2016-01-22,Carlsen,Tomashevsky,H,2016,1
+2016-01-22,Ding Liren,Navara,D,2016,0
+2016-01-22,So,Caruana,D,2016,0
+2016-01-22,Karjakin,Eljanov,D,2016,0
+2016-01-22,Giri,Mamedyarov,H,2016,1
+2016-01-23,Wei Yi,So,D,2016,0
+2016-01-23,Tomashevsky,Adams,D,2016,0
+2016-01-23,Navara,Karjakin,D,2016,0
+2016-01-23,Eljanov,Carlsen,A,2016,-1
+2016-01-23,Caruana,Ding Liren,H,2016,1
+2016-01-24,So,Mamedyarov,D,2016,0
+2016-01-24,Navara,Caruana,H,2016,1
+2016-01-24,Karjakin,Carlsen,D,2016,0
+2016-01-24,Giri,Tomashevsky,D,2016,0
+2016-01-24,Ding Liren,Wei Yi,D,2016,0
+2016-01-24,Adams,Eljanov,D,2016,0
+2016-01-26,Carlsen,Adams,H,2016,1
+2016-01-26,Caruana,Karjakin,D,2016,0
+2016-01-26,Eljanov,Giri,D,2016,0
+2016-01-26,Wei Yi,Navara,H,2016,1
+2016-01-26,Mamedyarov,Ding Liren,D,2016,0
+2016-01-27,Navara,Mamedyarov,D,2016,0
+2016-01-27,Caruana,Wei Yi,H,2016,1
+2016-01-27,So,Tomashevsky,D,2016,0
+2016-01-27,Karjakin,Adams,A,2016,-1
+2016-01-27,Giri,Carlsen,D,2016,0
+2016-01-29,Wei Yi,Karjakin,D,2016,0
+2016-01-29,Tomashevsky,Ding Liren,A,2016,-1
+2016-01-29,Mamedyarov,Caruana,D,2016,0
+2016-01-29,Eljanov,So,D,2016,0
+2016-01-29,Adams,Giri,D,2016,0
+2016-01-30,Wei Yi,Mamedyarov,D,2016,0
+2016-01-30,So,Carlsen,D,2016,0
+2016-01-30,Navara,Tomashevsky,D,2016,0
+2016-01-30,Karjakin,Giri,D,2016,0
+2016-01-30,Ding Liren,Eljanov,H,2016,1
+2016-01-31,Carlsen,Ding Liren,D,2016,0
+2016-01-31,Adams,So,D,2016,0
+2016-01-31,Eljanov,Navara,H,2016,1
+2016-01-31,Tomashevsky,Caruana,H,2016,1
+2016-01-31,Mamedyarov,Karjakin,D,2016,0
+2016-02-04,Harikrishna,Li Chao,D,2016,0
+2016-02-07,Almasi,Kasimdzhanov,D,2016,0
+2016-02-20,Navara,Eljanov,D,2016,0
+2016-02-21,Anand,Harikrishna,D,2016,0
+2016-03-11,Nakamura,Caruana,D,2016,0
+2016-03-11,Karjakin,Svidler,D,2016,0
+2016-03-11,Giri,Aronian,D,2016,0
+2016-03-11,Anand,Topalov,H,2016,1
+2016-03-12,Svidler,Topalov,D,2016,0
+2016-03-12,Karjakin,Nakamura,H,2016,1
+2016-03-12,Caruana,Giri,D,2016,0
+2016-03-12,Aronian,Anand,D,2016,0
+2016-03-13,Fressinet,Adams,D,2016,0
+2016-03-13,Anand,Caruana,D,2016,0
+2016-03-13,Nakamura,Svidler,D,2016,0
+2016-03-13,Topalov,Aronian,A,2016,-1
+2016-03-13,Giri,Karjakin,D,2016,0
+2016-03-15,Svidler,Aronian,D,2016,0
+2016-03-15,Nakamura,Giri,D,2016,0
+2016-03-15,Karjakin,Anand,H,2016,1
+2016-03-15,Caruana,Topalov,D,2016,0
+2016-03-15,Rapport,Mamedyarov,D,2016,0
+2016-03-16,Anand,Nakamura,D,2016,0
+2016-03-16,Giri,Svidler,D,2016,0
+2016-03-16,Topalov,Karjakin,D,2016,0
+2016-03-16,Aronian,Caruana,D,2016,0
+2016-03-17,Topalov,Giri,D,2016,0
+2016-03-17,Caruana,Karjakin,D,2016,0
+2016-03-17,Aronian,Nakamura,H,2016,1
+2016-03-17,Anand,Svidler,H,2016,1
+2016-03-19,Karjakin,Aronian,D,2016,0
+2016-03-19,Giri,Anand,D,2016,0
+2016-03-19,Svidler,Caruana,D,2016,0
+2016-03-19,Nakamura,Topalov,H,2016,1
+2016-03-20,Topalov,Anand,D,2016,0
+2016-03-20,Svidler,Karjakin,D,2016,0
+2016-03-20,Caruana,Nakamura,H,2016,1
+2016-03-20,Aronian,Giri,D,2016,0
+2016-03-21,Topalov,Svidler,D,2016,0
+2016-03-21,Nakamura,Karjakin,D,2016,0
+2016-03-21,Giri,Caruana,D,2016,0
+2016-03-21,Anand,Aronian,H,2016,1
+2016-03-23,Aronian,Topalov,D,2016,0
+2016-03-23,Svidler,Nakamura,D,2016,0
+2016-03-23,Karjakin,Giri,D,2016,0
+2016-03-23,Caruana,Anand,H,2016,1
+2016-03-24,Topalov,Caruana,D,2016,0
+2016-03-24,Giri,Nakamura,D,2016,0
+2016-03-24,Aronian,Svidler,A,2016,-1
+2016-03-24,Anand,Karjakin,H,2016,1
+2016-03-25,Caruana,Aronian,D,2016,0
+2016-03-25,Svidler,Giri,D,2016,0
+2016-03-25,Nakamura,Anand,H,2016,1
+2016-03-25,Karjakin,Topalov,H,2016,1
+2016-03-27,Giri,Topalov,D,2016,0
+2016-03-27,Caruana,Svidler,D,2016,0
+2016-03-27,Aronian,Karjakin,D,2016,0
+2016-03-27,Anand,Giri,D,2016,0
+2016-03-27,Topalov,Nakamura,A,2016,-1
+2016-03-28,Svidler,Anand,D,2016,0
+2016-03-28,Nakamura,Aronian,D,2016,0
+2016-03-28,Karjakin,Caruana,H,2016,1
+2016-04-09,Kasimdzhanov,Li Chao,H,2016,1
+2016-04-09,Jakovenko,Adams,D,2016,0
+2016-04-12,Yu Yangyi,Mamedyarov,D,2016,0
+2016-04-15,Bu Xiangzhi,Mamedyarov,D,2016,0
+2016-04-16,So,Caruana,D,2016,0
+2016-04-17,Caruana,Nakamura,H,2016,1
+2016-04-17,Ponomariov,Wojtaszek,D,2016,0
+2016-04-19,MVL,Li Chao,D,2016,0
+2016-04-19,Giri,Eljanov,H,2016,1
+2016-04-19,Aronian,Topalov,D,2016,0
+2016-04-19,Carlsen,Harikrishna,H,2016,1
+2016-04-20,Eljanov,Harikrishna,D,2016,0
+2016-04-20,Giri,MVL,A,2016,-1
+2016-04-20,Li Chao,Kramnik,D,2016,0
+2016-04-20,Topalov,Carlsen,D,2016,0
+2016-04-20,So,Nakamura,D,2016,0
+2016-04-21,Aronian,Li Chao,D,2016,0
+2016-04-21,Harikrishna,Topalov,D,2016,0
+2016-04-21,Kramnik,Giri,D,2016,0
+2016-04-21,MVL,Eljanov,D,2016,0
+2016-04-22,Giri,Aronian,D,2016,0
+2016-04-22,Li Chao,Carlsen,D,2016,0
+2016-04-22,Eljanov,Topalov,D,2016,0
+2016-04-22,MVL,Kramnik,D,2016,0
+2016-04-24,Aronian,MVL,D,2016,0
+2016-04-24,Carlsen,Giri,D,2016,0
+2016-04-24,Kramnik,Eljanov,D,2016,0
+2016-04-24,Harikrishna,Li Chao,H,2016,1
+2016-04-25,Li Chao,Topalov,D,2016,0
+2016-04-25,MVL,Carlsen,D,2016,0
+2016-04-25,Kramnik,Aronian,D,2016,0
+2016-04-25,Giri,Harikrishna,A,2016,-1
+2016-04-27,Harikrishna,MVL,D,2016,0
+2016-04-27,Aronian,Eljanov,H,2016,1
+2016-04-27,Topalov,Giri,D,2016,0
+2016-04-27,Carlsen,Kramnik,H,2016,1
+2016-04-28,Eljanov,Li Chao,A,2016,-1
+2016-04-28,Kramnik,Harikrishna,H,2016,1
+2016-04-28,MVL,Topalov,D,2016,0
+2016-04-28,Aronian,Carlsen,H,2016,1
+2016-04-29,Carlsen,Eljanov,H,2016,1
+2016-04-29,Harikrishna,Aronian,D,2016,0
+2016-04-29,Li Chao,Giri,D,2016,0
+2016-04-29,Topalov,Kramnik,D,2016,0
+2016-05-01,Svidler,Nepomniachtchi,D,2016,0
+2016-05-02,Tomashevsky,Nepomniachtchi,D,2016,0
+2016-05-02,Karjakin,Grischuk,D,2016,0
+2016-05-04,Grischuk,Dominguez Perez,D,2016,0
+2016-05-04,Svidler,Kramnik,A,2016,-1
+2016-05-04,Vitiugov,Tomashevsky,D,2016,0
+2016-05-04,Ding Liren,So,D,2016,0
+2016-05-04,Jakovenko,Bu Xiangzhi,D,2016,0
+2016-05-05,So,Ding Liren,D,2016,0
+2016-05-06,Karjakin,Svidler,A,2016,-1
+2016-05-06,Dominguez Perez,Nepomniachtchi,A,2016,-1
+2016-05-07,Ding Liren,So,H,2016,1
+2016-05-07,Kramnik,Karjakin,D,2016,0
+2016-05-07,Nepomniachtchi,Grischuk,H,2016,1
+2016-05-08,So,Ding Liren,D,2016,0
+2016-05-09,Tomashevsky,Vitiugov,D,2016,0
+2016-05-09,Kramnik,Svidler,D,2016,0
+2016-05-09,Dominguez Perez,Grischuk,D,2016,0
+2016-05-17,Wojtaszek,Navara,D,2016,0
+2016-05-19,Bacrot,Svidler,D,2016,0
+2016-05-20,Svidler,Bacrot,A,2016,-1
+2016-05-22,Wojtaszek,Vallejo Pons,D,2016,0
+2016-05-26,Caruana,Harikrishna,D,2016,0
+2016-05-26,Mamedyarov,Karjakin,D,2016,0
+2016-05-27,Giri,Karjakin,H,2016,1
+2016-05-27,Eljanov,Caruana,A,2016,-1
+2016-05-27,Harikrishna,Mamedyarov,H,2016,1
+2016-05-28,Mamedyarov,Eljanov,H,2016,1
+2016-05-28,Karjakin,Harikrishna,H,2016,1
+2016-05-28,Radjabov,Giri,D,2016,0
+2016-05-29,Eljanov,Karjakin,D,2016,0
+2016-05-29,Giri,Harikrishna,H,2016,1
+2016-05-29,Giri,Harikrishna,H,2016,1
+2016-05-30,Caruana,Radjabov,H,2016,1
+2016-05-30,Harikrishna,Eljanov,H,2016,1
+2016-06-01,Giri,Eljanov,D,2016,0
+2016-06-01,Radjabov,Mamedyarov,D,2016,0
+2016-06-02,Karjakin,Radjabov,D,2016,0
+2016-06-02,Caruana,Giri,D,2016,0
+2016-06-03,Ponomariov,Vallejo Pons,H,2016,1
+2016-06-03,Caruana,Mamedyarov,A,2016,-1
+2016-06-03,Radjabov,Harikrishna,D,2016,0
+2016-06-04,Eljanov,Radjabov,D,2016,0
+2016-06-04,Karjakin,Caruana,D,2016,0
+2016-06-04,Mamedyarov,Giri,H,2016,1
+2016-06-11,Wang Yue,Nepomniachtchi,D,2016,0
+2016-06-11,Yu Yangyi,Andreikin,D,2016,0
+2016-06-12,Nepomniachtchi,Yu Yangyi,D,2016,0
+2016-06-13,Yu Yangyi,Jakovenko,D,2016,0
+2016-06-13,Dominguez Perez,Ivanchuk,A,2016,-1
+2016-06-14,Jakovenko,Wang Yue,D,2016,0
+2016-06-15,Wang Yue,Andreikin,D,2016,0
+2016-06-19,Ivanchuk,Dominguez Perez,D,2016,0
+2016-06-23,Mamedyarov,Wang Hao,D,2016,0
+2016-06-23,Ding Liren,Inarkiev,D,2016,0
+2016-07-08,Harikrishna,Bu Xiangzhi,A,2016,-1
+2016-07-08,Leko,Yu Yangyi,D,2016,0
+2016-07-08,Wang Hao,Ivanchuk,D,2016,0
+2016-07-08,Nepomniachtchi,Ding Liren,H,2016,1
+2016-07-09,Dominguez Perez,Kramnik,D,2016,0
+2016-07-09,Caruana,MVL,A,2016,-1
+2016-07-09,Ivanchuk,Harikrishna,D,2016,0
+2016-07-09,Yu Yangyi,Nepomniachtchi,H,2016,1
+2016-07-09,Ding Liren,Wang Hao,D,2016,0
+2016-07-09,Wang Yue,Leko,D,2016,0
+2016-07-10,Harikrishna,Ding Liren,H,2016,1
+2016-07-10,Bu Xiangzhi,Ivanchuk,H,2016,1
+2016-07-10,Wang Hao,Yu Yangyi,D,2016,0
+2016-07-10,MVL,Kramnik,D,2016,0
+2016-07-10,Nepomniachtchi,Wang Yue,H,2016,1
+2016-07-11,Yu Yangyi,Harikrishna,D,2016,0
+2016-07-11,Ding Liren,Bu Xiangzhi,H,2016,1
+2016-07-11,Wang Yue,Wang Hao,H,2016,1
+2016-07-11,Leko,Nepomniachtchi,A,2016,-1
+2016-07-12,Bu Xiangzhi,Yu Yangyi,D,2016,0
+2016-07-12,Ivanchuk,Ding Liren,D,2016,0
+2016-07-12,Wang Hao,Leko,D,2016,0
+2016-07-12,Dominguez Perez,Ponomariov,H,2016,1
+2016-07-12,Inarkiev,Gelfand,H,2016,1
+2016-07-12,Harikrishna,Wang Yue,D,2016,0
+2016-07-13,Nepomniachtchi,Wang Hao,D,2016,0
+2016-07-13,Nepomniachtchi,Wang Hao,D,2016,0
+2016-07-13,Leko,Harikrishna,D,2016,0
+2016-07-13,Yu Yangyi,Ivanchuk,D,2016,0
+2016-07-13,Wang Yue,Bu Xiangzhi,D,2016,0
+2016-07-13,Caruana,Dominguez Perez,D,2016,0
+2016-07-13,Karjakin,So,D,2016,0
+2016-07-13,Carlsen,Nakamura,A,2016,-1
+2016-07-13,Inarkiev,Gelfand,D,2016,0
+2016-07-13,Ponomariov,Kramnik,D,2016,0
+2016-07-14,Karjakin,Giri,D,2016,0
+2016-07-14,So,Nakamura,D,2016,0
+2016-07-14,Gelfand,Inarkiev,H,2016,1
+2016-07-15,Harikrishna,Nepomniachtchi,H,2016,1
+2016-07-15,Bu Xiangzhi,Leko,D,2016,0
+2016-07-15,Ding Liren,Yu Yangyi,H,2016,1
+2016-07-15,Carlsen,Karjakin,H,2016,1
+2016-07-15,Kramnik,Caruana,D,2016,0
+2016-07-15,Giri,So,D,2016,0
+2016-07-15,Inarkiev,Gelfand,D,2016,0
+2016-07-15,Ivanchuk,Wang Yue,D,2016,0
+2016-07-16,Nepomniachtchi,Bu Xiangzhi,H,2016,1
+2016-07-16,Wang Yue,Ding Liren,D,2016,0
+2016-07-16,Leko,Ivanchuk,D,2016,0
+2016-07-16,Carlsen,So,H,2016,1
+2016-07-16,MVL,Ponomariov,H,2016,1
+2016-07-16,Nakamura,Giri,D,2016,0
+2016-07-16,Wang Hao,Harikrishna,D,2016,0
+2016-07-17,Giri,Carlsen,D,2016,0
+2016-07-17,Karjakin,Nakamura,D,2016,0
+2016-07-17,Dominguez Perez,MVL,D,2016,0
+2016-07-17,Ponomariov,Caruana,D,2016,0
+2016-07-17,Yu Yangyi,Wang Yue,D,2016,0
+2016-07-17,Ding Liren,Leko,D,2016,0
+2016-07-17,Ivanchuk,Nepomniachtchi,D,2016,0
+2016-07-17,Bu Xiangzhi,Wang Hao,D,2016,0
+2016-07-18,Gelfand,Inarkiev,D,2016,0
+2016-07-19,So,Karjakin,D,2016,0
+2016-07-19,Nakamura,Carlsen,D,2016,0
+2016-07-19,Inarkiev,Gelfand,D,2016,0
+2016-07-19,Inarkiev,Gelfand,D,2016,0
+2016-07-19,Ding Liren,Grischuk,A,2016,-1
+2016-07-20,Grischuk,Ding Liren,D,2016,0
+2016-07-20,Gelfand,Inarkiev,H,2016,1
+2016-07-20,Giri,Karjakin,D,2016,0
+2016-07-20,Nakamura,So,D,2016,0
+2016-07-21,Ding Liren,Grischuk,D,2016,0
+2016-07-21,So,Giri,H,2016,1
+2016-07-21,Karjakin,Carlsen,D,2016,0
+2016-07-22,Nakamura,Karjakin,D,2016,0
+2016-07-22,Carlsen,Giri,H,2016,1
+2016-07-22,Grischuk,Ding Liren,D,2016,0
+2016-07-23,Giri,Nakamura,D,2016,0
+2016-07-23,So,Carlsen,D,2016,0
+2016-07-25,Svidler,MVL,D,2016,0
+2016-07-25,Andreikin,Jakovenko,D,2016,0
+2016-07-25,Harikrishna,Yu Yangyi,D,2016,0
+2016-07-26,MVL,Svidler,H,2016,1
+2016-07-27,Inarkiev,Ivanchuk,D,2016,0
+2016-07-28,Mamedyarov,Inarkiev,D,2016,0
+2016-07-28,Andreikin,Wojtaszek,D,2016,0
+2016-07-28,Svidler,MVL,A,2016,-1
+2016-07-29,MVL,Svidler,D,2016,0
+2016-07-29,Wojtaszek,Jakovenko,D,2016,0
+2016-07-30,Ivanchuk,Mamedyarov,H,2016,1
+2016-08-02,Bu Xiangzhi,Li Chao,D,2016,0
+2016-08-05,Ding Liren,Aronian,D,2016,0
+2016-08-05,Topalov,Svidler,H,2016,1
+2016-08-05,So,Nakamura,H,2016,1
+2016-08-05,Anand,Caruana,D,2016,0
+2016-08-05,Giri,MVL,D,2016,0
+2016-08-06,Nakamura,Giri,H,2016,1
+2016-08-06,Aronian,Svidler,H,2016,1
+2016-08-06,MVL,Anand,A,2016,-1
+2016-08-06,Caruana,Topalov,D,2016,0
+2016-08-06,Ding Liren,So,D,2016,0
+2016-08-07,So,Aronian,D,2016,0
+2016-08-07,Anand,Nakamura,D,2016,0
+2016-08-07,Topalov,MVL,D,2016,0
+2016-08-07,Giri,Ding Liren,D,2016,0
+2016-08-07,Svidler,Caruana,D,2016,0
+2016-08-08,Aronian,Caruana,D,2016,0
+2016-08-08,Ding Liren,Anand,D,2016,0
+2016-08-08,So,Giri,D,2016,0
+2016-08-08,Nakamura,Topalov,D,2016,0
+2016-08-08,MVL,Svidler,D,2016,0
+2016-08-09,Caruana,MVL,D,2016,0
+2016-08-09,Svidler,Nakamura,D,2016,0
+2016-08-09,Giri,Aronian,D,2016,0
+2016-08-09,Anand,So,D,2016,0
+2016-08-09,Topalov,Ding Liren,H,2016,1
+2016-08-11,Giri,Anand,D,2016,0
+2016-08-11,So,Topalov,H,2016,1
+2016-08-11,Nakamura,Caruana,D,2016,0
+2016-08-11,Ding Liren,Svidler,H,2016,1
+2016-08-11,Aronian,MVL,A,2016,-1
+2016-08-12,Caruana,Ding Liren,D,2016,0
+2016-08-12,Topalov,Giri,D,2016,0
+2016-08-12,Anand,Aronian,D,2016,0
+2016-08-12,Svidler,So,D,2016,0
+2016-08-12,MVL,Nakamura,D,2016,0
+2016-08-13,So,Caruana,D,2016,0
+2016-08-13,Ding Liren,MVL,D,2016,0
+2016-08-13,Giri,Svidler,A,2016,-1
+2016-08-13,Aronian,Nakamura,H,2016,1
+2016-08-13,Anand,Topalov,D,2016,0
+2016-08-14,Topalov,Aronian,D,2016,0
+2016-08-14,Caruana,Giri,H,2016,1
+2016-08-14,MVL,So,D,2016,0
+2016-08-14,Svidler,Anand,D,2016,0
+2016-08-14,Nakamura,Ding Liren,H,2016,1
+2016-09-04,Giri,Le Quang Liem,H,2016,1
+2016-09-04,Mamedyarov,Rapport,H,2016,1
+2016-09-04,Dominguez Perez,Wojtaszek,D,2016,0
+2016-09-04,MVL,Vallejo Pons,D,2016,0
+2016-09-05,Eljanov,Kramnik,D,2016,0
+2016-09-05,Tomashevsky,Ponomariov,A,2016,-1
+2016-09-05,Adams,Giri,D,2016,0
+2016-09-05,Harikrishna,Dominguez Perez,D,2016,0
+2016-09-05,Caruana,Navara,D,2016,0
+2016-09-06,Le Quang Liem,Adams,D,2016,0
+2016-09-06,Eljanov,Wang Yue,D,2016,0
+2016-09-06,Ding Liren,Ponomariov,D,2016,0
+2016-09-06,Mamedyarov,Harikrishna,A,2016,-1
+2016-09-08,Caruana,Eljanov,H,2016,1
+2016-09-08,Harikrishna,Giri,D,2016,0
+2016-09-08,Ponomariov,Nakamura,D,2016,0
+2016-09-09,Harikrishna,Caruana,D,2016,0
+2016-09-09,Adams,Wang Yue,H,2016,1
+2016-09-09,Karjakin,Navara,H,2016,1
+2016-09-10,Giri,Dominguez Perez,D,2016,0
+2016-09-10,Adams,Harikrishna,D,2016,0
+2016-09-10,Karjakin,Caruana,D,2016,0
+2016-09-10,Ding Liren,Rapport,D,2016,0
+2016-09-10,Navara,Wojtaszek,D,2016,0
+2016-09-10,Nakamura,Kramnik,D,2016,0
+2016-09-10,Nepomniachtchi,So,A,2016,-1
+2016-09-11,Mamedyarov,Karjakin,D,2016,0
+2016-09-11,Caruana,Carlsen,D,2016,0
+2016-09-11,Eljanov,Harikrishna,D,2016,0
+2016-09-11,Kramnik,Radjabov,H,2016,1
+2016-09-11,Giri,Navara,D,2016,0
+2016-09-12,Adams,Mamedyarov,D,2016,0
+2016-09-12,Harikrishna,Karjakin,H,2016,1
+2016-09-12,Navara,Eljanov,A,2016,-1
+2016-09-13,Harikrishna,Carlsen,D,2016,0
+2016-09-13,Wojtaszek,Vallejo Pons,H,2016,1
+2016-09-13,Le Quang Liem,Wang Yue,D,2016,0
+2016-09-13,MVL,Navara,D,2016,0
+2016-09-25,Bu Xiangzhi,Yu Yangyi,D,2016,0
+2016-09-26,Ding Liren,Bu Xiangzhi,H,2016,1
+2016-09-26,Mamedyarov,Li Chao,D,2016,0
+2016-09-26,Aronian,Gelfand,D,2016,0
+2016-09-26,Nepomniachtchi,Tomashevsky,H,2016,1
+2016-09-26,Svidler,Kramnik,D,2016,0
+2016-09-26,Inarkiev,Radjabov,D,2016,0
+2016-09-26,Giri,Anand,D,2016,0
+2016-09-27,Kramnik,Li Chao,D,2016,0
+2016-09-27,Anand,Mamedyarov,H,2016,1
+2016-09-27,Gelfand,Giri,A,2016,-1
+2016-09-27,Tomashevsky,Aronian,D,2016,0
+2016-09-27,Svidler,Nepomniachtchi,D,2016,0
+2016-09-28,Harikrishna,Radjabov,D,2016,0
+2016-09-29,Giri,Tomashevsky,H,2016,1
+2016-09-29,Nepomniachtchi,Kramnik,H,2016,1
+2016-09-29,Aronian,Svidler,D,2016,0
+2016-09-29,Mamedyarov,Gelfand,H,2016,1
+2016-09-29,Li Chao,Anand,D,2016,0
+2016-09-30,Gelfand,Li Chao,A,2016,-1
+2016-09-30,Nepomniachtchi,Aronian,D,2016,0
+2016-09-30,Svidler,Giri,A,2016,-1
+2016-09-30,Tomashevsky,Mamedyarov,D,2016,0
+2016-09-30,Kramnik,Anand,H,2016,1
+2016-10-01,Li Chao,Tomashevsky,D,2016,0
+2016-10-01,Mamedyarov,Svidler,D,2016,0
+2016-10-01,Aronian,Kramnik,D,2016,0
+2016-10-01,Anand,Gelfand,H,2016,1
+2016-10-01,Giri,Nepomniachtchi,D,2016,0
+2016-10-02,Harikrishna,Inarkiev,D,2016,0
+2016-10-02,Aronian,Giri,H,2016,1
+2016-10-02,Kramnik,Gelfand,H,2016,1
+2016-10-02,Svidler,Li Chao,H,2016,1
+2016-10-02,Nepomniachtchi,Mamedyarov,H,2016,1
+2016-10-02,Tomashevsky,Anand,D,2016,0
+2016-10-04,Anand,Svidler,D,2016,0
+2016-10-04,Giri,Kramnik,D,2016,0
+2016-10-04,Li Chao,Nepomniachtchi,D,2016,0
+2016-10-04,Gelfand,Tomashevsky,D,2016,0
+2016-10-04,Mamedyarov,Aronian,D,2016,0
+2016-10-05,Aronian,Li Chao,D,2016,0
+2016-10-05,Kramnik,Tomashevsky,D,2016,0
+2016-10-05,Nepomniachtchi,Anand,D,2016,0
+2016-10-05,Svidler,Gelfand,D,2016,0
+2016-10-05,Giri,Mamedyarov,D,2016,0
+2016-10-06,Tomashevsky,Svidler,D,2016,0
+2016-10-06,Li Chao,Giri,D,2016,0
+2016-10-06,Gelfand,Nepomniachtchi,D,2016,0
+2016-10-06,Mamedyarov,Kramnik,H,2016,1
+2016-10-06,Anand,Aronian,D,2016,0
+2016-10-08,Eljanov,Caruana,D,2016,0
+2016-10-08,Nakamura,So,D,2016,0
+2016-10-09,Caruana,Adams,H,2016,1
+2016-10-09,So,Eljanov,D,2016,0
+2016-10-16,Svidler,Inarkiev,H,2016,1
+2016-10-17,Inarkiev,Grischuk,D,2016,0
+2016-10-17,Vitiugov,Tomashevsky,D,2016,0
+2016-10-18,Grischuk,Jakovenko,D,2016,0
+2016-10-18,Tomashevsky,Svidler,D,2016,0
+2016-10-19,Inarkiev,Jakovenko,A,2016,-1
+2016-10-20,Tomashevsky,Inarkiev,H,2016,1
+2016-10-21,Vitiugov,Grischuk,D,2016,0
+2016-10-23,Jakovenko,Vitiugov,D,2016,0
+2016-10-23,Grischuk,Svidler,D,2016,0
+2016-10-24,Svidler,Jakovenko,D,2016,0
+2016-10-25,Grischuk,Tomashevsky,D,2016,0
+2016-10-26,Inarkiev,Vitiugov,D,2016,0
+2016-10-26,Tomashevsky,Jakovenko,D,2016,0
+2016-10-27,Vitiugov,Svidler,D,2016,0
+2016-10-30,Wei Yi,Yu Yangyi,D,2016,0
+2016-10-30,Wang Hao,Ding Liren,D,2016,0
+2016-10-31,Yu Yangyi,Wang Yue,H,2016,1
+2016-11-08,Aronian,Rapport,A,2016,-1
+2016-11-08,Inarkiev,Kramnik,A,2016,-1
+2016-11-08,Mamedyarov,MVL,H,2016,1
+2016-11-09,Mamedyarov,Svidler,A,2016,-1
+2016-11-09,Dominguez Perez,Rapport,D,2016,0
+2016-11-10,Eljanov,Vitiugov,D,2016,0
+2016-11-10,Ivanchuk,Kramnik,D,2016,0
+2016-11-10,Ding Liren,Svidler,A,2016,-1
+2016-11-10,Dominguez Perez,Andreikin,A,2016,-1
+2016-11-10,Anand,Nakamura,D,2016,0
+2016-11-10,Caruana,Nakamura,D,2016,0
+2016-11-10,Topalov,Caruana,H,2016,1
+2016-11-10,Giri,Vallejo Pons,H,2016,1
+2016-11-10,Topalov,Anand,D,2016,0
+2016-11-11,Carlsen,Karjakin,D,2016,0
+2016-11-11,Harikrishna,Mamedyarov,D,2016,0
+2016-11-11,Rapport,Wojtaszek,D,2016,0
+2016-11-11,Andreikin,Giri,D,2016,0
+2016-11-11,Kramnik,Ding Liren,D,2016,0
+2016-11-11,Jakovenko,Tomashevsky,D,2016,0
+2016-11-11,Caruana,Topalov,D,2016,0
+2016-11-11,Nakamura,Anand,A,2016,-1
+2016-11-11,Anand,Caruana,D,2016,0
+2016-11-11,Nakamura,Topalov,H,2016,1
+2016-11-11,Grischuk,Eljanov,D,2016,0
+2016-11-12,Ding Liren,Inarkiev,D,2016,0
+2016-11-12,Vallejo Pons,Aronian,D,2016,0
+2016-11-12,MVL,Ivanchuk,A,2016,-1
+2016-11-12,Giri,Dominguez Perez,H,2016,1
+2016-11-12,Vitiugov,Grischuk,D,2016,0
+2016-11-12,Nakamura,Caruana,H,2016,1
+2016-11-12,Caruana,Anand,D,2016,0
+2016-11-12,Topalov,Nakamura,H,2016,1
+2016-11-12,Anand,Topalov,D,2016,0
+2016-11-12,Svidler,Kramnik,D,2016,0
+2016-11-12,Karjakin,Carlsen,D,2016,0
+2016-11-14,Carlsen,Karjakin,D,2016,0
+2016-11-15,Karjakin,Carlsen,D,2016,0
+2016-11-17,Carlsen,Karjakin,D,2016,0
+2016-11-18,Karjakin,Carlsen,D,2016,0
+2016-11-19,Inarkiev,Svidler,H,2016,1
+2016-11-19,Wojtaszek,Jakovenko,D,2016,0
+2016-11-20,Grischuk,Mamedyarov,H,2016,1
+2016-11-20,Karjakin,Carlsen,D,2016,0
+2016-11-20,Almasi,Wojtaszek,D,2016,0
+2016-11-20,Svidler,Eljanov,D,2016,0
+2016-11-21,Carlsen,Karjakin,A,2016,-1
+2016-11-23,Karjakin,Carlsen,D,2016,0
+2016-11-24,Carlsen,Karjakin,H,2016,1
+2016-11-26,Karjakin,Carlsen,D,2016,0
+2016-11-27,Yu Yangyi,Ding Liren,D,2016,0
+2016-11-27,Kryvoruchko,Almasi,D,2016,0
+2016-11-28,Wei Yi,Wang Yue,D,2016,0
+2016-11-28,Yu Yangyi,Wei Yi,D,2016,0
+2016-11-28,Wei Yi,Ding Liren,D,2016,0
+2016-11-28,Wang Yue,Yu Yangyi,H,2016,1
+2016-11-28,Carlsen,Karjakin,D,2016,0
+2016-11-29,Ding Liren,Wang Yue,H,2016,1
+2016-12-03,Wang Yue,Bu Xiangzhi,D,2016,0
+2016-12-03,Vitiugov,MVL,D,2016,0
+2016-12-03,Anand,Jobava,D,2016,0
+2016-12-03,Caruana,Tomashevsky,H,2016,1
+2016-12-04,Yu Yangyi,Andreikin,D,2016,0
+2016-12-09,Caruana,Anand,D,2016,0
+2016-12-09,Aronian,Adams,H,2016,1
+2016-12-09,Kramnik,Topalov,H,2016,1
+2016-12-09,Nakamura,So,A,2016,-1
+2016-12-09,MVL,Giri,D,2016,0
+2016-12-10,Topalov,Caruana,A,2016,-1
+2016-12-10,Giri,Nakamura,D,2016,0
+2016-12-10,So,Adams,H,2016,1
+2016-12-10,Anand,MVL,H,2016,1
+2016-12-10,Kramnik,Aronian,D,2016,0
+2016-12-11,Aronian,So,D,2016,0
+2016-12-11,MVL,Topalov,D,2016,0
+2016-12-11,MVL,Topalov,D,2016,0
+2016-12-11,Caruana,Kramnik,D,2016,0
+2016-12-11,Nakamura,Anand,H,2016,1
+2016-12-11,Adams,Giri,D,2016,0
+2016-12-12,Kramnik,MVL,D,2016,0
+2016-12-12,Topalov,Nakamura,A,2016,-1
+2016-12-12,Giri,So,D,2016,0
+2016-12-12,Anand,Adams,D,2016,0
+2016-12-12,Caruana,Aronian,D,2016,0
+2016-12-13,Aronian,Giri,D,2016,0
+2016-12-13,So,Anand,D,2016,0
+2016-12-13,Adams,Topalov,H,2016,1
+2016-12-13,Nakamura,Kramnik,D,2016,0
+2016-12-13,MVL,Caruana,D,2016,0
+2016-12-15,Kramnik,Adams,D,2016,0
+2016-12-15,MVL,Aronian,H,2016,1
+2016-12-15,Caruana,Nakamura,H,2016,1
+2016-12-15,Anand,Giri,D,2016,0
+2016-12-15,Topalov,So,A,2016,-1
+2016-12-16,Rapport,Yu Yangyi,A,2016,-1
+2016-12-16,Aronian,Anand,D,2016,0
+2016-12-16,Adams,Caruana,D,2016,0
+2016-12-16,Nakamura,MVL,H,2016,1
+2016-12-16,So,Kramnik,D,2016,0
+2016-12-16,Giri,Topalov,D,2016,0
+2016-12-17,Kramnik,Giri,D,2016,0
+2016-12-17,MVL,Adams,D,2016,0
+2016-12-17,Topalov,Anand,A,2016,-1
+2016-12-17,Caruana,So,D,2016,0
+2016-12-17,Nakamura,Aronian,D,2016,0
+2016-12-18,Aronian,Topalov,A,2016,-1
+2016-12-18,Giri,Caruana,D,2016,0
+2016-12-18,Adams,Nakamura,D,2016,0
+2016-12-18,Anand,Kramnik,D,2016,0
+2016-12-18,So,MVL,D,2016,0
+2016-12-20,Wei Yi,Rapport,H,2016,1
+2016-12-21,Rapport,Wei Yi,H,2016,1
+2016-12-22,Wei Yi,Rapport,D,2016,0
+2016-12-23,Rapport,Wei Yi,D,2016,0
+2017-01-14,Karjakin,Giri,D,2017,0
+2017-01-14,Wojtaszek,Nepomniachtchi,D,2017,0
+2017-01-14,Harikrishna,Aronian,D,2017,0
+2017-01-14,So,Carlsen,D,2017,0
+2017-01-14,Andreikin,Wei Yi,D,2017,0
+2017-01-14,Eljanov,Rapport,H,2017,1
+2017-01-15,Nepomniachtchi,Andreikin,D,2017,0
+2017-01-15,Aronian,Wei Yi,D,2017,0
+2017-01-15,Giri,So,D,2017,0
+2017-01-15,Carlsen,Wojtaszek,H,2017,1
+2017-01-15,Rapport,Karjakin,D,2017,0
+2017-01-16,Wei Yi,Nepomniachtchi,H,2017,1
+2017-01-16,So,Rapport,H,2017,1
+2017-01-16,Eljanov,Harikrishna,D,2017,0
+2017-01-16,Wojtaszek,Giri,D,2017,0
+2017-01-16,Andreikin,Carlsen,D,2017,0
+2017-01-17,Harikrishna,Karjakin,D,2017,0
+2017-01-17,Aronian,Nepomniachtchi,D,2017,0
+2017-01-17,Rapport,Wojtaszek,D,2017,0
+2017-01-17,Giri,Andreikin,D,2017,0
+2017-01-17,Carlsen,Wei Yi,H,2017,1
+2017-01-19,Andreikin,Rapport,D,2017,0
+2017-01-19,So,Harikrishna,H,2017,1
+2017-01-19,Wei Yi,Giri,D,2017,0
+2017-01-19,Eljanov,Aronian,A,2017,-1
+2017-01-19,Nepomniachtchi,Carlsen,D,2017,0
+2017-01-20,Harikrishna,Wojtaszek,D,2017,0
+2017-01-20,Eljanov,Karjakin,D,2017,0
+2017-01-20,Rapport,Wei Yi,A,2017,-1
+2017-01-20,Giri,Nepomniachtchi,H,2017,1
+2017-01-20,Aronian,Carlsen,D,2017,0
+2017-01-21,So,Eljanov,D,2017,0
+2017-01-21,Andreikin,Harikrishna,D,2017,0
+2017-01-21,Nepomniachtchi,Rapport,D,2017,0
+2017-01-21,Carlsen,Giri,D,2017,0
+2017-01-21,Karjakin,Aronian,H,2017,1
+2017-01-22,Rapport,Carlsen,H,2017,1
+2017-01-22,Karjakin,So,D,2017,0
+2017-01-22,Eljanov,Wojtaszek,D,2017,0
+2017-01-22,Harikrishna,Wei Yi,D,2017,0
+2017-01-22,Aronian,Giri,H,2017,1
+2017-01-24,Nepomniachtchi,Harikrishna,D,2017,0
+2017-01-24,So,Aronian,D,2017,0
+2017-01-24,Andreikin,Eljanov,D,2017,0
+2017-01-24,Giri,Rapport,D,2017,0
+2017-01-24,Wojtaszek,Karjakin,D,2017,0
+2017-01-25,Karjakin,Andreikin,H,2017,1
+2017-01-25,Eljanov,Wei Yi,D,2017,0
+2017-01-25,Harikrishna,Carlsen,D,2017,0
+2017-01-25,So,Wojtaszek,H,2017,1
+2017-01-25,Aronian,Rapport,H,2017,1
+2017-01-27,Wojtaszek,Aronian,D,2017,0
+2017-01-27,Nepomniachtchi,Eljanov,D,2017,0
+2017-01-27,Giri,Harikrishna,D,2017,0
+2017-01-27,Wei Yi,Karjakin,H,2017,1
+2017-01-27,Andreikin,So,D,2017,0
+2017-01-28,Karjakin,Nepomniachtchi,D,2017,0
+2017-01-28,So,Wei Yi,D,2017,0
+2017-01-28,Harikrishna,Rapport,D,2017,0
+2017-01-28,Wojtaszek,Andreikin,D,2017,0
+2017-01-28,Eljanov,Carlsen,A,2017,-1
+2017-01-29,Wei Yi,Wojtaszek,A,2017,-1
+2017-01-29,Giri,Eljanov,D,2017,0
+2017-01-29,Carlsen,Karjakin,D,2017,0
+2017-01-29,Andreikin,Aronian,H,2017,1
+2017-01-29,Nepomniachtchi,So,A,2017,-1
+2017-01-30,MVL,Adams,H,2017,1
+2017-01-31,Yu Yangyi,Nakamura,D,2017,0
+2017-02-01,Nakamura,Caruana,D,2017,0
+2017-02-01,MVL,Yu Yangyi,D,2017,0
+2017-02-02,Gelfand,MVL,D,2017,0
+2017-02-18,Tomashevsky,Aronian,D,2017,0
+2017-02-18,Vallejo Pons,Mamedyarov,D,2017,0
+2017-02-18,Nakamura,Jakovenko,D,2017,0
+2017-02-18,MVL,Li Chao,H,2017,1
+2017-02-19,Eljanov,Vallejo Pons,D,2017,0
+2017-02-19,Mamedyarov,Tomashevsky,H,2017,1
+2017-02-19,Aronian,Adams,D,2017,0
+2017-02-19,Jakovenko,Grischuk,D,2017,0
+2017-02-19,Inarkiev,Giri,D,2017,0
+2017-02-20,Vallejo Pons,Nepomniachtchi,D,2017,0
+2017-02-20,Grischuk,Aronian,D,2017,0
+2017-02-20,Adams,Eljanov,D,2017,0
+2017-02-20,MVL,Mamedyarov,D,2017,0
+2017-02-21,Li Chao,Tomashevsky,H,2017,1
+2017-02-21,Mamedyarov,Adams,H,2017,1
+2017-02-21,Jakovenko,Ding Liren,D,2017,0
+2017-02-21,Nepomniachtchi,Grischuk,D,2017,0
+2017-02-21,Nakamura,MVL,D,2017,0
+2017-02-22,MVL,Aronian,D,2017,0
+2017-02-22,Mamedyarov,Nakamura,D,2017,0
+2017-02-22,Grischuk,Eljanov,H,2017,1
+2017-02-22,Ding Liren,Nepomniachtchi,D,2017,0
+2017-02-22,Vallejo Pons,Li Chao,D,2017,0
+2017-02-24,Nakamura,Grischuk,D,2017,0
+2017-02-24,Aronian,Vallejo Pons,D,2017,0
+2017-02-24,Eljanov,Tomashevsky,D,2017,0
+2017-02-24,Adams,MVL,D,2017,0
+2017-02-24,Nepomniachtchi,Li Chao,H,2017,1
+2017-02-24,Jakovenko,Mamedyarov,D,2017,0
+2017-02-25,Grischuk,Adams,D,2017,0
+2017-02-25,Li Chao,Eljanov,H,2017,1
+2017-02-25,MVL,Jakovenko,D,2017,0
+2017-02-25,Mamedyarov,Nepomniachtchi,D,2017,0
+2017-02-25,Ding Liren,Nakamura,D,2017,0
+2017-02-26,Jakovenko,Adams,D,2017,0
+2017-02-26,Li Chao,Ding Liren,D,2017,0
+2017-02-26,Nepomniachtchi,MVL,D,2017,0
+2017-02-26,Vitiugov,Inarkiev,H,2017,1
+2017-02-26,Aronian,Nakamura,D,2017,0
+2017-02-26,Grischuk,Mamedyarov,H,2017,1
+2017-02-27,Nakamura,Adams,D,2017,0
+2017-02-27,Ding Liren,Aronian,H,2017,1
+2017-02-27,Vallejo Pons,Tomashevsky,D,2017,0
+2017-02-27,MVL,Grischuk,D,2017,0
+2017-02-27,Jakovenko,Nepomniachtchi,D,2017,0
+2017-03-16,Bu Xiangzhi,Le Quang Liem,D,2017,0
+2017-03-16,Le Quang Liem,Wei Yi,D,2017,0
+2017-03-17,Wei Yi,Bu Xiangzhi,D,2017,0
+2017-03-18,Ragger,Vitiugov,D,2017,0
+2017-03-18,Tomashevsky,Rapport,D,2017,0
+2017-03-19,Navara,Tomashevsky,H,2017,1
+2017-03-23,Adams,Giri,D,2017,0
+2017-03-23,Yu Yangyi,Ding Liren,D,2017,0
+2017-03-23,Harikrishna,Svidler,D,2017,0
+2017-03-24,Giri,Ding Liren,D,2017,0
+2017-03-24,Adams,Harikrishna,A,2017,-1
+2017-03-24,Svidler,Yu Yangyi,D,2017,0
+2017-03-25,Harikrishna,Giri,A,2017,-1
+2017-03-25,Ding Liren,Svidler,H,2017,1
+2017-03-25,Yu Yangyi,Adams,D,2017,0
+2017-03-26,Yu Yangyi,Giri,D,2017,0
+2017-03-26,Ding Liren,Harikrishna,D,2017,0
+2017-03-26,Svidler,Adams,D,2017,0
+2017-03-27,Harikrishna,Yu Yangyi,D,2017,0
+2017-03-27,Adams,Ding Liren,D,2017,0
+2017-03-27,Giri,Svidler,D,2017,0
+2017-03-29,Ding Liren,Yu Yangyi,H,2017,1
+2017-03-29,Svidler,Harikrishna,H,2017,1
+2017-03-29,Giri,Adams,D,2017,0
+2017-03-30,Harikrishna,Adams,H,2017,1
+2017-03-30,Yu Yangyi,Svidler,D,2017,0
+2017-03-30,Harikrishna,Adams,H,2017,1
+2017-03-30,Ding Liren,Giri,D,2017,0
+2017-03-30,Caruana,Nakamura,D,2017,0
+2017-03-31,So,Caruana,D,2017,0
+2017-03-31,Giri,Harikrishna,D,2017,0
+2017-03-31,Adams,Yu Yangyi,D,2017,0
+2017-03-31,Svidler,Ding Liren,D,2017,0
+2017-04-01,Yu Yangyi,Harikrishna,D,2017,0
+2017-04-01,Ding Liren,Adams,D,2017,0
+2017-04-01,Navara,Ponomariov,D,2017,0
+2017-04-01,Svidler,Giri,D,2017,0
+2017-04-02,Adams,Svidler,A,2017,-1
+2017-04-02,Giri,Yu Yangyi,D,2017,0
+2017-04-02,Harikrishna,Ding Liren,A,2017,-1
+2017-04-06,So,Nakamura,D,2017,0
+2017-04-15,Nakamura,Nepomniachtchi,H,2017,1
+2017-04-15,MVL,Naiditsch,A,2017,-1
+2017-04-15,MVL,Naiditsch,A,2017,-1
+2017-04-16,Naiditsch,Caruana,A,2017,-1
+2017-04-16,Carlsen,Aronian,D,2017,0
+2017-04-17,Aronian,MVL,H,2017,1
+2017-04-18,Rodshtein,Jakovenko,H,2017,1
+2017-04-19,Li Chao,Ding Liren,D,2017,0
+2017-04-19,Carlsen,Caruana,D,2017,0
+2017-04-20,Kryvoruchko,Yu Yangyi,D,2017,0
+2017-04-20,Aronian,Naiditsch,H,2017,1
+2017-04-20,Caruana,MVL,D,2017,0
+2017-04-21,Naiditsch,Carlsen,D,2017,0
+2017-04-21,Li Chao,Wang Yue,D,2017,0
+2017-04-21,Karjakin,Harikrishna,D,2017,0
+2017-04-21,Eljanov,Radjabov,H,2017,1
+2017-04-21,Topalov,Adams,D,2017,0
+2017-04-21,Wojtaszek,Kramnik,D,2017,0
+2017-04-21,So,Mamedyarov,A,2017,-1
+2017-04-22,Carlsen,MVL,D,2017,0
+2017-04-22,Caruana,Aronian,D,2017,0
+2017-04-22,Mamedyarov,Karjakin,D,2017,0
+2017-04-22,Wojtaszek,Topalov,A,2017,-1
+2017-04-22,Harikrishna,Eljanov,A,2017,-1
+2017-04-22,Adams,So,D,2017,0
+2017-04-22,Kramnik,Radjabov,D,2017,0
+2017-04-23,Rodshtein,Inarkiev,A,2017,-1
+2017-04-23,Li Chao,Yu Yangyi,D,2017,0
+2017-04-23,Karjakin,Adams,A,2017,-1
+2017-04-23,Eljanov,Mamedyarov,A,2017,-1
+2017-04-23,So,Wojtaszek,D,2017,0
+2017-04-23,Topalov,Kramnik,D,2017,0
+2017-04-23,Karjakin,Adams,A,2017,-1
+2017-04-23,Radjabov,Harikrishna,D,2017,0
+2017-04-24,Kramnik,Harikrishna,H,2017,1
+2017-04-24,Topalov,So,D,2017,0
+2017-04-24,Wojtaszek,Karjakin,D,2017,0
+2017-04-24,Mamedyarov,Radjabov,D,2017,0
+2017-04-24,Adams,Eljanov,D,2017,0
+2017-04-25,Radjabov,Adams,D,2017,0
+2017-04-25,So,Kramnik,H,2017,1
+2017-04-25,Harikrishna,Mamedyarov,D,2017,0
+2017-04-25,Eljanov,Wojtaszek,D,2017,0
+2017-04-25,Karjakin,Topalov,H,2017,1
+2017-04-26,Inarkiev,Jakovenko,A,2017,-1
+2017-04-26,Jobava,Giri,A,2017,-1
+2017-04-27,So,Karjakin,H,2017,1
+2017-04-27,Wojtaszek,Radjabov,D,2017,0
+2017-04-27,Adams,Harikrishna,D,2017,0
+2017-04-27,Kramnik,Mamedyarov,A,2017,-1
+2017-04-27,Topalov,Eljanov,H,2017,1
+2017-04-28,Radjabov,Topalov,D,2017,0
+2017-04-28,Mamedyarov,Adams,D,2017,0
+2017-04-28,Karjakin,Kramnik,D,2017,0
+2017-04-28,Harikrishna,Wojtaszek,D,2017,0
+2017-04-28,Eljanov,So,D,2017,0
+2017-04-29,So,Radjabov,D,2017,0
+2017-04-29,Topalov,Harikrishna,D,2017,0
+2017-04-29,Karjakin,Eljanov,H,2017,1
+2017-04-29,Kramnik,Adams,H,2017,1
+2017-04-29,Wojtaszek,Mamedyarov,H,2017,1
+2017-04-30,Mamedyarov,Topalov,D,2017,0
+2017-04-30,Radjabov,Karjakin,D,2017,0
+2017-04-30,Eljanov,Kramnik,A,2017,-1
+2017-04-30,Adams,Wojtaszek,D,2017,0
+2017-04-30,Harikrishna,So,D,2017,0
+2017-05-04,Mamedyarov,Vitiugov,H,2017,1
+2017-05-04,Svidler,Kramnik,D,2017,0
+2017-05-04,Matlakov,Giri,D,2017,0
+2017-05-05,Kramnik,Malakhov,D,2017,0
+2017-05-06,Wojtaszek,Kryvoruchko,D,2017,0
+2017-05-08,Svidler,Malakhov,D,2017,0
+2017-05-12,Eljanov,Jobava,D,2017,0
+2017-05-12,Eljanov,Jobava,D,2017,0
+2017-05-12,Inarkiev,Nakamura,D,2017,0
+2017-05-12,Giri,Gelfand,D,2017,0
+2017-05-12,Mamedyarov,Vallejo Pons,D,2017,0
+2017-05-12,Radjabov,Ding Liren,D,2017,0
+2017-05-12,MVL,Adams,D,2017,0
+2017-05-13,Nakamura,Radjabov,D,2017,0
+2017-05-13,Adams,Giri,D,2017,0
+2017-05-13,Vallejo Pons,Harikrishna,D,2017,0
+2017-05-13,Ding Liren,Inarkiev,H,2017,1
+2017-05-13,Gelfand,Mamedyarov,D,2017,0
+2017-05-14,Harikrishna,Svidler,A,2017,-1
+2017-05-14,MVL,Gelfand,D,2017,0
+2017-05-14,Giri,Vallejo Pons,D,2017,0
+2017-05-14,Mamedyarov,Adams,H,2017,1
+2017-05-14,Radjabov,Grischuk,D,2017,0
+2017-05-15,Grischuk,MVL,D,2017,0
+2017-05-15,Inarkiev,Harikrishna,D,2017,0
+2017-05-15,Vallejo Pons,Radjabov,A,2017,-1
+2017-05-15,Ding Liren,Svidler,D,2017,0
+2017-05-15,Adams,Nepomniachtchi,A,2017,-1
+2017-05-16,Mamedyarov,Ding Liren,D,2017,0
+2017-05-16,Giri,Nakamura,D,2017,0
+2017-05-16,Harikrishna,Adams,H,2017,1
+2017-05-16,Nepomniachtchi,Gelfand,D,2017,0
+2017-05-16,Svidler,Radjabov,D,2017,0
+2017-05-16,Vallejo Pons,Inarkiev,D,2017,0
+2017-05-18,Gelfand,Harikrishna,H,2017,1
+2017-05-18,Radjabov,Mamedyarov,D,2017,0
+2017-05-18,Grischuk,Svidler,D,2017,0
+2017-05-18,Wojtaszek,Kryvoruchko,D,2017,0
+2017-05-18,Adams,Inarkiev,H,2017,1
+2017-05-18,Ding Liren,MVL,D,2017,0
+2017-05-18,Nakamura,Nepomniachtchi,H,2017,1
+2017-05-19,Li Chao,Wojtaszek,D,2017,0
+2017-05-19,Vallejo Pons,Adams,D,2017,0
+2017-05-19,Nakamura,Ding Liren,D,2017,0
+2017-05-19,Svidler,Gelfand,D,2017,0
+2017-05-19,Mamedyarov,Grischuk,D,2017,0
+2017-05-19,Inarkiev,Nepomniachtchi,D,2017,0
+2017-05-19,MVL,Radjabov,D,2017,0
+2017-05-20,Radjabov,Gelfand,D,2017,0
+2017-05-20,Ding Liren,Giri,D,2017,0
+2017-05-20,Nepomniachtchi,Harikrishna,A,2017,-1
+2017-05-20,Grischuk,Nakamura,D,2017,0
+2017-05-20,Svidler,Mamedyarov,D,2017,0
+2017-05-21,Navara,Jobava,D,2017,0
+2017-05-21,Giri,Grischuk,D,2017,0
+2017-05-21,Nakamura,Svidler,D,2017,0
+2017-05-21,Gelfand,Ding Liren,A,2017,-1
+2017-05-21,Harikrishna,Radjabov,D,2017,0
+2017-05-21,Vallejo Pons,Nepomniachtchi,D,2017,0
+2017-05-21,Mamedyarov,MVL,D,2017,0
+2017-05-21,Navara,Jobava,D,2017,0
+2017-05-23,Li Chao,Malakhov,D,2017,0
+2017-05-23,Navara,Kryvoruchko,D,2017,0
+2017-05-24,Kryvoruchko,Li Chao,D,2017,0
+2017-05-28,Jobava,Wojtaszek,H,2017,1
+2017-05-28,MVL,Malakhov,D,2017,0
+2017-06-06,Kramnik,Karjakin,D,2017,0
+2017-06-06,Carlsen,So,D,2017,0
+2017-06-06,MVL,Anand,D,2017,0
+2017-06-06,Nakamura,Giri,H,2017,1
+2017-06-06,Aronian,Caruana,D,2017,0
+2017-06-07,Giri,Karjakin,D,2017,0
+2017-06-07,Anand,Kramnik,A,2017,-1
+2017-06-07,Nakamura,Aronian,D,2017,0
+2017-06-07,So,MVL,D,2017,0
+2017-06-07,Caruana,Carlsen,D,2017,0
+2017-06-08,Wei Yi,Yu Yangyi,D,2017,0
+2017-06-08,Karjakin,Anand,D,2017,0
+2017-06-08,Kramnik,So,D,2017,0
+2017-06-08,Carlsen,Nakamura,D,2017,0
+2017-06-08,Aronian,Giri,D,2017,0
+2017-06-08,MVL,Caruana,D,2017,0
+2017-06-08,Kramnik,So,D,2017,0
+2017-06-10,Jobava,Matlakov,D,2017,0
+2017-06-10,Nakamura,MVL,H,2017,1
+2017-06-10,Caruana,Kramnik,D,2017,0
+2017-06-10,Giri,Anand,H,2017,1
+2017-06-10,So,Karjakin,D,2017,0
+2017-06-10,Aronian,Carlsen,H,2017,1
+2017-06-11,Kramnik,Nakamura,D,2017,0
+2017-06-11,Carlsen,Giri,D,2017,0
+2017-06-11,Anand,So,D,2017,0
+2017-06-11,MVL,Aronian,D,2017,0
+2017-06-11,Anand,So,D,2017,0
+2017-06-11,Bu Xiangzhi,Wei Yi,D,2017,0
+2017-06-11,Karjakin,Caruana,D,2017,0
+2017-06-12,Aronian,Kramnik,H,2017,1
+2017-06-12,Carlsen,MVL,D,2017,0
+2017-06-12,Nakamura,Karjakin,D,2017,0
+2017-06-12,Giri,So,D,2017,0
+2017-06-12,Caruana,Anand,A,2017,-1
+2017-06-14,Anand,Nakamura,D,2017,0
+2017-06-14,Karjakin,Aronian,A,2017,-1
+2017-06-14,Kramnik,Carlsen,H,2017,1
+2017-06-14,MVL,Giri,A,2017,-1
+2017-06-14,So,Caruana,D,2017,0
+2017-06-14,So,Caruana,D,2017,0
+2017-06-15,Giri,Caruana,D,2017,0
+2017-06-15,Carlsen,Karjakin,H,2017,1
+2017-06-15,MVL,Kramnik,H,2017,1
+2017-06-15,Aronian,Anand,D,2017,0
+2017-06-15,Nakamura,So,D,2017,0
+2017-06-16,Anand,Carlsen,D,2017,0
+2017-06-16,Kramnik,Giri,H,2017,1
+2017-06-16,Karjakin,MVL,D,2017,0
+2017-06-16,Caruana,Nakamura,H,2017,1
+2017-06-16,Navara,Ivanchuk,D,2017,0
+2017-06-16,So,Aronian,D,2017,0
+2017-06-17,Ivanchuk,Navara,D,2017,0
+2017-06-19,Nepomniachtchi,Korobov,H,2017,1
+2017-06-19,Ponomariov,Svidler,D,2017,0
+2017-06-21,Ponomariov,Wojtaszek,A,2017,-1
+2017-06-21,Ponomariov,Wojtaszek,A,2017,-1
+2017-06-23,Korobov,Yu Yangyi,D,2017,0
+2017-06-23,Ding Liren,Ponomariov,H,2017,1
+2017-06-23,Wojtaszek,Svidler,D,2017,0
+2017-06-24,Nepomniachtchi,Ding Liren,D,2017,0
+2017-06-24,Li Chao,Fedoseev,H,2017,1
+2017-06-24,Yu Yangyi,Vitiugov,D,2017,0
+2017-06-24,Matlakov,Wei Yi,D,2017,0
+2017-06-24,Nepomniachtchi,Ding Liren,D,2017,0
+2017-06-26,Wojtaszek,Ding Liren,D,2017,0
+2017-07-06,Inarkiev,Grischuk,D,2017,0
+2017-07-06,Giri,Radjabov,A,2017,-1
+2017-07-06,Gelfand,Mamedyarov,D,2017,0
+2017-07-06,Svidler,Jakovenko,D,2017,0
+2017-07-06,Aronian,Li Chao,D,2017,0
+2017-07-07,Jakovenko,Aronian,A,2017,-1
+2017-07-07,Li Chao,Svidler,D,2017,0
+2017-07-07,Radjabov,Eljanov,H,2017,1
+2017-07-07,Harikrishna,Adams,D,2017,0
+2017-07-07,Mamedyarov,Inarkiev,H,2017,1
+2017-07-07,Nepomniachtchi,Gelfand,D,2017,0
+2017-07-07,Nepomniachtchi,Gelfand,D,2017,0
+2017-07-08,Giri,Li Chao,D,2017,0
+2017-07-08,Harikrishna,Mamedyarov,D,2017,0
+2017-07-08,Adams,Grischuk,D,2017,0
+2017-07-08,Giri,Li Chao,D,2017,0
+2017-07-08,Aronian,Radjabov,D,2017,0
+2017-07-08,Eljanov,Nepomniachtchi,H,2017,1
+2017-07-08,Harikrishna,Mamedyarov,D,2017,0
+2017-07-08,Svidler,Gelfand,D,2017,0
+2017-07-09,Gelfand,Giri,D,2017,0
+2017-07-09,Radjabov,Harikrishna,D,2017,0
+2017-07-09,Mamedyarov,Eljanov,D,2017,0
+2017-07-09,Grischuk,Aronian,D,2017,0
+2017-07-09,Naiditsch,Yu Yangyi,D,2017,0
+2017-07-09,Li Chao,Jakovenko,D,2017,0
+2017-07-09,Malakhov,Ivanchuk,D,2017,0
+2017-07-09,Malakhov,Ivanchuk,D,2017,0
+2017-07-09,Svidler,Adams,H,2017,1
+2017-07-10,Malakhov,Naiditsch,D,2017,0
+2017-07-10,Ivanchuk,Wei Yi,D,2017,0
+2017-07-10,Ding Liren,Le Quang Liem,D,2017,0
+2017-07-10,Eljanov,Grischuk,A,2017,-1
+2017-07-10,Harikrishna,Nepomniachtchi,D,2017,0
+2017-07-10,Adams,Li Chao,D,2017,0
+2017-07-10,Aronian,Svidler,D,2017,0
+2017-07-10,Jakovenko,Gelfand,D,2017,0
+2017-07-10,Mamedyarov,Radjabov,D,2017,0
+2017-07-11,Naiditsch,Ivanchuk,D,2017,0
+2017-07-11,Le Quang Liem,Yu Yangyi,D,2017,0
+2017-07-11,Naiditsch,Ivanchuk,D,2017,0
+2017-07-12,Ding Liren,Wei Yi,D,2017,0
+2017-07-12,Malakhov,Le Quang Liem,A,2017,-1
+2017-07-12,Grischuk,Radjabov,D,2017,0
+2017-07-12,Svidler,Mamedyarov,D,2017,0
+2017-07-12,Aronian,Harikrishna,A,2017,-1
+2017-07-12,Li Chao,Eljanov,H,2017,1
+2017-07-12,Nepomniachtchi,Inarkiev,H,2017,1
+2017-07-12,Gelfand,Adams,D,2017,0
+2017-07-12,Jakovenko,Giri,D,2017,0
+2017-07-13,Giri,Aronian,D,2017,0
+2017-07-13,Mamedyarov,Nepomniachtchi,D,2017,0
+2017-07-13,Adams,Jakovenko,D,2017,0
+2017-07-13,Radjabov,Svidler,H,2017,1
+2017-07-13,Le Quang Liem,Naiditsch,D,2017,0
+2017-07-13,Wei Yi,Yu Yangyi,H,2017,1
+2017-07-13,Harikrishna,Grischuk,D,2017,0
+2017-07-14,Li Chao,Harikrishna,H,2017,1
+2017-07-14,Grischuk,Mamedyarov,D,2017,0
+2017-07-14,Jakovenko,Inarkiev,D,2017,0
+2017-07-14,Gelfand,Eljanov,D,2017,0
+2017-07-14,Nepomniachtchi,Aronian,H,2017,1
+2017-07-15,Mamedyarov,Li Chao,D,2017,0
+2017-07-15,Inarkiev,Gelfand,D,2017,0
+2017-07-15,Giri,Grischuk,D,2017,0
+2017-07-15,Nepomniachtchi,Radjabov,D,2017,0
+2017-07-15,Kramnik,Fedoseev,A,2017,-1
+2017-07-15,Ivanchuk,Ding Liren,H,2017,1
+2017-07-15,Malakhov,Wei Yi,A,2017,-1
+2017-07-15,MVL,Wojtaszek,D,2017,0
+2017-07-15,Harikrishna,Jakovenko,D,2017,0
+2017-07-16,Wei Yi,Naiditsch,D,2017,0
+2017-07-16,Wei Yi,Naiditsch,D,2017,0
+2017-07-16,Andreikin,Kramnik,D,2017,0
+2017-07-16,Ding Liren,Yu Yangyi,D,2017,0
+2017-07-16,Le Quang Liem,Ivanchuk,H,2017,1
+2017-07-17,Malakhov,Ding Liren,A,2017,-1
+2017-07-17,Ivanchuk,Yu Yangyi,D,2017,0
+2017-07-18,Kramnik,Wojtaszek,D,2017,0
+2017-07-18,Fedoseev,Andreikin,D,2017,0
+2017-07-18,Ding Liren,Naiditsch,D,2017,0
+2017-07-18,Yu Yangyi,Malakhov,H,2017,1
+2017-07-18,Wei Yi,Le Quang Liem,D,2017,0
+2017-07-18,Ding Liren,Naiditsch,D,2017,0
+2017-07-19,Wojtaszek,Fedoseev,D,2017,0
+2017-07-20,Grischuk,Yu Yangyi,D,2017,0
+2017-07-21,Yu Yangyi,Grischuk,D,2017,0
+2017-07-21,Andreikin,Wojtaszek,D,2017,0
+2017-07-21,Kramnik,MVL,D,2017,0
+2017-07-22,MVL,Fedoseev,D,2017,0
+2017-07-23,Grischuk,Yu Yangyi,H,2017,1
+2017-07-23,Andreikin,MVL,A,2017,-1
+2017-07-24,Yu Yangyi,Grischuk,A,2017,-1
+2017-07-26,Grischuk,Ding Liren,D,2017,0
+2017-07-28,Cheparinov,Najer,D,2017,0
+2017-07-29,Vitiugov,Jobava,D,2017,0
+2017-07-29,Vitiugov,Jobava,D,2017,0
+2017-07-31,Navara,Harikrishna,D,2017,0
+2017-08-01,Bacrot,Navara,D,2017,0
+2017-08-02,Harikrishna,Bacrot,A,2017,-1
+2017-08-02,MVL,So,H,2017,1
+2017-08-02,Karjakin,Svidler,H,2017,1
+2017-08-02,Anand,Nakamura,D,2017,0
+2017-08-02,Aronian,Nepomniachtchi,H,2017,1
+2017-08-02,Caruana,Carlsen,D,2017,0
+2017-08-03,Nakamura,MVL,D,2017,0
+2017-08-03,Cheparinov,Ivanchuk,D,2017,0
+2017-08-03,Svidler,Anand,D,2017,0
+2017-08-03,Wei Yi,Yu Yangyi,A,2017,-1
+2017-08-03,Aronian,Caruana,A,2017,-1
+2017-08-03,Carlsen,Karjakin,H,2017,1
+2017-08-03,Gelfand,Inarkiev,H,2017,1
+2017-08-03,Nepomniachtchi,So,A,2017,-1
+2017-08-03,Yu Yangyi,Wei Yi,H,2017,1
+2017-08-04,Ivanchuk,Najer,D,2017,0
+2017-08-04,Karjakin,Aronian,D,2017,0
+2017-08-04,Caruana,Nepomniachtchi,D,2017,0
+2017-08-04,Inarkiev,Gelfand,D,2017,0
+2017-08-04,So,Nakamura,D,2017,0
+2017-08-04,Anand,Carlsen,D,2017,0
+2017-08-04,MVL,Svidler,D,2017,0
+2017-08-05,Carlsen,MVL,A,2017,-1
+2017-08-05,Caruana,Karjakin,D,2017,0
+2017-08-05,Aronian,Anand,D,2017,0
+2017-08-05,Svidler,So,D,2017,0
+2017-08-05,Nepomniachtchi,Nakamura,H,2017,1
+2017-08-06,Anand,Caruana,H,2017,1
+2017-08-06,So,Carlsen,A,2017,-1
+2017-08-06,Karjakin,Nepomniachtchi,D,2017,0
+2017-08-06,MVL,Aronian,D,2017,0
+2017-08-06,Nakamura,Svidler,D,2017,0
+2017-08-07,Gelfand,Inarkiev,D,2017,0
+2017-08-08,Aronian,So,H,2017,1
+2017-08-08,Nepomniachtchi,Svidler,D,2017,0
+2017-08-08,Karjakin,Anand,D,2017,0
+2017-08-08,Carlsen,Nakamura,D,2017,0
+2017-08-08,Giri,Ding Liren,D,2017,0
+2017-08-08,Caruana,MVL,D,2017,0
+2017-08-08,Inarkiev,Gelfand,H,2017,1
+2017-08-09,Ding Liren,Giri,A,2017,-1
+2017-08-09,Nakamura,Aronian,A,2017,-1
+2017-08-09,Svidler,Carlsen,D,2017,0
+2017-08-09,MVL,Karjakin,D,2017,0
+2017-08-09,Anand,Nepomniachtchi,H,2017,1
+2017-08-09,So,Caruana,D,2017,0
+2017-08-10,Anand,MVL,D,2017,0
+2017-08-10,Aronian,Svidler,D,2017,0
+2017-08-10,Nepomniachtchi,Carlsen,D,2017,0
+2017-08-10,Karjakin,So,H,2017,1
+2017-08-10,Giri,Ding Liren,D,2017,0
+2017-08-10,Caruana,Nakamura,D,2017,0
+2017-08-11,Ding Liren,Giri,D,2017,0
+2017-08-11,Gelfand,Inarkiev,H,2017,1
+2017-08-11,Carlsen,Aronian,H,2017,1
+2017-08-11,MVL,Nepomniachtchi,H,2017,1
+2017-08-11,Svidler,Caruana,H,2017,1
+2017-08-11,Nakamura,Karjakin,D,2017,0
+2017-08-11,So,Anand,D,2017,0
+2017-08-12,Inarkiev,Gelfand,A,2017,-1
+2017-08-14,Bacrot,Wojtaszek,H,2017,1
+2017-08-14,Duda,Naiditsch,D,2017,0
+2017-08-18,Wang Hao,Wei Yi,D,2017,0
+2017-08-20,Wang Hao,Bu Xiangzhi,A,2017,-1
+2017-08-21,Wei Yi,Grischuk,D,2017,0
+2017-09-06,Tomashevsky,Vallejo Pons,D,2017,0
+2017-09-06,Wang Hao,Gelfand,D,2017,0
+2017-09-06,Le Quang Liem,Vidit,A,2017,-1
+2017-09-06,Matlakov,Andreikin,D,2017,0
+2017-09-06,Yu Yangyi,Jobava,D,2017,0
+2017-09-06,Bacrot,Bu Xiangzhi,D,2017,0
+2017-09-06,Tomashevsky,Vallejo Pons,D,2017,0
+2017-09-07,Gelfand,Wang Hao,D,2017,0
+2017-09-07,Vidit,Le Quang Liem,D,2017,0
+2017-09-07,Jobava,Yu Yangyi,D,2017,0
+2017-09-07,Vallejo Pons,Tomashevsky,H,2017,1
+2017-09-07,Bu Xiangzhi,Bacrot,D,2017,0
+2017-09-07,Andreikin,Matlakov,D,2017,0
+2017-09-08,Andreikin,Matlakov,D,2017,0
+2017-09-08,Andreikin,Matlakov,A,2017,-1
+2017-09-09,Nepomniachtchi,Jobava,D,2017,0
+2017-09-09,Nakamura,Fedoseev,D,2017,0
+2017-09-09,Carlsen,Bu Xiangzhi,A,2017,-1
+2017-09-09,Vallejo Pons,So,A,2017,-1
+2017-09-09,Ding Liren,Vidit,D,2017,0
+2017-09-09,Grischuk,Navara,D,2017,0
+2017-09-09,Ivanchuk,Kramnik,D,2017,0
+2017-09-09,Aronian,Matlakov,H,2017,1
+2017-09-10,Jobava,Nepomniachtchi,D,2017,0
+2017-09-10,Matlakov,Aronian,H,2017,1
+2017-09-10,So,Vallejo Pons,D,2017,0
+2017-09-10,Fedoseev,Nakamura,H,2017,1
+2017-09-10,Bu Xiangzhi,Carlsen,D,2017,0
+2017-09-10,Vidit,Ding Liren,D,2017,0
+2017-09-10,Kramnik,Ivanchuk,A,2017,-1
+2017-09-10,Navara,Grischuk,D,2017,0
+2017-09-12,MVL,Grischuk,D,2017,0
+2017-09-12,Ivanchuk,Giri,H,2017,1
+2017-09-12,Svidler,Bu Xiangzhi,D,2017,0
+2017-09-12,Wang Hao,Ding Liren,D,2017,0
+2017-09-12,So,Jobava,D,2017,0
+2017-09-13,Bu Xiangzhi,Svidler,D,2017,0
+2017-09-13,Grischuk,MVL,D,2017,0
+2017-09-13,Jobava,So,D,2017,0
+2017-09-13,Ding Liren,Wang Hao,H,2017,1
+2017-09-13,Giri,Ivanchuk,D,2017,0
+2017-09-14,Grischuk,MVL,D,2017,0
+2017-09-15,Svidler,MVL,D,2017,0
+2017-09-15,Aronian,Ivanchuk,H,2017,1
+2017-09-15,Fedoseev,So,D,2017,0
+2017-09-16,MVL,Svidler,D,2017,0
+2017-09-16,So,Fedoseev,H,2017,1
+2017-09-16,Ivanchuk,Aronian,D,2017,0
+2017-09-19,So,Ding Liren,D,2017,0
+2017-09-19,Aronian,MVL,D,2017,0
+2017-09-20,Ding Liren,So,D,2017,0
+2017-09-20,MVL,Aronian,D,2017,0
+2017-09-21,So,Ding Liren,D,2017,0
+2017-09-21,Ding Liren,So,D,2017,0
+2017-09-21,Aronian,MVL,H,2017,1
+2017-09-23,Aronian,Ding Liren,D,2017,0
+2017-09-23,Caruana,Kramnik,H,2017,1
+2017-09-24,Ding Liren,Aronian,D,2017,0
+2017-09-25,Aronian,Ding Liren,D,2017,0
+2017-09-26,Ding Liren,Aronian,D,2017,0
+2017-09-28,Eljanov,Carlsen,A,2017,-1
+2017-09-29,Carlsen,Vidit,D,2017,0
+2017-09-30,Caruana,Carlsen,A,2017,-1
+2017-09-30,Vidit,Eljanov,D,2017,0
+2017-10-01,Carlsen,Nakamura,D,2017,0
+2017-10-10,Mamedyarov,Harikrishna,D,2017,0
+2017-10-10,Wojtaszek,Kramnik,D,2017,0
+2017-10-10,Navara,Grischuk,D,2017,0
+2017-10-12,Naiditsch,Kramnik,D,2017,0
+2017-10-13,Mamedyarov,Eljanov,D,2017,0
+2017-10-13,Karjakin,Yu Yangyi,D,2017,0
+2017-10-13,Naiditsch,Svidler,D,2017,0
+2017-10-13,Andreikin,Grischuk,D,2017,0
+2017-10-13,Jakovenko,Giri,D,2017,0
+2017-10-13,Ding Liren,Kramnik,D,2017,0
+2017-10-14,Wojtaszek,Naiditsch,D,2017,0
+2017-10-21,Jakovenko,Svidler,H,2017,1
+2017-10-21,Anand,Li Chao,D,2017,0
+2017-10-21,Duda,Eljanov,H,2017,1
+2017-10-21,Ivanchuk,Wei Yi,D,2017,0
+2017-10-22,Wei Yi,Ivanchuk,D,2017,0
+2017-10-23,Ivanchuk,Wei Yi,H,2017,1
+2017-10-24,Wei Yi,Ivanchuk,D,2017,0
+2017-10-25,Ivanchuk,Wei Yi,D,2017,0
+2017-10-26,Wei Yi,Ivanchuk,H,2017,1
+2017-10-29,Jobava,Navara,A,2017,-1
+2017-10-29,Giri,Eljanov,H,2017,1
+2017-10-30,Wojtaszek,Adams,H,2017,1
+2017-10-30,Navara,Grischuk,D,2017,0
+2017-10-31,Aronian,Giri,D,2017,0
+2017-11-01,Mamedyarov,Navara,H,2017,1
+2017-11-01,Jobava,Gelfand,D,2017,0
+2017-11-02,Wang Hao,Ding Liren,D,2017,0
+2017-11-02,Li Chao,Wei Yi,D,2017,0
+2017-11-03,Nepomniachtchi,Duda,H,2017,1
+2017-11-03,Aronian,Mamedyarov,H,2017,1
+2017-11-03,Wojtaszek,Grischuk,D,2017,0
+2017-11-03,Giri,Navara,D,2017,0
+2017-11-04,Gelfand,Wojtaszek,D,2017,0
+2017-11-05,Aronian,Wojtaszek,D,2017,0
+2017-11-05,Grischuk,Mamedyarov,A,2017,-1
+2017-11-05,Radjabov,Nepomniachtchi,H,2017,1
+2017-11-05,Matlakov,Naiditsch,H,2017,1
+2017-11-06,Mamedyarov,Eljanov,D,2017,0
+2017-11-10,So,Dominguez Perez,A,2017,-1
+2017-11-11,Matlakov,Jobava,H,2017,1
+2017-11-11,Caruana,Grischuk,A,2017,-1
+2017-11-12,Dominguez Perez,So,D,2017,0
+2017-11-12,Caruana,Grischuk,H,2017,1
+2017-11-18,Matlakov,Fedoseev,D,2017,0
+2017-11-18,Ding Liren,Eljanov,D,2017,0
+2017-11-18,Vallejo Pons,Gelfand,H,2017,1
+2017-11-18,Tomashevsky,Nakamura,D,2017,0
+2017-11-18,Radjabov,Giri,D,2017,0
+2017-11-18,MVL,Aronian,D,2017,0
+2017-11-19,Eljanov,Jakovenko,A,2017,-1
+2017-11-19,Nakamura,Radjabov,H,2017,1
+2017-11-19,Harikrishna,Vallejo Pons,H,2017,1
+2017-11-19,Li Chao,Gelfand,D,2017,0
+2017-11-19,Aronian,Giri,H,2017,1
+2017-11-19,Svidler,MVL,D,2017,0
+2017-11-20,Radjabov,Harikrishna,D,2017,0
+2017-11-20,Vallejo Pons,Li Chao,D,2017,0
+2017-11-20,Jakovenko,Svidler,D,2017,0
+2017-11-20,Ding Liren,Aronian,D,2017,0
+2017-11-20,MVL,Nakamura,D,2017,0
+2017-11-22,Nakamura,Ding Liren,D,2017,0
+2017-11-22,Aronian,Svidler,D,2017,0
+2017-11-22,Tomashevsky,Radjabov,H,2017,1
+2017-11-22,Li Chao,Eljanov,D,2017,0
+2017-11-22,Harikrishna,MVL,D,2017,0
+2017-11-22,Giri,Jakovenko,D,2017,0
+2017-11-23,Radjabov,Li Chao,H,2017,1
+2017-11-23,MVL,Tomashevsky,D,2017,0
+2017-11-23,Svidler,Nakamura,D,2017,0
+2017-11-23,Ding Liren,Giri,D,2017,0
+2017-11-23,Jakovenko,Harikrishna,D,2017,0
+2017-11-24,Aronian,Tomashevsky,D,2017,0
+2017-11-24,Svidler,Ding Liren,D,2017,0
+2017-11-24,Gelfand,Radjabov,A,2017,-1
+2017-11-24,Nakamura,Harikrishna,D,2017,0
+2017-11-24,Vallejo Pons,Eljanov,D,2017,0
+2017-11-24,Li Chao,Giri,D,2017,0
+2017-11-25,Vidit,Naiditsch,D,2017,0
+2017-11-25,Eljanov,Gelfand,D,2017,0
+2017-11-25,Tomashevsky,Ding Liren,D,2017,0
+2017-11-25,Giri,Vallejo Pons,D,2017,0
+2017-11-25,MVL,Jakovenko,A,2017,-1
+2017-11-25,Nakamura,Aronian,D,2017,0
+2017-11-25,Harikrishna,Svidler,D,2017,0
+2017-12-01,Carlsen,Caruana,D,2017,0
+2017-12-01,Nakamura,Anand,D,2017,0
+2017-12-01,Adams,Karjakin,D,2017,0
+2017-12-01,So,MVL,D,2017,0
+2017-12-01,Nepomniachtchi,Aronian,D,2017,0
+2017-12-02,Wang Hao,Yu Yangyi,D,2017,0
+2017-12-03,Karjakin,Carlsen,D,2017,0
+2017-12-03,Wei Yi,Ding Liren,D,2017,0
+2017-12-03,Andreikin,Wang Hao,D,2017,0
+2017-12-03,Caruana,Aronian,D,2017,0
+2017-12-03,Anand,Adams,D,2017,0
+2017-12-03,MVL,Nakamura,D,2017,0
+2017-12-03,Vitiugov,Svidler,D,2017,0
+2017-12-03,Matlakov,Tomashevsky,D,2017,0
+2017-12-03,So,Nepomniachtchi,D,2017,0
+2017-12-04,Tomashevsky,Fedoseev,A,2017,-1
+2017-12-04,Aronian,Karjakin,D,2017,0
+2017-12-04,Adams,MVL,D,2017,0
+2017-12-04,Carlsen,Anand,D,2017,0
+2017-12-04,Nepomniachtchi,Caruana,D,2017,0
+2017-12-04,Nakamura,So,D,2017,0
+2017-12-04,Cheparinov,Wei Yi,D,2017,0
+2017-12-04,Wang Hao,Vallejo Pons,D,2017,0
+2017-12-04,Andreikin,Li Chao,D,2017,0
+2017-12-05,Anand,Aronian,D,2017,0
+2017-12-05,Nakamura,Nepomniachtchi,D,2017,0
+2017-12-05,Grischuk,Wang Hao,D,2017,0
+2017-12-05,So,Adams,D,2017,0
+2017-12-05,Karjakin,Caruana,A,2017,-1
+2017-12-05,MVL,Carlsen,D,2017,0
+2017-12-06,Matlakov,Fedoseev,A,2017,-1
+2017-12-06,Tomashevsky,Vitiugov,D,2017,0
+2017-12-06,Carlsen,So,D,2017,0
+2017-12-06,Caruana,Anand,H,2017,1
+2017-12-06,Adams,Nakamura,D,2017,0
+2017-12-06,Aronian,MVL,D,2017,0
+2017-12-06,Nepomniachtchi,Karjakin,D,2017,0
+2017-12-08,Adams,Nepomniachtchi,A,2017,-1
+2017-12-08,Anand,Karjakin,D,2017,0
+2017-12-08,Nakamura,Carlsen,D,2017,0
+2017-12-08,So,Aronian,D,2017,0
+2017-12-08,Adams,Nepomniachtchi,A,2017,-1
+2017-12-08,MVL,Caruana,D,2017,0
+2017-12-09,Nepomniachtchi,Anand,H,2017,1
+2017-12-09,Caruana,So,D,2017,0
+2017-12-09,Aronian,Nakamura,D,2017,0
+2017-12-09,Eljanov,Wojtaszek,D,2017,0
+2017-12-09,Carlsen,Adams,H,2017,1
+2017-12-09,Matlakov,Vitiugov,D,2017,0
+2017-12-09,Karjakin,MVL,A,2017,-1
+2017-12-10,Svidler,Tomashevsky,D,2017,0
+2017-12-10,Vitiugov,Fedoseev,H,2017,1
+2017-12-10,So,Karjakin,D,2017,0
+2017-12-10,Carlsen,Nepomniachtchi,A,2017,-1
+2017-12-10,Nakamura,Caruana,D,2017,0
+2017-12-10,MVL,Anand,D,2017,0
+2017-12-10,Adams,Aronian,D,2017,0
+2017-12-11,Karjakin,Nakamura,D,2017,0
+2017-12-11,Nepomniachtchi,MVL,D,2017,0
+2017-12-11,Aronian,Carlsen,A,2017,-1
+2017-12-11,Caruana,Adams,H,2017,1
+2017-12-11,Anand,So,A,2017,-1
+2017-12-12,Svidler,Matlakov,D,2017,0
+2017-12-13,Fedoseev,Svidler,A,2017,-1
+2017-12-14,Grischuk,Harikrishna,D,2017,0
+2017-12-14,Mamedov,Le Quang Liem,H,2017,1
+2017-12-14,Le Quang Liem,Ivanchuk,H,2017,1
+2017-12-14,Yu Yangyi,Mamedyarov,D,2017,0
+2017-12-14,Ding Liren,Wang Hao,D,2017,0
+2017-12-14,Harikrishna,Grischuk,D,2017,0
+2017-12-14,Le Quang Liem,Mamedov,A,2017,-1
+2017-12-14,Mamedyarov,Yu Yangyi,A,2017,-1
+2017-12-14,Grischuk,Yu Yangyi,H,2017,1
+2017-12-14,Harikrishna,Wang Hao,D,2017,0
+2017-12-14,Mamedyarov,Ding Liren,D,2017,0
+2017-12-14,Wang Hao,Ding Liren,A,2017,-1
+2017-12-14,Ivanchuk,Le Quang Liem,H,2017,1
+2017-12-14,Yu Yangyi,Andreikin,H,2017,1
+2017-12-14,Ivanchuk,Mamedyarov,A,2017,-1
+2017-12-14,Harikrishna,Mamedov,H,2017,1
+2017-12-14,Mamedyarov,Ivanchuk,D,2017,0
+2017-12-14,Le Quang Liem,Ding Liren,D,2017,0
+2017-12-14,Ding Liren,Le Quang Liem,H,2017,1
+2017-12-14,Andreikin,Yu Yangyi,D,2017,0
+2017-12-14,Yu Yangyi,Grischuk,D,2017,0
+2017-12-14,Wang Hao,Harikrishna,D,2017,0
+2017-12-14,Mamedov,Harikrishna,A,2017,-1
+2017-12-14,Ding Liren,Mamedyarov,D,2017,0
+2017-12-15,Le Quang Liem,Mamedyarov,A,2017,-1
+2017-12-15,Harikrishna,Yu Yangyi,H,2017,1
+2017-12-15,Mamedov,Andreikin,A,2017,-1
+2017-12-15,Mamedyarov,Le Quang Liem,H,2017,1
+2017-12-15,Wang Hao,Grischuk,D,2017,0
+2017-12-15,Andreikin,Mamedov,D,2017,0
+2017-12-15,Grischuk,Wang Hao,H,2017,1
+2017-12-15,Andreikin,Grischuk,D,2017,0
+2017-12-15,Ding Liren,Harikrishna,D,2017,0
+2017-12-15,Ivanchuk,Wang Hao,A,2017,-1
+2017-12-15,Yu Yangyi,Mamedov,H,2017,1
+2017-12-15,Grischuk,Andreikin,D,2017,0
+2017-12-15,Harikrishna,Ding Liren,D,2017,0
+2017-12-15,Mamedov,Yu Yangyi,D,2017,0
+2017-12-15,Wang Hao,Ivanchuk,H,2017,1
+2017-12-15,Yu Yangyi,Harikrishna,H,2017,1
+2017-12-31,Wei Yi,Navara,A,2017,-1
+2018-01-01,Navara,Wei Yi,D,2018,0
+2018-01-02,Wei Yi,Navara,H,2018,1
+2018-01-03,Navara,Wei Yi,D,2018,0
+2018-01-13,Kramnik,Wei Yi,H,2018,1
+2018-01-13,Anand,Matlakov,H,2018,1
+2018-01-13,Carlsen,Caruana,D,2018,0
+2018-01-13,So,Mamedyarov,D,2018,0
+2018-01-14,Karjakin,Anand,D,2018,0
+2018-01-14,Matlakov,So,D,2018,0
+2018-01-14,Wei Yi,Svidler,D,2018,0
+2018-01-14,Giri,Kramnik,H,2018,1
+2018-01-15,Anand,Caruana,H,2018,1
+2018-01-15,So,Karjakin,D,2018,0
+2018-01-15,Mamedyarov,Matlakov,D,2018,0
+2018-01-15,Svidler,Giri,D,2018,0
+2018-01-15,Carlsen,Wei Yi,D,2018,0
+2018-01-16,Caruana,So,D,2018,0
+2018-01-16,Karjakin,Mamedyarov,D,2018,0
+2018-01-16,Kramnik,Svidler,H,2018,1
+2018-01-16,Giri,Carlsen,D,2018,0
+2018-01-17,Anand,Wei Yi,D,2018,0
+2018-01-17,Carlsen,Kramnik,D,2018,0
+2018-01-17,Mamedyarov,Caruana,H,2018,1
+2018-01-17,Matlakov,Karjakin,D,2018,0
+2018-01-19,Wei Yi,So,A,2018,-1
+2018-01-19,Svidler,Carlsen,D,2018,0
+2018-01-19,Caruana,Matlakov,D,2018,0
+2018-01-19,Giri,Anand,D,2018,0
+2018-01-20,Mamedyarov,Wei Yi,H,2018,1
+2018-01-20,Mamedyarov,Wei Yi,H,2018,1
+2018-01-20,Anand,Kramnik,A,2018,-1
+2018-01-20,Karjakin,Caruana,H,2018,1
+2018-01-20,So,Giri,D,2018,0
+2018-01-21,Kramnik,So,D,2018,0
+2018-01-21,Giri,Mamedyarov,H,2018,1
+2018-01-21,Svidler,Anand,D,2018,0
+2018-01-21,Wei Yi,Matlakov,D,2018,0
+2018-01-21,Giri,Mamedyarov,H,2018,1
+2018-01-23,Anand,Carlsen,D,2018,0
+2018-01-23,Mamedyarov,Kramnik,D,2018,0
+2018-01-23,Karjakin,Wei Yi,D,2018,0
+2018-01-23,Matlakov,Giri,A,2018,-1
+2018-01-23,So,Svidler,D,2018,0
+2018-01-24,Carlsen,So,H,2018,1
+2018-01-24,Kramnik,Matlakov,H,2018,1
+2018-01-24,Svidler,Mamedyarov,A,2018,-1
+2018-01-24,Wei Yi,Caruana,D,2018,0
+2018-01-24,Giri,Karjakin,D,2018,0
+2018-01-26,Matlakov,Svidler,D,2018,0
+2018-01-26,Karjakin,Kramnik,H,2018,1
+2018-01-26,Caruana,Giri,D,2018,0
+2018-01-26,Mamedyarov,Carlsen,D,2018,0
+2018-01-27,Duda,Nakamura,A,2018,-1
+2018-01-27,Kramnik,Caruana,H,2018,1
+2018-01-27,Carlsen,Matlakov,H,2018,1
+2018-01-27,Svidler,Karjakin,D,2018,0
+2018-01-27,Anand,So,D,2018,0
+2018-01-27,Svidler,Karjakin,D,2018,0
+2018-01-28,Mamedyarov,Anand,D,2018,0
+2018-01-28,Wei Yi,Giri,D,2018,0
+2018-01-28,Karjakin,Carlsen,D,2018,0
+2018-01-28,Caruana,Svidler,D,2018,0
+2018-01-28,Mamedyarov,Anand,D,2018,0
+2018-01-30,Wang Hao,Nakamura,D,2018,0
+2018-01-31,Nakamura,Rapport,D,2018,0
+2018-02-01,MVL,Nakamura,D,2018,0
+2018-02-01,MVL,Aronian,D,2018,0
+2018-02-01,Aronian,Nakamura,D,2018,0
+2018-02-01,MVL,Rapport,D,2018,0
+2018-02-10,Vitiugov,Duda,D,2018,0
+2018-02-10,Matlakov,Harikrishna,D,2018,0
+2018-02-24,MVL,Ivanchuk,D,2018,0
+2018-02-25,Harikrishna,MVL,D,2018,0
+2018-02-25,Anand,Rapport,D,2018,0
+2018-02-25,Jakovenko,Almasi,D,2018,0
+2018-03-10,Navara,MVL,A,2018,-1
+2018-03-10,Aronian,Ding Liren,D,2018,0
+2018-03-10,Kramnik,Grischuk,H,2018,1
+2018-03-10,Karjakin,Mamedyarov,A,2018,-1
+2018-03-10,Caruana,So,H,2018,1
+2018-03-11,Kramnik,Karjakin,D,2018,0
+2018-03-11,Ding Liren,Caruana,D,2018,0
+2018-03-11,Grischuk,So,H,2018,1
+2018-03-11,Mamedyarov,Aronian,D,2018,0
+2018-03-12,Karjakin,Grischuk,D,2018,0
+2018-03-12,Aronian,Kramnik,A,2018,-1
+2018-03-12,So,Ding Liren,D,2018,0
+2018-03-12,Caruana,Mamedyarov,D,2018,0
+2018-03-14,Kramnik,Caruana,A,2018,-1
+2018-03-14,Grischuk,Ding Liren,D,2018,0
+2018-03-14,Karjakin,Aronian,A,2018,-1
+2018-03-14,Mamedyarov,So,D,2018,0
+2018-03-15,So,Kramnik,D,2018,0
+2018-03-15,Aronian,Grischuk,D,2018,0
+2018-03-15,Ding Liren,Mamedyarov,D,2018,0
+2018-03-15,Caruana,Karjakin,D,2018,0
+2018-03-15,Aronian,Grischuk,D,2018,0
+2018-03-16,Ding Liren,Karjakin,D,2018,0
+2018-03-16,Mamedyarov,Kramnik,H,2018,1
+2018-03-16,So,Aronian,H,2018,1
+2018-03-16,Caruana,Grischuk,D,2018,0
+2018-03-18,Kramnik,Ding Liren,D,2018,0
+2018-03-18,Karjakin,So,H,2018,1
+2018-03-18,Aronian,Caruana,A,2018,-1
+2018-03-18,Grischuk,Mamedyarov,D,2018,0
+2018-03-19,So,Caruana,D,2018,0
+2018-03-19,Mamedyarov,Karjakin,D,2018,0
+2018-03-19,Grischuk,Kramnik,H,2018,1
+2018-03-19,So,Caruana,D,2018,0
+2018-03-19,Ding Liren,Aronian,D,2018,0
+2018-03-20,Caruana,Ding Liren,D,2018,0
+2018-03-20,Karjakin,Kramnik,H,2018,1
+2018-03-20,Aronian,Mamedyarov,D,2018,0
+2018-03-20,So,Grischuk,D,2018,0
+2018-03-22,Mamedyarov,Caruana,D,2018,0
+2018-03-22,Kramnik,Aronian,H,2018,1
+2018-03-22,Grischuk,Karjakin,D,2018,0
+2018-03-22,Ding Liren,So,D,2018,0
+2018-03-23,Ding Liren,Grischuk,D,2018,0
+2018-03-23,Aronian,Karjakin,A,2018,-1
+2018-03-23,Caruana,Kramnik,D,2018,0
+2018-03-23,Caruana,Kramnik,D,2018,0
+2018-03-23,So,Mamedyarov,D,2018,0
+2018-03-24,Kramnik,So,D,2018,0
+2018-03-24,Grischuk,Aronian,D,2018,0
+2018-03-24,Mamedyarov,Ding Liren,A,2018,-1
+2018-03-24,Karjakin,Caruana,H,2018,1
+2018-03-26,Ding Liren,Kramnik,D,2018,0
+2018-03-26,So,Karjakin,D,2018,0
+2018-03-26,Navara,Dubov,D,2018,0
+2018-03-26,Caruana,Aronian,H,2018,1
+2018-03-26,Mamedyarov,Grischuk,H,2018,1
+2018-03-27,Grischuk,Caruana,A,2018,-1
+2018-03-27,Kramnik,Mamedyarov,D,2018,0
+2018-03-27,Karjakin,Ding Liren,D,2018,0
+2018-03-27,Aronian,So,D,2018,0
+2018-03-31,Caruana,Carlsen,D,2018,0
+2018-03-31,Naiditsch,MVL,D,2018,0
+2018-04-01,MVL,Anand,H,2018,1
+2018-04-01,Aronian,Naiditsch,H,2018,1
+2018-04-02,Naiditsch,Vitiugov,D,2018,0
+2018-04-02,Anand,Aronian,D,2018,0
+2018-04-04,Caruana,Naiditsch,H,2018,1
+2018-04-04,Vitiugov,Anand,D,2018,0
+2018-04-04,Carlsen,MVL,D,2018,0
+2018-04-05,Anand,Caruana,D,2018,0
+2018-04-05,MVL,Aronian,D,2018,0
+2018-04-06,Vitiugov,MVL,D,2018,0
+2018-04-06,Carlsen,Aronian,D,2018,0
+2018-04-07,Naiditsch,Carlsen,A,2018,-1
+2018-04-07,Aronian,Vitiugov,D,2018,0
+2018-04-07,MVL,Caruana,A,2018,-1
+2018-04-08,Carlsen,Vitiugov,D,2018,0
+2018-04-08,Naiditsch,Anand,D,2018,0
+2018-04-08,Caruana,Aronian,D,2018,0
+2018-04-09,Vitiugov,Caruana,A,2018,-1
+2018-04-09,Anand,Carlsen,D,2018,0
+2018-04-09,Vidit,Bu Xiangzhi,D,2018,0
+2018-04-12,Andreikin,Li Chao,D,2018,0
+2018-04-19,Navara,Mamedov,D,2018,0
+2018-04-19,Giri,Karjakin,D,2018,0
+2018-04-19,Ding Liren,Wojtaszek,D,2018,0
+2018-04-19,Mamedyarov,Carlsen,D,2018,0
+2018-04-19,Topalov,Radjabov,D,2018,0
+2018-04-20,Topalov,Giri,D,2018,0
+2018-04-20,Carlsen,Navara,D,2018,0
+2018-04-20,Wojtaszek,Mamedyarov,D,2018,0
+2018-04-20,Radjabov,Mamedov,D,2018,0
+2018-04-20,Karjakin,Ding Liren,D,2018,0
+2018-04-21,Navara,Wojtaszek,D,2018,0
+2018-04-21,Mamedyarov,Karjakin,D,2018,0
+2018-04-21,Giri,Radjabov,D,2018,0
+2018-04-21,Mamedov,Carlsen,D,2018,0
+2018-04-21,Ding Liren,Topalov,D,2018,0
+2018-04-22,Giri,Ding Liren,D,2018,0
+2018-04-22,Topalov,Mamedyarov,H,2018,1
+2018-04-22,Wojtaszek,Mamedov,D,2018,0
+2018-04-22,Karjakin,Navara,D,2018,0
+2018-04-22,Radjabov,Carlsen,D,2018,0
+2018-04-23,Mamedov,Karjakin,D,2018,0
+2018-04-23,Mamedyarov,Giri,D,2018,0
+2018-04-23,Navara,Topalov,A,2018,-1
+2018-04-23,Ding Liren,Radjabov,D,2018,0
+2018-04-23,Carlsen,Wojtaszek,H,2018,1
+2018-04-25,Topalov,Mamedov,D,2018,0
+2018-04-25,Radjabov,Wojtaszek,D,2018,0
+2018-04-25,Karjakin,Carlsen,D,2018,0
+2018-04-25,Ding Liren,Mamedyarov,D,2018,0
+2018-04-25,Giri,Navara,H,2018,1
+2018-04-26,Carlsen,Topalov,H,2018,1
+2018-04-26,Wojtaszek,Karjakin,D,2018,0
+2018-04-26,Mamedov,Giri,D,2018,0
+2018-04-26,Navara,Ding Liren,A,2018,-1
+2018-04-26,Mamedyarov,Radjabov,D,2018,0
+2018-04-26,So,Caruana,D,2018,0
+2018-04-27,Caruana,Nakamura,D,2018,0
+2018-04-27,Ding Liren,Mamedov,H,2018,1
+2018-04-27,Mamedyarov,Navara,H,2018,1
+2018-04-27,Giri,Carlsen,A,2018,-1
+2018-04-27,Topalov,Wojtaszek,A,2018,-1
+2018-04-27,Radjabov,Karjakin,D,2018,0
+2018-04-28,Carlsen,Ding Liren,D,2018,0
+2018-04-28,Mamedov,Mamedyarov,D,2018,0
+2018-04-28,Karjakin,Topalov,H,2018,1
+2018-04-28,Wojtaszek,Giri,D,2018,0
+2018-04-28,Navara,Radjabov,D,2018,0
+2018-04-29,So,Nakamura,D,2018,0
+2018-04-29,Tomashevsky,Aronian,D,2018,0
+2018-05-05,Artemiev,Svidler,D,2018,0
+2018-05-10,Vitiugov,Tomashevsky,D,2018,0
+2018-05-17,Wojtaszek,Duda,A,2018,-1
+2018-05-24,Ding Liren,Cheparinov,H,2018,1
+2018-05-24,Giri,Caruana,H,2018,1
+2018-05-27,Jakovenko,Artemiev,H,2018,1
+2018-05-27,Matlakov,Li Chao,D,2018,0
+2018-05-28,Mamedyarov,MVL,D,2018,0
+2018-05-28,Artemiev,Fedoseev,D,2018,0
+2018-05-28,Nakamura,Ding Liren,D,2018,0
+2018-05-28,Carlsen,Caruana,H,2018,1
+2018-05-28,Anand,Aronian,D,2018,0
+2018-05-28,So,Karjakin,D,2018,0
+2018-05-29,Nakamura,Anand,D,2018,0
+2018-05-29,Ding Liren,MVL,D,2018,0
+2018-05-29,Caruana,Mamedyarov,D,2018,0
+2018-05-29,Aronian,So,D,2018,0
+2018-05-29,Karjakin,Carlsen,D,2018,0
+2018-05-29,Vidit,Nepomniachtchi,D,2018,0
+2018-05-30,Jakovenko,Vidit,D,2018,0
+2018-05-30,So,Nakamura,D,2018,0
+2018-05-30,Carlsen,Aronian,H,2018,1
+2018-05-30,MVL,Caruana,D,2018,0
+2018-05-30,Anand,Ding Liren,D,2018,0
+2018-05-30,Mamedyarov,Karjakin,D,2018,0
+2018-05-31,Fedoseev,Nepomniachtchi,H,2018,1
+2018-06-01,Karjakin,MVL,H,2018,1
+2018-06-01,Duda,Eljanov,H,2018,1
+2018-06-01,Aronian,Mamedyarov,H,2018,1
+2018-06-01,Anand,So,D,2018,0
+2018-06-01,Nakamura,Carlsen,D,2018,0
+2018-06-02,Caruana,Karjakin,H,2018,1
+2018-06-02,Carlsen,Anand,D,2018,0
+2018-06-02,MVL,Aronian,D,2018,0
+2018-06-02,Mamedyarov,Nakamura,D,2018,0
+2018-06-02,Jakovenko,Fedoseev,H,2018,1
+2018-06-02,Navara,Eljanov,D,2018,0
+2018-06-02,Jakovenko,Fedoseev,H,2018,1
+2018-06-03,Vidit,Artemiev,D,2018,0
+2018-06-03,So,Carlsen,H,2018,1
+2018-06-03,Nakamura,MVL,D,2018,0
+2018-06-03,Anand,Mamedyarov,D,2018,0
+2018-06-03,Aronian,Caruana,D,2018,0
+2018-06-04,Artemiev,Nepomniachtchi,D,2018,0
+2018-06-05,Caruana,Nakamura,D,2018,0
+2018-06-05,Mamedyarov,So,D,2018,0
+2018-06-05,Karjakin,Aronian,D,2018,0
+2018-06-05,Caruana,Nakamura,D,2018,0
+2018-06-05,Fedoseev,Vidit,D,2018,0
+2018-06-05,Nepomniachtchi,Jakovenko,D,2018,0
+2018-06-05,MVL,Anand,A,2018,-1
+2018-06-06,So,MVL,D,2018,0
+2018-06-06,Anand,Caruana,A,2018,-1
+2018-06-06,Carlsen,Mamedyarov,D,2018,0
+2018-06-06,Nakamura,Karjakin,H,2018,1
+2018-06-07,Caruana,So,H,2018,1
+2018-06-07,Karjakin,Anand,A,2018,-1
+2018-06-07,Aronian,Nakamura,D,2018,0
+2018-06-07,MVL,Carlsen,D,2018,0
+2018-06-20,Wang Hao,Yu Yangyi,D,2018,0
+2018-06-20,Bu Xiangzhi,Wei Yi,D,2018,0
+2018-06-21,Yu Yangyi,Bu Xiangzhi,H,2018,1
+2018-06-22,Wei Yi,Yu Yangyi,D,2018,0
+2018-06-23,Bu Xiangzhi,Wang Hao,D,2018,0
+2018-06-27,Yu Yangyi,Li Chao,H,2018,1
+2018-06-27,Bu Xiangzhi,Wei Yi,A,2018,-1
+2018-06-27,Yu Yangyi,Bu Xiangzhi,D,2018,0
+2018-06-27,Li Chao,Wei Yi,D,2018,0
+2018-06-27,Wei Yi,Yu Yangyi,A,2018,-1
+2018-06-27,Bu Xiangzhi,Li Chao,D,2018,0
+2018-06-27,Wei Yi,Bu Xiangzhi,H,2018,1
+2018-06-27,Li Chao,Yu Yangyi,D,2018,0
+2018-06-28,Wei Yi,Li Chao,H,2018,1
+2018-06-28,Bu Xiangzhi,Yu Yangyi,D,2018,0
+2018-06-28,Yu Yangyi,Wei Yi,H,2018,1
+2018-06-28,Li Chao,Bu Xiangzhi,D,2018,0
+2018-07-14,Nepomniachtchi,Giri,D,2018,0
+2018-07-15,Wojtaszek,Kramnik,D,2018,0
+2018-07-17,Duda,Wojtaszek,H,2018,1
+2018-07-18,Wojtaszek,Nepomniachtchi,D,2018,0
+2018-07-18,Kramnik,Duda,H,2018,1
+2018-07-20,Nepomniachtchi,Kramnik,H,2018,1
+2018-07-20,Giri,Wojtaszek,D,2018,0
+2018-07-21,Kramnik,Giri,A,2018,-1
+2018-07-21,Duda,Nepomniachtchi,D,2018,0
+2018-07-22,Carlsen,Navara,H,2018,1
+2018-07-22,MVL,Svidler,D,2018,0
+2018-07-22,MVL,Svidler,D,2018,0
+2018-07-22,Giri,Duda,D,2018,0
+2018-07-23,MVL,Carlsen,A,2018,-1
+2018-07-23,Navara,Mamedyarov,D,2018,0
+2018-07-23,MVL,Carlsen,A,2018,-1
+2018-07-23,Navara,Mamedyarov,D,2018,0
+2018-07-24,Mamedyarov,MVL,H,2018,1
+2018-07-24,Carlsen,Svidler,D,2018,0
+2018-07-24,Mamedyarov,MVL,H,2018,1
+2018-07-25,Navara,MVL,D,2018,0
+2018-07-25,Mamedyarov,Svidler,D,2018,0
+2018-07-25,Navara,MVL,D,2018,0
+2018-07-26,Svidler,Navara,D,2018,0
+2018-07-26,Carlsen,Mamedyarov,D,2018,0
+2018-07-26,Svidler,Navara,D,2018,0
+2018-07-27,Navara,Carlsen,D,2018,0
+2018-07-27,Svidler,MVL,A,2018,-1
+2018-07-27,Svidler,MVL,A,2018,-1
+2018-07-27,Wei Yi,Fedoseev,D,2018,0
+2018-07-27,Bu Xiangzhi,Shankland,D,2018,0
+2018-07-27,Vidit,Duda,A,2018,-1
+2018-07-27,Yu Yangyi,Le Quang Liem,D,2018,0
+2018-07-28,Yu Yangyi,Bu Xiangzhi,A,2018,-1
+2018-07-28,Fedoseev,Vidit,D,2018,0
+2018-07-28,Le Quang Liem,Duda,D,2018,0
+2018-07-28,Shankland,Wei Yi,D,2018,0
+2018-07-29,Carlsen,MVL,D,2018,0
+2018-07-29,Mamedyarov,Navara,H,2018,1
+2018-07-29,Carlsen,MVL,D,2018,0
+2018-07-29,Mamedyarov,Navara,H,2018,1
+2018-07-29,Wei Yi,Yu Yangyi,A,2018,-1
+2018-07-29,Bu Xiangzhi,Le Quang Liem,H,2018,1
+2018-07-29,Duda,Fedoseev,D,2018,0
+2018-07-29,Jakovenko,Cheparinov,H,2018,1
+2018-07-29,Vidit,Shankland,H,2018,1
+2018-07-30,Yu Yangyi,Vidit,H,2018,1
+2018-07-30,Le Quang Liem,Fedoseev,D,2018,0
+2018-07-30,Shankland,Duda,H,2018,1
+2018-07-30,Bu Xiangzhi,Wei Yi,D,2018,0
+2018-07-30,MVL,Mamedyarov,D,2018,0
+2018-07-30,Svidler,Carlsen,D,2018,0
+2018-07-30,MVL,Mamedyarov,D,2018,0
+2018-07-31,Navara,Svidler,D,2018,0
+2018-07-31,Mamedyarov,Carlsen,H,2018,1
+2018-07-31,Navara,Svidler,D,2018,0
+2018-08-01,MVL,Navara,H,2018,1
+2018-08-01,MVL,Navara,H,2018,1
+2018-08-01,Svidler,Mamedyarov,D,2018,0
+2018-08-01,Fedoseev,Shankland,D,2018,0
+2018-08-01,Duda,Yu Yangyi,D,2018,0
+2018-08-01,Vidit,Bu Xiangzhi,D,2018,0
+2018-08-01,Wei Yi,Le Quang Liem,D,2018,0
+2018-08-02,Yu Yangyi,Fedoseev,H,2018,1
+2018-08-02,Bu Xiangzhi,Duda,A,2018,-1
+2018-08-02,Le Quang Liem,Shankland,H,2018,1
+2018-08-02,Wei Yi,Vidit,D,2018,0
+2018-08-02,Jakovenko,Mamedov,D,2018,0
+2018-08-03,Vidit,Le Quang Liem,A,2018,-1
+2018-08-03,Duda,Wei Yi,A,2018,-1
+2018-08-03,Fedoseev,Bu Xiangzhi,H,2018,1
+2018-08-03,Shankland,Yu Yangyi,D,2018,0
+2018-08-03,Duda,Wei Yi,A,2018,-1
+2018-08-04,Mamedov,Cheparinov,D,2018,0
+2018-08-05,Jakovenko,Andreikin,D,2018,0
+2018-08-05,Andreikin,Jakovenko,H,2018,1
+2018-08-06,Harikrishna,Kryvoruchko,D,2018,0
+2018-08-07,Vidit,Vitiugov,D,2018,0
+2018-08-08,Vitiugov,Kryvoruchko,D,2018,0
+2018-08-08,Navara,Harikrishna,D,2018,0
+2018-08-09,Vitiugov,Navara,D,2018,0
+2018-08-10,Navara,Kryvoruchko,H,2018,1
+2018-08-11,Topalov,Ding Liren,A,2018,-1
+2018-08-12,Ding Liren,Topalov,D,2018,0
+2018-08-13,Topalov,Ding Liren,D,2018,0
+2018-08-14,Ding Liren,Topalov,H,2018,1
+2018-08-18,Caruana,Grischuk,D,2018,0
+2018-08-18,Aronian,Karjakin,H,2018,1
+2018-08-18,Mamedyarov,So,H,2018,1
+2018-08-18,MVL,Carlsen,D,2018,0
+2018-08-18,Nakamura,Anand,D,2018,0
+2018-08-19,Anand,MVL,D,2018,0
+2018-08-19,So,Nakamura,D,2018,0
+2018-08-19,Grischuk,Mamedyarov,D,2018,0
+2018-08-19,Caruana,Aronian,D,2018,0
+2018-08-19,Carlsen,Karjakin,H,2018,1
+2018-08-19,Anand,MVL,D,2018,0
+2018-08-20,Nakamura,Grischuk,A,2018,-1
+2018-08-20,Mamedyarov,Caruana,D,2018,0
+2018-08-20,MVL,So,D,2018,0
+2018-08-20,Aronian,Carlsen,D,2018,0
+2018-08-20,Karjakin,Anand,D,2018,0
+2018-08-20,MVL,So,D,2018,0
+2018-08-21,Mamedyarov,Aronian,D,2018,0
+2018-08-21,Grischuk,MVL,D,2018,0
+2018-08-21,Grischuk,MVL,D,2018,0
+2018-08-21,Anand,Carlsen,D,2018,0
+2018-08-21,Caruana,Nakamura,H,2018,1
+2018-08-21,So,Karjakin,D,2018,0
+2018-08-22,Harikrishna,Yu Yangyi,D,2018,0
+2018-08-22,Aronian,Anand,D,2018,0
+2018-08-22,MVL,Caruana,D,2018,0
+2018-08-22,Carlsen,So,D,2018,0
+2018-08-22,Nakamura,Mamedyarov,D,2018,0
+2018-08-22,Nakamura,Mamedyarov,D,2018,0
+2018-08-22,MVL,Caruana,D,2018,0
+2018-08-22,Karjakin,Grischuk,D,2018,0
+2018-08-24,Nakamura,Aronian,D,2018,0
+2018-08-24,So,Anand,D,2018,0
+2018-08-24,Caruana,Karjakin,H,2018,1
+2018-08-24,Grischuk,Carlsen,D,2018,0
+2018-08-24,Mamedyarov,MVL,D,2018,0
+2018-08-24,So,Anand,D,2018,0
+2018-08-24,Mamedyarov,MVL,D,2018,0
+2018-08-25,Anand,Grischuk,D,2018,0
+2018-08-25,MVL,Nakamura,D,2018,0
+2018-08-25,MVL,Nakamura,D,2018,0
+2018-08-25,Yu Yangyi,Cheparinov,A,2018,-1
+2018-08-25,Aronian,So,D,2018,0
+2018-08-25,Jakovenko,Tomashevsky,D,2018,0
+2018-08-25,Karjakin,Mamedyarov,D,2018,0
+2018-08-25,Carlsen,Caruana,D,2018,0
+2018-08-25,Nepomniachtchi,Vitiugov,D,2018,0
+2018-08-26,Fedoseev,Jakovenko,D,2018,0
+2018-08-26,Tomashevsky,Nepomniachtchi,D,2018,0
+2018-08-26,Mamedyarov,Carlsen,D,2018,0
+2018-08-26,Grischuk,So,D,2018,0
+2018-08-26,Caruana,Anand,D,2018,0
+2018-08-26,Nakamura,Karjakin,D,2018,0
+2018-08-26,MVL,Aronian,D,2018,0
+2018-08-26,Grischuk,So,D,2018,0
+2018-08-26,Tomashevsky,Nepomniachtchi,D,2018,0
+2018-08-27,Aronian,Grischuk,H,2018,1
+2018-08-27,Anand,Mamedyarov,D,2018,0
+2018-08-27,Karjakin,MVL,D,2018,0
+2018-08-27,Karjakin,MVL,D,2018,0
+2018-08-27,Carlsen,Nakamura,H,2018,1
+2018-08-27,Jakovenko,Andreikin,D,2018,0
+2018-08-27,So,Caruana,D,2018,0
+2018-08-27,Nepomniachtchi,Fedoseev,A,2018,-1
+2018-08-28,So,Caruana,D,2018,0
+2018-08-28,Caruana,So,H,2018,1
+2018-08-28,Andreikin,Nepomniachtchi,D,2018,0
+2018-08-30,Jakovenko,Nepomniachtchi,H,2018,1
+2018-09-01,Vitiugov,Tomashevsky,D,2018,0
+2018-09-02,Fedoseev,Vitiugov,H,2018,1
+2018-09-03,Tomashevsky,Fedoseev,D,2018,0
+2018-09-03,Vitiugov,Andreikin,D,2018,0
+2018-09-04,Andreikin,Tomashevsky,D,2018,0
+2018-09-05,Fedoseev,Andreikin,A,2018,-1
+2018-09-05,Vitiugov,Jakovenko,D,2018,0
+2018-09-26,Giri,Caruana,D,2018,0
+2018-09-27,Le Quang Liem,MVL,D,2018,0
+2018-09-27,Duda,Karjakin,D,2018,0
+2018-09-27,Le Quang Liem,MVL,D,2018,0
+2018-09-27,Harikrishna,So,D,2018,0
+2018-09-27,Nepomniachtchi,Wojtaszek,H,2018,1
+2018-09-27,Nakamura,Vidit,D,2018,0
+2018-09-27,Mamedyarov,Adams,H,2018,1
+2018-09-27,Caruana,Anand,H,2018,1
+2018-09-28,MVL,Duda,H,2018,1
+2018-09-28,Aronian,Mamedyarov,A,2018,-1
+2018-09-28,Ding Liren,Navara,D,2018,0
+2018-09-28,Caruana,Gelfand,H,2018,1
+2018-09-28,MVL,Duda,H,2018,1
+2018-09-30,Adams,MVL,D,2018,0
+2018-09-30,Duda,Ivanchuk,H,2018,1
+2018-09-30,Vitiugov,Vidit,D,2018,0
+2018-09-30,Harikrishna,Kramnik,D,2018,0
+2018-09-30,Nepomniachtchi,Anand,D,2018,0
+2018-09-30,Mamedyarov,Navara,H,2018,1
+2018-09-30,Eljanov,Wojtaszek,D,2018,0
+2018-10-01,Ivanchuk,Yu Yangyi,D,2018,0
+2018-10-01,Navara,Gelfand,H,2018,1
+2018-10-01,Duda,Mamedyarov,D,2018,0
+2018-10-01,Wei Yi,Eljanov,D,2018,0
+2018-10-01,Radjabov,Wojtaszek,D,2018,0
+2018-10-02,Nakamura,Naiditsch,D,2018,0
+2018-10-02,MVL,Eljanov,D,2018,0
+2018-10-02,Aronian,Duda,D,2018,0
+2018-10-02,Navara,Anand,D,2018,0
+2018-10-02,Gelfand,Adams,D,2018,0
+2018-10-02,Caruana,Mamedyarov,H,2018,1
+2018-10-02,Radjabov,So,H,2018,1
+2018-10-02,Ding Liren,Giri,D,2018,0
+2018-10-02,MVL,Eljanov,D,2018,0
+2018-10-02,Aronian,Duda,D,2018,0
+2018-10-02,Radjabov,So,H,2018,1
+2018-10-03,Anand,Aronian,D,2018,0
+2018-10-03,Yu Yangyi,Radjabov,D,2018,0
+2018-10-03,Mamedyarov,Ding Liren,D,2018,0
+2018-10-03,So,Wojtaszek,D,2018,0
+2018-10-03,Naiditsch,Wei Yi,D,2018,0
+2018-10-03,Duda,Caruana,D,2018,0
+2018-10-04,Giri,Harikrishna,D,2018,0
+2018-10-04,Karjakin,Adams,D,2018,0
+2018-10-04,Wojtaszek,Yu Yangyi,D,2018,0
+2018-10-04,Ding Liren,Duda,H,2018,1
+2018-10-04,Eljanov,Radjabov,D,2018,0
+2018-10-04,Mamedyarov,Ivanchuk,D,2018,0
+2018-10-04,Aronian,Caruana,D,2018,0
+2018-10-04,Giri,Harikrishna,D,2018,0
+2018-10-04,Aronian,Caruana,D,2018,0
+2018-10-05,Li Chao,Shankland,D,2018,0
+2018-10-05,MVL,Karjakin,D,2018,0
+2018-10-05,Ivanchuk,Navara,D,2018,0
+2018-10-05,Caruana,Ding Liren,D,2018,0
+2018-10-05,Wojtaszek,Harikrishna,D,2018,0
+2018-10-05,Anand,Duda,D,2018,0
+2018-10-05,Nakamura,Bu Xiangzhi,D,2018,0
+2018-10-05,MVL,Karjakin,D,2018,0
+2018-10-05,Li Chao,Shankland,D,2018,0
+2018-10-05,Yu Yangyi,So,D,2018,0
+2018-10-10,Artemiev,Dubov,D,2018,0
+2018-10-14,Wojtaszek,Carlsen,D,2018,0
+2018-10-15,Vitiugov,Yu Yangyi,D,2018,0
+2018-10-15,Ding Liren,Svidler,H,2018,1
+2018-10-15,Andreikin,Fedoseev,D,2018,0
+2018-10-16,Wang Hao,Ding Liren,D,2018,0
+2018-10-16,Mamedyarov,Carlsen,D,2018,0
+2018-10-16,Vallejo Pons,Andreikin,D,2018,0
+2018-10-17,Carlsen,Ding Liren,D,2018,0
+2018-10-17,Navara,Vallejo Pons,H,2018,1
+2018-10-17,Wojtaszek,Wang Hao,D,2018,0
+2018-10-18,Mamedyarov,Wojtaszek,D,2018,0
+2018-10-18,Harikrishna,Naiditsch,D,2018,0
+2018-10-18,Svidler,Carlsen,D,2018,0
+2018-10-21,Shankland,Svidler,H,2018,1
+2018-10-22,Svidler,Shankland,H,2018,1
+2018-10-23,Shankland,Svidler,D,2018,0
+2018-10-23,Gelfand,Aronian,D,2018,0
+2018-10-24,Wang Hao,Naiditsch,D,2018,0
+2018-10-25,Svidler,Shankland,H,2018,1
+2018-10-26,Shankland,Svidler,D,2018,0
+2018-10-26,Artemiev,Kramnik,D,2018,0
+2018-10-26,Wang Hao,Wojtaszek,D,2018,0
+2018-10-26,MVL,Naiditsch,D,2018,0
+2018-10-26,MVL,Naiditsch,D,2018,0
+2018-10-27,Bu Xiangzhi,Vallejo Pons,H,2018,1
+2018-10-27,Anand,Artemiev,D,2018,0
+2018-10-27,Giri,Rapport,D,2018,0
+2018-10-27,Svidler,Shankland,D,2018,0
+2018-10-27,Wojtaszek,Adams,H,2018,1
+2018-10-27,Naiditsch,Nakamura,H,2018,1
+2018-10-27,MVL,Wang Hao,D,2018,0
+2018-10-27,MVL,Wang Hao,D,2018,0
+2018-10-28,Naiditsch,Wojtaszek,D,2018,0
+2018-10-28,Nakamura,Eljanov,H,2018,1
+2018-10-28,Wang Hao,Anand,D,2018,0
+2018-10-28,Grischuk,MVL,H,2018,1
+2018-11-04,Vitiugov,MVL,D,2018,0
+2018-11-04,Giri,Ding Liren,D,2018,0
+2018-11-04,Yu Yangyi,Wojtaszek,D,2018,0
+2018-11-04,Vitiugov,MVL,D,2018,0
+2018-11-05,Wojtaszek,Vitiugov,D,2018,0
+2018-11-05,Wojtaszek,Vitiugov,D,2018,0
+2018-11-05,Giri,Yu Yangyi,D,2018,0
+2018-11-05,Ding Liren,MVL,D,2018,0
+2018-11-06,MVL,Wojtaszek,D,2018,0
+2018-11-06,Yu Yangyi,Ding Liren,D,2018,0
+2018-11-06,MVL,Wojtaszek,D,2018,0
+2018-11-06,Vitiugov,Giri,D,2018,0
+2018-11-07,Wojtaszek,Giri,D,2018,0
+2018-11-07,MVL,Yu Yangyi,D,2018,0
+2018-11-07,Vitiugov,Ding Liren,D,2018,0
+2018-11-07,MVL,Yu Yangyi,D,2018,0
+2018-11-08,Yu Yangyi,Vitiugov,H,2018,1
+2018-11-08,Ding Liren,Wojtaszek,H,2018,1
+2018-11-08,Giri,MVL,D,2018,0
+2018-11-09,Caruana,Carlsen,D,2018,0
+2018-11-10,Carlsen,Caruana,D,2018,0
+2018-11-10,MVL,Vitiugov,D,2018,0
+2018-11-10,Wojtaszek,Yu Yangyi,D,2018,0
+2018-11-10,MVL,Vitiugov,D,2018,0
+2018-11-10,Ding Liren,Giri,D,2018,0
+2018-11-10,Harikrishna,So,D,2018,0
+2018-11-11,MVL,Ding Liren,H,2018,1
+2018-11-11,Vitiugov,Wojtaszek,H,2018,1
+2018-11-11,Yu Yangyi,Giri,D,2018,0
+2018-11-12,Wojtaszek,MVL,D,2018,0
+2018-11-12,Giri,Vitiugov,D,2018,0
+2018-11-12,Wojtaszek,MVL,D,2018,0
+2018-11-12,Ding Liren,Yu Yangyi,H,2018,1
+2018-11-12,Caruana,Carlsen,D,2018,0
+2018-11-13,Wojtaszek,Ding Liren,D,2018,0
+2018-11-13,MVL,Giri,D,2018,0
+2018-11-13,Ivanchuk,Amin,A,2018,-1
+2018-11-13,Carlsen,Caruana,D,2018,0
+2018-11-13,Vitiugov,Yu Yangyi,D,2018,0
+2018-11-14,Yu Yangyi,MVL,D,2018,0
+2018-11-14,Giri,Wojtaszek,H,2018,1
+2018-11-14,Yu Yangyi,MVL,D,2018,0
+2018-11-14,Ding Liren,Vitiugov,D,2018,0
+2018-11-15,Caruana,Carlsen,D,2018,0
+2018-11-15,Caruana,Carlsen,D,2018,0
+2018-11-16,Carlsen,Caruana,D,2018,0
+2018-11-17,Cheparinov,Amin,H,2018,1
+2018-11-18,Carlsen,Caruana,D,2018,0
+2018-11-19,Caruana,Carlsen,D,2018,0
+2018-11-21,Carlsen,Caruana,D,2018,0
+2018-11-22,Ivanchuk,Cheparinov,D,2018,0
+2018-11-22,Caruana,Carlsen,D,2018,0
+2018-11-24,Navara,Ragger,H,2018,1
+2018-11-24,Carlsen,Caruana,D,2018,0
+2018-11-26,Caruana,Carlsen,D,2018,0
+2018-11-28,Yu Yangyi,Jakovenko,D,2018,0
+2018-11-30,Li Chao,Bu Xiangzhi,D,2018,0
+2018-12-11,MVL,Aronian,D,2018,0
+2018-12-11,MVL,Aronian,D,2018,0
+2018-12-11,Caruana,Nakamura,D,2018,0
+2018-12-12,Aronian,MVL,D,2018,0
+2018-12-12,Aronian,MVL,D,2018,0
+2018-12-12,Nakamura,Caruana,D,2018,0
+2018-12-13,Aronian,MVL,D,2018,0
+2018-12-13,MVL,Aronian,H,2018,1
+2018-12-13,Aronian,MVL,A,2018,-1
+2018-12-13,MVL,Aronian,H,2018,1
+2018-12-13,Aronian,MVL,H,2018,1
+2018-12-13,MVL,Aronian,H,2018,1
+2018-12-15,Caruana,Aronian,D,2018,0
+2018-12-15,Harikrishna,Shankland,D,2018,0
+2018-12-15,Nakamura,MVL,D,2018,0
+2018-12-15,Harikrishna,Shankland,D,2018,0
+2018-12-15,Nakamura,MVL,D,2018,0
+2018-12-15,Wei Yi,Le Quang Liem,D,2018,0
+2018-12-16,MVL,Nakamura,D,2018,0
+2018-12-16,MVL,Nakamura,D,2018,0
+2018-12-16,Aronian,Caruana,D,2018,0
+2018-12-17,MVL,Nakamura,D,2018,0
+2018-12-17,Nakamura,MVL,D,2018,0
+2018-12-17,MVL,Nakamura,D,2018,0
+2018-12-17,Nakamura,MVL,D,2018,0
+2018-12-17,MVL,Nakamura,D,2018,0
+2018-12-17,Nakamura,MVL,H,2018,1
+2018-12-23,Ivanchuk,Andreikin,D,2018,0
+2018-12-29,Nepomniachtchi,Wang Hao,D,2018,0
+2018-12-29,Harikrishna,Tomashevsky,H,2018,1
+2018-12-29,Vitiugov,Cheparinov,D,2018,0
+2018-12-30,Duda,Giri,H,2018,1
+2019-01-12,Radjabov,Kramnik,D,2019,0
+2019-01-12,Fedoseev,Rapport,D,2019,0
+2019-01-12,Ding Liren,Carlsen,D,2019,0
+2019-01-12,Giri,Nepomniachtchi,A,2019,-1
+2019-01-12,Shankland,Mamedyarov,D,2019,0
+2019-01-13,Mamedyarov,Radjabov,D,2019,0
+2019-01-13,Carlsen,Nepomniachtchi,D,2019,0
+2019-01-13,Kramnik,Giri,A,2019,-1
+2019-01-13,Rapport,Shankland,D,2019,0
+2019-01-13,Anand,Fedoseev,D,2019,0
+2019-01-14,Fedoseev,Duda,A,2019,-1
+2019-01-14,Nepomniachtchi,Kramnik,H,2019,1
+2019-01-14,Radjabov,Rapport,D,2019,0
+2019-01-14,Shankland,Anand,D,2019,0
+2019-01-14,Giri,Mamedyarov,D,2019,0
+2019-01-15,Ding Liren,Fedoseev,D,2019,0
+2019-01-15,Ding Liren,Fedoseev,D,2019,0
+2019-01-15,Anand,Radjabov,D,2019,0
+2019-01-15,Duda,Shankland,D,2019,0
+2019-01-15,Carlsen,Kramnik,D,2019,0
+2019-01-15,Ding Liren,Fedoseev,D,2019,0
+2019-01-15,Rapport,Giri,A,2019,-1
+2019-01-15,Mamedyarov,Nepomniachtchi,D,2019,0
+2019-01-16,Shankland,Ding Liren,A,2019,-1
+2019-01-16,Giri,Anand,D,2019,0
+2019-01-16,Shankland,Ding Liren,A,2019,-1
+2019-01-16,Shankland,Ding Liren,A,2019,-1
+2019-01-16,Nepomniachtchi,Rapport,D,2019,0
+2019-01-16,Radjabov,Duda,D,2019,0
+2019-01-16,Kramnik,Mamedyarov,D,2019,0
+2019-01-18,Ding Liren,Radjabov,D,2019,0
+2019-01-18,Ding Liren,Radjabov,D,2019,0
+2019-01-18,Carlsen,Mamedyarov,H,2019,1
+2019-01-18,Duda,Giri,A,2019,-1
+2019-01-18,Anand,Nepomniachtchi,D,2019,0
+2019-01-18,Ding Liren,Radjabov,D,2019,0
+2019-01-18,Rapport,Kramnik,D,2019,0
+2019-01-19,Giri,Ding Liren,D,2019,0
+2019-01-19,Giri,Ding Liren,D,2019,0
+2019-01-19,Giri,Ding Liren,D,2019,0
+2019-01-19,Nepomniachtchi,Duda,D,2019,0
+2019-01-19,Fedoseev,Carlsen,D,2019,0
+2019-01-19,Kramnik,Anand,A,2019,-1
+2019-01-19,Mamedyarov,Rapport,D,2019,0
+2019-01-20,Fedoseev,Shankland,H,2019,1
+2019-01-20,Duda,Kramnik,H,2019,1
+2019-01-20,Anand,Mamedyarov,H,2019,1
+2019-01-20,Carlsen,Rapport,H,2019,1
+2019-01-20,Ding Liren,Nepomniachtchi,D,2019,0
+2019-01-20,Ding Liren,Nepomniachtchi,D,2019,0
+2019-01-20,Ding Liren,Nepomniachtchi,D,2019,0
+2019-01-22,Shankland,Carlsen,D,2019,0
+2019-01-22,Mamedyarov,Duda,D,2019,0
+2019-01-22,Kramnik,Ding Liren,D,2019,0
+2019-01-22,Rapport,Anand,D,2019,0
+2019-01-22,Kramnik,Ding Liren,D,2019,0
+2019-01-22,Radjabov,Fedoseev,A,2019,-1
+2019-01-22,Shankland,Carlsen,D,2019,0
+2019-01-23,Carlsen,Anand,H,2019,1
+2019-01-23,Fedoseev,Giri,A,2019,-1
+2019-01-23,Duda,Rapport,A,2019,-1
+2019-01-23,Ding Liren,Mamedyarov,D,2019,0
+2019-01-23,Shankland,Radjabov,D,2019,0
+2019-01-23,Ding Liren,Mamedyarov,D,2019,0
+2019-01-25,Rapport,Ding Liren,D,2019,0
+2019-01-25,Rapport,Ding Liren,D,2019,0
+2019-01-25,Giri,Shankland,H,2019,1
+2019-01-25,Anand,Duda,D,2019,0
+2019-01-25,Nepomniachtchi,Fedoseev,H,2019,1
+2019-01-25,Radjabov,Carlsen,D,2019,0
+2019-01-26,Ding Liren,Anand,D,2019,0
+2019-01-26,Ding Liren,Anand,D,2019,0
+2019-01-26,Shankland,Nepomniachtchi,H,2019,1
+2019-01-26,Fedoseev,Kramnik,A,2019,-1
+2019-01-26,Navara,So,D,2019,0
+2019-01-26,Radjabov,Giri,D,2019,0
+2019-01-26,Carlsen,Duda,H,2019,1
+2019-01-27,Artemiev,MVL,D,2019,0
+2019-01-27,Kramnik,Shankland,A,2019,-1
+2019-01-27,Giri,Carlsen,D,2019,0
+2019-01-27,Duda,Ding Liren,D,2019,0
+2019-01-27,Mamedyarov,Fedoseev,D,2019,0
+2019-01-27,Nepomniachtchi,Radjabov,D,2019,0
+2019-01-27,Artemiev,MVL,D,2019,0
+2019-01-27,Duda,Ding Liren,D,2019,0
+2019-01-28,Artemiev,Nakamura,H,2019,1
+2019-01-29,Aronian,Artemiev,D,2019,0
+2019-01-29,Matlakov,Yu Yangyi,D,2019,0
+2019-01-29,Le Quang Liem,MVL,D,2019,0
+2019-01-29,Le Quang Liem,MVL,D,2019,0
+2019-01-29,Matlakov,Yu Yangyi,D,2019,0
+2019-01-30,Yu Yangyi,Le Quang Liem,H,2019,1
+2019-01-30,Yu Yangyi,Le Quang Liem,H,2019,1
+2019-01-30,Artemiev,Navara,H,2019,1
+2019-01-31,Yu Yangyi,Artemiev,A,2019,-1
+2019-01-31,Yu Yangyi,Artemiev,A,2019,-1
+2019-02-20,Topalov,Dominguez Perez,D,2019,0
+2019-02-20,Nakamura,Duda,D,2019,0
+2019-02-22,Harikrishna,Caruana,H,2019,1
+2019-02-22,Caruana,Harikrishna,H,2019,1
+2019-02-22,So,Navara,D,2019,0
+2019-02-22,Navara,So,H,2019,1
+2019-02-22,Rapport,Shankland,H,2019,1
+2019-02-22,Caruana,Harikrishna,D,2019,0
+2019-02-22,So,Navara,H,2019,1
+2019-02-22,Shankland,Rapport,A,2019,-1
+2019-02-22,Harikrishna,Caruana,D,2019,0
+2019-02-23,Dominguez Perez,Topalov,D,2019,0
+2019-02-23,Rapport,Shankland,A,2019,-1
+2019-03-01,Amin,Cheparinov,D,2019,0
+2019-03-01,Mamedyarov,Shankland,H,2019,1
+2019-03-02,Saric,Wojtaszek,D,2019,0
+2019-03-02,Svidler,Tomashevsky,D,2019,0
+2019-03-02,Fedoseev,Aronian,D,2019,0
+2019-03-02,Vitiugov,MVL,D,2019,0
+2019-03-02,Caruana,Shankland,D,2019,0
+2019-03-02,Vitiugov,MVL,D,2019,0
+2019-03-03,Mamedyarov,Caruana,D,2019,0
+2019-03-03,Aronian,Amin,D,2019,0
+2019-03-05,Ding Liren,Mamedov,H,2019,1
+2019-03-05,Ding Liren,Mamedov,H,2019,1
+2019-03-05,Ding Liren,Mamedov,H,2019,1
+2019-03-06,Wojtaszek,Vidit,D,2019,0
+2019-03-06,Naiditsch,Adams,H,2019,1
+2019-03-06,Harikrishna,Shankland,D,2019,0
+2019-03-06,Wojtaszek,Vidit,D,2019,0
+2019-03-06,Rapport,Duda,A,2019,-1
+2019-03-06,Karjakin,Amin,H,2019,1
+2019-03-07,Nepomniachtchi,Yu Yangyi,H,2019,1
+2019-03-07,Ding Liren,Karjakin,D,2019,0
+2019-03-07,Nepomniachtchi,Yu Yangyi,H,2019,1
+2019-03-07,Wei Yi,Grischuk,D,2019,0
+2019-03-07,Artemiev,Bu Xiangzhi,D,2019,0
+2019-03-07,Ding Liren,Karjakin,D,2019,0
+2019-03-07,Wei Yi,Grischuk,D,2019,0
+2019-03-07,Wojtaszek,Rapport,H,2019,1
+2019-03-07,Shankland,Navara,D,2019,0
+2019-03-07,Nepomniachtchi,Yu Yangyi,H,2019,1
+2019-03-07,Ding Liren,Karjakin,D,2019,0
+2019-03-07,Artemiev,Bu Xiangzhi,D,2019,0
+2019-03-07,Wei Yi,Grischuk,D,2019,0
+2019-03-07,Shankland,Navara,D,2019,0
+2019-03-07,Vitiugov,Harikrishna,H,2019,1
+2019-03-07,Artemiev,Bu Xiangzhi,D,2019,0
+2019-03-08,Rapport,Vidit,D,2019,0
+2019-03-08,Nepomniachtchi,Adams,D,2019,0
+2019-03-08,Navara,Vitiugov,D,2019,0
+2019-03-08,Harikrishna,Duda,H,2019,1
+2019-03-09,Duda,Navara,H,2019,1
+2019-03-09,Wojtaszek,Harikrishna,D,2019,0
+2019-03-09,Vidit,Shankland,A,2019,-1
+2019-03-10,Navara,Wojtaszek,D,2019,0
+2019-03-10,Harikrishna,Rapport,D,2019,0
+2019-03-10,Shankland,Vitiugov,D,2019,0
+2019-03-11,Amin,Ding Liren,D,2019,0
+2019-03-11,Amin,Ding Liren,D,2019,0
+2019-03-11,Amin,Ding Liren,D,2019,0
+2019-03-11,Karjakin,Naiditsch,A,2019,-1
+2019-03-11,Mamedov,Nepomniachtchi,A,2019,-1
+2019-03-12,Rapport,Navara,D,2019,0
+2019-03-12,Duda,Shankland,D,2019,0
+2019-03-12,Vidit,Vitiugov,D,2019,0
+2019-03-12,Adams,Amin,A,2019,-1
+2019-03-12,Adams,Amin,A,2019,-1
+2019-03-13,Ding Liren,Adams,H,2019,1
+2019-03-13,Ding Liren,Adams,H,2019,1
+2019-03-13,Shankland,Wojtaszek,D,2019,0
+2019-03-13,Harikrishna,Vidit,D,2019,0
+2019-03-13,Vitiugov,Duda,H,2019,1
+2019-03-14,Vidit,Duda,D,2019,0
+2019-03-14,Rapport,Shankland,D,2019,0
+2019-03-14,Harikrishna,Navara,D,2019,0
+2019-03-14,Wojtaszek,Vitiugov,D,2019,0
+2019-03-14,Naiditsch,Amin,D,2019,0
+2019-03-14,Wojtaszek,Vitiugov,D,2019,0
+2019-03-15,Navara,Vidit,A,2019,-1
+2019-03-15,Vitiugov,Rapport,D,2019,0
+2019-03-15,Duda,Wojtaszek,D,2019,0
+2019-03-15,Duda,Wojtaszek,D,2019,0
+2019-03-20,Nakamura,So,D,2019,0
+2019-03-21,Dominguez Perez,Shankland,D,2019,0
+2019-03-23,Duda,MVL,A,2019,-1
+2019-03-23,Duda,MVL,A,2019,-1
+2019-03-23,Caruana,Dominguez Perez,D,2019,0
+2019-03-23,So,Shankland,D,2019,0
+2019-03-24,Nakamura,Caruana,D,2019,0
+2019-03-25,So,Dominguez Perez,D,2019,0
+2019-03-28,Caruana,So,D,2019,0
+2019-03-28,Nakamura,Shankland,D,2019,0
+2019-03-30,Matlakov,Inarkiev,D,2019,0
+2019-03-30,Nakamura,Dominguez Perez,D,2019,0
+2019-03-31,Giri,Topalov,D,2019,0
+2019-03-31,Radjabov,Carlsen,D,2019,0
+2019-03-31,Grischuk,Mamedyarov,D,2019,0
+2019-03-31,Karjakin,Ding Liren,D,2019,0
+2019-03-31,Shankland,Caruana,D,2019,0
+2019-03-31,Karjakin,Ding Liren,D,2019,0
+2019-03-31,Harikrishna,Naiditsch,D,2019,0
+2019-03-31,Anand,Navara,D,2019,0
+2019-04-01,Mamedyarov,Radjabov,D,2019,0
+2019-04-01,Ding Liren,Grischuk,H,2019,1
+2019-04-01,Carlsen,Anand,H,2019,1
+2019-04-01,Topalov,Navara,D,2019,0
+2019-04-01,Ding Liren,Grischuk,H,2019,1
+2019-04-01,Giri,Karjakin,A,2019,-1
+2019-04-02,Navara,Carlsen,A,2019,-1
+2019-04-02,Radjabov,Ding Liren,D,2019,0
+2019-04-02,Radjabov,Ding Liren,D,2019,0
+2019-04-02,Karjakin,Topalov,D,2019,0
+2019-04-02,Anand,Mamedyarov,H,2019,1
+2019-04-02,Navara,Carlsen,A,2019,-1
+2019-04-02,Grischuk,Giri,D,2019,0
+2019-04-03,Mamedyarov,Navara,D,2019,0
+2019-04-03,Giri,Radjabov,D,2019,0
+2019-04-03,Ding Liren,Anand,D,2019,0
+2019-04-03,Topalov,Carlsen,D,2019,0
+2019-04-03,Karjakin,Grischuk,D,2019,0
+2019-04-03,Ding Liren,Anand,D,2019,0
+2019-04-04,Navara,Ding Liren,H,2019,1
+2019-04-04,Radjabov,Karjakin,D,2019,0
+2019-04-04,Navara,Ding Liren,H,2019,1
+2019-04-04,Anand,Giri,H,2019,1
+2019-04-04,Grischuk,Topalov,H,2019,1
+2019-04-04,Carlsen,Mamedyarov,D,2019,0
+2019-04-06,Ding Liren,Carlsen,D,2019,0
+2019-04-06,MVL,Harikrishna,H,2019,1
+2019-04-06,Giri,Navara,D,2019,0
+2019-04-06,MVL,Harikrishna,H,2019,1
+2019-04-06,Topalov,Mamedyarov,H,2019,1
+2019-04-06,Grischuk,Radjabov,D,2019,0
+2019-04-06,Karjakin,Anand,H,2019,1
+2019-04-06,Ding Liren,Carlsen,D,2019,0
+2019-04-07,Mamedyarov,Ding Liren,D,2019,0
+2019-04-07,Carlsen,Giri,H,2019,1
+2019-04-07,Radjabov,Topalov,D,2019,0
+2019-04-07,Navara,Karjakin,D,2019,0
+2019-04-07,Anand,Grischuk,D,2019,0
+2019-04-07,Mamedyarov,Ding Liren,D,2019,0
+2019-04-08,Topalov,Ding Liren,A,2019,-1
+2019-04-08,Radjabov,Anand,D,2019,0
+2019-04-08,Topalov,Ding Liren,A,2019,-1
+2019-04-08,Grischuk,Navara,H,2019,1
+2019-04-08,Giri,Mamedyarov,D,2019,0
+2019-04-08,Karjakin,Carlsen,A,2019,-1
+2019-04-09,Carlsen,Grischuk,H,2019,1
+2019-04-09,Navara,Radjabov,D,2019,0
+2019-04-09,Anand,Topalov,D,2019,0
+2019-04-09,Mamedyarov,Karjakin,D,2019,0
+2019-04-09,Ding Liren,Giri,D,2019,0
+2019-04-09,Ding Liren,Giri,D,2019,0
+2019-04-11,Wang Hao,Andreikin,H,2019,1
+2019-04-11,Wang Hao,Andreikin,H,2019,1
+2019-04-12,Vidit,Yu Yangyi,D,2019,0
+2019-04-12,Vidit,Yu Yangyi,D,2019,0
+2019-04-17,Yu Yangyi,Giri,D,2019,0
+2019-04-17,Ding Liren,Rapport,D,2019,0
+2019-04-17,Jakovenko,Harikrishna,D,2019,0
+2019-04-17,Ding Liren,Rapport,D,2019,0
+2019-04-17,Yu Yangyi,Giri,D,2019,0
+2019-04-18,Giri,Harikrishna,H,2019,1
+2019-04-18,Yu Yangyi,Ding Liren,D,2019,0
+2019-04-18,Rapport,Jakovenko,D,2019,0
+2019-04-18,Yu Yangyi,Ding Liren,D,2019,0
+2019-04-19,Harikrishna,Rapport,H,2019,1
+2019-04-19,Jakovenko,Yu Yangyi,D,2019,0
+2019-04-19,Ding Liren,Giri,D,2019,0
+2019-04-19,Jakovenko,Yu Yangyi,D,2019,0
+2019-04-19,Ding Liren,Giri,D,2019,0
+2019-04-20,Harikrishna,Ding Liren,H,2019,1
+2019-04-20,MVL,Anand,D,2019,0
+2019-04-20,Jakovenko,Giri,D,2019,0
+2019-04-20,Rapport,Yu Yangyi,D,2019,0
+2019-04-20,Harikrishna,Ding Liren,H,2019,1
+2019-04-20,MVL,Anand,D,2019,0
+2019-04-20,Svidler,Caruana,D,2019,0
+2019-04-20,Rapport,Yu Yangyi,D,2019,0
+2019-04-21,Caruana,MVL,D,2019,0
+2019-04-21,Yu Yangyi,Harikrishna,A,2019,-1
+2019-04-21,Ding Liren,Jakovenko,H,2019,1
+2019-04-21,Giri,Rapport,D,2019,0
+2019-04-21,Caruana,MVL,D,2019,0
+2019-04-21,Yu Yangyi,Harikrishna,A,2019,-1
+2019-04-21,Ding Liren,Jakovenko,H,2019,1
+2019-04-22,Carlsen,Anand,D,2019,0
+2019-04-23,Aronian,Svidler,H,2019,1
+2019-04-23,Giri,Yu Yangyi,H,2019,1
+2019-04-23,Harikrishna,Jakovenko,H,2019,1
+2019-04-23,Rapport,Ding Liren,D,2019,0
+2019-04-23,Rapport,Ding Liren,D,2019,0
+2019-04-23,Giri,Yu Yangyi,H,2019,1
+2019-04-23,Caruana,Carlsen,D,2019,0
+2019-04-24,Ding Liren,Yu Yangyi,D,2019,0
+2019-04-24,MVL,Aronian,D,2019,0
+2019-04-24,Ding Liren,Yu Yangyi,D,2019,0
+2019-04-24,Harikrishna,Giri,D,2019,0
+2019-04-24,MVL,Aronian,D,2019,0
+2019-04-24,Anand,Caruana,D,2019,0
+2019-04-24,Jakovenko,Rapport,D,2019,0
+2019-04-25,Rapport,Harikrishna,H,2019,1
+2019-04-25,Yu Yangyi,Jakovenko,D,2019,0
+2019-04-25,Giri,Ding Liren,D,2019,0
+2019-04-25,Yu Yangyi,Jakovenko,D,2019,0
+2019-04-25,Giri,Ding Liren,D,2019,0
+2019-04-26,Jakovenko,Ding Liren,D,2019,0
+2019-04-26,Harikrishna,Yu Yangyi,H,2019,1
+2019-04-26,Svidler,MVL,D,2019,0
+2019-04-26,Harikrishna,Yu Yangyi,H,2019,1
+2019-04-26,Jakovenko,Ding Liren,D,2019,0
+2019-04-26,Svidler,MVL,D,2019,0
+2019-04-26,Rapport,Giri,D,2019,0
+2019-04-27,Giri,Jakovenko,H,2019,1
+2019-04-27,Giri,Jakovenko,H,2019,1
+2019-04-27,Yu Yangyi,Rapport,D,2019,0
+2019-04-27,Ding Liren,Harikrishna,H,2019,1
+2019-04-27,Yu Yangyi,Rapport,D,2019,0
+2019-04-27,Giri,Jakovenko,H,2019,1
+2019-04-27,Carlsen,Aronian,H,2019,1
+2019-04-27,Ding Liren,Harikrishna,H,2019,1
+2019-04-28,Svidler,Carlsen,A,2019,-1
+2019-04-28,Aronian,Anand,D,2019,0
+2019-04-29,Carlsen,MVL,H,2019,1
+2019-04-29,Caruana,Aronian,D,2019,0
+2019-04-29,Anand,Svidler,D,2019,0
+2019-04-29,Carlsen,MVL,H,2019,1
+2019-05-04,Vitiugov,Artemiev,D,2019,0
+2019-05-08,Ding Liren,Wei Yi,A,2019,-1
+2019-05-08,Karjakin,MVL,D,2019,0
+2019-05-08,MVL,Ding Liren,D,2019,0
+2019-05-08,Wei Yi,Amin,H,2019,1
+2019-05-08,Amin,Ding Liren,A,2019,-1
+2019-05-08,Nakamura,MVL,H,2019,1
+2019-05-08,Wang Hao,Le Quang Liem,D,2019,0
+2019-05-08,Topalov,Wei Yi,D,2019,0
+2019-05-09,Jones,Harikrishna,D,2019,0
+2019-05-09,MVL,Wei Yi,H,2019,1
+2019-05-09,So,Ding Liren,D,2019,0
+2019-05-09,Carlsen,MVL,H,2019,1
+2019-05-09,Wei Yi,So,D,2019,0
+2019-05-09,Ding Liren,Nepomniachtchi,H,2019,1
+2019-05-09,Nakamura,Ding Liren,H,2019,1
+2019-05-09,MVL,So,D,2019,0
+2019-05-09,Nepomniachtchi,Wei Yi,D,2019,0
+2019-05-10,Ding Liren,Topalov,D,2019,0
+2019-05-10,Amin,MVL,A,2019,-1
+2019-05-10,Wei Yi,Carlsen,A,2019,-1
+2019-05-10,Karjakin,Wei Yi,D,2019,0
+2019-05-10,Carlsen,Ding Liren,D,2019,0
+2019-05-10,Ding Liren,Karjakin,H,2019,1
+2019-05-10,Wei Yi,Nakamura,D,2019,0
+2019-05-10,Topalov,MVL,A,2019,-1
+2019-05-10,MVL,Nepomniachtchi,H,2019,1
+2019-05-11,Wei Yi,So,D,2019,0
+2019-05-11,MVL,Ding Liren,D,2019,0
+2019-05-11,Carlsen,Nepomniachtchi,D,2019,0
+2019-05-11,Topalov,MVL,H,2019,1
+2019-05-11,Ding Liren,Wei Yi,D,2019,0
+2019-05-11,MVL,Karjakin,D,2019,0
+2019-05-11,Wei Yi,Carlsen,D,2019,0
+2019-05-11,Ding Liren,Topalov,H,2019,1
+2019-05-11,Nepomniachtchi,MVL,D,2019,0
+2019-05-11,Topalov,Wei Yi,A,2019,-1
+2019-05-11,Karjakin,Ding Liren,A,2019,-1
+2019-05-11,Karjakin,Amin,H,2019,1
+2019-05-11,Ding Liren,Amin,H,2019,1
+2019-05-11,Nakamura,Ding Liren,H,2019,1
+2019-05-11,Wei Yi,Nepomniachtchi,A,2019,-1
+2019-05-11,MVL,Wei Yi,H,2019,1
+2019-05-11,Nakamura,Wei Yi,D,2019,0
+2019-05-11,MVL,So,H,2019,1
+2019-05-11,Ding Liren,Nepomniachtchi,A,2019,-1
+2019-05-11,Topalov,Karjakin,H,2019,1
+2019-05-11,Carlsen,MVL,A,2019,-1
+2019-05-11,Amin,MVL,A,2019,-1
+2019-05-11,Wei Yi,Karjakin,D,2019,0
+2019-05-11,MVL,Nakamura,H,2019,1
+2019-05-11,Ding Liren,Carlsen,D,2019,0
+2019-05-11,Amin,Wei Yi,A,2019,-1
+2019-05-11,So,Ding Liren,D,2019,0
+2019-05-12,Ding Liren,Karjakin,H,2019,1
+2019-05-12,Wei Yi,Topalov,D,2019,0
+2019-05-12,MVL,Nepomniachtchi,H,2019,1
+2019-05-12,Topalov,Ding Liren,D,2019,0
+2019-05-12,Karjakin,MVL,H,2019,1
+2019-05-12,Carlsen,Wei Yi,H,2019,1
+2019-05-12,Wei Yi,Ding Liren,D,2019,0
+2019-05-12,MVL,Topalov,H,2019,1
+2019-05-12,So,Wei Yi,D,2019,0
+2019-05-12,Ding Liren,MVL,D,2019,0
+2019-05-12,Amin,Ding Liren,H,2019,1
+2019-05-12,Ding Liren,Nakamura,D,2019,0
+2019-05-12,Nepomniachtchi,Wei Yi,D,2019,0
+2019-05-12,MVL,Amin,H,2019,1
+2019-05-12,Wei Yi,Amin,H,2019,1
+2019-05-12,Carlsen,Ding Liren,D,2019,0
+2019-05-12,Nakamura,MVL,H,2019,1
+2019-05-12,Karjakin,Wei Yi,H,2019,1
+2019-05-12,Ding Liren,So,A,2019,-1
+2019-05-12,MVL,Carlsen,H,2019,1
+2019-05-12,Nepomniachtchi,Ding Liren,H,2019,1
+2019-05-12,Wei Yi,Nakamura,A,2019,-1
+2019-05-12,So,MVL,H,2019,1
+2019-05-12,Wei Yi,MVL,A,2019,-1
+2019-05-14,Bu Xiangzhi,Wang Hao,H,2019,1
+2019-05-14,Yu Yangyi,Vidit,D,2019,0
+2019-05-14,Le Quang Liem,Yu Yangyi,D,2019,0
+2019-05-15,Yu Yangyi,Bu Xiangzhi,D,2019,0
+2019-05-15,Wang Hao,Jones,D,2019,0
+2019-05-15,Vidit,Le Quang Liem,D,2019,0
+2019-05-15,Andreikin,Yu Yangyi,A,2019,-1
+2019-05-15,Andreikin,Wang Hao,H,2019,1
+2019-05-15,Bu Xiangzhi,Jones,A,2019,-1
+2019-05-16,Le Quang Liem,Andreikin,D,2019,0
+2019-05-16,Yu Yangyi,Dominguez Perez,A,2019,-1
+2019-05-16,Wang Hao,Rapport,D,2019,0
+2019-05-16,Jones,Vidit,A,2019,-1
+2019-05-16,Jones,Le Quang Liem,A,2019,-1
+2019-05-16,Rapport,Bu Xiangzhi,D,2019,0
+2019-05-16,Yu Yangyi,Wang Hao,H,2019,1
+2019-05-16,Le Quang Liem,Dominguez Perez,H,2019,1
+2019-05-16,Vidit,Bu Xiangzhi,D,2019,0
+2019-05-17,Rapport,Bu Xiangzhi,H,2019,1
+2019-05-17,Bu Xiangzhi,Rapport,A,2019,-1
+2019-05-17,Bu Xiangzhi,Yu Yangyi,D,2019,0
+2019-05-17,Yu Yangyi,Bu Xiangzhi,A,2019,-1
+2019-05-17,Andreikin,Yu Yangyi,D,2019,0
+2019-05-17,Yu Yangyi,Rapport,H,2019,1
+2019-05-17,Andreikin,Bu Xiangzhi,D,2019,0
+2019-05-17,Bu Xiangzhi,Andreikin,D,2019,0
+2019-05-17,Rapport,Yu Yangyi,H,2019,1
+2019-05-17,Wang Hao,Le Quang Liem,H,2019,1
+2019-05-17,Vidit,Le Quang Liem,H,2019,1
+2019-05-17,Yu Yangyi,Andreikin,D,2019,0
+2019-05-17,Wang Hao,Dominguez Perez,D,2019,0
+2019-05-17,Le Quang Liem,Wang Hao,A,2019,-1
+2019-05-17,Le Quang Liem,Vidit,D,2019,0
+2019-05-17,Nepomniachtchi,Aronian,H,2019,1
+2019-05-17,Wei Yi,Jakovenko,D,2019,0
+2019-05-17,Vitiugov,Svidler,D,2019,0
+2019-05-17,Wojtaszek,Mamedyarov,H,2019,1
+2019-05-17,Duda,So,H,2019,1
+2019-05-17,Karjakin,Grischuk,D,2019,0
+2019-05-17,Jones,Bu Xiangzhi,A,2019,-1
+2019-05-17,Andreikin,Le Quang Liem,D,2019,0
+2019-05-17,Wei Yi,Jakovenko,D,2019,0
+2019-05-17,Le Quang Liem,Andreikin,A,2019,-1
+2019-05-17,Bu Xiangzhi,Jones,H,2019,1
+2019-05-17,Dominguez Perez,Wang Hao,H,2019,1
+2019-05-17,Radjabov,Nakamura,D,2019,0
+2019-05-18,Dominguez Perez,Bu Xiangzhi,D,2019,0
+2019-05-18,Rapport,Wang Hao,D,2019,0
+2019-05-18,Bu Xiangzhi,Dominguez Perez,H,2019,1
+2019-05-18,Wang Hao,Rapport,D,2019,0
+2019-05-18,Dominguez Perez,Yu Yangyi,H,2019,1
+2019-05-18,Le Quang Liem,Jones,H,2019,1
+2019-05-18,Yu Yangyi,Dominguez Perez,H,2019,1
+2019-05-18,Le Quang Liem,Rapport,D,2019,0
+2019-05-18,Jones,Wang Hao,A,2019,-1
+2019-05-18,Rapport,Le Quang Liem,H,2019,1
+2019-05-18,Yu Yangyi,Le Quang Liem,D,2019,0
+2019-05-18,Jones,Le Quang Liem,A,2019,-1
+2019-05-18,Andreikin,Wang Hao,D,2019,0
+2019-05-18,Wang Hao,Jones,H,2019,1
+2019-05-18,Wang Hao,Andreikin,A,2019,-1
+2019-05-18,Grischuk,Karjakin,H,2019,1
+2019-05-18,Svidler,Vitiugov,H,2019,1
+2019-05-18,So,Duda,H,2019,1
+2019-05-18,Jakovenko,Wei Yi,A,2019,-1
+2019-05-18,Aronian,Nepomniachtchi,D,2019,0
+2019-05-18,Mamedyarov,Wojtaszek,D,2019,0
+2019-05-18,Le Quang Liem,Yu Yangyi,D,2019,0
+2019-05-18,Jakovenko,Wei Yi,A,2019,-1
+2019-05-18,Vidit,Bu Xiangzhi,D,2019,0
+2019-05-18,Yu Yangyi,Jones,A,2019,-1
+2019-05-18,Bu Xiangzhi,Vidit,D,2019,0
+2019-05-18,Jones,Yu Yangyi,H,2019,1
+2019-05-18,Nakamura,Radjabov,D,2019,0
+2019-05-19,So,Duda,H,2019,1
+2019-05-20,Grischuk,So,D,2019,0
+2019-05-20,Wei Yi,Nepomniachtchi,D,2019,0
+2019-05-20,Wei Yi,Nepomniachtchi,D,2019,0
+2019-05-20,Svidler,Wojtaszek,D,2019,0
+2019-05-21,MVL,Amin,H,2019,1
+2019-05-21,Nepomniachtchi,Wei Yi,D,2019,0
+2019-05-21,So,Grischuk,D,2019,0
+2019-05-21,So,Grischuk,D,2019,0
+2019-05-21,Wojtaszek,Svidler,H,2019,1
+2019-05-21,Nepomniachtchi,Wei Yi,D,2019,0
+2019-05-21,MVL,Amin,H,2019,1
+2019-05-22,Nepomniachtchi,Wei Yi,H,2019,1
+2019-05-22,So,Grischuk,D,2019,0
+2019-05-22,Dubov,Nakamura,A,2019,-1
+2019-05-22,Wei Yi,Nepomniachtchi,D,2019,0
+2019-05-23,Nakamura,Grischuk,D,2019,0
+2019-05-23,Nepomniachtchi,Wojtaszek,D,2019,0
+2019-05-24,Grischuk,Nakamura,H,2019,1
+2019-05-24,Wojtaszek,Nepomniachtchi,D,2019,0
+2019-05-25,Carlsen,Ding Liren,D,2019,0
+2019-05-25,Anand,Ding Liren,D,2019,0
+2019-05-25,Ding Liren,Karjakin,H,2019,1
+2019-05-26,Karjakin,Ding Liren,D,2019,0
+2019-05-26,Ding Liren,Anand,A,2019,-1
+2019-05-26,Ding Liren,Carlsen,D,2019,0
+2019-05-27,Grischuk,Nepomniachtchi,D,2019,0
+2019-05-28,Nepomniachtchi,Grischuk,D,2019,0
+2019-06-03,Yu Yangyi,Aronian,A,2019,-1
+2019-06-03,Carlsen,MVL,A,2019,-1
+2019-06-03,Aronian,Ding Liren,D,2019,0
+2019-06-03,MVL,Yu Yangyi,H,2019,1
+2019-06-03,Yu Yangyi,Caruana,H,2019,1
+2019-06-03,Ding Liren,MVL,A,2019,-1
+2019-06-03,Caruana,Ding Liren,D,2019,0
+2019-06-03,MVL,Aronian,H,2019,1
+2019-06-03,Grischuk,Yu Yangyi,H,2019,1
+2019-06-03,Ding Liren,Anand,D,2019,0
+2019-06-03,Yu Yangyi,Mamedyarov,A,2019,-1
+2019-06-03,Ding Liren,So,H,2019,1
+2019-06-03,MVL,Anand,D,2019,0
+2019-06-03,Ding Liren,Grischuk,D,2019,0
+2019-06-03,Ding Liren,Yu Yangyi,A,2019,-1
+2019-06-03,MVL,So,H,2019,1
+2019-06-03,Carlsen,Ding Liren,D,2019,0
+2019-06-03,Mamedyarov,MVL,A,2019,-1
+2019-06-03,Anand,Yu Yangyi,A,2019,-1
+2019-06-03,Yu Yangyi,Carlsen,A,2019,-1
+2019-06-03,MVL,Grischuk,H,2019,1
+2019-06-03,So,Yu Yangyi,D,2019,0
+2019-06-03,Caruana,MVL,H,2019,1
+2019-06-03,Mamedyarov,Ding Liren,A,2019,-1
+2019-06-04,MVL,Yu Yangyi,A,2019,-1
+2019-06-04,Ding Liren,So,H,2019,1
+2019-06-04,Ding Liren,So,D,2019,0
+2019-06-04,Mamedyarov,Caruana,H,2019,1
+2019-06-04,Aronian,Grischuk,H,2019,1
+2019-06-04,Ding Liren,So,D,2019,0
+2019-06-04,Carlsen,Anand,H,2019,1
+2019-06-04,Carlsen,Anand,D,2019,0
+2019-06-04,MVL,Yu Yangyi,D,2019,0
+2019-06-04,MVL,Yu Yangyi,D,2019,0
+2019-06-04,Aronian,Grischuk,D,2019,0
+2019-06-04,Mamedyarov,Caruana,D,2019,0
+2019-06-05,Aronian,Carlsen,D,2019,0
+2019-06-05,Caruana,MVL,H,2019,1
+2019-06-05,Anand,Mamedyarov,A,2019,-1
+2019-06-05,Grischuk,So,D,2019,0
+2019-06-05,Aronian,Carlsen,A,2019,-1
+2019-06-05,Yu Yangyi,Ding Liren,D,2019,0
+2019-06-05,Yu Yangyi,Ding Liren,H,2019,1
+2019-06-05,Caruana,MVL,H,2019,1
+2019-06-05,Grischuk,So,D,2019,0
+2019-06-05,Yu Yangyi,Ding Liren,D,2019,0
+2019-06-06,MVL,Anand,D,2019,0
+2019-06-06,MVL,Anand,D,2019,0
+2019-06-06,Ding Liren,Caruana,H,2019,1
+2019-06-06,So,Yu Yangyi,H,2019,1
+2019-06-06,Ding Liren,Caruana,H,2019,1
+2019-06-06,Mamedyarov,Aronian,A,2019,-1
+2019-06-06,Carlsen,Grischuk,H,2019,1
+2019-06-06,So,Yu Yangyi,H,2019,1
+2019-06-06,MVL,Anand,D,2019,0
+2019-06-07,Artemiev,Jakovenko,D,2019,0
+2019-06-08,Grischuk,Yu Yangyi,A,2019,-1
+2019-06-08,Anand,Ding Liren,D,2019,0
+2019-06-08,Anand,Ding Liren,H,2019,1
+2019-06-08,Caruana,So,D,2019,0
+2019-06-08,Aronian,MVL,D,2019,0
+2019-06-08,Aronian,MVL,D,2019,0
+2019-06-08,Aronian,MVL,D,2019,0
+2019-06-08,Caruana,So,D,2019,0
+2019-06-08,Carlsen,Mamedyarov,D,2019,0
+2019-06-08,Grischuk,Yu Yangyi,A,2019,-1
+2019-06-08,Anand,Ding Liren,D,2019,0
+2019-06-08,Carlsen,Mamedyarov,H,2019,1
+2019-06-09,Mamedyarov,Grischuk,A,2019,-1
+2019-06-09,Ding Liren,Aronian,D,2019,0
+2019-06-09,Yu Yangyi,Caruana,H,2019,1
+2019-06-09,Yu Yangyi,Caruana,D,2019,0
+2019-06-09,So,Anand,D,2019,0
+2019-06-09,Ding Liren,Aronian,D,2019,0
+2019-06-09,MVL,Carlsen,D,2019,0
+2019-06-09,MVL,Carlsen,D,2019,0
+2019-06-09,Mamedyarov,Grischuk,D,2019,0
+2019-06-09,Ding Liren,Aronian,D,2019,0
+2019-06-09,Yu Yangyi,Caruana,D,2019,0
+2019-06-09,So,Anand,D,2019,0
+2019-06-09,MVL,Carlsen,D,2019,0
+2019-06-10,Grischuk,Caruana,A,2019,-1
+2019-06-10,Anand,Yu Yangyi,A,2019,-1
+2019-06-10,Mamedyarov,MVL,D,2019,0
+2019-06-10,Mamedyarov,MVL,D,2019,0
+2019-06-10,Aronian,So,H,2019,1
+2019-06-10,Anand,Yu Yangyi,D,2019,0
+2019-06-10,Carlsen,Ding Liren,D,2019,0
+2019-06-10,Grischuk,Caruana,D,2019,0
+2019-06-10,Dubov,Karjakin,A,2019,-1
+2019-06-10,Karjakin,Dubov,D,2019,0
+2019-06-10,Dubov,Karjakin,D,2019,0
+2019-06-10,Mamedyarov,MVL,D,2019,0
+2019-06-10,Aronian,So,D,2019,0
+2019-06-10,Anand,Yu Yangyi,D,2019,0
+2019-06-10,Carlsen,Ding Liren,D,2019,0
+2019-06-10,Carlsen,Ding Liren,H,2019,1
+2019-06-11,Artemiev,Wang Hao,D,2019,0
+2019-06-11,Wei Yi,Kramnik,A,2019,-1
+2019-06-11,Artemiev,Wang Hao,D,2019,0
+2019-06-11,Kramnik,Wei Yi,H,2019,1
+2019-06-12,Ding Liren,Mamedyarov,H,2019,1
+2019-06-12,MVL,Grischuk,D,2019,0
+2019-06-12,MVL,Grischuk,H,2019,1
+2019-06-12,Caruana,Anand,H,2019,1
+2019-06-12,Yu Yangyi,Aronian,D,2019,0
+2019-06-12,Yu Yangyi,Aronian,D,2019,0
+2019-06-12,So,Carlsen,D,2019,0
+2019-06-12,Ding Liren,Mamedyarov,H,2019,1
+2019-06-12,MVL,Grischuk,D,2019,0
+2019-06-12,Caruana,Anand,D,2019,0
+2019-06-12,Yu Yangyi,Aronian,D,2019,0
+2019-06-13,Radjabov,Kramnik,D,2019,0
+2019-06-13,Grischuk,Anand,A,2019,-1
+2019-06-13,Mamedyarov,So,D,2019,0
+2019-06-13,MVL,Ding Liren,D,2019,0
+2019-06-13,MVL,Ding Liren,H,2019,1
+2019-06-13,Carlsen,Yu Yangyi,H,2019,1
+2019-06-13,Karjakin,Nepomniachtchi,A,2019,-1
+2019-06-13,Kramnik,Radjabov,D,2019,0
+2019-06-13,Nepomniachtchi,Karjakin,D,2019,0
+2019-06-13,MVL,Ding Liren,D,2019,0
+2019-06-13,Grischuk,Anand,D,2019,0
+2019-06-13,Carlsen,Yu Yangyi,H,2019,1
+2019-06-13,Aronian,Caruana,A,2019,-1
+2019-06-13,Mamedyarov,So,D,2019,0
+2019-06-13,Radjabov,Kramnik,D,2019,0
+2019-06-14,Ding Liren,Grischuk,D,2019,0
+2019-06-14,Yu Yangyi,Mamedyarov,H,2019,1
+2019-06-14,So,MVL,D,2019,0
+2019-06-14,So,MVL,H,2019,1
+2019-06-14,Anand,Aronian,D,2019,0
+2019-06-14,Caruana,Carlsen,H,2019,1
+2019-06-14,Radjabov,Dubov,H,2019,1
+2019-06-14,Karjakin,Wei Yi,H,2019,1
+2019-06-14,Wei Yi,Karjakin,D,2019,0
+2019-06-14,Radjabov,Dubov,D,2019,0
+2019-06-14,Ding Liren,Grischuk,D,2019,0
+2019-06-14,Anand,Aronian,D,2019,0
+2019-06-14,Yu Yangyi,Mamedyarov,H,2019,1
+2019-06-14,So,MVL,D,2019,0
+2019-06-14,Caruana,Carlsen,D,2019,0
+2019-06-14,Dubov,Radjabov,D,2019,0
+2019-06-14,Ding Liren,Grischuk,D,2019,0
+2019-06-15,Radjabov,Karjakin,D,2019,0
+2019-06-15,Wang Hao,Jakovenko,D,2019,0
+2019-06-15,Karjakin,Radjabov,D,2019,0
+2019-06-15,Wang Hao,Jakovenko,D,2019,0
+2019-06-15,Nepomniachtchi,Kramnik,D,2019,0
+2019-06-15,Kramnik,Nepomniachtchi,A,2019,-1
+2019-06-15,Radjabov,Karjakin,D,2019,0
+2019-06-16,Kramnik,Karjakin,D,2019,0
+2019-06-16,Karjakin,Kramnik,H,2019,1
+2019-06-16,Nepomniachtchi,Karjakin,D,2019,0
+2019-06-16,Karjakin,Nepomniachtchi,D,2019,0
+2019-06-16,Nepomniachtchi,Karjakin,A,2019,-1
+2019-06-16,Nepomniachtchi,Karjakin,A,2019,-1
+2019-06-16,Karjakin,Nepomniachtchi,H,2019,1
+2019-06-17,Navara,Ding Liren,D,2019,0
+2019-06-17,Navara,Ding Liren,D,2019,0
+2019-06-17,Ding Liren,Navara,H,2019,1
+2019-06-18,Ding Liren,Navara,D,2019,0
+2019-06-18,Navara,Ding Liren,D,2019,0
+2019-06-18,Ding Liren,Navara,D,2019,0
+2019-06-18,Navara,Ding Liren,D,2019,0
+2019-06-19,Bu Xiangzhi,Wang Hao,D,2019,0
+2019-06-19,Navara,Ding Liren,A,2019,-1
+2019-06-19,Ding Liren,Navara,H,2019,1
+2019-06-19,Bu Xiangzhi,Wang Hao,D,2019,0
+2019-06-19,Jones,Shankland,D,2019,0
+2019-06-19,Ding Liren,Navara,H,2019,1
+2019-06-21,Bu Xiangzhi,Yu Yangyi,D,2019,0
+2019-06-21,Bu Xiangzhi,Yu Yangyi,D,2019,0
+2019-06-22,Wang Hao,Wei Yi,D,2019,0
+2019-06-23,Svidler,Dominguez Perez,D,2019,0
+2019-06-25,Bu Xiangzhi,Wei Yi,D,2019,0
+2019-06-25,Bu Xiangzhi,Wei Yi,D,2019,0
+2019-06-25,Svidler,Dubov,D,2019,0
+2019-06-25,Shankland,Jones,D,2019,0
+2019-06-26,MVL,Aronian,D,2019,0
+2019-06-26,So,Ding Liren,H,2019,1
+2019-06-26,Caruana,Nakamura,H,2019,1
+2019-06-26,Anand,Nepomniachtchi,A,2019,-1
+2019-06-26,Giri,Carlsen,A,2019,-1
+2019-06-26,Mamedyarov,Karjakin,D,2019,0
+2019-06-26,So,Ding Liren,H,2019,1
+2019-06-26,MVL,Aronian,D,2019,0
+2019-06-27,Ding Liren,Karjakin,D,2019,0
+2019-06-27,So,MVL,D,2019,0
+2019-06-27,So,MVL,D,2019,0
+2019-06-27,Nepomniachtchi,Caruana,H,2019,1
+2019-06-27,Aronian,Giri,D,2019,0
+2019-06-27,Carlsen,Anand,D,2019,0
+2019-06-27,Ding Liren,Karjakin,D,2019,0
+2019-06-27,Nakamura,Mamedyarov,D,2019,0
+2019-06-28,MVL,Ding Liren,D,2019,0
+2019-06-28,Caruana,Carlsen,D,2019,0
+2019-06-28,Karjakin,Nakamura,D,2019,0
+2019-06-28,Giri,So,D,2019,0
+2019-06-28,Mamedyarov,Nepomniachtchi,A,2019,-1
+2019-06-28,Anand,Aronian,D,2019,0
+2019-06-28,MVL,Ding Liren,D,2019,0
+2019-06-28,Karjakin,Nakamura,D,2019,0
+2019-06-29,Ding Liren,Nakamura,D,2019,0
+2019-06-29,MVL,Giri,D,2019,0
+2019-06-29,Nepomniachtchi,Karjakin,D,2019,0
+2019-06-29,Aronian,Caruana,D,2019,0
+2019-06-29,So,Anand,D,2019,0
+2019-06-29,MVL,Giri,D,2019,0
+2019-06-29,Carlsen,Mamedyarov,D,2019,0
+2019-06-29,Ding Liren,Nakamura,D,2019,0
+2019-06-30,Anand,MVL,D,2019,0
+2019-06-30,Giri,Ding Liren,A,2019,-1
+2019-06-30,Anand,MVL,D,2019,0
+2019-06-30,Yu Yangyi,Vidit,H,2019,1
+2019-06-30,Wang Hao,Wei Yi,D,2019,0
+2019-06-30,Karjakin,Carlsen,D,2019,0
+2019-06-30,Yu Yangyi,Vidit,H,2019,1
+2019-06-30,Caruana,So,D,2019,0
+2019-06-30,Nakamura,Nepomniachtchi,D,2019,0
+2019-06-30,Giri,Ding Liren,A,2019,-1
+2019-06-30,Wang Hao,Wei Yi,D,2019,0
+2019-06-30,Rapport,Artemiev,D,2019,0
+2019-06-30,Mamedyarov,Aronian,D,2019,0
+2019-07-01,Dubov,Dominguez Perez,D,2019,0
+2019-07-01,MVL,Caruana,A,2019,-1
+2019-07-01,Ding Liren,Nepomniachtchi,H,2019,1
+2019-07-01,Rapport,Wang Hao,D,2019,0
+2019-07-01,Wei Yi,Yu Yangyi,D,2019,0
+2019-07-01,Ding Liren,Nepomniachtchi,H,2019,1
+2019-07-01,Wei Yi,Yu Yangyi,D,2019,0
+2019-07-01,MVL,Caruana,A,2019,-1
+2019-07-01,Giri,Anand,D,2019,0
+2019-07-01,Carlsen,Nakamura,H,2019,1
+2019-07-01,Aronian,Karjakin,H,2019,1
+2019-07-01,Rapport,Wang Hao,D,2019,0
+2019-07-01,Vidit,Amin,D,2019,0
+2019-07-01,So,Mamedyarov,H,2019,1
+2019-07-02,Amin,Wei Yi,A,2019,-1
+2019-07-02,Yu Yangyi,Rapport,D,2019,0
+2019-07-02,Yu Yangyi,Rapport,D,2019,0
+2019-07-02,Amin,Wei Yi,A,2019,-1
+2019-07-02,Wang Hao,Artemiev,H,2019,1
+2019-07-02,Wang Hao,Artemiev,H,2019,1
+2019-07-03,Nakamura,Aronian,D,2019,0
+2019-07-03,Mamedyarov,MVL,D,2019,0
+2019-07-03,Anand,Ding Liren,D,2019,0
+2019-07-03,Wang Hao,Yu Yangyi,D,2019,0
+2019-07-03,Karjakin,So,D,2019,0
+2019-07-03,Mamedyarov,MVL,D,2019,0
+2019-07-03,Nepomniachtchi,Carlsen,A,2019,-1
+2019-07-03,Artemiev,Vidit,H,2019,1
+2019-07-03,Caruana,Giri,D,2019,0
+2019-07-03,Wang Hao,Yu Yangyi,D,2019,0
+2019-07-03,Rapport,Amin,H,2019,1
+2019-07-03,Anand,Ding Liren,D,2019,0
+2019-07-04,MVL,Karjakin,D,2019,0
+2019-07-04,So,Nakamura,H,2019,1
+2019-07-04,Ding Liren,Carlsen,A,2019,-1
+2019-07-04,Aronian,Nepomniachtchi,D,2019,0
+2019-07-04,Giri,Mamedyarov,H,2019,1
+2019-07-04,Ding Liren,Carlsen,A,2019,-1
+2019-07-04,So,Nakamura,H,2019,1
+2019-07-04,Anand,Caruana,D,2019,0
+2019-07-04,MVL,Karjakin,D,2019,0
+2019-07-05,Nakamura,MVL,D,2019,0
+2019-07-05,Yu Yangyi,Artemiev,D,2019,0
+2019-07-05,Caruana,Ding Liren,D,2019,0
+2019-07-05,Nepomniachtchi,So,D,2019,0
+2019-07-05,Vidit,Wei Yi,D,2019,0
+2019-07-05,Amin,Wang Hao,D,2019,0
+2019-07-05,Karjakin,Giri,D,2019,0
+2019-07-05,Amin,Wang Hao,D,2019,0
+2019-07-05,Nepomniachtchi,So,D,2019,0
+2019-07-05,Caruana,Ding Liren,D,2019,0
+2019-07-05,Carlsen,Aronian,D,2019,0
+2019-07-05,Mamedyarov,Anand,H,2019,1
+2019-07-05,Vidit,Wei Yi,D,2019,0
+2019-07-05,Yu Yangyi,Artemiev,D,2019,0
+2019-07-05,Nakamura,MVL,D,2019,0
+2019-07-06,Anand,Karjakin,D,2019,0
+2019-07-06,MVL,Nepomniachtchi,D,2019,0
+2019-07-06,Ding Liren,Aronian,D,2019,0
+2019-07-06,Yu Yangyi,Amin,D,2019,0
+2019-07-06,Artemiev,Wei Yi,D,2019,0
+2019-07-06,Anand,Karjakin,D,2019,0
+2019-07-06,So,Carlsen,D,2019,0
+2019-07-06,Ding Liren,Aronian,D,2019,0
+2019-07-06,MVL,Nepomniachtchi,D,2019,0
+2019-07-06,Caruana,Mamedyarov,D,2019,0
+2019-07-06,Artemiev,Wei Yi,D,2019,0
+2019-07-06,Rapport,Vidit,D,2019,0
+2019-07-06,Yu Yangyi,Amin,D,2019,0
+2019-07-06,Giri,Nakamura,D,2019,0
+2019-07-07,Nepomniachtchi,Giri,A,2019,-1
+2019-07-07,Mamedyarov,Ding Liren,D,2019,0
+2019-07-07,Carlsen,MVL,H,2019,1
+2019-07-07,Wei Yi,Rapport,D,2019,0
+2019-07-07,Vidit,Wang Hao,H,2019,1
+2019-07-07,Carlsen,MVL,H,2019,1
+2019-07-07,Amin,Artemiev,D,2019,0
+2019-07-07,Mamedyarov,Ding Liren,D,2019,0
+2019-07-07,Aronian,So,D,2019,0
+2019-07-07,Karjakin,Caruana,D,2019,0
+2019-07-07,Vidit,Wang Hao,H,2019,1
+2019-07-07,Wei Yi,Rapport,D,2019,0
+2019-07-07,Nakamura,Anand,D,2019,0
+2019-07-12,Aronian,Yu Yangyi,D,2019,0
+2019-07-12,MVL,Navara,H,2019,1
+2019-07-12,MVL,Navara,H,2019,1
+2019-07-12,Karjakin,Giri,D,2019,0
+2019-07-12,Aronian,Yu Yangyi,D,2019,0
+2019-07-12,Nakamura,Topalov,D,2019,0
+2019-07-12,Mamedyarov,Dubov,D,2019,0
+2019-07-12,Svidler,Duda,D,2019,0
+2019-07-12,So,Harikrishna,D,2019,0
+2019-07-12,Vitiugov,Grischuk,D,2019,0
+2019-07-13,Yu Yangyi,Aronian,D,2019,0
+2019-07-13,Navara,MVL,D,2019,0
+2019-07-13,Harikrishna,So,D,2019,0
+2019-07-13,Grischuk,Vitiugov,D,2019,0
+2019-07-13,Yu Yangyi,Aronian,D,2019,0
+2019-07-13,Rapport,Nepomniachtchi,H,2019,1
+2019-07-13,Giri,Karjakin,D,2019,0
+2019-07-13,Navara,MVL,D,2019,0
+2019-07-13,Duda,Svidler,D,2019,0
+2019-07-13,Dubov,Mamedyarov,A,2019,-1
+2019-07-13,Radjabov,Wojtaszek,D,2019,0
+2019-07-13,Topalov,Nakamura,D,2019,0
+2019-07-14,Aronian,Yu Yangyi,D,2019,0
+2019-07-14,Aronian,Yu Yangyi,H,2019,1
+2019-07-14,Giri,Karjakin,D,2019,0
+2019-07-14,Yu Yangyi,Aronian,H,2019,1
+2019-07-14,Aronian,Yu Yangyi,D,2019,0
+2019-07-14,Aronian,Yu Yangyi,D,2019,0
+2019-07-14,Yu Yangyi,Aronian,D,2019,0
+2019-07-14,Rapport,Dominguez Perez,D,2019,0
+2019-07-14,Yu Yangyi,Aronian,D,2019,0
+2019-07-15,Karjakin,So,D,2019,0
+2019-07-15,Duda,Mamedyarov,D,2019,0
+2019-07-15,Grischuk,Yu Yangyi,D,2019,0
+2019-07-15,Topalov,MVL,A,2019,-1
+2019-07-15,Topalov,MVL,A,2019,-1
+2019-07-15,Ding Liren,Andreikin,D,2019,0
+2019-07-15,Ding Liren,Andreikin,D,2019,0
+2019-07-15,Grischuk,Yu Yangyi,D,2019,0
+2019-07-16,So,Karjakin,D,2019,0
+2019-07-16,MVL,Topalov,D,2019,0
+2019-07-16,Yu Yangyi,Grischuk,D,2019,0
+2019-07-16,Yu Yangyi,Grischuk,D,2019,0
+2019-07-16,Mamedyarov,Duda,D,2019,0
+2019-07-16,Dominguez Perez,Nepomniachtchi,H,2019,1
+2019-07-16,Radjabov,Rapport,D,2019,0
+2019-07-16,Andreikin,Ding Liren,H,2019,1
+2019-07-16,Andreikin,Ding Liren,H,2019,1
+2019-07-16,MVL,Topalov,D,2019,0
+2019-07-17,Navara,Vitiugov,H,2019,1
+2019-07-17,Grischuk,Yu Yangyi,H,2019,1
+2019-07-17,Yu Yangyi,Grischuk,D,2019,0
+2019-07-17,Dominguez Perez,Radjabov,D,2019,0
+2019-07-17,Ding Liren,Andreikin,D,2019,0
+2019-07-17,Ding Liren,Andreikin,D,2019,0
+2019-07-17,Nepomniachtchi,Wojtaszek,D,2019,0
+2019-07-18,Andreikin,Ding Liren,D,2019,0
+2019-07-18,Andreikin,Ding Liren,D,2019,0
+2019-07-18,MVL,Grischuk,D,2019,0
+2019-07-18,MVL,Grischuk,D,2019,0
+2019-07-18,Mamedyarov,So,H,2019,1
+2019-07-18,Vitiugov,Navara,A,2019,-1
+2019-07-19,Grischuk,MVL,A,2019,-1
+2019-07-19,So,Mamedyarov,D,2019,0
+2019-07-19,Radjabov,Nepomniachtchi,D,2019,0
+2019-07-19,Grischuk,MVL,A,2019,-1
+2019-07-20,Rapport,Wojtaszek,D,2019,0
+2019-07-21,Wojtaszek,Dominguez Perez,D,2019,0
+2019-07-21,Vidit,Shankland,D,2019,0
+2019-07-22,Mamedyarov,MVL,H,2019,1
+2019-07-22,Mamedyarov,MVL,H,2019,1
+2019-07-23,Shankland,Vidit,D,2019,0
+2019-07-23,MVL,Mamedyarov,H,2019,1
+2019-07-23,MVL,Mamedyarov,H,2019,1
+2019-07-24,Wei Yi,Rapport,A,2019,-1
+2019-07-24,Mamedyarov,MVL,A,2019,-1
+2019-07-24,MVL,Mamedyarov,A,2019,-1
+2019-07-24,MVL,Mamedyarov,D,2019,0
+2019-07-24,Wang Hao,Ding Liren,D,2019,0
+2019-07-24,MVL,Mamedyarov,D,2019,0
+2019-07-24,Mamedyarov,MVL,D,2019,0
+2019-07-24,Wei Yi,Rapport,A,2019,-1
+2019-07-24,MVL,Mamedyarov,A,2019,-1
+2019-07-24,Mamedyarov,MVL,D,2019,0
+2019-07-24,Wang Hao,Ding Liren,D,2019,0
+2019-07-25,Ding Liren,Wei Yi,H,2019,1
+2019-07-25,Ding Liren,Wei Yi,H,2019,1
+2019-07-27,MVL,Nepomniachtchi,A,2019,-1
+2019-07-27,Matlakov,Wang Hao,D,2019,0
+2019-07-27,Vidit,Shankland,A,2019,-1
+2019-07-27,Shankland,Vidit,A,2019,-1
+2019-07-27,Caruana,Duda,H,2019,1
+2019-07-27,Mamedyarov,MVL,A,2019,-1
+2019-07-27,Dubov,MVL,A,2019,-1
+2019-07-27,Matlakov,Wang Hao,D,2019,0
+2019-07-27,Giri,Anand,A,2019,-1
+2019-07-28,Giri,MVL,A,2019,-1
+2019-07-28,MVL,Caruana,H,2019,1
+2019-07-28,Grischuk,MVL,D,2019,0
+2019-07-29,MVL,Anand,D,2019,0
+2019-07-29,Duda,MVL,A,2019,-1
+2019-07-29,MVL,Nakamura,D,2019,0
+2019-07-31,Harikrishna,Karjakin,D,2019,0
+2019-07-31,Mamedyarov,MVL,A,2019,-1
+2019-07-31,MVL,Duda,A,2019,-1
+2019-07-31,Anand,MVL,A,2019,-1
+2019-07-31,MVL,Giri,A,2019,-1
+2019-07-31,MVL,Nepomniachtchi,D,2019,0
+2019-07-31,MVL,Caruana,H,2019,1
+2019-07-31,Nakamura,MVL,H,2019,1
+2019-07-31,Anand,Duda,H,2019,1
+2019-07-31,MVL,Dubov,H,2019,1
+2019-07-31,Karjakin,Harikrishna,D,2019,0
+2019-07-31,Harikrishna,Karjakin,D,2019,0
+2019-07-31,Karjakin,Harikrishna,D,2019,0
+2019-07-31,Karjakin,Harikrishna,H,2019,1
+2019-07-31,Harikrishna,Karjakin,D,2019,0
+2019-07-31,Grischuk,MVL,H,2019,1
+2019-08-01,MVL,Anand,D,2019,0
+2019-08-01,MVL,Mamedyarov,D,2019,0
+2019-08-01,Grischuk,Nepomniachtchi,H,2019,1
+2019-08-01,Duda,MVL,H,2019,1
+2019-08-01,Giri,MVL,H,2019,1
+2019-08-01,MVL,Grischuk,D,2019,0
+2019-08-01,MVL,Nakamura,H,2019,1
+2019-08-01,Mamedyarov,Nepomniachtchi,A,2019,-1
+2019-08-01,Caruana,MVL,H,2019,1
+2019-08-01,Dubov,MVL,A,2019,-1
+2019-08-01,Nepomniachtchi,MVL,H,2019,1
+2019-08-03,Nepomniachtchi,Grischuk,A,2019,-1
+2019-08-03,Kramnik,Anand,H,2019,1
+2019-08-03,Kramnik,Giri,H,2019,1
+2019-08-03,Grischuk,Kramnik,D,2019,0
+2019-08-03,Anand,Nepomniachtchi,H,2019,1
+2019-08-03,Giri,Svidler,A,2019,-1
+2019-08-03,Grischuk,Giri,H,2019,1
+2019-08-03,Kramnik,Nepomniachtchi,D,2019,0
+2019-08-03,Svidler,Nepomniachtchi,A,2019,-1
+2019-08-03,Kramnik,Svidler,H,2019,1
+2019-08-03,Anand,Giri,H,2019,1
+2019-08-03,Svidler,Grischuk,H,2019,1
+2019-08-03,Giri,Nepomniachtchi,D,2019,0
+2019-08-03,Anand,Svidler,H,2019,1
+2019-08-03,Anand,Grischuk,H,2019,1
+2019-08-04,Yu Yangyi,Amin,D,2019,0
+2019-08-04,Grischuk,Nepomniachtchi,A,2019,-1
+2019-08-04,Anand,Giri,D,2019,0
+2019-08-04,Nepomniachtchi,Svidler,D,2019,0
+2019-08-04,Giri,Kramnik,D,2019,0
+2019-08-04,Yu Yangyi,Amin,D,2019,0
+2019-08-05,Nepomniachtchi,Anand,H,2019,1
+2019-08-05,Grischuk,Giri,D,2019,0
+2019-08-05,Kramnik,Nepomniachtchi,A,2019,-1
+2019-08-05,Svidler,Grischuk,A,2019,-1
+2019-08-05,Svidler,Giri,D,2019,0
+2019-08-05,Anand,Kramnik,H,2019,1
+2019-08-06,Svidler,Kramnik,A,2019,-1
+2019-08-06,Grischuk,Anand,H,2019,1
+2019-08-06,Giri,Nepomniachtchi,H,2019,1
+2019-08-06,Anand,Svidler,A,2019,-1
+2019-08-06,Kramnik,Grischuk,A,2019,-1
+2019-08-10,Ding Liren,Caruana,D,2019,0
+2019-08-10,Karjakin,Yu Yangyi,D,2019,0
+2019-08-10,Dominguez Perez,Ding Liren,D,2019,0
+2019-08-10,MVL,Rapport,H,2019,1
+2019-08-10,MVL,Aronian,A,2019,-1
+2019-08-10,Jakovenko,Matlakov,D,2019,0
+2019-08-10,Yu Yangyi,MVL,D,2019,0
+2019-08-10,Yu Yangyi,Rapport,A,2019,-1
+2019-08-10,Ding Liren,Carlsen,H,2019,1
+2019-08-11,Artemiev,Jakovenko,D,2019,0
+2019-08-11,Aronian,Ding Liren,D,2019,0
+2019-08-11,MVL,Karjakin,H,2019,1
+2019-08-11,Yu Yangyi,Mamedyarov,H,2019,1
+2019-08-11,Mamedyarov,MVL,A,2019,-1
+2019-08-11,Ding Liren,Yu Yangyi,H,2019,1
+2019-08-11,Yu Yangyi,Carlsen,D,2019,0
+2019-08-11,MVL,Ding Liren,H,2019,1
+2019-08-11,Carlsen,Aronian,A,2019,-1
+2019-08-12,Mamedyarov,Ding Liren,D,2019,0
+2019-08-12,Ding Liren,Rapport,D,2019,0
+2019-08-12,Aronian,Yu Yangyi,D,2019,0
+2019-08-12,Caruana,MVL,A,2019,-1
+2019-08-12,Yu Yangyi,Caruana,H,2019,1
+2019-08-12,Dominguez Perez,Yu Yangyi,A,2019,-1
+2019-08-12,Ding Liren,Karjakin,D,2019,0
+2019-08-12,Carlsen,MVL,H,2019,1
+2019-08-12,Caruana,Aronian,A,2019,-1
+2019-08-12,MVL,Dominguez Perez,H,2019,1
+2019-08-13,Caruana,MVL,A,2019,-1
+2019-08-13,Ding Liren,Caruana,H,2019,1
+2019-08-13,Mamedyarov,Yu Yangyi,A,2019,-1
+2019-08-13,MVL,Aronian,H,2019,1
+2019-08-13,Dominguez Perez,MVL,H,2019,1
+2019-08-13,Yu Yangyi,Karjakin,A,2019,-1
+2019-08-13,Rapport,Ding Liren,D,2019,0
+2019-08-13,Mamedyarov,Ding Liren,D,2019,0
+2019-08-13,MVL,Yu Yangyi,H,2019,1
+2019-08-13,Ding Liren,Karjakin,D,2019,0
+2019-08-13,MVL,Ding Liren,A,2019,-1
+2019-08-13,Yu Yangyi,Carlsen,H,2019,1
+2019-08-13,Yu Yangyi,Dominguez Perez,H,2019,1
+2019-08-13,Aronian,Yu Yangyi,D,2019,0
+2019-08-13,Yu Yangyi,Ding Liren,D,2019,0
+2019-08-13,Rapport,MVL,H,2019,1
+2019-08-13,Ding Liren,Dominguez Perez,H,2019,1
+2019-08-13,Caruana,Yu Yangyi,A,2019,-1
+2019-08-13,Carlsen,MVL,H,2019,1
+2019-08-13,MVL,Karjakin,D,2019,0
+2019-08-13,Yu Yangyi,Rapport,D,2019,0
+2019-08-13,Vitiugov,Tomashevsky,D,2019,0
+2019-08-13,Mamedyarov,MVL,A,2019,-1
+2019-08-13,Ding Liren,Carlsen,H,2019,1
+2019-08-13,Aronian,Ding Liren,D,2019,0
+2019-08-14,MVL,Caruana,A,2019,-1
+2019-08-14,Carlsen,Yu Yangyi,A,2019,-1
+2019-08-14,Yu Yangyi,MVL,H,2019,1
+2019-08-14,Ding Liren,Mamedyarov,D,2019,0
+2019-08-14,MVL,Dominguez Perez,H,2019,1
+2019-08-14,Karjakin,Yu Yangyi,A,2019,-1
+2019-08-14,Aronian,MVL,A,2019,-1
+2019-08-14,Yu Yangyi,Mamedyarov,D,2019,0
+2019-08-14,Karjakin,Ding Liren,A,2019,-1
+2019-08-14,Ding Liren,Rapport,H,2019,1
+2019-08-14,Yu Yangyi,Aronian,D,2019,0
+2019-08-14,Caruana,Ding Liren,A,2019,-1
+2019-08-14,MVL,Mamedyarov,D,2019,0
+2019-08-14,Ding Liren,MVL,H,2019,1
+2019-08-14,MVL,Carlsen,D,2019,0
+2019-08-14,MVL,Rapport,H,2019,1
+2019-08-14,Yu Yangyi,Caruana,A,2019,-1
+2019-08-14,Dominguez Perez,Ding Liren,D,2019,0
+2019-08-14,Ding Liren,Yu Yangyi,A,2019,-1
+2019-08-14,Rapport,Yu Yangyi,A,2019,-1
+2019-08-14,Karjakin,MVL,H,2019,1
+2019-08-14,Carlsen,Ding Liren,H,2019,1
+2019-08-14,Dominguez Perez,Yu Yangyi,H,2019,1
+2019-08-14,Ding Liren,Aronian,A,2019,-1
+2019-08-15,Vitiugov,Matlakov,D,2019,0
+2019-08-16,Artemiev,Vitiugov,A,2019,-1
+2019-08-16,Matlakov,Tomashevsky,D,2019,0
+2019-08-17,Carlsen,Giri,D,2019,0
+2019-08-17,Nepomniachtchi,Anand,A,2019,-1
+2019-08-17,Aronian,MVL,D,2019,0
+2019-08-17,Tomashevsky,Artemiev,H,2019,1
+2019-08-17,Ding Liren,So,D,2019,0
+2019-08-17,Aronian,MVL,D,2019,0
+2019-08-17,Carlsen,Giri,D,2019,0
+2019-08-17,Ding Liren,So,D,2019,0
+2019-08-17,Nakamura,Caruana,D,2019,0
+2019-08-17,Nepomniachtchi,Anand,A,2019,-1
+2019-08-17,Karjakin,Mamedyarov,D,2019,0
+2019-08-18,Karjakin,Ding Liren,D,2019,0
+2019-08-18,Karjakin,Ding Liren,D,2019,0
+2019-08-18,MVL,So,D,2019,0
+2019-08-18,MVL,So,D,2019,0
+2019-08-18,Mamedyarov,Nakamura,D,2019,0
+2019-08-18,Anand,Carlsen,D,2019,0
+2019-08-18,Giri,Aronian,D,2019,0
+2019-08-18,Caruana,Nepomniachtchi,D,2019,0
+2019-08-19,Nakamura,Karjakin,D,2019,0
+2019-08-19,Ding Liren,MVL,D,2019,0
+2019-08-19,Nepomniachtchi,Mamedyarov,D,2019,0
+2019-08-19,So,Giri,D,2019,0
+2019-08-19,Carlsen,Caruana,D,2019,0
+2019-08-19,Aronian,Anand,D,2019,0
+2019-08-19,Ding Liren,MVL,D,2019,0
+2019-08-20,Harikrishna,Wei Yi,H,2019,1
+2019-08-20,Harikrishna,Wei Yi,H,2019,1
+2019-08-20,Giri,MVL,D,2019,0
+2019-08-20,Nakamura,Ding Liren,D,2019,0
+2019-08-20,Matlakov,Artemiev,D,2019,0
+2019-08-20,Vitiugov,Jakovenko,D,2019,0
+2019-08-20,Karjakin,Nepomniachtchi,D,2019,0
+2019-08-20,Nakamura,Ding Liren,D,2019,0
+2019-08-20,Giri,MVL,D,2019,0
+2019-08-20,Anand,So,D,2019,0
+2019-08-20,Mamedyarov,Carlsen,D,2019,0
+2019-08-20,Caruana,Aronian,H,2019,1
+2019-08-20,Vitiugov,Jakovenko,D,2019,0
+2019-08-21,Nepomniachtchi,Nakamura,H,2019,1
+2019-08-21,Ding Liren,Giri,H,2019,1
+2019-08-21,Carlsen,Karjakin,D,2019,0
+2019-08-21,So,Caruana,D,2019,0
+2019-08-21,Aronian,Mamedyarov,D,2019,0
+2019-08-21,MVL,Anand,D,2019,0
+2019-08-21,Jakovenko,Tomashevsky,D,2019,0
+2019-08-21,MVL,Anand,D,2019,0
+2019-08-21,Ding Liren,Giri,H,2019,1
+2019-08-22,Andreikin,Wang Hao,D,2019,0
+2019-08-22,Andreikin,Wang Hao,D,2019,0
+2019-08-23,Anand,Giri,D,2019,0
+2019-08-23,Caruana,MVL,D,2019,0
+2019-08-23,Karjakin,Aronian,D,2019,0
+2019-08-23,Nakamura,Carlsen,D,2019,0
+2019-08-23,Nepomniachtchi,Ding Liren,D,2019,0
+2019-08-23,Mamedyarov,So,D,2019,0
+2019-08-23,Wei Yi,Andreikin,D,2019,0
+2019-08-23,Yu Yangyi,Harikrishna,D,2019,0
+2019-08-23,Caruana,MVL,D,2019,0
+2019-08-23,Nepomniachtchi,Ding Liren,D,2019,0
+2019-08-23,Yu Yangyi,Harikrishna,D,2019,0
+2019-08-23,Wei Yi,Andreikin,D,2019,0
+2019-08-24,MVL,Mamedyarov,D,2019,0
+2019-08-24,Ding Liren,Anand,D,2019,0
+2019-08-24,MVL,Mamedyarov,D,2019,0
+2019-08-24,Carlsen,Nepomniachtchi,D,2019,0
+2019-08-24,Ding Liren,Anand,D,2019,0
+2019-08-24,Aronian,Nakamura,D,2019,0
+2019-08-24,Giri,Caruana,D,2019,0
+2019-08-24,So,Karjakin,D,2019,0
+2019-08-25,Caruana,Anand,D,2019,0
+2019-08-25,Karjakin,MVL,H,2019,1
+2019-08-25,Nepomniachtchi,Aronian,H,2019,1
+2019-08-25,Mamedyarov,Giri,D,2019,0
+2019-08-25,Carlsen,Ding Liren,D,2019,0
+2019-08-25,Nakamura,So,D,2019,0
+2019-08-25,Carlsen,Ding Liren,D,2019,0
+2019-08-25,Karjakin,MVL,H,2019,1
+2019-08-26,Aronian,Carlsen,D,2019,0
+2019-08-26,Giri,Karjakin,D,2019,0
+2019-08-26,MVL,Nakamura,D,2019,0
+2019-08-26,Ding Liren,Caruana,H,2019,1
+2019-08-26,So,Nepomniachtchi,A,2019,-1
+2019-08-26,Anand,Mamedyarov,D,2019,0
+2019-08-27,Karjakin,Anand,D,2019,0
+2019-08-27,Carlsen,So,H,2019,1
+2019-08-27,Nepomniachtchi,MVL,A,2019,-1
+2019-08-27,Aronian,Ding Liren,D,2019,0
+2019-08-27,Nakamura,Giri,D,2019,0
+2019-08-27,Mamedyarov,Caruana,D,2019,0
+2019-08-28,Caruana,Karjakin,D,2019,0
+2019-08-28,Giri,Nepomniachtchi,H,2019,1
+2019-08-28,Ding Liren,Mamedyarov,D,2019,0
+2019-08-28,MVL,Carlsen,A,2019,-1
+2019-08-28,Anand,Nakamura,D,2019,0
+2019-08-28,So,Aronian,D,2019,0
+2019-09-02,Topalov,So,H,2019,1
+2019-09-02,Aronian,Nakamura,H,2019,1
+2019-09-02,Svidler,Dominguez Perez,H,2019,1
+2019-09-02,Svidler,Dominguez Perez,D,2019,0
+2019-09-02,Aronian,Nakamura,D,2019,0
+2019-09-02,Topalov,So,D,2019,0
+2019-09-02,Dominguez Perez,Svidler,A,2019,-1
+2019-09-02,So,Topalov,H,2019,1
+2019-09-02,So,Topalov,H,2019,1
+2019-09-02,Nakamura,Aronian,A,2019,-1
+2019-09-02,Nakamura,Aronian,A,2019,-1
+2019-09-02,Dominguez Perez,Svidler,D,2019,0
+2019-09-03,Dominguez Perez,Svidler,D,2019,0
+2019-09-03,Dominguez Perez,Svidler,A,2019,-1
+2019-09-03,So,Topalov,H,2019,1
+2019-09-03,So,Topalov,H,2019,1
+2019-09-03,Nakamura,Aronian,H,2019,1
+2019-09-03,Nakamura,Aronian,D,2019,0
+2019-09-03,Svidler,Dominguez Perez,D,2019,0
+2019-09-03,Svidler,Dominguez Perez,H,2019,1
+2019-09-03,Topalov,So,D,2019,0
+2019-09-03,Topalov,So,D,2019,0
+2019-09-03,Aronian,Nakamura,H,2019,1
+2019-09-03,Aronian,Nakamura,A,2019,-1
+2019-09-03,Harikrishna,Wojtaszek,D,2019,0
+2019-09-04,Svidler,Dominguez Perez,H,2019,1
+2019-09-04,Svidler,Dominguez Perez,D,2019,0
+2019-09-04,Topalov,So,A,2019,-1
+2019-09-04,Topalov,So,A,2019,-1
+2019-09-04,Aronian,Nakamura,A,2019,-1
+2019-09-04,So,Topalov,D,2019,0
+2019-09-04,Dominguez Perez,Svidler,H,2019,1
+2019-09-04,Dominguez Perez,Svidler,H,2019,1
+2019-09-04,So,Topalov,D,2019,0
+2019-09-04,Nakamura,Aronian,D,2019,0
+2019-09-04,Nakamura,Aronian,D,2019,0
+2019-09-04,Aronian,Nakamura,A,2019,-1
+2019-09-05,Dominguez Perez,Svidler,D,2019,0
+2019-09-05,Aronian,Nakamura,A,2019,-1
+2019-09-05,Topalov,So,H,2019,1
+2019-09-05,Svidler,Dominguez Perez,H,2019,1
+2019-09-05,So,Topalov,D,2019,0
+2019-09-05,Dominguez Perez,Svidler,H,2019,1
+2019-09-05,Aronian,Nakamura,H,2019,1
+2019-09-05,Svidler,Dominguez Perez,D,2019,0
+2019-09-05,So,Topalov,H,2019,1
+2019-09-05,Nakamura,Aronian,H,2019,1
+2019-09-05,Nakamura,Aronian,D,2019,0
+2019-09-05,Topalov,So,A,2019,-1
+2019-09-05,So,Topalov,D,2019,0
+2019-09-05,Aronian,Nakamura,A,2019,-1
+2019-09-05,Dominguez Perez,Svidler,D,2019,0
+2019-09-05,Svidler,Dominguez Perez,A,2019,-1
+2019-09-05,Nakamura,Aronian,H,2019,1
+2019-09-05,Topalov,So,D,2019,0
+2019-09-05,Dominguez Perez,Svidler,A,2019,-1
+2019-09-05,Aronian,Nakamura,A,2019,-1
+2019-09-05,Svidler,Dominguez Perez,H,2019,1
+2019-09-05,Nakamura,Aronian,D,2019,0
+2019-09-05,So,Topalov,H,2019,1
+2019-09-16,Firouzja,Ding Liren,D,2019,0
+2019-09-16,Dominguez Perez,Wang Hao,D,2019,0
+2019-09-16,Le Quang Liem,Artemiev,D,2019,0
+2019-09-16,Yu Yangyi,Wei Yi,D,2019,0
+2019-09-16,Tomashevsky,Nepomniachtchi,D,2019,0
+2019-09-16,Firouzja,Ding Liren,D,2019,0
+2019-09-16,Yu Yangyi,Wei Yi,D,2019,0
+2019-09-16,Dominguez Perez,Wang Hao,D,2019,0
+2019-09-16,Le Quang Liem,Artemiev,D,2019,0
+2019-09-16,Giri,Xiong,D,2019,0
+2019-09-16,Duda,Andreikin,H,2019,1
+2019-09-16,Vitiugov,Karjakin,H,2019,1
+2019-09-16,So,Vidit,H,2019,1
+2019-09-16,Aronian,Matlakov,D,2019,0
+2019-09-17,Wei Yi,Yu Yangyi,D,2019,0
+2019-09-17,Ding Liren,Firouzja,D,2019,0
+2019-09-17,Nepomniachtchi,Tomashevsky,D,2019,0
+2019-09-17,Vidit,So,D,2019,0
+2019-09-17,Karjakin,Vitiugov,D,2019,0
+2019-09-17,Matlakov,Aronian,A,2019,-1
+2019-09-17,Artemiev,Le Quang Liem,D,2019,0
+2019-09-17,Andreikin,Duda,D,2019,0
+2019-09-17,Xiong,Giri,D,2019,0
+2019-09-17,Wei Yi,Yu Yangyi,D,2019,0
+2019-09-17,Artemiev,Le Quang Liem,D,2019,0
+2019-09-17,Wang Hao,Dominguez Perez,D,2019,0
+2019-09-17,Xiong,Giri,D,2019,0
+2019-09-17,Ding Liren,Firouzja,D,2019,0
+2019-09-17,Wang Hao,Dominguez Perez,D,2019,0
+2019-09-18,Dominguez Perez,Wang Hao,H,2019,1
+2019-09-18,Dominguez Perez,Wang Hao,H,2019,1
+2019-09-18,Artemiev,Le Quang Liem,D,2019,0
+2019-09-18,Wang Hao,Dominguez Perez,H,2019,1
+2019-09-18,Le Quang Liem,Artemiev,H,2019,1
+2019-09-18,Firouzja,Ding Liren,A,2019,-1
+2019-09-18,Wang Hao,Dominguez Perez,D,2019,0
+2019-09-18,Le Quang Liem,Artemiev,D,2019,0
+2019-09-18,Wei Yi,Yu Yangyi,A,2019,-1
+2019-09-18,Ding Liren,Firouzja,H,2019,1
+2019-09-18,Wang Hao,Dominguez Perez,H,2019,1
+2019-09-18,Artemiev,Le Quang Liem,D,2019,0
+2019-09-18,Yu Yangyi,Wei Yi,D,2019,0
+2019-09-18,Dominguez Perez,Wang Hao,H,2019,1
+2019-09-20,Le Quang Liem,Aronian,D,2019,0
+2019-09-20,Mamedyarov,Radjabov,D,2019,0
+2019-09-20,Nepomniachtchi,Yu Yangyi,D,2019,0
+2019-09-20,MVL,Svidler,H,2019,1
+2019-09-20,Vitiugov,So,H,2019,1
+2019-09-20,Grischuk,Dominguez Perez,H,2019,1
+2019-09-20,MVL,Svidler,H,2019,1
+2019-09-20,Nepomniachtchi,Yu Yangyi,D,2019,0
+2019-09-20,Le Quang Liem,Aronian,D,2019,0
+2019-09-20,Duda,Xiong,H,2019,1
+2019-09-21,Radjabov,Mamedyarov,D,2019,0
+2019-09-21,Aronian,Le Quang Liem,D,2019,0
+2019-09-21,So,Vitiugov,D,2019,0
+2019-09-21,Xiong,Duda,H,2019,1
+2019-09-21,Svidler,MVL,D,2019,0
+2019-09-21,Dominguez Perez,Grischuk,H,2019,1
+2019-09-21,Svidler,MVL,D,2019,0
+2019-09-21,Yu Yangyi,Nepomniachtchi,H,2019,1
+2019-09-21,Aronian,Le Quang Liem,D,2019,0
+2019-09-21,Yu Yangyi,Nepomniachtchi,H,2019,1
+2019-09-22,Aronian,Le Quang Liem,D,2019,0
+2019-09-22,Xiong,Duda,H,2019,1
+2019-09-22,Grischuk,Dominguez Perez,H,2019,1
+2019-09-22,Le Quang Liem,Aronian,D,2019,0
+2019-09-22,Le Quang Liem,Aronian,A,2019,-1
+2019-09-22,Aronian,Le Quang Liem,D,2019,0
+2019-09-23,Aronian,MVL,D,2019,0
+2019-09-23,Grischuk,Ding Liren,D,2019,0
+2019-09-23,Vitiugov,Yu Yangyi,D,2019,0
+2019-09-23,Xiong,Radjabov,D,2019,0
+2019-09-23,Xiong,Radjabov,D,2019,0
+2019-09-23,Aronian,MVL,D,2019,0
+2019-09-23,Vitiugov,Yu Yangyi,D,2019,0
+2019-09-23,Grischuk,Ding Liren,D,2019,0
+2019-09-24,Yu Yangyi,Vitiugov,D,2019,0
+2019-09-24,MVL,Aronian,D,2019,0
+2019-09-24,Ding Liren,Grischuk,H,2019,1
+2019-09-24,Radjabov,Xiong,H,2019,1
+2019-09-24,Ding Liren,Grischuk,H,2019,1
+2019-09-24,Yu Yangyi,Vitiugov,D,2019,0
+2019-09-24,MVL,Aronian,D,2019,0
+2019-09-25,Yu Yangyi,Vitiugov,H,2019,1
+2019-09-25,Vitiugov,Yu Yangyi,D,2019,0
+2019-09-25,Yu Yangyi,Vitiugov,D,2019,0
+2019-09-25,Vitiugov,Yu Yangyi,H,2019,1
+2019-09-25,Yu Yangyi,Vitiugov,D,2019,0
+2019-09-25,MVL,Aronian,H,2019,1
+2019-09-25,Vitiugov,Yu Yangyi,D,2019,0
+2019-09-25,Aronian,MVL,D,2019,0
+2019-09-25,Yu Yangyi,Vitiugov,H,2019,1
+2019-09-26,MVL,Radjabov,D,2019,0
+2019-09-26,Ding Liren,Yu Yangyi,D,2019,0
+2019-09-26,MVL,Radjabov,D,2019,0
+2019-09-26,Ding Liren,Yu Yangyi,D,2019,0
+2019-09-27,Yu Yangyi,Ding Liren,D,2019,0
+2019-09-27,Radjabov,MVL,H,2019,1
+2019-09-27,Yu Yangyi,Ding Liren,D,2019,0
+2019-09-27,Radjabov,MVL,H,2019,1
+2019-09-28,Yu Yangyi,Ding Liren,D,2019,0
+2019-09-28,Ding Liren,Yu Yangyi,H,2019,1
+2019-09-30,Yu Yangyi,MVL,D,2019,0
+2019-09-30,Radjabov,Ding Liren,D,2019,0
+2019-09-30,Yu Yangyi,MVL,D,2019,0
+2019-09-30,Radjabov,Ding Liren,D,2019,0
+2019-10-01,Ding Liren,Radjabov,H,2019,1
+2019-10-01,Ding Liren,Radjabov,H,2019,1
+2019-10-01,MVL,Yu Yangyi,D,2019,0
+2019-10-01,MVL,Yu Yangyi,D,2019,0
+2019-10-02,Radjabov,Ding Liren,H,2019,1
+2019-10-02,Yu Yangyi,MVL,D,2019,0
+2019-10-02,Yu Yangyi,MVL,D,2019,0
+2019-10-02,Radjabov,Ding Liren,H,2019,1
+2019-10-03,Ding Liren,Radjabov,D,2019,0
+2019-10-03,MVL,Yu Yangyi,D,2019,0
+2019-10-03,Ding Liren,Radjabov,D,2019,0
+2019-10-03,MVL,Yu Yangyi,D,2019,0
+2019-10-04,Radjabov,Ding Liren,H,2019,1
+2019-10-04,Firouzja,Nepomniachtchi,A,2019,-1
+2019-10-04,Caruana,Svidler,H,2019,1
+2019-10-04,Nakamura,So,H,2019,1
+2019-10-04,Nepomniachtchi,Firouzja,H,2019,1
+2019-10-04,Svidler,Caruana,D,2019,0
+2019-10-04,So,Nakamura,A,2019,-1
+2019-10-04,Firouzja,Nepomniachtchi,H,2019,1
+2019-10-04,Svidler,Caruana,D,2019,0
+2019-10-04,So,Nakamura,A,2019,-1
+2019-10-04,Firouzja,Nepomniachtchi,D,2019,0
+2019-10-04,Caruana,Svidler,A,2019,-1
+2019-10-04,Nakamura,So,H,2019,1
+2019-10-04,Caruana,Svidler,D,2019,0
+2019-10-04,Nakamura,So,D,2019,0
+2019-10-04,Nepomniachtchi,Firouzja,D,2019,0
+2019-10-04,MVL,Yu Yangyi,H,2019,1
+2019-10-04,Radjabov,Ding Liren,D,2019,0
+2019-10-04,Yu Yangyi,MVL,A,2019,-1
+2019-10-04,Ding Liren,Radjabov,D,2019,0
+2019-10-04,Ding Liren,Radjabov,D,2019,0
+2019-10-04,Ding Liren,Radjabov,A,2019,-1
+2019-10-04,Firouzja,Nepomniachtchi,D,2019,0
+2019-10-04,So,Nakamura,D,2019,0
+2019-10-04,Svidler,Caruana,A,2019,-1
+2019-10-04,Nepomniachtchi,Firouzja,D,2019,0
+2019-10-04,Radjabov,Ding Liren,D,2019,0
+2019-10-05,So,Svidler,H,2019,1
+2019-10-05,Firouzja,Vidit,H,2019,1
+2019-10-05,Svidler,So,D,2019,0
+2019-10-05,Vidit,Firouzja,D,2019,0
+2019-10-05,Vidit,Firouzja,A,2019,-1
+2019-10-05,Firouzja,Vidit,D,2019,0
+2019-10-05,Firouzja,Vidit,D,2019,0
+2019-10-05,Svidler,So,H,2019,1
+2019-10-05,Svidler,So,D,2019,0
+2019-10-05,Vidit,Firouzja,D,2019,0
+2019-10-05,So,Svidler,D,2019,0
+2019-10-05,So,Svidler,H,2019,1
+2019-10-06,Nepomniachtchi,Firouzja,H,2019,1
+2019-10-06,Nakamura,Caruana,A,2019,-1
+2019-10-06,Firouzja,Nepomniachtchi,D,2019,0
+2019-10-06,Caruana,Nakamura,D,2019,0
+2019-10-06,Firouzja,Nepomniachtchi,H,2019,1
+2019-10-06,Caruana,Nakamura,H,2019,1
+2019-10-06,Nepomniachtchi,Firouzja,H,2019,1
+2019-10-12,Wang Hao,Bu Xiangzhi,H,2019,1
+2019-10-12,Wang Hao,Bu Xiangzhi,H,2019,1
+2019-10-13,Caruana,Wang Hao,D,2019,0
+2019-10-13,Caruana,Wang Hao,D,2019,0
+2019-10-17,Aronian,Wang Hao,H,2019,1
+2019-10-17,Grischuk,Caruana,D,2019,0
+2019-10-17,Aronian,Wang Hao,H,2019,1
+2019-10-18,Wang Hao,Carlsen,D,2019,0
+2019-10-18,Caruana,Aronian,D,2019,0
+2019-10-18,Wang Hao,Carlsen,D,2019,0
+2019-10-19,Vitiugov,Wang Hao,D,2019,0
+2019-10-19,Carlsen,Caruana,D,2019,0
+2019-10-19,Carlsen,Caruana,D,2019,0
+2019-10-19,Vitiugov,Wang Hao,D,2019,0
+2019-10-20,Carlsen,Matlakov,H,2019,1
+2019-10-20,Anand,Wang Hao,A,2019,-1
+2019-10-20,Nakamura,Aronian,D,2019,0
+2019-10-20,Carlsen,Matlakov,H,2019,1
+2019-10-20,Anand,Wang Hao,A,2019,-1
+2019-10-21,Aronian,Carlsen,D,2019,0
+2019-10-21,Nakamura,Caruana,D,2019,0
+2019-10-25,Navara,Duda,D,2019,0
+2019-10-26,Aronian,Navara,D,2019,0
+2019-10-27,Mamedyarov,Navara,D,2019,0
+2019-10-27,Nepomniachtchi,So,D,2019,0
+2019-10-27,Carlsen,Caruana,A,2019,-1
+2019-10-27,So,Nepomniachtchi,D,2019,0
+2019-10-27,Caruana,Carlsen,A,2019,-1
+2019-10-28,Andreikin,Aronian,D,2019,0
+2019-10-28,So,Nepomniachtchi,H,2019,1
+2019-10-28,Caruana,Carlsen,A,2019,-1
+2019-10-28,Nepomniachtchi,So,A,2019,-1
+2019-10-28,Carlsen,Caruana,D,2019,0
+2019-10-29,Carlsen,Caruana,H,2019,1
+2019-10-29,Caruana,Carlsen,A,2019,-1
+2019-10-29,Caruana,Carlsen,H,2019,1
+2019-10-29,So,Nepomniachtchi,D,2019,0
+2019-10-29,Carlsen,Caruana,D,2019,0
+2019-10-29,Nepomniachtchi,So,D,2019,0
+2019-10-29,So,Nepomniachtchi,H,2019,1
+2019-10-31,Caruana,Nepomniachtchi,H,2019,1
+2019-10-31,Carlsen,So,D,2019,0
+2019-10-31,Nepomniachtchi,Caruana,H,2019,1
+2019-10-31,So,Carlsen,H,2019,1
+2019-11-01,Mamedyarov,Aronian,D,2019,0
+2019-11-01,Nepomniachtchi,Caruana,H,2019,1
+2019-11-01,So,Carlsen,H,2019,1
+2019-11-01,Caruana,Nepomniachtchi,D,2019,0
+2019-11-01,Carlsen,So,A,2019,-1
+2019-11-02,So,Carlsen,H,2019,1
+2019-11-02,Caruana,Nepomniachtchi,D,2019,0
+2019-11-02,Caruana,Nepomniachtchi,A,2019,-1
+2019-11-02,Nepomniachtchi,Caruana,H,2019,1
+2019-11-02,Andreikin,Duda,D,2019,0
+2019-11-02,Wojtaszek,Vitiugov,D,2019,0
+2019-11-02,Carlsen,So,D,2019,0
+2019-11-03,Nakamura,Topalov,A,2019,-1
+2019-11-03,MVL,Wei Yi,H,2019,1
+2019-11-03,Wojtaszek,Grischuk,D,2019,0
+2019-11-03,Svidler,Harikrishna,H,2019,1
+2019-11-03,Duda,Nepomniachtchi,H,2019,1
+2019-11-03,Navara,Vitiugov,D,2019,0
+2019-11-05,MVL,Wei Yi,H,2019,1
+2019-11-05,Nakamura,Topalov,A,2019,-1
+2019-11-05,Svidler,Harikrishna,H,2019,1
+2019-11-05,Wojtaszek,Grischuk,D,2019,0
+2019-11-05,Duda,Nepomniachtchi,H,2019,1
+2019-11-05,Navara,Vitiugov,D,2019,0
+2019-11-06,Le Quang Liem,Aronian,D,2019,0
+2019-11-06,Le Quang Liem,Mamedyarov,D,2019,0
+2019-11-06,Artemiev,Anand,A,2019,-1
+2019-11-06,Caruana,Aronian,A,2019,-1
+2019-11-06,Wei Yi,MVL,D,2019,0
+2019-11-06,Grischuk,Wojtaszek,D,2019,0
+2019-11-06,Wei Yi,MVL,D,2019,0
+2019-11-06,Topalov,Nakamura,D,2019,0
+2019-11-06,Harikrishna,Svidler,D,2019,0
+2019-11-06,Vitiugov,Navara,D,2019,0
+2019-11-06,Nepomniachtchi,Duda,D,2019,0
+2019-11-06,Giri,So,H,2019,1
+2019-11-07,Giri,Le Quang Liem,H,2019,1
+2019-11-07,Le Quang Liem,Caruana,A,2019,-1
+2019-11-07,Karjakin,Le Quang Liem,D,2019,0
+2019-11-08,Anand,Le Quang Liem,A,2019,-1
+2019-11-08,Le Quang Liem,Artemiev,D,2019,0
+2019-11-08,Le Quang Liem,So,D,2019,0
+2019-11-08,Anand,Caruana,H,2019,1
+2019-11-08,Mamedyarov,Giri,H,2019,1
+2019-11-08,Topalov,MVL,A,2019,-1
+2019-11-08,Yu Yangyi,Duda,D,2019,0
+2019-11-08,Grischuk,Navara,D,2019,0
+2019-11-08,Topalov,MVL,A,2019,-1
+2019-11-08,Yu Yangyi,Duda,D,2019,0
+2019-11-08,Artemiev,Karjakin,A,2019,-1
+2019-11-09,So,Le Quang Liem,A,2019,-1
+2019-11-09,Le Quang Liem,Mamedyarov,D,2019,0
+2019-11-09,Caruana,Le Quang Liem,D,2019,0
+2019-11-09,Le Quang Liem,Giri,H,2019,1
+2019-11-09,Artemiev,Aronian,A,2019,-1
+2019-11-09,Le Quang Liem,Artemiev,H,2019,1
+2019-11-09,Karjakin,Le Quang Liem,D,2019,0
+2019-11-09,Le Quang Liem,Aronian,D,2019,0
+2019-11-09,MVL,Topalov,D,2019,0
+2019-11-09,Duda,Yu Yangyi,H,2019,1
+2019-11-09,MVL,Topalov,D,2019,0
+2019-11-09,Duda,Yu Yangyi,H,2019,1
+2019-11-09,Navara,Grischuk,A,2019,-1
+2019-11-09,Anand,Le Quang Liem,A,2019,-1
+2019-11-10,So,Artemiev,A,2019,-1
+2019-11-10,Mamedyarov,Le Quang Liem,A,2019,-1
+2019-11-10,Le Quang Liem,So,A,2019,-1
+2019-11-10,Le Quang Liem,Caruana,H,2019,1
+2019-11-10,Giri,Le Quang Liem,H,2019,1
+2019-11-10,Artemiev,Le Quang Liem,D,2019,0
+2019-11-10,Artemiev,Giri,H,2019,1
+2019-11-10,Aronian,Le Quang Liem,H,2019,1
+2019-11-10,Karjakin,Giri,D,2019,0
+2019-11-10,Le Quang Liem,Karjakin,A,2019,-1
+2019-11-10,Aronian,Karjakin,H,2019,1
+2019-11-10,Karjakin,Aronian,D,2019,0
+2019-11-10,Le Quang Liem,Anand,D,2019,0
+2019-11-11,MVL,Grischuk,D,2019,0
+2019-11-11,MVL,Grischuk,D,2019,0
+2019-11-12,Howell,Harikrishna,D,2019,0
+2019-11-12,Andreikin,Matlakov,D,2019,0
+2019-11-12,Dominguez Perez,Mamedyarov,D,2019,0
+2019-11-12,Grischuk,MVL,H,2019,1
+2019-11-12,Grischuk,MVL,H,2019,1
+2019-11-13,Harikrishna,Dominguez Perez,D,2019,0
+2019-11-13,Matlakov,Vidit,D,2019,0
+2019-11-13,Navara,Alekseenko,D,2019,0
+2019-11-15,Dominguez Perez,Rapport,D,2019,0
+2019-11-15,Grischuk,Duda,D,2019,0
+2019-11-16,Rapport,Mamedyarov,D,2019,0
+2019-11-16,Duda,Grischuk,D,2019,0
+2019-11-21,Wei Yi,Wang Hao,D,2019,0
+2019-11-22,Wei Yi,Wang Hao,D,2019,0
+2019-11-22,Wei Yi,Wang Hao,D,2019,0
+2019-11-22,Ding Liren,Vidit,D,2019,0
+2019-11-22,Ding Liren,Vidit,D,2019,0
+2019-11-22,Nepomniachtchi,Anand,H,2019,1
+2019-11-22,Aronian,Carlsen,A,2019,-1
+2019-11-22,So,Harikrishna,D,2019,0
+2019-11-22,Nakamura,Giri,H,2019,1
+2019-11-22,Giri,Aronian,D,2019,0
+2019-11-22,Anand,So,H,2019,1
+2019-11-22,Carlsen,Nepomniachtchi,H,2019,1
+2019-11-22,Harikrishna,Ding Liren,D,2019,0
+2019-11-22,Harikrishna,Ding Liren,D,2019,0
+2019-11-22,Nepomniachtchi,Giri,A,2019,-1
+2019-11-22,Harikrishna,Vidit,D,2019,0
+2019-11-22,Ding Liren,Anand,D,2019,0
+2019-11-22,Ding Liren,Anand,D,2019,0
+2019-11-22,So,Carlsen,D,2019,0
+2019-11-22,Aronian,Nakamura,D,2019,0
+2019-11-22,Vidit,Nakamura,D,2019,0
+2019-11-23,Ding Liren,Aronian,D,2019,0
+2019-11-23,Ding Liren,Aronian,D,2019,0
+2019-11-23,Vidit,Carlsen,D,2019,0
+2019-11-23,Ding Liren,So,A,2019,-1
+2019-11-23,Nepomniachtchi,Ding Liren,A,2019,-1
+2019-11-23,Ding Liren,So,A,2019,-1
+2019-11-23,Nepomniachtchi,Ding Liren,A,2019,-1
+2019-11-24,Carlsen,Ding Liren,H,2019,1
+2019-11-24,Carlsen,Ding Liren,H,2019,1
+2019-11-24,So,Nakamura,A,2019,-1
+2019-11-24,Nakamura,Ding Liren,D,2019,0
+2019-11-24,Ding Liren,Giri,D,2019,0
+2019-11-24,Ding Liren,Giri,D,2019,0
+2019-11-24,Nakamura,Ding Liren,D,2019,0
+2019-11-24,Harikrishna,Carlsen,D,2019,0
+2019-11-25,Harikrishna,Ding Liren,A,2019,-1
+2019-11-25,Ding Liren,Anand,D,2019,0
+2019-11-25,Ding Liren,Anand,D,2019,0
+2019-11-25,Aronian,Ding Liren,H,2019,1
+2019-11-25,Aronian,Ding Liren,H,2019,1
+2019-11-25,Ding Liren,Nepomniachtchi,D,2019,0
+2019-11-25,Ding Liren,Nepomniachtchi,D,2019,0
+2019-11-25,Harikrishna,Ding Liren,A,2019,-1
+2019-11-25,Carlsen,Ding Liren,A,2019,-1
+2019-11-25,Ding Liren,Nakamura,D,2019,0
+2019-11-25,Ding Liren,Nakamura,D,2019,0
+2019-11-25,Giri,Ding Liren,D,2019,0
+2019-11-25,Giri,Ding Liren,D,2019,0
+2019-11-25,Ding Liren,Vidit,A,2019,-1
+2019-11-25,Ding Liren,Vidit,A,2019,-1
+2019-11-25,Giri,Nakamura,D,2019,0
+2019-11-25,So,Ding Liren,D,2019,0
+2019-11-25,So,Ding Liren,D,2019,0
+2019-11-25,Carlsen,Ding Liren,A,2019,-1
+2019-11-26,Ding Liren,Aronian,H,2019,1
+2019-11-26,Anand,Ding Liren,D,2019,0
+2019-11-26,Nepomniachtchi,Ding Liren,A,2019,-1
+2019-11-26,Ding Liren,Carlsen,H,2019,1
+2019-11-26,Ding Liren,Harikrishna,A,2019,-1
+2019-11-26,Ding Liren,Giri,D,2019,0
+2019-11-26,Vidit,Ding Liren,D,2019,0
+2019-11-26,Nakamura,Giri,D,2019,0
+2019-11-26,Ding Liren,So,D,2019,0
+2019-11-26,Nakamura,Ding Liren,D,2019,0
+2019-12-01,Tomashevsky,Alekseenko,D,2019,0
+2019-12-01,Alekseenko,Tomashevsky,D,2019,0
+2019-12-02,Carlsen,MVL,D,2019,0
+2019-12-02,Carlsen,MVL,D,2019,0
+2019-12-02,Aronian,Ding Liren,D,2019,0
+2019-12-03,Ding Liren,Aronian,D,2019,0
+2019-12-03,MVL,Carlsen,D,2019,0
+2019-12-03,Ding Liren,Aronian,D,2019,0
+2019-12-03,MVL,Carlsen,D,2019,0
+2019-12-04,Aronian,Ding Liren,H,2019,1
+2019-12-04,Carlsen,MVL,D,2019,0
+2019-12-04,Ding Liren,Aronian,H,2019,1
+2019-12-04,MVL,Carlsen,D,2019,0
+2019-12-04,Carlsen,MVL,A,2019,-1
+2019-12-04,Carlsen,MVL,A,2019,-1
+2019-12-04,MVL,Carlsen,A,2019,-1
+2019-12-04,MVL,Carlsen,D,2019,0
+2019-12-04,MVL,Carlsen,D,2019,0
+2019-12-04,Aronian,Ding Liren,A,2019,-1
+2019-12-04,Aronian,Ding Liren,A,2019,-1
+2019-12-04,Ding Liren,Aronian,D,2019,0
+2019-12-04,Ding Liren,Aronian,H,2019,1
+2019-12-04,Carlsen,MVL,D,2019,0
+2019-12-06,MVL,Ding Liren,D,2019,0
+2019-12-06,Carlsen,Aronian,H,2019,1
+2019-12-06,MVL,Ding Liren,D,2019,0
+2019-12-06,Wang Hao,Harikrishna,D,2019,0
+2019-12-07,Aronian,Carlsen,D,2019,0
+2019-12-07,Ding Liren,MVL,H,2019,1
+2019-12-07,Aronian,Carlsen,D,2019,0
+2019-12-07,Ding Liren,MVL,H,2019,1
+2019-12-07,Wang Hao,Harikrishna,D,2019,0
+2019-12-08,MVL,Ding Liren,H,2019,1
+2019-12-08,Ding Liren,MVL,D,2019,0
+2019-12-08,MVL,Ding Liren,H,2019,1
+2019-12-08,Ding Liren,MVL,A,2019,-1
+2019-12-08,Ding Liren,MVL,H,2019,1
+2019-12-08,Ding Liren,MVL,A,2019,-1
+2019-12-08,MVL,Ding Liren,D,2019,0
+2019-12-11,Navara,Wang Hao,D,2019,0
+2019-12-11,Wei Yi,Giri,D,2019,0
+2019-12-11,Yu Yangyi,So,D,2019,0
+2019-12-11,Topalov,MVL,D,2019,0
+2019-12-12,Wang Hao,Navara,D,2019,0
+2019-12-12,Giri,Wei Yi,D,2019,0
+2019-12-12,So,Yu Yangyi,H,2019,1
+2019-12-12,MVL,Topalov,D,2019,0
+2019-12-13,Wang Hao,Navara,D,2019,0
+2019-12-13,Harikrishna,Karjakin,D,2019,0
+2019-12-13,Navara,Wang Hao,H,2019,1
+2019-12-13,Wang Hao,Navara,D,2019,0
+2019-12-13,Navara,Wang Hao,D,2019,0
+2019-12-13,Wei Yi,Giri,H,2019,1
+2019-12-13,Wang Hao,Navara,D,2019,0
+2019-12-13,Giri,Wei Yi,D,2019,0
+2019-12-13,Topalov,MVL,A,2019,-1
+2019-12-13,Navara,Wang Hao,D,2019,0
+2019-12-13,MVL,Topalov,H,2019,1
+2019-12-14,MVL,Andreikin,D,2019,0
+2019-12-14,So,Nepomniachtchi,D,2019,0
+2019-12-14,Karjakin,Wei Yi,D,2019,0
+2019-12-14,MVL,Andreikin,D,2019,0
+2019-12-14,Karjakin,Wei Yi,D,2019,0
+2019-12-15,Wei Yi,Karjakin,D,2019,0
+2019-12-15,Andreikin,MVL,D,2019,0
+2019-12-15,Nepomniachtchi,So,D,2019,0
+2019-12-15,Wei Yi,Karjakin,D,2019,0
+2019-12-15,Andreikin,MVL,D,2019,0
+2019-12-16,Karjakin,Wei Yi,A,2019,-1
+2019-12-16,Wei Yi,Karjakin,D,2019,0
+2019-12-16,MVL,Andreikin,D,2019,0
+2019-12-16,Andreikin,MVL,A,2019,-1
+2019-12-16,Wei Yi,Karjakin,H,2019,1
+2019-12-16,Karjakin,Wei Yi,H,2019,1
+2019-12-17,Nepomniachtchi,MVL,H,2019,1
+2019-12-17,Wei Yi,Navara,D,2019,0
+2019-12-17,Nepomniachtchi,MVL,H,2019,1
+2019-12-17,Wei Yi,Navara,D,2019,0
+2019-12-18,MVL,Nepomniachtchi,D,2019,0
+2019-12-18,Navara,Wei Yi,D,2019,0
+2019-12-18,Navara,Wei Yi,D,2019,0
+2019-12-18,MVL,Nepomniachtchi,D,2019,0
+2019-12-19,Navara,Wei Yi,D,2019,0
+2019-12-19,Wei Yi,Navara,H,2019,1
+2019-12-21,Wei Yi,Nepomniachtchi,A,2019,-1
+2019-12-21,Wei Yi,Nepomniachtchi,A,2019,-1
+2019-12-22,Nepomniachtchi,Wei Yi,D,2019,0
+2019-12-22,Nepomniachtchi,Wei Yi,D,2019,0
+2019-12-22,Ding Liren,Bu Xiangzhi,D,2019,0
+2019-12-22,Yu Yangyi,Wang Hao,D,2019,0
+2019-12-22,Bu Xiangzhi,Yu Yangyi,D,2019,0
+2019-12-22,Yu Yangyi,Ding Liren,D,2019,0
+2019-12-22,Ding Liren,Wang Hao,D,2019,0
+2019-12-22,Bu Xiangzhi,Ding Liren,D,2019,0
+2019-12-22,Wang Hao,Yu Yangyi,H,2019,1
+2019-12-22,Wang Hao,Bu Xiangzhi,D,2019,0
+2019-12-23,Ding Liren,Bu Xiangzhi,D,2019,0
+2019-12-23,Ding Liren,Yu Yangyi,D,2019,0
+2019-12-23,Bu Xiangzhi,Wang Hao,D,2019,0
+2019-12-23,Yu Yangyi,Bu Xiangzhi,D,2019,0
+2019-12-23,Wang Hao,Ding Liren,D,2019,0
+2019-12-26,Le Quang Liem,Vallejo Pons,D,2019,0
+2019-12-27,Yu Yangyi,Firouzja,D,2019,0
+2019-12-27,Wang Hao,MVL,D,2019,0
+2019-12-27,Carlsen,Le Quang Liem,H,2019,1
+2019-12-27,Mamedyarov,Wang Hao,D,2019,0
+2019-12-27,MVL,Mamedyarov,H,2019,1
+2019-12-27,Carlsen,Wang Hao,D,2019,0
+2019-12-27,Wang Hao,Nepomniachtchi,D,2019,0
+2019-12-28,Firouzja,Le Quang Liem,H,2019,1
+2019-12-28,Le Quang Liem,Vidit,H,2019,1
+2019-12-28,Nepomniachtchi,Yu Yangyi,A,2019,-1
+2019-12-28,Wang Hao,Firouzja,A,2019,-1
+2019-12-28,Artemiev,MVL,H,2019,1
+2019-12-28,Nakamura,MVL,D,2019,0
+2019-12-28,MVL,Duda,D,2019,0
+2019-12-28,Le Quang Liem,Aronian,A,2019,-1
+2019-12-28,Dominguez Perez,Wang Hao,H,2019,1
+2019-12-28,Aronian,Wang Hao,D,2019,0
+2019-12-28,MVL,Carlsen,D,2019,0
+2019-12-29,Firouzja,Yu Yangyi,A,2019,-1
+2019-12-29,Yu Yangyi,Duda,D,2019,0
+2019-12-29,Yu Yangyi,Andreikin,D,2019,0
+2019-12-29,Le Quang Liem,Tomashevsky,D,2019,0
+2019-12-30,Yu Yangyi,Aronian,D,2019,0
+2019-12-30,Wang Hao,Duda,D,2019,0
+2019-12-30,Yu Yangyi,Carlsen,D,2019,0
+2019-12-30,Wojtaszek,Wang Hao,D,2019,0
+2019-12-30,Firouzja,Wang Hao,D,2019,0
+2019-12-30,Kramnik,Firouzja,H,2019,1
+2019-12-30,MVL,Kramnik,D,2019,0
+2019-12-30,MVL,Wang Hao,D,2019,0
+2019-12-30,Yu Yangyi,Vidit,H,2019,1
+2019-12-30,Giri,Firouzja,A,2019,-1
+2019-12-30,Nakamura,MVL,H,2019,1
+2019-12-30,Artemiev,MVL,D,2019,0
+2019-12-30,Giri,Yu Yangyi,D,2019,0
+2019-12-30,MVL,Carlsen,D,2019,0
+2019-12-30,MVL,Aronian,H,2019,1
+2019-12-30,Nakamura,Yu Yangyi,H,2019,1
+2019-12-30,Kramnik,Yu Yangyi,H,2019,1
+2020-01-11,Vitiugov,Duda,D,2020,0
+2020-01-11,Anand,Artemiev,D,2020,0
+2020-01-11,Caruana,So,D,2020,0
+2020-01-11,Carlsen,Giri,D,2020,0
+2020-01-11,Vitiugov,Duda,D,2020,0
+2020-01-12,Yu Yangyi,Carlsen,D,2020,0
+2020-01-12,Yu Yangyi,Carlsen,D,2020,0
+2020-01-12,Duda,Firouzja,D,2020,0
+2020-01-12,Artemiev,Vitiugov,H,2020,1
+2020-01-12,Giri,Caruana,D,2020,0
+2020-01-12,So,Anand,H,2020,1
+2020-01-13,Firouzja,Artemiev,H,2020,1
+2020-01-13,Carlsen,Xiong,D,2020,0
+2020-01-13,Caruana,Yu Yangyi,H,2020,1
+2020-01-13,Anand,Giri,D,2020,0
+2020-01-13,Vitiugov,So,D,2020,0
+2020-01-13,Vitiugov,So,D,2020,0
+2020-01-13,Firouzja,Artemiev,H,2020,1
+2020-01-13,Caruana,Yu Yangyi,H,2020,1
+2020-01-14,So,Firouzja,H,2020,1
+2020-01-14,Yu Yangyi,Anand,D,2020,0
+2020-01-14,Giri,Vitiugov,D,2020,0
+2020-01-14,Xiong,Caruana,D,2020,0
+2020-01-14,So,Firouzja,H,2020,1
+2020-01-14,Yu Yangyi,Anand,D,2020,0
+2020-01-16,Firouzja,Giri,H,2020,1
+2020-01-16,Duda,Artemiev,D,2020,0
+2020-01-16,Anand,Xiong,H,2020,1
+2020-01-16,Vitiugov,Yu Yangyi,D,2020,0
+2020-01-16,Vitiugov,Yu Yangyi,D,2020,0
+2020-01-16,Duda,Artemiev,D,2020,0
+2020-01-17,Xiong,Vitiugov,D,2020,0
+2020-01-17,Yu Yangyi,Firouzja,D,2020,0
+2020-01-17,So,Duda,D,2020,0
+2020-01-17,Carlsen,Caruana,D,2020,0
+2020-01-17,Yu Yangyi,Firouzja,D,2020,0
+2020-01-18,Duda,Giri,D,2020,0
+2020-01-18,Artemiev,So,D,2020,0
+2020-01-18,Firouzja,Xiong,H,2020,1
+2020-01-18,Anand,Carlsen,D,2020,0
+2020-01-19,Caruana,Anand,H,2020,1
+2020-01-19,Yu Yangyi,Duda,A,2020,-1
+2020-01-19,Giri,Artemiev,D,2020,0
+2020-01-19,Carlsen,Vitiugov,H,2020,1
+2020-01-19,Yu Yangyi,Duda,A,2020,-1
+2020-01-21,Duda,Xiong,D,2020,0
+2020-01-21,Artemiev,Yu Yangyi,D,2020,0
+2020-01-21,Firouzja,Carlsen,A,2020,-1
+2020-01-21,So,Giri,D,2020,0
+2020-01-21,Vitiugov,Caruana,D,2020,0
+2020-01-21,Artemiev,Yu Yangyi,D,2020,0
+2020-01-21,Duda,Xiong,D,2020,0
+2020-01-22,Xiong,Artemiev,H,2020,1
+2020-01-22,Yu Yangyi,So,D,2020,0
+2020-01-22,Anand,Vitiugov,D,2020,0
+2020-01-22,Yu Yangyi,So,D,2020,0
+2020-01-22,Caruana,Firouzja,H,2020,1
+2020-01-24,Firouzja,Anand,A,2020,-1
+2020-01-24,Duda,Carlsen,D,2020,0
+2020-01-24,Giri,Yu Yangyi,D,2020,0
+2020-01-24,So,Xiong,D,2020,0
+2020-01-24,Giri,Yu Yangyi,D,2020,0
+2020-01-25,Xiong,Giri,D,2020,0
+2020-01-25,Carlsen,Artemiev,D,2020,0
+2020-01-25,Vitiugov,Firouzja,D,2020,0
+2020-01-25,Caruana,Duda,H,2020,1
+2020-01-26,Artemiev,Caruana,A,2020,-1
+2020-01-26,Yu Yangyi,Xiong,D,2020,0
+2020-01-26,Duda,Anand,D,2020,0
+2020-01-26,So,Carlsen,D,2020,0
+2020-01-26,Yu Yangyi,Xiong,D,2020,0
+2020-02-08,Navara,Vitiugov,H,2020,1
+2020-02-09,Vitiugov,Harikrishna,D,2020,0
+2020-02-12,Navara,Duda,A,2020,-1
+2020-02-13,Harikrishna,Duda,D,2020,0
+2020-02-14,Firouzja,Harikrishna,H,2020,1
+2020-02-15,Firouzja,Vitiugov,D,2020,0
+2020-02-16,Vitiugov,Harikrishna,D,2020,0
+2020-02-16,Vidit,Firouzja,H,2020,1
+2020-02-18,Vitiugov,Vidit,D,2020,0
+2020-02-18,Firouzja,Navara,D,2020,0
+2020-02-19,Duda,Firouzja,A,2020,-1
+2020-02-19,Navara,Vitiugov,D,2020,0
+2020-02-19,Vidit,Harikrishna,D,2020,0
+2020-02-20,Vitiugov,Duda,D,2020,0
+2020-02-20,Vidit,Navara,A,2020,-1
+2020-02-20,Vitiugov,Duda,D,2020,0
+2020-02-21,Navara,Harikrishna,A,2020,-1
+2020-02-21,Duda,Vidit,H,2020,1
