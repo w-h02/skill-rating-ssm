@@ -6,7 +6,7 @@ from tqdm import tqdm
 import pickle
 from datetime import datetime
 
-# Import your classes (Ensure these are in your smc_filtering_smoothing.py)
+# Import classes
 from smc_filtering_smoothing import (
     PairwiseSkillFilter, 
     EM_Estimator, 
@@ -59,8 +59,8 @@ def main():
     print(" "*20 + "FOOTBALL SKILL RATING (CUSTOM DATA)")
     print("="*80 + "\n")
     script_dir = os.path.dirname(os.path.abspath(__file__))
-    # 1. LOAD DATA 
-    # Use the absolute path if relative paths are failing
+    # LOAD DATA 
+
     csv_path = os.path.join(script_dir, '../cleaned_data/cleaned_data_football.csv')
     csv_path = os.path.abspath(csv_path)
     print(f"Looking for data at: {csv_path}")
@@ -87,20 +87,17 @@ def main():
         print(f"Available seasons: {df['season'].unique()}")
         return
 
-    # 2. DATE CONVERSION
+    # DATE CONVERSION
     print("Converting dates...")
-    # Your date format is YYYY-MM-DD, which pandas handles automatically usually
     season_df['date'] = pd.to_datetime(season_df['date'])
     season_df = season_df.sort_values('date')
     
-    # 3. CREATE TEAM MAPPINGS
+    # CREATE TEAM MAPPINGS
     unique_teams = sorted(list(set(season_df['home_team'].unique()) | set(season_df['away_team'].unique())))
     team_to_id = {team: i for i, team in enumerate(unique_teams)}
     num_teams = len(unique_teams)
     
-    # 4. PREPARE MATCH LIST
-    # Mapping 'result' (H, D, A) to numbers (1, 0, -1)
-    # We ignore 'result_code' from CSV to ensure standard logic
+    # PREPARE MATCH LIST
     matches = []
     
     for _, row in season_df.iterrows():
@@ -122,7 +119,7 @@ def main():
         
     print(f"Successfully processed {len(matches)} matches for {num_teams} teams.")
 
-    # 5. RUN EM ALGORITHM
+    # RUN EM ALGORITHM
     print("\nSTEP 2: Estimating Parameters (EM)...")
     em_estimator = EM_Estimator(
         matches=matches,
@@ -139,7 +136,7 @@ def main():
     
     print(f"FINAL ESTIMATES -> Volatility: {best_sigma_sq:.5f}, Draw Threshold: {best_epsilon:.5f}")
 
-    # 6. VISUALIZATIONS
+    # VISUALIZATIONS
     print("\nSTEP 3: Visualizing...")
     
     Visualizer.plot_em_convergence(em_results['em_history'])
@@ -156,7 +153,7 @@ def main():
         teams=unique_teams
     )
     
-    # 7. GRID SEARCH
+    # GRID SEARCH
     print("\nSTEP 4: Computing Likelihood Surface...")
     sigma_range = (max(0.001, best_sigma_sq - 0.05), best_sigma_sq + 0.05)
     eps_range = (max(0.1, best_epsilon - 0.2), best_epsilon + 0.2)

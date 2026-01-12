@@ -65,7 +65,6 @@ class PairwiseSkillFilter():
         self.sigma_obs_sq = sigma_obs_sq
         self.draw_threshold = draw_threshold
     
-        # Remove self.models and self.filters - we don't need them for manual approach
         self.particles = {}  # particles per team
         self.weights = {}    # weights per team
 
@@ -173,17 +172,17 @@ class PairwiseSkillFilter():
         scale = np.sqrt(2 * self.sigma_obs_sq)
     
         if outcome == 1:  # Home Win
-            # Logic: Performance must be GREATER than the draw threshold
+            #Performance must be GREATER than the draw threshold
             # P(d + noise > epsilon)
             return max(norm.cdf((skill_diff - self.draw_threshold) / scale), 1e-10)
         
         elif outcome == -1:  # Away Win
-            # Logic: Performance must be LESS than negative draw threshold
+            # Performance must be LESS than negative draw threshold
             # P(d + noise < -epsilon)
             return max(norm.cdf((-skill_diff - self.draw_threshold) / scale), 1e-10)
         
         else:  # Draw
-            # Logic: Performance is BETWEEN -epsilon and epsilon
+            # Performance is BETWEEN -epsilon and epsilon
             z_upper = (self.draw_threshold - skill_diff) / scale
             z_lower = (-self.draw_threshold - skill_diff) / scale
             return max(norm.cdf(z_upper) - norm.cdf(z_lower), 1e-10)
@@ -245,15 +244,15 @@ def calculate_match_log_lik(skill_diff, outcome, sigma_obs_sq, draw_threshold):
     epsilon = draw_threshold
     
     if outcome == 1:  # Home Win
-        # Probit: P(diff + noise > epsilon)
+        # P(diff + noise > epsilon)
         p = norm.cdf((skill_diff - epsilon) / scale)
         
     elif outcome == -1:  # Away Win
-        # Probit: P(diff + noise < -epsilon)
+        # P(diff + noise < -epsilon)
         p = norm.cdf((-skill_diff - epsilon) / scale)
         
     else:  # Draw
-        # Probit: P(-epsilon < diff + noise < epsilon)
+        # P(-epsilon < diff + noise < epsilon)
         z_upper = (epsilon - skill_diff) / scale
         z_lower = (-epsilon - skill_diff) / scale
         p = norm.cdf(z_upper) - norm.cdf(z_lower)
@@ -270,7 +269,7 @@ class EM_Estimator:
         self.max_iterations = max_iterations
         self.tolerance = tolerance
         
-        # FIXED parameter (Scale identifiability constraint - Slide 8)
+        # FIXED parameter 
         self.fixed_sigma_obs_sq = 1.0 
 
     def run_EM(self, save_path="em_results.pkl"):
@@ -280,7 +279,6 @@ class EM_Estimator:
             with open(save_path, "rb") as f:
                 return pickle.load(f)
 
-        # Initialize parameters to estimate
         sigma_sq = 0.1         # Initial guess for volatility
         draw_threshold = 0.3   # Initial guess for draw width
         
@@ -292,7 +290,6 @@ class EM_Estimator:
             print(f"--- Iteration {it+1}/{self.max_iterations} ---")
             
             # === E-STEP: Run Filter with current params ===
-            # Note: PairwiseSkillFilter must utilize calculate_match_log_lik internally!
             pf = PairwiseSkillFilter(
                 self.num_teams, self.num_particles, 
                 sigma_sq, self.fixed_sigma_obs_sq, draw_threshold
@@ -306,13 +303,12 @@ class EM_Estimator:
 
             # === M-STEP: Update Parameters ===
             
-            # 1. Update Sigma Squared (Volatility)
+            # Update Sigma Squared (Volatility)
             # Formula: Mean squared displacement / delta_t
-            # (Assuming you fixed the filter to use delta_t, otherwise just simple variance)
+
             sq_diffs = 0
             count = 0
             for t in range(1, len(skill_history)):
-                # Here we simplify assuming delta_t=1 for M-step or use actual dates if tracked
                 for team in range(self.num_teams):
                     diff = skill_history[t][team] - skill_history[t-1][team]
                     sq_diffs += diff ** 2
@@ -320,7 +316,7 @@ class EM_Estimator:
             
             new_sigma_sq = sq_diffs / count
             
-            # 2. Update Draw Threshold (Epsilon)
+            # Update Draw Threshold (Epsilon)
             # We maximize the likelihood of outcomes given the fixed skills from E-step
             res = optimize.minimize_scalar(
                 lambda eps: -self._objective_epsilon(eps, skill_history),
@@ -340,7 +336,6 @@ class EM_Estimator:
             draw_threshold = new_draw_threshold
 
         # === FINAL RUN ===
-        # Run one last time with optimal parameters to get the best trajectories
         final_pf = PairwiseSkillFilter(
             self.num_teams, self.num_particles, 
             sigma_sq, self.fixed_sigma_obs_sq, draw_threshold
@@ -375,8 +370,6 @@ class EM_Estimator:
             total_log_lik += lik
         return total_log_lik
 
-import matplotlib.pyplot as plt
-import numpy as np
 
 class Visualizer:
     """
@@ -407,21 +400,16 @@ class Visualizer:
         fig, ax = plt.subplots(figsize=(10, 8))
         
         # Create meshgrid for contour plot
-        # Note: contourf expects X (columns) and Y (rows)
         X, Y = np.meshgrid(epsilon_vals, sigma_sq_vals)
         
-        # Contour plot (filled)
-        # Transpose might be needed depending on how you built the grid. 
-        # Usually grid[i, j] corresponds to sigma[i] and epsilon[j].
         contour = ax.contourf(X, Y, log_lik_grid, levels=25, cmap='viridis')
         cbar = plt.colorbar(contour, ax=ax)
         cbar.set_label('Log-Likelihood', rotation=270, labelpad=20)
         
-        # Contour lines for better readability
         ax.contour(X, Y, log_lik_grid, levels=10, colors='white', 
                   alpha=0.3, linewidths=0.5)
         
-        # Mark the Final Estimate
+        # Final Estimate
         ax.plot(best_epsilon, best_sigma_sq, 'r*', markersize=20, 
                label='Final Estimate', markeredgecolor='white', markeredgewidth=1.5)
         
@@ -430,7 +418,6 @@ class Visualizer:
             path_sigma = em_history['sigma_sq']
             path_eps = em_history['draw_threshold']
             
-            # Plot the path
             ax.plot(path_eps, path_sigma, 'w--', 
                    linewidth=2, label='EM Path', alpha=0.8)
             
@@ -438,9 +425,7 @@ class Visualizer:
             ax.plot(path_eps[0], path_sigma[0], 'go', 
                    markersize=10, label='Start', markeredgecolor='white')
             
-            # Add arrows
             if len(path_eps) > 1:
-                # Add an arrow for the first step
                 ax.annotate('', 
                            xy=(path_eps[1], path_sigma[1]),
                            xytext=(path_eps[0], path_sigma[0]),
@@ -473,15 +458,11 @@ class Visualizer:
             teams_to_plot = [teams[tid] for tid in top_team_ids]
         
         fig, ax = plt.subplots(figsize=(12, 6))
-        
-        # Use specific colors if you want to match your presentation style
-        # or use a qualitative colormap
+
         colors = plt.cm.tab10(np.linspace(0, 1, len(teams_to_plot)))
         
         for idx, team_name in enumerate(teams_to_plot):
             team_id = team_to_id[team_name]
-            
-            # Extract trajectory
             trajectory = [skill_history[t][team_id] for t in range(len(skill_history))]
             
             ax.plot(trajectory, label=team_name, linewidth=2, color=colors[idx], alpha=0.8)
@@ -515,13 +496,13 @@ class Visualizer:
         
         fig, axes = plt.subplots(2, 1, figsize=(10, 8), sharex=True)
         
-        # 1. Log-Likelihood Plot
+        # Log-Likelihood Plot
         axes[0].plot(iterations, log_liks, 'b-o', linewidth=2, markersize=5)
         axes[0].set_ylabel('Log-Likelihood', fontsize=11)
         axes[0].set_title('EM Convergence: Log-Likelihood', fontsize=12, fontweight='bold')
         axes[0].grid(True, alpha=0.3)
         
-        # 2. Parameters Plot (Dual Axis)
+        # Parameters Plot 
         ax2 = axes[1]
         ax2.plot(iterations, sigma_sqs, 'r-o', linewidth=2, markersize=5, 
                  label=r'$\tau^2$ (Skill Evolution)')
@@ -562,15 +543,13 @@ class Visualizer:
             ranking.append((team_name, final_skills[i]))
         
         # Sort descending
-        ranking.sort(key=lambda x: x[1], reverse=False) # Reverse False for barh (bottom to top)
+        ranking.sort(key=lambda x: x[1], reverse=False) 
         
         names = [x[0] for x in ranking]
         values = [x[1] for x in ranking]
         
         fig, ax = plt.subplots(figsize=(8, len(teams) * 0.4))
         
-        # Color gradient based on value
-        # Normalize values to 0-1 for colormap
         norm = plt.Normalize(min(values), max(values))
         colors = plt.cm.RdYlGn(norm(values))
         
@@ -580,8 +559,7 @@ class Visualizer:
         ax.set_title(f'Final Team Rankings (Season End)', fontweight='bold')
         ax.axvline(0, color='black', linewidth=0.8)
         ax.grid(axis='x', alpha=0.3, linestyle='--')
-        
-        # Add values on bars
+
         for bar, val in zip(bars, values):
             width = bar.get_width()
             label_x_pos = width + (0.1 if width >= 0 else -0.1)
