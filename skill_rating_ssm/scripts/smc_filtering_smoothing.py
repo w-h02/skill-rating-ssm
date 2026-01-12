@@ -9,6 +9,8 @@ from scipy import optimize
 import matplotlib.pyplot as plt
 import pandas as pd
 from tqdm import tqdm
+import pickle
+import os
 
 # ssm model
 class SkillRatingModel(ssm.StateSpaceModel):
@@ -86,14 +88,21 @@ class PairwiseSkillFilter():
         OUTPUT:
             particles, weights, skill_history, log_likelihood
         """
+        previous_date = matches[0]['date']
         
         for match in tqdm(matches, desc="Processing matches", leave=False):
             team_home = match['team_h']
             team_away = match['team_a']
             outcome = match['outcome']
+            current_date = match['date']
 
+            delta_t = (current_date - previous_date).days
+            delta_t = max(0, delta_t)
             # PREDICT STEP: propagate all teams forward
-            self.predict_all_teams()
+            if delta_t > 0:
+                self.predict_all_teams(delta_t)
+            
+            previous_date = current_date
 
             # UPDATE STEP: update only teams home and away
             match_log_lik = self.pairwise_update(team_home, team_away, outcome)
@@ -109,19 +118,19 @@ class PairwiseSkillFilter():
 
         return self.particles, self.weights, self.skill_history, self.log_likelihood
     
-    def predict_all_teams(self):
+    def predict_all_teams(self, delta_t = 1):
         for team_id in range(self.num_teams):
             noise = np.random.normal(
                 loc=0.0,
-                scale=np.sqrt(self.sigma_sq),
+                scale=np.sqrt(self.sigma_sq * delta_t),
                 size=self.num_particles
             )
             self.particles[team_id] += noise
 
     
     def pairwise_update(self, team_home, team_away, outcome):
-        # Update weights for teams home and away based on match outcome
 
+        # Update weights for teams home and away based on match outcome
         particles_h, weights_h = self.particles[team_home], self.weights[team_home]
         particles_a, weights_a = self.particles[team_away], self.weights[team_away]
 
@@ -158,23 +167,26 @@ class PairwiseSkillFilter():
 
     def compute_match_probability(self, skill_diff, outcome):
         """
-        Compute P(outcome | skill_diff) using the Thurstone-Mosteller model
-        Input: skill_diff : Skill difference between the teams, 
-                outcome :  1 for win home, 0 for draw, -1 for win away
-        Output: probability of win or draw depending on the outcome
+        Compute P(outcome | skill_diff) 
         """
-
-        z = skill_diff / (np.sqrt(2 * self.sigma_obs_sq))
-        if outcome == 1:
-            prob = norm.cdf(z)
-        elif outcome == -1:
-            prob = norm.cdf(-z)
-        else:
-            z_upper = (self.draw_threshold - skill_diff) / (np.sqrt(2 * self.sigma_obs_sq))
-            z_lower = (-self.draw_threshold - skill_diff) / (np.sqrt(2 * self.sigma_obs_sq))
-            prob = norm.cdf(z_upper) - norm.cdf(z_lower)
-
-        return max(prob, 1e-10)
+        # Denominator s = sqrt(2 * sigma_obs^2)
+        scale = np.sqrt(2 * self.sigma_obs_sq)
+    
+        if outcome == 1:  # Home Win
+            # Logic: Performance must be GREATER than the draw threshold
+            # P(d + noise > epsilon)
+            return max(norm.cdf((skill_diff - self.draw_threshold) / scale), 1e-10)
+        
+        elif outcome == -1:  # Away Win
+            # Logic: Performance must be LESS than negative draw threshold
+            # P(d + noise < -epsilon)
+            return max(norm.cdf((-skill_diff - self.draw_threshold) / scale), 1e-10)
+        
+        else:  # Draw
+            # Logic: Performance is BETWEEN -epsilon and epsilon
+            z_upper = (self.draw_threshold - skill_diff) / scale
+            z_lower = (-self.draw_threshold - skill_diff) / scale
+            return max(norm.cdf(z_upper) - norm.cdf(z_lower), 1e-10)
     
     def resample(self, team_id):
         """
@@ -222,669 +234,362 @@ class PairwiseSkillFilter():
         
         return current_skills
     
+# Calculate match log likelihood
+
+def calculate_match_log_lik(skill_diff, outcome, sigma_obs_sq, draw_threshold):
+    """
+    Computes log P(y | diff, parameters) for the Ordered Probit model.
+    Used by both the Filter (for weighting) and the EM (for optimization).
+    """
+    scale = np.sqrt(2 * sigma_obs_sq)
+    epsilon = draw_threshold
+    
+    if outcome == 1:  # Home Win
+        # Probit: P(diff + noise > epsilon)
+        p = norm.cdf((skill_diff - epsilon) / scale)
+        
+    elif outcome == -1:  # Away Win
+        # Probit: P(diff + noise < -epsilon)
+        p = norm.cdf((-skill_diff - epsilon) / scale)
+        
+    else:  # Draw
+        # Probit: P(-epsilon < diff + noise < epsilon)
+        z_upper = (epsilon - skill_diff) / scale
+        z_lower = (-epsilon - skill_diff) / scale
+        p = norm.cdf(z_upper) - norm.cdf(z_lower)
+        
+    return np.log(max(p, 1e-10)) # Avoid log(0)
 
 # EM Algorithm
 
-class EM_Estimator():
-    def __init__(self, matches, num_teams, num_particles=1000, 
-                     max_iterations=50, tolerance=1e-4, draw_threshold = 0.5):
+class EM_Estimator:
+    def __init__(self, matches, num_teams, num_particles=1000, max_iterations=30, tolerance=1e-4):
         self.matches = matches
         self.num_teams = num_teams
         self.num_particles = num_particles
         self.max_iterations = max_iterations
         self.tolerance = tolerance
-        self.draw_threshold = draw_threshold
-    
-    def run_EM(self):
-        # Initialize parameters
-        sigma_sq = 0.1  # initial guess
-        sigma_obs_sq = 1.0  # initial guess
         
-        param_history = []
-        log_likelihood_history = []
-        
-        print("Starting EM algorithm...")
-        print(f"Initial parameters: sigma_sq = {sigma_sq:.4f}, sigma_obs_sq = {sigma_obs_sq:.4f}")
-        
-        for iteration in tqdm(range(self.max_iterations), desc="EM Iterations"):
-            print(f"\n{'=' * 60}")
-            print(f"EM Iteration: {iteration + 1}/{self.max_iterations}")
-            print(f"{'=' * 60}")
+        # FIXED parameter (Scale identifiability constraint - Slide 8)
+        self.fixed_sigma_obs_sq = 1.0 
 
-            # ========== E-step ========== 
-            # Run particle filter with current parameters
+    def run_EM(self, save_path="em_results.pkl"):
+        # Check if results already exist
+        if os.path.exists(save_path):
+            print(f"Loading cached results from {save_path}...")
+            with open(save_path, "rb") as f:
+                return pickle.load(f)
+
+        # Initialize parameters to estimate
+        sigma_sq = 0.1         # Initial guess for volatility
+        draw_threshold = 0.3   # Initial guess for draw width
+        
+        history_log = {'sigma_sq': [], 'draw_threshold': [], 'log_lik': []}
+
+        print(f"Starting EM... Fixing sigma_obs_sq={self.fixed_sigma_obs_sq}")
+        
+        for it in range(self.max_iterations):
+            print(f"--- Iteration {it+1}/{self.max_iterations} ---")
+            
+            # === E-STEP: Run Filter with current params ===
+            # Note: PairwiseSkillFilter must utilize calculate_match_log_lik internally!
             pf = PairwiseSkillFilter(
-                num_teams = self.num_teams,
-                num_particles = self.num_particles,
-                sigma_sq = sigma_sq,
-                sigma_obs_sq = sigma_obs_sq,
-                draw_threshold = self.draw_threshold
+                self.num_teams, self.num_particles, 
+                sigma_sq, self.fixed_sigma_obs_sq, draw_threshold
             )
+            _, _, skill_history, log_lik = pf.run_filter(self.matches)
             
-            print("Running particle filter...")
-            particles, weights, skill_history, log_lik = pf.run_filter(self.matches)
+            history_log['log_lik'].append(log_lik)
+            history_log['sigma_sq'].append(sigma_sq)
+            history_log['draw_threshold'].append(draw_threshold)
+            print(f"Log-Likelihood: {log_lik:.2f} | sigma_sq: {sigma_sq:.4f} | epsilon: {draw_threshold:.4f}")
+
+            # === M-STEP: Update Parameters ===
             
-            param_history.append([sigma_sq, sigma_obs_sq])
-            log_likelihood_history.append(log_lik)
+            # 1. Update Sigma Squared (Volatility)
+            # Formula: Mean squared displacement / delta_t
+            # (Assuming you fixed the filter to use delta_t, otherwise just simple variance)
+            sq_diffs = 0
+            count = 0
+            for t in range(1, len(skill_history)):
+                # Here we simplify assuming delta_t=1 for M-step or use actual dates if tracked
+                for team in range(self.num_teams):
+                    diff = skill_history[t][team] - skill_history[t-1][team]
+                    sq_diffs += diff ** 2
+                    count += 1
             
-            print(f"Log-likelihood: {log_lik:.4f}")
-            print(f"Current parameters: sigma_sq = {sigma_sq:.6f}, sigma_obs_sq = {sigma_obs_sq:.6f}")
+            new_sigma_sq = sq_diffs / count
             
-            # ========== M-STEP ==========
-            print("Updating parameters...")
-            
-            sigma_sq_new = self.update_sigma_sq(skill_history)
-            sigma_obs_sq_new = self.update_sigma_obs_sq(self.matches, skill_history)
-            
-            print(f"New parameters: sigma_sq = {sigma_sq_new:.6f}, sigma_obs_sq = {sigma_obs_sq_new:.6f}")
-            
-            # Check convergence
-            param_change = abs(sigma_sq_new - sigma_sq) + abs(sigma_obs_sq_new - sigma_obs_sq)
-            print(f"Parameter change: {param_change:.8f} (tolerance: {self.tolerance})")
-            
-            if param_change < self.tolerance:
-                print(f"\n{'='*60}")
-                print(f"Converged at iteration {iteration + 1}!")
-                print(f"{'='*60}")
-                # Update to final values
-                sigma_sq = sigma_sq_new
-                sigma_obs_sq = sigma_obs_sq_new
-                # Append final values
-                param_history.append([sigma_sq, sigma_obs_sq])
-                
-                # Run one more time to get final log-likelihood
-                pf_final = PairwiseSkillFilter(
-                    num_teams=self.num_teams,
-                    num_particles=self.num_particles,
-                    sigma_sq=sigma_sq,
-                    sigma_obs_sq=sigma_obs_sq,
-                    draw_threshold=self.draw_threshold
-                )
-                _, _, _, final_log_lik = pf_final.run_filter(self.matches)
-                log_likelihood_history.append(final_log_lik)
+            # 2. Update Draw Threshold (Epsilon)
+            # We maximize the likelihood of outcomes given the fixed skills from E-step
+            res = optimize.minimize_scalar(
+                lambda eps: -self._objective_epsilon(eps, skill_history),
+                bounds=(0.01, 2.0),
+                method='bounded'
+            )
+            new_draw_threshold = res.x
+
+            # Convergence Check
+            if (abs(new_sigma_sq - sigma_sq) < self.tolerance and 
+                abs(new_draw_threshold - draw_threshold) < self.tolerance):
+                print("Converged!")
+                sigma_sq, draw_threshold = new_sigma_sq, new_draw_threshold
                 break
-            
-            # Update parameters
-            sigma_sq = sigma_sq_new
-            sigma_obs_sq = sigma_obs_sq_new
-        else:
-            print(f"\n{'='*60}")
-            print(f"Reached maximum iterations ({self.max_iterations})")
-            print(f"{'='*60}")
-        
-        print(f"\nFinal estimates:")
-        print(f"  sigma_sq = {sigma_sq:.6f}")
-        print(f"  sigma_obs_sq = {sigma_obs_sq:.6f}")
-        print(f"  Final log-likelihood = {log_likelihood_history[-1]:.4f}")
-        
-        return sigma_sq, sigma_obs_sq, param_history, log_likelihood_history
-    
-    def update_sigma_sq(self, skill_history):
-        """
-        M-step update for sigma_squared.
-        
-        Mathematical formula: sigma_new = (1/NT) Σ_t Σ_i (s_i^(t) - s_i^(t-1))²
-        
-        Parameters:
-        -----------
-        skill_history : list of dict
-            List where skill_history[t][team_id] = skill at time t
-        
-        Returns:
-        --------
-        sigma_sq_new : float
-            Updated estimate of skill evolution variance
-        """
-        num_matches = len(skill_history)
-        
-        if num_matches < 2:
-            print("Warning: Not enough data to estimate sigma_sq, returning default")
-            return 0.1
-        
-        total_squared_change = 0.0
-        count = 0
-        
-        for team_id in range(self.num_teams):
-            for t in range(1, num_matches):
-                skill_t = skill_history[t][team_id]
-                skill_t_prev = skill_history[t-1][team_id]
                 
-                squared_change = (skill_t - skill_t_prev) ** 2
-                total_squared_change += squared_change
-                count += 1
-        
-        if count == 0:
-            print("Warning: No skill changes to compute, returning default sigma_sq")
-            return 0.1
-        
-        sigma_sq_new = total_squared_change / count
-        
-        # Ensure positivity and reasonable bounds
-        sigma_sq_new = max(sigma_sq_new, 1e-6)  # Lower bound
-        sigma_sq_new = min(sigma_sq_new, 10.0)  # Upper bound
-        
-        return sigma_sq_new
-    
-    def update_sigma_obs_sq(self, matches, skill_history):
-        """
-        M-step update for sigma_squared_obs.
-        --> we use numerical optimization.
-        
-        Parameters:
-        -----------
-        matches : list
-            List of matches
-        skill_history : list of dict
-            Skill estimates from E-step
-        
-        Returns:
-        --------
-        sigma_obs_sq_new : float
-            Updated estimate of observation noise variance
-        """
-        
-        def objective_function(sigma_obs_sq_candidate):
-            """
-            Compute expected log-likelihood given current skill estimates.
-            
-            We want to MAXIMIZE this, so we'll minimize its negative.
-            """
-            if sigma_obs_sq_candidate <= 0:
-                return -np.inf
-            
-            total_log_lik = 0.0
-            
-            for match_idx, match in enumerate(matches):
-                team_h = match['team_h']
-                team_a = match['team_a']
-                outcome = match['outcome']
-                
-                # Get skill estimates at this match time
-                skill_h = skill_history[match_idx][team_h]
-                skill_a = skill_history[match_idx][team_a]
-                skill_diff = skill_h - skill_a
-                
-                # Compute P(outcome | skill_diff, sigma_obs_sq_candidate)
-                z = skill_diff / np.sqrt(2 * sigma_obs_sq_candidate)
-                
-                if outcome == 1:  # Home wins
-                    prob = norm.cdf(z)
-                elif outcome == -1:  # Away wins
-                    prob = norm.cdf(-z)
-                else:  # Draw (outcome == 0)
-                    z_upper = (self.draw_threshold - skill_diff) / np.sqrt(2 * sigma_obs_sq_candidate)
-                    z_lower = (-self.draw_threshold - skill_diff) / np.sqrt(2 * sigma_obs_sq_candidate)
-                    prob = norm.cdf(z_upper) - norm.cdf(z_lower)
-                
-                # Avoid log(0)
-                prob = max(prob, 1e-10)
-                total_log_lik += np.log(prob)
-            
-            return total_log_lik
-        
-        # We minimize the negative to maximize the original
-        result = optimize.minimize_scalar(
-            lambda x: -objective_function(x),
-            bounds=(0.01, 10.0),
-            method='bounded',
-            options={'xatol': 1e-6}
+            sigma_sq = new_sigma_sq
+            draw_threshold = new_draw_threshold
+
+        # === FINAL RUN ===
+        # Run one last time with optimal parameters to get the best trajectories
+        final_pf = PairwiseSkillFilter(
+            self.num_teams, self.num_particles, 
+            sigma_sq, self.fixed_sigma_obs_sq, draw_threshold
         )
+        particles, weights, final_history, final_lik = final_pf.run_filter(self.matches)
         
-        if not result.success:
-            print("Warning: Optimization for sigma_obs_sq did not converge properly")
-            print(f"  Message: {result.message}")
+        results = {
+            "best_sigma_sq": sigma_sq,
+            "best_draw_threshold": draw_threshold,
+            "skill_history": final_history,
+            "em_history": history_log,
+            "final_particles": particles
+        }
         
-        sigma_obs_sq_new = result.x
-        
-        # Ensure reasonable bounds
-        sigma_obs_sq_new = max(sigma_obs_sq_new, 0.01)
-        sigma_obs_sq_new = min(sigma_obs_sq_new, 10.0)
-        
-        return sigma_obs_sq_new
-    
+        # Save to disk
+        with open(save_path, "wb") as f:
+            pickle.dump(results, f)
+            
+        return results
+
+    def _objective_epsilon(self, epsilon, skill_history):
+        """Helper to optimize epsilon given fixed skills"""
+        total_log_lik = 0
+        for i, match in enumerate(self.matches):
+            sh = skill_history[i][match['team_h']]
+            sa = skill_history[i][match['team_a']]
+            
+            # Use the shared helper!
+            lik = calculate_match_log_lik(
+                sh - sa, match['outcome'], self.fixed_sigma_obs_sq, epsilon
+            )
+            total_log_lik += lik
+        return total_log_lik
+
+import matplotlib.pyplot as plt
+import numpy as np
 
 class Visualizer:
     """
-    Creates plots and visualizations.
+    Creates plots and visualizations for the Particle Filter / EM project.
     """
     
     @staticmethod
-    def create_figure_3(log_lik_grid, sigma_sq_vals, sigma_obs_sq_vals,
-                       em_sigma_sq, em_sigma_obs_sq, param_history):
+    def create_log_lik_surface(log_lik_grid, sigma_sq_vals, epsilon_vals,
+                               best_sigma_sq, best_epsilon, em_history=None):
         """
-        Create the log-likelihood surface plot (Figure 3).
+        Create the log-likelihood surface plot (Matches Slide 26).
         
         Parameters:
         -----------
         log_lik_grid : 2D array
             Grid of log-likelihoods (grid_size x grid_size)
         sigma_sq_vals : 1D array
-            sigma_squared values (x-axis)
-        sigma_obs_sq_vals : 1D array
-            sigma_squared_obs values (y-axis)
-        em_sigma_sq : float
-            Final EM estimate of σ²
-        em_sigma_obs_sq : float
-            Final EM estimate of sigma_squared_obs
-        param_history : list
-            List of [σ², sigma_squared_obs] from each EM iteration
+            Values for Dynamics parameter τ² (y-axis)
+        epsilon_vals : 1D array
+            Values for Draw parameter ε (x-axis)
+        best_sigma_sq : float
+            Final EM estimate of τ²
+        best_epsilon : float
+            Final EM estimate of ε
+        em_history : dict
+            Dictionary with 'sigma_sq' and 'draw_threshold' lists
         """
         fig, ax = plt.subplots(figsize=(10, 8))
         
         # Create meshgrid for contour plot
-        X, Y = np.meshgrid(sigma_sq_vals, sigma_obs_sq_vals)
+        # Note: contourf expects X (columns) and Y (rows)
+        X, Y = np.meshgrid(epsilon_vals, sigma_sq_vals)
         
         # Contour plot (filled)
-        contour = ax.contourf(X, Y, log_lik_grid.T, levels=20, cmap='viridis')
-        plt.colorbar(contour, label='Log-Likelihood', ax=ax)
+        # Transpose might be needed depending on how you built the grid. 
+        # Usually grid[i, j] corresponds to sigma[i] and epsilon[j].
+        contour = ax.contourf(X, Y, log_lik_grid, levels=25, cmap='viridis')
+        cbar = plt.colorbar(contour, ax=ax)
+        cbar.set_label('Log-Likelihood', rotation=270, labelpad=20)
         
-        # Contour lines
-        ax.contour(X, Y, log_lik_grid.T, levels=10, colors='white', 
+        # Contour lines for better readability
+        ax.contour(X, Y, log_lik_grid, levels=10, colors='white', 
                   alpha=0.3, linewidths=0.5)
         
-        # Mark EM estimate
-        ax.plot(em_sigma_sq, em_sigma_obs_sq, 'r*', markersize=20, 
-               label='EM Estimate', markeredgecolor='white', markeredgewidth=1.5)
+        # Mark the Final Estimate
+        ax.plot(best_epsilon, best_sigma_sq, 'r*', markersize=20, 
+               label='Final Estimate', markeredgecolor='white', markeredgewidth=1.5)
         
         # Plot EM convergence path
-        if param_history is not None and len(param_history) > 0:
-            path_sigma_sq = [p[0] for p in param_history]
-            path_sigma_obs_sq = [p[1] for p in param_history]
+        if em_history is not None:
+            path_sigma = em_history['sigma_sq']
+            path_eps = em_history['draw_threshold']
             
             # Plot the path
-            ax.plot(path_sigma_sq, path_sigma_obs_sq, 'w--', 
+            ax.plot(path_eps, path_sigma, 'w--', 
                    linewidth=2, label='EM Path', alpha=0.8)
             
             # Mark starting point
-            ax.plot(path_sigma_sq[0], path_sigma_obs_sq[0], 'go', 
-                   markersize=10, label='EM Start', markeredgecolor='white', 
-                   markeredgewidth=1.5)
+            ax.plot(path_eps[0], path_sigma[0], 'go', 
+                   markersize=10, label='Start', markeredgecolor='white')
             
-            # Optionally, add arrows to show direction
-            for i in range(len(path_sigma_sq) - 1):
+            # Add arrows
+            if len(path_eps) > 1:
+                # Add an arrow for the first step
                 ax.annotate('', 
-                           xy=(path_sigma_sq[i+1], path_sigma_obs_sq[i+1]),
-                           xytext=(path_sigma_sq[i], path_sigma_obs_sq[i]),
-                           arrowprops=dict(arrowstyle='->', color='white', 
-                                         lw=1, alpha=0.5))
+                           xy=(path_eps[1], path_sigma[1]),
+                           xytext=(path_eps[0], path_sigma[0]),
+                           arrowprops=dict(arrowstyle='->', color='white', lw=1.5))
         
-        ax.set_xlabel('σ² (Skill Evolution Variance)', fontsize=12)
-        ax.set_ylabel('σ²_obs (Observation Noise Variance)', fontsize=12)
-        ax.set_title('Log-Likelihood Surface - Football Data', fontsize=14, fontweight='bold')
-        ax.legend(loc='best', fontsize=10)
-        ax.grid(True, alpha=0.3, linestyle='--', linewidth=0.5)
+        ax.set_xlabel(r'Draw Parameter $\epsilon$', fontsize=12)
+        ax.set_ylabel(r'Dynamics Parameter $\tau^2$ (Volatility)', fontsize=12)
+        ax.set_title('Log-Likelihood Surface (Grid Search vs EM Path)', 
+                    fontsize=14, fontweight='bold')
+        ax.legend(loc='best', fontsize=10, frameon=True, facecolor='white', framealpha=0.9)
+        ax.grid(True, alpha=0.3, linestyle='--')
         
         plt.tight_layout()
-        plt.savefig('figure_3_football.png', dpi=300, bbox_inches='tight')
-        print("Figure 3 saved as 'figure_3_football.png'")
+        plt.savefig('log_lik_surface.png', dpi=300)
+        print("Log-likelihood surface saved as 'log_lik_surface.png'")
         plt.show()
-    
+
     @staticmethod
     def plot_skill_trajectories(skill_history, teams, team_to_id, 
-                                teams_to_plot=None, num_teams_plot=10):
+                                teams_to_plot=None, num_teams_plot=7):
         """
-        Plot skill evolution over time for selected teams.
-        
-        Parameters:
-        -----------
-        skill_history : list of dict
-            List where skill_history[t][team_id] = skill at time t
-        teams : list
-            List of team names
-        team_to_id : dict
-            Mapping from team name to team ID
-        teams_to_plot : list, optional
-            Specific teams to plot (or None for top teams)
-        num_teams_plot : int
-            How many teams to plot if teams_to_plot is None
+        Plot skill evolution over time (Matches Slide 24).
         """
         if teams_to_plot is None:
-            # Select teams with highest final skill
+            # Select top teams based on final skill
             final_skills = skill_history[-1]
             top_team_ids = sorted(final_skills.keys(), 
                                  key=lambda x: final_skills[x], 
                                  reverse=True)[:num_teams_plot]
             teams_to_plot = [teams[tid] for tid in top_team_ids]
         
-        fig, ax = plt.subplots(figsize=(12, 8))
+        fig, ax = plt.subplots(figsize=(12, 6))
         
-        # Use a colormap for different teams
+        # Use specific colors if you want to match your presentation style
+        # or use a qualitative colormap
         colors = plt.cm.tab10(np.linspace(0, 1, len(teams_to_plot)))
         
         for idx, team_name in enumerate(teams_to_plot):
             team_id = team_to_id[team_name]
             
-            # Extract skill trajectory
+            # Extract trajectory
             trajectory = [skill_history[t][team_id] for t in range(len(skill_history))]
             
-            ax.plot(trajectory, label=team_name, linewidth=2, color=colors[idx])
+            ax.plot(trajectory, label=team_name, linewidth=2, color=colors[idx], alpha=0.8)
         
-        ax.set_xlabel('Match Number', fontsize=12)
-        ax.set_ylabel('Skill Level', fontsize=12)
-        ax.set_title('Team Skill Evolution Over Time', fontsize=14, fontweight='bold')
-        ax.legend(bbox_to_anchor=(1.05, 1), loc='upper left', fontsize=10)
-        ax.grid(True, alpha=0.3, linestyle='--', linewidth=0.5)
+        ax.set_xlabel('Match Index $k$', fontsize=12)
+        ax.set_ylabel('Posterior Mean of Skill', fontsize=12)
+        ax.set_title('SMC: Posterior Mean Trajectories (Selected Teams)', fontsize=14, fontweight='bold')
+        ax.legend(bbox_to_anchor=(1.02, 1), loc='upper left', fontsize=10)
+        ax.grid(True, alpha=0.3, linestyle='--')
         ax.axhline(y=0, color='black', linestyle='-', linewidth=0.8, alpha=0.3)
         
         plt.tight_layout()
-        plt.savefig('skill_trajectories.png', dpi=300, bbox_inches='tight')
+        plt.savefig('skill_trajectories.png', dpi=300)
         print("Skill trajectories saved as 'skill_trajectories.png'")
         plt.show()
     
     @staticmethod
-    def plot_em_convergence(log_likelihood_history, param_history):
+    def plot_em_convergence(em_history):
         """
-        Plot EM convergence: log-likelihood and parameter evolution.
+        Plot EM convergence (Matches Slide 23).
         
         Parameters:
         -----------
-        log_likelihood_history : list
-            Log-likelihood values at each EM iteration
-        param_history : list
-            List of [σ², σ²_obs] at each EM iteration
+        em_history : dict
+            Dictionary containing lists for 'log_lik', 'sigma_sq', 'draw_threshold'
         """
-        fig, axes = plt.subplots(2, 1, figsize=(10, 8))
+        log_liks = em_history['log_lik']
+        sigma_sqs = em_history['sigma_sq']
+        epsilons = em_history['draw_threshold']
+        iterations = range(len(log_liks))
         
-        iterations = range(len(log_likelihood_history))
+        fig, axes = plt.subplots(2, 1, figsize=(10, 8), sharex=True)
         
-        # Plot log-likelihood
-        axes[0].plot(iterations, log_likelihood_history, 'b-o', linewidth=2, markersize=6)
-        axes[0].set_xlabel('EM Iteration', fontsize=11)
+        # 1. Log-Likelihood Plot
+        axes[0].plot(iterations, log_liks, 'b-o', linewidth=2, markersize=5)
         axes[0].set_ylabel('Log-Likelihood', fontsize=11)
         axes[0].set_title('EM Convergence: Log-Likelihood', fontsize=12, fontweight='bold')
-        axes[0].grid(True, alpha=0.3, linestyle='--')
+        axes[0].grid(True, alpha=0.3)
         
-        # Plot parameters
-        if param_history is not None and len(param_history) > 0:
-            param_iterations = range(len(param_history))
-            sigma_sq_vals = [p[0] for p in param_history]
-            sigma_obs_sq_vals = [p[1] for p in param_history]
-            
-            ax2 = axes[1]
-            ax2.plot(param_iterations, sigma_sq_vals, 'r-o', linewidth=2, 
-                    markersize=6, label='σ² (skill evolution)')
-            ax2.set_xlabel('EM Iteration', fontsize=11)
-            ax2.set_ylabel('σ²', fontsize=11, color='r')
-            ax2.tick_params(axis='y', labelcolor='r')
-            ax2.grid(True, alpha=0.3, linestyle='--')
-            
-            # Second y-axis for sigma_obs_sq
-            ax3 = ax2.twinx()
-            ax3.plot(param_iterations, sigma_obs_sq_vals, 'b-s', linewidth=2, 
-                    markersize=6, label='σ²_obs (observation noise)')
-            ax3.set_ylabel('σ²_obs', fontsize=11, color='b')
-            ax3.tick_params(axis='y', labelcolor='b')
-            
-            # Combined legend
-            lines1, labels1 = ax2.get_legend_handles_labels()
-            lines2, labels2 = ax3.get_legend_handles_labels()
-            ax2.legend(lines1 + lines2, labels1 + labels2, loc='best', fontsize=10)
-            
-            axes[1].set_title('EM Convergence: Parameters', fontsize=12, fontweight='bold')
+        # 2. Parameters Plot (Dual Axis)
+        ax2 = axes[1]
+        ax2.plot(iterations, sigma_sqs, 'r-o', linewidth=2, markersize=5, 
+                 label=r'$\tau^2$ (Skill Evolution)')
+        ax2.set_ylabel(r'$\tau^2$', fontsize=12, color='r')
+        ax2.tick_params(axis='y', labelcolor='r')
+        ax2.grid(True, alpha=0.3)
+        
+        # Second y-axis for Epsilon
+        ax3 = ax2.twinx()
+        ax3.plot(iterations, epsilons, 'g-s', linewidth=2, markersize=5, 
+                 label=r'$\epsilon$ (Draw Threshold)')
+        ax3.set_ylabel(r'$\epsilon$', fontsize=12, color='g')
+        ax3.tick_params(axis='y', labelcolor='g')
+        ax3.set_xlabel('EM Iteration', fontsize=12)
+        
+        # Combined Legend
+        lines1, labels1 = ax2.get_legend_handles_labels()
+        lines2, labels2 = ax3.get_legend_handles_labels()
+        ax2.legend(lines1 + lines2, labels1 + labels2, loc='center right')
+        
+        axes[1].set_title('EM Convergence: Parameters', fontsize=12, fontweight='bold')
         
         plt.tight_layout()
-        plt.savefig('em_convergence.png', dpi=300, bbox_inches='tight')
+        plt.savefig('em_convergence.png', dpi=300)
         print("EM convergence plot saved as 'em_convergence.png'")
         plt.show()
-    
+
     @staticmethod
-    def plot_final_skill_ranking(skill_history, teams):
+    def plot_final_rankings(skill_history, teams):
         """
-        Plot final skill ranking of all teams.
-        
-        Parameters:
-        -----------
-        skill_history : list of dict
-            Skill estimates over time
-        teams : list
-            List of team names
+        Plot horizontal bar chart of final rankings (Matches Slide 25).
         """
-        # Get final skills
         final_skills = skill_history[-1]
         
-        # Sort teams by final skill
-        team_skill_pairs = [(teams[tid], final_skills[tid]) 
-                           for tid in range(len(teams))]
-        team_skill_pairs.sort(key=lambda x: x[1], reverse=True)
+        # Create (Team, Skill) tuples and sort
+        ranking = []
+        for i, team_name in enumerate(teams):
+            ranking.append((team_name, final_skills[i]))
         
-        team_names = [pair[0] for pair in team_skill_pairs]
-        skills = [pair[1] for pair in team_skill_pairs]
+        # Sort descending
+        ranking.sort(key=lambda x: x[1], reverse=False) # Reverse False for barh (bottom to top)
         
-        fig, ax = plt.subplots(figsize=(10, max(6, len(teams) * 0.3)))
+        names = [x[0] for x in ranking]
+        values = [x[1] for x in ranking]
         
-        # Horizontal bar chart
-        y_pos = np.arange(len(team_names))
-        colors = plt.cm.RdYlGn(np.linspace(0.3, 0.9, len(team_names)))
+        fig, ax = plt.subplots(figsize=(8, len(teams) * 0.4))
         
-        bars = ax.barh(y_pos, skills, color=colors)
+        # Color gradient based on value
+        # Normalize values to 0-1 for colormap
+        norm = plt.Normalize(min(values), max(values))
+        colors = plt.cm.RdYlGn(norm(values))
         
-        ax.set_yticks(y_pos)
-        ax.set_yticklabels(team_names, fontsize=9)
-        ax.invert_yaxis()  # Highest skill at top
-        ax.set_xlabel('Final Skill Estimate', fontsize=11)
-        ax.set_title('Final Team Skill Rankings', fontsize=13, fontweight='bold')
-        ax.axvline(x=0, color='black', linestyle='-', linewidth=0.8)
-        ax.grid(True, alpha=0.3, axis='x', linestyle='--')
+        bars = ax.barh(names, values, color=colors, edgecolor='grey', alpha=0.9)
         
-        # Add value labels on bars
-        for i, (bar, skill) in enumerate(zip(bars, skills)):
-            ax.text(skill, i, f' {skill:.3f}', 
-                   va='center', fontsize=8, fontweight='bold')
+        ax.set_xlabel('Final Skill Estimate')
+        ax.set_title(f'Final Team Rankings (Season End)', fontweight='bold')
+        ax.axvline(0, color='black', linewidth=0.8)
+        ax.grid(axis='x', alpha=0.3, linestyle='--')
         
+        # Add values on bars
+        for bar, val in zip(bars, values):
+            width = bar.get_width()
+            label_x_pos = width + (0.1 if width >= 0 else -0.1)
+            ha = 'left' if width >= 0 else 'right'
+            ax.text(label_x_pos, bar.get_y() + bar.get_height()/2, 
+                    f'{val:.2f}', va='center', ha=ha, fontsize=8)
+            
         plt.tight_layout()
-        plt.savefig('final_rankings.png', dpi=300, bbox_inches='tight')
+        plt.savefig('final_rankings.png', dpi=300)
         print("Final rankings saved as 'final_rankings.png'")
         plt.show()
-
-
-class DataProcessor:
-    """
-    Handles loading and preprocessing football data.
-    """
-    
-    @staticmethod
-    def load_and_prepare_data(filepath, season_filter=None):
-        """
-        Load football data from CSV and prepare for filtering.
-        
-        Parameters:
-        -----------
-        filepath : str
-            Path to CSV file with columns: date, home_team, away_team, result, season, result_code
-        season_filter : str or list, optional
-            Season(s) to include (e.g., 'PL_2018-2019' or ['PL_2018-2019', 'PL_2019-2020'])
-            If None, includes all seasons
-        
-        Returns:
-        --------
-        matches : list of dict
-            List of matches with keys: team_h, team_a, outcome, date
-        teams : list
-            List of team names (sorted)
-        team_to_id : dict
-            Mapping from team name to integer ID
-        id_to_team : dict
-            Mapping from integer ID to team name
-        """
-        # Load data
-        print(f"Loading data from {filepath}...")
-        raw_data = pd.read_csv(filepath)
-        
-        print(f"Total matches in file: {len(raw_data)}")
-        
-        # Filter by season if specified
-        if season_filter is not None:
-            if isinstance(season_filter, str):
-                season_filter = [season_filter]
-            raw_data = raw_data[raw_data['season'].isin(season_filter)]
-            print(f"Matches after season filter: {len(raw_data)}")
-        
-        # Sort by date (chronological order is CRUCIAL!)
-        raw_data['date'] = pd.to_datetime(raw_data['date'])
-        raw_data = raw_data.sort_values('date').reset_index(drop=True)
-        
-        # Get unique teams
-        home_teams = set(raw_data['home_team'])
-        away_teams = set(raw_data['away_team'])
-        all_teams = sorted(home_teams.union(away_teams))
-        
-        print(f"Number of unique teams: {len(all_teams)}")
-        
-        # Create team_id mappings
-        team_to_id = {name: idx for idx, name in enumerate(all_teams)}
-        id_to_team = {idx: name for name, idx in team_to_id.items()}
-        
-        # Process matches
-        matches = []
-        for index, row in raw_data.iterrows():
-            match = {
-                'team_h': team_to_id[row['home_team']],  # home team ID
-                'team_a': team_to_id[row['away_team']],  # away team ID
-                'date': row['date']
-            }
-            
-            # Convert result to outcome encoding
-            # result: 'H' = home win, 'A' = away win, 'D' = draw
-            # outcome: 1 = home win, -1 = away win, 0 = draw
-            if row['result'] == 'H':
-                match['outcome'] = 1  # Home wins
-            elif row['result'] == 'A':
-                match['outcome'] = -1  # Away wins
-            elif row['result'] == 'D':
-                match['outcome'] = 0  # Draw
-            else:
-                print(f"Warning: Unknown result '{row['result']}' at index {index}, skipping")
-                continue
-            
-            # Optional: store additional info
-            match['home_team_name'] = row['home_team']
-            match['away_team_name'] = row['away_team']
-            match['season'] = row['season']
-            
-            matches.append(match)
-        
-        print(f"Processed {len(matches)} matches")
-        print(f"Date range: {matches[0]['date']} to {matches[-1]['date']}")
-        
-        # Print outcome distribution
-        outcomes = [m['outcome'] for m in matches]
-        home_wins = sum(1 for o in outcomes if o == 1)
-        draws = sum(1 for o in outcomes if o == 0)
-        away_wins = sum(1 for o in outcomes if o == -1)
-        
-        print(f"\nOutcome distribution:")
-        print(f"  Home wins: {home_wins} ({100*home_wins/len(matches):.1f}%)")
-        print(f"  Draws:     {draws} ({100*draws/len(matches):.1f}%)")
-        print(f"  Away wins: {away_wins} ({100*away_wins/len(matches):.1f}%)")
-        
-        return matches, all_teams, team_to_id, id_to_team
-    
-    @staticmethod
-    def print_data_summary(matches, teams, team_to_id):
-        """
-        Print summary statistics about the dataset.
-        
-        Parameters:
-        -----------
-        matches : list
-            List of match dictionaries
-        teams : list
-            List of team names
-        team_to_id : dict
-            Team name to ID mapping
-        """
-        print("\n" + "="*60)
-        print("DATA SUMMARY")
-        print("="*60)
-        
-        # Count matches per team
-        team_match_counts = {tid: 0 for tid in range(len(teams))}
-        for match in matches:
-            team_match_counts[match['team_h']] += 1
-            team_match_counts[match['team_a']] += 1
-        
-        print(f"\nMatches per team:")
-        for team_name in teams[:5]:  # Show first 5
-            tid = team_to_id[team_name]
-            print(f"  {team_name}: {team_match_counts[tid]} matches")
-        print("  ...")
-        
-        # Check for teams with very few matches
-        min_matches = min(team_match_counts.values())
-        max_matches = max(team_match_counts.values())
-        avg_matches = np.mean(list(team_match_counts.values()))
-        
-        print(f"\nMatch count statistics:")
-        print(f"  Min: {min_matches}")
-        print(f"  Max: {max_matches}")
-        print(f"  Average: {avg_matches:.1f}")
-        
-        if min_matches < 10:
-            print(f"\n  WARNING: Some teams have very few matches!")
-            for team_name in teams:
-                tid = team_to_id[team_name]
-                if team_match_counts[tid] < 10:
-                    print(f"    {team_name}: only {team_match_counts[tid]} matches")
-        
-        print("="*60 + "\n")
-    
-    @staticmethod
-    def filter_teams_by_matches(matches, teams, team_to_id, min_matches=10):
-        """
-        Filter out teams that don't have enough matches.
-        
-        Parameters:
-        -----------
-        matches : list
-            Original list of matches
-        teams : list
-            Original list of teams
-        team_to_id : dict
-            Original team mapping
-        min_matches : int
-            Minimum number of matches required
-        
-        Returns:
-        --------
-        filtered_matches, filtered_teams, new_team_to_id, new_id_to_team
-        """
-        # Count matches per team
-        team_match_counts = {tid: 0 for tid in range(len(teams))}
-        for match in matches:
-            team_match_counts[match['team_h']] += 1
-            team_match_counts[match['team_a']] += 1
-        
-        # Find teams with enough matches
-        valid_team_ids = {tid for tid, count in team_match_counts.items() 
-                         if count >= min_matches}
-        
-        print(f"Teams with at least {min_matches} matches: {len(valid_team_ids)}/{len(teams)}")
-        
-        if len(valid_team_ids) == len(teams):
-            print("All teams have sufficient matches, no filtering needed")
-            id_to_team = {idx: name for name, idx in team_to_id.items()}
-            return matches, teams, team_to_id, id_to_team
-        
-        # Filter matches
-        filtered_matches = [m for m in matches 
-                           if m['team_h'] in valid_team_ids and m['team_a'] in valid_team_ids]
-        
-        print(f"Matches after filtering: {len(filtered_matches)}/{len(matches)}")
-        
-        # Create new team list and mappings
-        old_id_to_team = {tid: teams[tid] for tid in valid_team_ids}
-        filtered_teams = sorted(old_id_to_team.values())
-        new_team_to_id = {name: idx for idx, name in enumerate(filtered_teams)}
-        new_id_to_team = {idx: name for name, idx in new_team_to_id.items()}
-        
-        # Remap team IDs in matches
-        old_to_new_id = {old_tid: new_team_to_id[teams[old_tid]] 
-                        for old_tid in valid_team_ids}
-        
-        for match in filtered_matches:
-            match['team_h'] = old_to_new_id[match['team_h']]
-            match['team_a'] = old_to_new_id[match['team_a']]
-        
-        return filtered_matches, filtered_teams, new_team_to_id, new_id_to_team
-
-

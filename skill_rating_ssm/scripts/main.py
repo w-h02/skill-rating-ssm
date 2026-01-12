@@ -1,252 +1,175 @@
 import numpy as np
+import pandas as pd
 import os
+import tqdm
+from tqdm import tqdm
+import pickle
+from datetime import datetime
 
-base_dir = os.path.dirname(os.path.abspath(__file__))  # script folder
-
+# Import your classes (Ensure these are in your smc_filtering_smoothing.py)
 from smc_filtering_smoothing import (
-    SkillRatingModel, 
     PairwiseSkillFilter, 
     EM_Estimator, 
     Visualizer, 
-    DataProcessor
+    calculate_match_log_lik
 )
 
+# --- HELPER: Compute Grid for Visualization ---
 def compute_log_likelihood_grid(matches, num_teams, num_particles, 
-                                sigma_sq_range, sigma_obs_sq_range, 
-                                grid_size=20, draw_threshold=0.5):
-    """
-    Compute log-likelihood over a grid of parameter values for Figure 3.
+                                sigma_sq_range, epsilon_range, 
+                                grid_size=10, fixed_sigma_obs_sq=1.0):
+    print(f"\nComputing Grid ({grid_size}x{grid_size})...")
     
-    Parameters:
-    -----------
-    matches : list
-        List of matches
-    num_teams : int
-        Number of teams
-    num_particles : int
-        Number of particles for filter
-    sigma_sq_range : tuple
-        (min, max) for σ²
-    sigma_obs_sq_range : tuple
-        (min, max) for sigma_squared_obs
-    grid_size : int
-        Number of points in each dimension
-    draw_threshold : float
-        Threshold for draws
-    
-    Returns:
-    --------
-    log_lik_grid : 2D array
-        Grid of log-likelihoods
-    sigma_sq_values : 1D array
-        σ² values
-    sigma_obs_sq_values : 1D array
-        sigma_squared_obs values
-    """
-    print("\n" + "="*60)
-    print("COMPUTING LOG-LIKELIHOOD GRID")
-    print("="*60)
-    print(f"Grid size: {grid_size} x {grid_size} = {grid_size**2} evaluations")
-    print(f"This may take a while...")
-    
-    # Create grid
-    sigma_sq_values = np.linspace(sigma_sq_range[0], sigma_sq_range[1], grid_size)
-    sigma_obs_sq_values = np.linspace(sigma_obs_sq_range[0], sigma_obs_sq_range[1], grid_size)
-    
+    sigma_sq_vals = np.linspace(sigma_sq_range[0], sigma_sq_range[1], grid_size)
+    epsilon_vals = np.linspace(epsilon_range[0], epsilon_range[1], grid_size)
     log_lik_grid = np.zeros((grid_size, grid_size))
     
-    total_evaluations = grid_size * grid_size
-    completed = 0
+    grid_file = "grid_results.pkl"
+    if os.path.exists(grid_file):
+        print("Loading cached grid results...")
+        with open(grid_file, "rb") as f:
+            return pickle.load(f)
     
-    # Use tqdm for progress bar
-    with tqdm(total=total_evaluations, desc="Grid computation") as pbar:
-        for i, sigma_sq in enumerate(sigma_sq_values):
-            for j, sigma_obs_sq in enumerate(sigma_obs_sq_values):
-                completed += 1
-                
-                # Run particle filter
+    total_evals = grid_size * grid_size
+    with tqdm(total=total_evals, desc="Grid computation") as pbar:
+        for i, sigma_sq in enumerate(sigma_sq_vals):
+            for j, epsilon in enumerate(epsilon_vals):
                 try:
                     pf = PairwiseSkillFilter(
                         num_teams=num_teams,
                         num_particles=num_particles,
                         sigma_sq=sigma_sq,
-                        sigma_obs_sq=sigma_obs_sq,
-                        draw_threshold=draw_threshold
+                        sigma_obs_sq=fixed_sigma_obs_sq,
+                        draw_threshold=epsilon
                     )
                     _, _, _, log_lik = pf.run_filter(matches)
                     log_lik_grid[i, j] = log_lik
                 except Exception as e:
-                    print(f"\n  Error at grid point ({i},{j}): {e}")
                     log_lik_grid[i, j] = -np.inf
-                
                 pbar.update(1)
     
-    # Print grid statistics
-    print("\nGrid computation completed!")
-    print(f"Grid statistics:")
-    print(f"  Min log-likelihood: {np.nanmin(log_lik_grid[log_lik_grid != -np.inf]):.2f}")
-    print(f"  Max log-likelihood: {np.nanmax(log_lik_grid[log_lik_grid != -np.inf]):.2f}")
-    print(f"  -inf values: {np.isinf(log_lik_grid).sum()}/{log_lik_grid.size}")
-    print("="*60 + "\n")
-    
-    return log_lik_grid, sigma_sq_values, sigma_obs_sq_values
+    with open(grid_file, "wb") as f:
+        pickle.dump((log_lik_grid, sigma_sq_vals, epsilon_vals), f)
+        
+    return log_lik_grid, sigma_sq_vals, epsilon_vals
 
+# --- MAIN EXECUTION ---
 def main():
-    """
-    Main execution function for skill rating analysis.
-    """
     print("\n" + "="*80)
-    print(" "*20 + "FOOTBALL SKILL RATING ANALYSIS")
+    print(" "*20 + "FOOTBALL SKILL RATING (CUSTOM DATA)")
     print("="*80 + "\n")
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    # 1. LOAD DATA 
+    # Use the absolute path if relative paths are failing
+    csv_path = os.path.join(script_dir, '../cleaned_data/cleaned_data_football.csv')
+    csv_path = os.path.abspath(csv_path)
+    print(f"Looking for data at: {csv_path}")
+    if not os.path.exists(csv_path):
+        print(f"\nError: File not found !")
+        return
+
+    print("File found! Loading...")
+    df = pd.read_csv(csv_path)
     
-    # ========== STEP 1: Load and prepare data ==========
-    print("STEP 1: Loading and preparing data")
-    print("-"*80)
+    if not os.path.exists(csv_path):
+        print(f"ERROR: File not found at {csv_path}")
+        return
+
+    print(f"Loading data from {csv_path}...")
+    df = pd.read_csv(csv_path)
     
-    # Load data for a specific season (or multiple seasons)
-    matches, teams, team_to_id, id_to_team = DataProcessor.load_and_prepare_data(
-        filepath = os.path.join(base_dir, '../cleaned_data/cleaned_data_chess.csv'),
-        season_filter = '2019'
-    )
+    # Filter by season
+    target_season = 'PL_2018-2019'
+    season_df = df[df['season'] == target_season].copy()
     
-    # Print data summary
-    DataProcessor.print_data_summary(matches, teams, team_to_id)
+    if len(season_df) == 0:
+        print(f"Error: No matches found for season '{target_season}'. Check your csv season names.")
+        print(f"Available seasons: {df['season'].unique()}")
+        return
+
+    # 2. DATE CONVERSION
+    print("Converting dates...")
+    # Your date format is YYYY-MM-DD, which pandas handles automatically usually
+    season_df['date'] = pd.to_datetime(season_df['date'])
+    season_df = season_df.sort_values('date')
     
-    num_teams = len(teams)
-    num_matches = len(matches)
+    # 3. CREATE TEAM MAPPINGS
+    unique_teams = sorted(list(set(season_df['home_team'].unique()) | set(season_df['away_team'].unique())))
+    team_to_id = {team: i for i, team in enumerate(unique_teams)}
+    num_teams = len(unique_teams)
     
-    print(f"\nDataset summary:")
-    print(f"  Teams: {num_teams}")
-    print(f"  Matches: {num_matches}")
-    print(f"  Average matches per team: {2*num_matches/num_teams:.1f}")
+    # 4. PREPARE MATCH LIST
+    # Mapping 'result' (H, D, A) to numbers (1, 0, -1)
+    # We ignore 'result_code' from CSV to ensure standard logic
+    matches = []
     
-    # ========== STEP 2: Run EM algorithm ==========
-    print("\n" + "="*80)
-    print("STEP 2: Running EM algorithm")
-    print("-"*80)
-    
+    for _, row in season_df.iterrows():
+        res_str = row['result'] # 'H', 'A', or 'D'
+        
+        if res_str == 'H':
+            outcome = 1
+        elif res_str == 'A':
+            outcome = -1
+        else:
+            outcome = 0 # Draw
+            
+        matches.append({
+            'team_h': team_to_id[row['home_team']],
+            'team_a': team_to_id[row['away_team']],
+            'outcome': outcome,
+            'date': row['date']
+        })
+        
+    print(f"Successfully processed {len(matches)} matches for {num_teams} teams.")
+
+    # 5. RUN EM ALGORITHM
+    print("\nSTEP 2: Estimating Parameters (EM)...")
     em_estimator = EM_Estimator(
         matches=matches,
-        num_teams = num_teams,
-        num_particles = 20,  # Increase for better accuracy, decrease for speed
-        max_iterations=20,
+        num_teams=num_teams,
+        num_particles=50,  
+        max_iterations=30,
         tolerance=1e-3
     )
     
-    em_sigma_sq, em_sigma_obs_sq, param_history, log_lik_history = em_estimator.run_EM()
+    em_results = em_estimator.run_EM(save_path="em_results_manual.pkl")
     
-    print("\n" + "="*80)
-    print("EM RESULTS")
-    print("="*80)
-    print(f"Final parameter estimates:")
-    print(f"  σ² (skill evolution variance):    {em_sigma_sq:.6f}")
-    print(f"  σ²_obs (observation noise):       {em_sigma_obs_sq:.6f}")
-    print(f"  Final log-likelihood:             {log_lik_history[-1]:.4f}")
-    print(f"  Number of EM iterations:          {len(param_history)}")
-    print("="*80 + "\n")
+    best_sigma_sq = em_results['best_sigma_sq']
+    best_epsilon = em_results['best_draw_threshold']
     
-    # ========== STEP 3: Plot EM convergence ==========
-    print("STEP 3: Plotting EM convergence")
-    print("-"*80)
-    
-    Visualizer.plot_em_convergence(log_lik_history, param_history)
-    
-    # ========== STEP 4: Compute log-likelihood grid ==========
-    print("\nSTEP 4: Computing log-likelihood grid for Figure 3")
-    print("-"*80)
-    
-    # Define grid ranges based on EM estimates
-    # Use ±50% around EM estimates, or fixed ranges
-    sigma_sq_min = max(0.01, em_sigma_sq * 0.5)
-    sigma_sq_max = em_sigma_sq * 1.5
-    sigma_obs_sq_min = max(0.1, em_sigma_obs_sq * 0.5)
-    sigma_obs_sq_max = em_sigma_obs_sq * 1.5
-    
-    print(f"Grid ranges:")
-    print(f"  σ² range:     [{sigma_sq_min:.4f}, {sigma_sq_max:.4f}]")
-    print(f"  σ²_obs range: [{sigma_obs_sq_min:.4f}, {sigma_obs_sq_max:.4f}]")
-    
-    log_lik_grid, sigma_sq_vals, sigma_obs_sq_vals = compute_log_likelihood_grid(
-        matches=matches,
-        num_teams=num_teams,
-        num_particles= 20,  # Use fewer particles for speed
-        sigma_sq_range=(sigma_sq_min, sigma_sq_max),
-        sigma_obs_sq_range=(sigma_obs_sq_min, sigma_obs_sq_max),
-        grid_size=10,  
-        draw_threshold=0.5
-    )
-    
-    # ========== STEP 5: Create Figure 3 ==========
-    print("STEP 5: Creating Figure 3 (log-likelihood surface)")
-    print("-"*80)
-    
-    Visualizer.create_figure_3(
-        log_lik_grid=log_lik_grid,
-        sigma_sq_vals=sigma_sq_vals,
-        sigma_obs_sq_vals=sigma_obs_sq_vals,
-        em_sigma_sq=em_sigma_sq,
-        em_sigma_obs_sq=em_sigma_obs_sq,
-        param_history=param_history
-    )
-    
-    # ========== STEP 6: Run final filter and analyze skills ==========
-    print("\nSTEP 6: Running final filter with estimated parameters")
-    print("-"*80)
-    
-    final_filter = PairwiseSkillFilter(
-        num_teams=num_teams,
-        num_particles=20,
-        sigma_sq=em_sigma_sq,
-        sigma_obs_sq=em_sigma_obs_sq,
-        draw_threshold=0.5
-    )
-    
-    print("Running filter...")
-    particles, weights, skill_history, final_log_lik = final_filter.run_filter(matches)
-    
-    print(f"Final log-likelihood: {final_log_lik:.4f}")
-    
-    # ========== STEP 7: Visualize skill trajectories ==========
-    print("\nSTEP 7: Visualizing skill trajectories")
-    print("-"*80)
-    
-    # Plot top 10 teams
-    Visualizer.plot_skill_trajectories(
-        skill_history=skill_history,
-        teams=teams,
-        team_to_id=team_to_id,
-        num_teams_plot=10
-    )
-    
-    # Plot final rankings
-    Visualizer.plot_final_skill_ranking(
-        skill_history=skill_history,
-        teams=teams
-    )
-    
-    # ========== STEP 8: Print final rankings ==========
-    print("\nSTEP 8: Final team rankings")
-    print("="*80)
-    
-    final_skills = skill_history[-1]
-    rankings = [(id_to_team[tid], final_skills[tid]) for tid in range(num_teams)]
-    rankings.sort(key=lambda x: x[1], reverse=True)
-    
-    print(f"\n{'Rank':<6}{'Team':<25}{'Skill':<12}")
-    print("-"*80)
-    for rank, (team, skill) in enumerate(rankings, 1):
-        print(f"{rank:<6}{team:<25}{skill:>10.4f}")
-    
-    print("\n" + "="*80)
-    print("ANALYSIS COMPLETE!")
-    print("="*80)
-    print("\nGenerated files:")
-    print("  - figure_3_football.png         : Log-likelihood surface")
-    print("  - em_convergence.png            : EM algorithm convergence")
-    print("  - skill_trajectories.png        : Top teams' skill evolution")
-    print("  - final_rankings.png            : Final skill rankings")
-    print("\n" + "="*80 + "\n")
+    print(f"FINAL ESTIMATES -> Volatility: {best_sigma_sq:.5f}, Draw Threshold: {best_epsilon:.5f}")
 
+    # 6. VISUALIZATIONS
+    print("\nSTEP 3: Visualizing...")
+    
+    Visualizer.plot_em_convergence(em_results['em_history'])
+    
+    Visualizer.plot_skill_trajectories(
+        skill_history=em_results['skill_history'],
+        teams=unique_teams,
+        team_to_id=team_to_id,
+        num_teams_plot=7
+    )
+    
+    Visualizer.plot_final_rankings(
+        skill_history=em_results['skill_history'],
+        teams=unique_teams
+    )
+    
+    # 7. GRID SEARCH
+    print("\nSTEP 4: Computing Likelihood Surface...")
+    sigma_range = (max(0.001, best_sigma_sq - 0.05), best_sigma_sq + 0.05)
+    eps_range = (max(0.1, best_epsilon - 0.2), best_epsilon + 0.2)
+    
+    grid, s_vals, e_vals = compute_log_likelihood_grid(
+        matches, num_teams, 200, sigma_range, eps_range, grid_size=15
+    )
+    
+    Visualizer.create_log_lik_surface(
+        grid, s_vals, e_vals, best_sigma_sq, best_epsilon, em_results['em_history']
+    )
+    
+    print("\nAnalysis Complete! Check .png files.")
 
 if __name__ == "__main__":
     main()
