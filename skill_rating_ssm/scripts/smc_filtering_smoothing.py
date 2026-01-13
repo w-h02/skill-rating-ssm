@@ -571,3 +571,63 @@ class Visualizer:
         plt.savefig('final_rankings.png', dpi=300)
         print("Final rankings saved as 'final_rankings.png'")
         plt.show()
+
+    @staticmethod
+    def plot_figure_3_replica(log_lik_grid, log_tau_vals, log_sigma_obs_vals):
+        """
+        Replicates Figure 3 from the paper: Log(Tau) vs Log(Sigma_0).
+        """
+        fig, ax = plt.subplots(figsize=(10, 8))
+        
+        X, Y = np.meshgrid(log_sigma_obs_vals, log_tau_vals)
+        
+        # Contour plot
+        contour = ax.contourf(X, Y, log_lik_grid, levels=25, cmap='viridis')
+        cbar = plt.colorbar(contour)
+        cbar.set_label('Log-Likelihood', rotation=270, labelpad=20)
+        
+        # Labels exactly like the paper
+        ax.set_xlabel(r'$\log_{10}(\sigma_0^2)$ (Observation Noise)', fontsize=12)
+        ax.set_ylabel(r'$\log_{10}(\tau^2)$ (Volatility)', fontsize=12)
+        ax.set_title('Figure 3 Replica: Scale Non-Identifiability', fontsize=14, fontweight='bold')
+        
+        plt.tight_layout()
+        plt.savefig('figure_3_replica.png', dpi=300)
+        print("Figure 3 replica saved.")
+        plt.show()
+
+    @staticmethod
+    def plot_log_volatility_vs_log_draw(log_lik_grid, log_tau_vals, log_epsilon_vals):
+        """
+        Plots Log10(Volatility) vs Log10(Draw Threshold).
+        Customized version of Figure 3 for Football.
+        
+        Parameters:
+        -----------
+        log_lik_grid : 2D array of log-likelihoods
+        log_tau_vals : 1D array of log10(tau^2) values (Y-axis)
+        log_epsilon_vals : 1D array of log10(epsilon) values (X-axis)
+        """
+        fig, ax = plt.subplots(figsize=(10, 8))
+        
+        # Meshgrid expects X (epsilon) then Y (tau)
+        X, Y = np.meshgrid(log_epsilon_vals, log_tau_vals)
+        
+        # Contour Plot
+        contour = ax.contourf(X, Y, log_lik_grid, levels=25, cmap='viridis')
+        cbar = plt.colorbar(contour, ax=ax)
+        cbar.set_label('Log-Likelihood', rotation=270, labelpad=20)
+        
+        # Labels
+        ax.set_xlabel(r'$\log_{10}(\epsilon)$ (Draw Threshold)', fontsize=12)
+        ax.set_ylabel(r'$\log_{10}(\tau^2)$ (Volatility)', fontsize=12)
+        ax.set_title('Likelihood Surface: Log-Volatility vs Log-Draw Threshold', 
+                    fontsize=14, fontweight='bold')
+        
+        # Add white contour lines for readability
+        ax.contour(X, Y, log_lik_grid, levels=10, colors='white', alpha=0.3, linewidths=0.5)
+        
+        plt.tight_layout()
+        plt.savefig('log_volatility_vs_log_draw.png', dpi=300)
+        print("Plot saved as 'log_volatility_vs_log_draw.png'")
+        plt.show()
